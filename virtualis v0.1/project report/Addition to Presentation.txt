@@ -1,0 +1,28 @@
+Future Scope 
+Inclusion of Indian Languages for making the application and the Web Portal more accessible to whole of India
+Addition of more functionality in the Android and Web Simulation -- for inclusion of more types of experiments
+Development of interface for making GIFT format quizzes
+Developing interface for teacher to access the content using the same Android Application
+Designing the web interface to be more user friendly
+Revamping android simulation to improve functionality and optimizing the application
+Addition of more application functionalities to save state of simulation
+Making a user account for the students to save their progress
+Extending to higher level Education like engineering
+
+Challenges :
+Developing the Drag-Drop interface application in Android
+Integrating the Web Portal and the Android Application
+Integrating the Android Application for displaying results and Simulation Part
+Parsing the GIFT format to extract question info
+Dynamically loading the data onto the server and establishing sync between app and web
+Development of the idea for the performing and allowing the student to perform Lab experiments
+
+What we Learnt :
+Team work 
+How to use git version control 
+Documentation in LaTex
+Android Application Development
+Javascript Development
+LocalPHP server setup and configuration
+AJAX development
+
