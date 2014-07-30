@@ -1,0 +1,13 @@
+\documentclass[]{beamer}
+
+\title[New IT Infrastructure]{Cloud based IT Infra}
+\subtitle{project proposal}
+\author{Team r3b00+}
+
+\begin{document}
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+\end{document}
