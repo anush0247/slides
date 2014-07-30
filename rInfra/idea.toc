@@ -1,7 +1,7 @@
 \beamer@endinputifotherversion {3.24pt}
-\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {1}{Objective}{2}{0}{1}
 \beamer@sectionintoc {2}{Architecture}{4}{0}{2}
 \beamer@sectionintoc {3}{Present System}{6}{0}{3}
 \beamer@sectionintoc {4}{Proposed System}{8}{0}{4}
 \beamer@sectionintoc {5}{Advantages}{10}{0}{5}
-\beamer@sectionintoc {6}{Questions}{12}{0}{6}
+\beamer@sectionintoc {6}{Questions?}{12}{0}{6}
