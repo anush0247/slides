@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  30 JUL 2014 23:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  8 AUG 2014 07:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -853,45 +853,178 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 12.
  (./idea.nav)
+Overfull \hbox (30.94695pt too wide) detected at line 12
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 17.
+
+LaTeX Font Info:    No file OMScmss.fd. on input line 17.
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 17.
+
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 17.
 
+
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] (./idea.toc) [2
+] (./idea.toc)
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[2
 
 ]
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
 [3
 
-] (./idea.toc) [4
+] (./idea.toc)
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
 
-] <./idea.png, id=204, 511.9125pt x 428.60126pt>
-File: ./idea.png Graphic file (type png)
-
-<use ./idea.png>
-Package pdftex.def Info: ./idea.png used on input line 50.
-(pdftex.def)             Requested size: 203.90215pt x 170.71652pt.
- [5
-
- <./idea.png>] (./idea.toc) [6
-
-] [7
-
-] (./idea.toc) [8
+[4
 
 ]
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[5
+
+] (./idea.toc)
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[6
+
+] <./idea.png, id=323, 511.9125pt x 428.60126pt>
+File: ./idea.png Graphic file (type png)
+ <use ./idea.png>
+Package pdftex.def Info: ./idea.png used on input line 64.
+(pdftex.def)             Requested size: 203.90215pt x 170.71652pt.
+
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[7
+
+ <./idea.png>] <./all.png, id=358, 685.1196pt x 383.9946pt>
+File: ./all.png Graphic file (type png)
+ <use ./all.png>
+Package pdftex.def Info: ./all.png used on input line 71.
+(pdftex.def)             Requested size: 304.58977pt x 170.71652pt.
+
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[8
+
+ <./all.png>] (./idea.toc)
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
 [9
 
-] (./idea.toc) [10
+]
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
 
-] [11
+[10
 
-] (./idea.toc) [12
+] (./idea.toc)
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
 
-] [13
+[11
 
-] [14
+]
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[12
+
+] (./idea.toc)
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[13
+
+]
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[14
+
+] (./idea.toc)
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[15
+
+]
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[16
+
+] (./idea.toc)
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[17
+
+]
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[18
+
+] (./idea.toc)
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[19
+
+]
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[20
+
+]
+Overfull \hbox (30.94695pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] []  
+ []
+
+[21
 
 ]
 \tf@nav=\write6
@@ -903,38 +1036,39 @@ Package pdftex.def Info: ./idea.png used on input line 50.
 \tf@snm=\write8
 \openout8 = `idea.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (./idea.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `idea.out' has not changed.
-(rerunfilecheck)             Checksum: 04941471F41ABD179B3CD972E2BC712D;280.
+(rerunfilecheck)             Checksum: 9EA0C9BE4C64EE6B08CA39650753AAA5;431.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
- 15855 strings out of 494985
- 295897 string characters out of 6180357
- 373824 words of memory out of 5000000
- 18660 multiletter control sequences out of 15000+600000
- 5757 words of font info for 21 fonts, out of 8000000 for 9000
+ 15906 strings out of 494985
+ 296093 string characters out of 6180357
+ 375784 words of memory out of 5000000
+ 18686 multiletter control sequences out of 15000+600000
+ 6014 words of font info for 22 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,16n,64p,393b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on idea.pdf (14 pages, 88224 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on idea.pdf (21 pages, 418460 bytes).
 PDF statistics:
- 567 PDF objects out of 1000 (max. 8388607)
- 519 compressed objects within 6 object streams
- 36 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 922 PDF objects out of 1000 (max. 8388607)
+ 858 compressed objects within 9 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

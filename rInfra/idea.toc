@@ -1,7 +1,10 @@
 \beamer@endinputifotherversion {3.24pt}
 \beamer@sectionintoc {1}{Objective}{2}{0}{1}
-\beamer@sectionintoc {2}{Architecture}{4}{0}{2}
-\beamer@sectionintoc {3}{Present System}{6}{0}{3}
-\beamer@sectionintoc {4}{Proposed System}{8}{0}{4}
-\beamer@sectionintoc {5}{Advantages}{10}{0}{5}
-\beamer@sectionintoc {6}{Questions?}{12}{0}{6}
+\beamer@sectionintoc {2}{Present System}{4}{0}{2}
+\beamer@sectionintoc {3}{Architecture}{6}{0}{3}
+\beamer@sectionintoc {4}{Proposed System}{9}{0}{4}
+\beamer@sectionintoc {5}{Advantages}{11}{0}{5}
+\beamer@sectionintoc {6}{Implementation...}{13}{0}{6}
+\beamer@sectionintoc {7}{New Lab Proposal }{15}{0}{7}
+\beamer@sectionintoc {8}{Requirements}{17}{0}{8}
+\beamer@sectionintoc {9}{Questions?}{19}{0}{9}
