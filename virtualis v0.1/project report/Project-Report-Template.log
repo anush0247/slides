@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.5.20)  2 JUL 2014 20:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  12 SEP 2014 03:43
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **Project-Report-Template.tex
 (./Project-Report-Template.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
-(/usr/share/texmf-texlive/tex/latex/base/report.cls
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,20 +24,23 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
-Package: geometry 2008/12/21 v4.2 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode detected.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
 \Gm@cntv=\count89
@@ -46,200 +49,217 @@ Package ifvtex Info: VTeX not detected.
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
 \Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
 \Gread@gobject=\count91
 ))
-\Gin@req@height=\dimen107
-\Gin@req@width=\dimen108
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
 )
-(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/share/texmf-texlive/tex/latex/cite/chapterbib.sty
+(/usr/share/texlive/texmf-dist/tex/latex/cite/chapterbib.sty
 \c@inputfile=\count92
-Package: chapterbib 2009/03/31  v 1.14
+Package: chapterbib 2010/09/18  v 1.17
 )
-(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
-)
-(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
-Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
-O)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
-Package: xcolor-patch 2009/10/02 xcolor patch
-))
-\@linkdim=\dimen109
-\Hy@linkcounter=\count93
-\Hy@pagecounter=\count94
 
-(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
-)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)
-(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
-t (HO)
-))
-Package hyperref Info: Hyper figures OFF on input line 2975.
-Package hyperref Info: Link nesting OFF on input line 2980.
-Package hyperref Info: Hyper index ON on input line 2983.
-Package hyperref Info: Plain pages OFF on input line 2990.
-Package hyperref Info: Backreferencing OFF on input line 2995.
-
-Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 3191.
-LaTeX Info: Redefining \url on input line 3428.
-(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
-Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
-Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
-Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
- (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
-)
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-)))
-\Fld@menulength=\count95
-\Field@Width=\dimen110
-\Fld@charsize=\dimen111
-\Field@toks=\toks16
-Package hyperref Info: Hyper figures OFF on input line 4377.
-Package hyperref Info: Link nesting OFF on input line 4382.
-Package hyperref Info: Hyper index ON on input line 4385.
-Package hyperref Info: backreferencing OFF on input line 4392.
-Package hyperref Info: Link coloring OFF on input line 4397.
-Package hyperref Info: Link coloring with OCG OFF on input line 4402.
-Package hyperref Info: PDF/A mode OFF on input line 4407.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen113
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
 
-(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@abspage=\count96
-\c@Item=\count97
-\c@Hfootnote=\count98
+\Hy@SavedSpaceFactor=\count95
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-*hyperref using default driver hpdftex*
-(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count99
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count96
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen114
+\Fld@menulength=\count97
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
 )
-(/usr/share/texmf-texlive/tex/latex/tools/tabularx.sty
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
-(/usr/share/texmf-texlive/tex/latex/tools/array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen112
-\extrarowheight=\dimen113
-\NC@list=\toks17
-\extratabsurround=\skip43
-\backup@length=\skip44
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks16
+\extratabsurround=\skip44
+\backup@length=\skip45
 )
-\TX@col@width=\dimen114
-\TX@old@table=\dimen115
-\TX@old@col=\dimen116
-\TX@target=\dimen117
-\TX@delta=\dimen118
-\TX@cols=\count100
-\TX@ftn=\toks18
+\TX@col@width=\dimen119
+\TX@old@table=\dimen120
+\TX@old@col=\dimen121
+\TX@target=\dimen122
+\TX@delta=\dimen123
+\TX@cols=\count103
+\TX@ftn=\toks17
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip45
-\LTright=\skip46
-\LTpre=\skip47
-\LTpost=\skip48
-\LTchunksize=\count101
-\LTcapwidth=\dimen119
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count104
+\LTcapwidth=\dimen124
 \LT@head=\box26
 \LT@firsthead=\box27
 \LT@foot=\box28
 \LT@lastfoot=\box29
-\LT@cols=\count102
-\LT@rows=\count103
-\c@LT@tables=\count104
-\c@LT@chunks=\count105
-\LT@p@ftn=\toks19
+\LT@cols=\count105
+\LT@rows=\count106
+\c@LT@tables=\count107
+\c@LT@chunks=\count108
+\LT@p@ftn=\toks18
 )
-(/usr/share/texmf-texlive/tex/latex/float/float.sty
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count106
-\float@exts=\toks20
+\c@float@type=\count109
+\float@exts=\toks19
 \float@box=\box30
-\@float@everytoks=\toks21
+\@float@everytoks=\toks20
 \@floatcapt=\box31
 )
-(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
-Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
-\c@tracingmulticols=\count107
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count110
 \mult@box=\box32
-\multicol@leftmargin=\dimen120
-\c@unbalance=\count108
-\c@collectmore=\count109
-\doublecol@number=\count110
-\multicoltolerance=\count111
-\multicolpretolerance=\count112
-\full@width=\dimen121
-\page@free=\dimen122
-\premulticols=\dimen123
-\postmulticols=\dimen124
-\multicolsep=\skip49
-\multicolbaselineskip=\skip50
+\multicol@leftmargin=\dimen125
+\c@unbalance=\count111
+\c@collectmore=\count112
+\doublecol@number=\count113
+\multicoltolerance=\count114
+\multicolpretolerance=\count115
+\full@width=\dimen126
+\page@free=\dimen127
+\premulticols=\dimen128
+\postmulticols=\dimen129
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
 \partial@page=\box33
 \last@line=\box34
 \mult@rightbox=\box35
@@ -263,22 +283,24 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \@tempa=\box53
 \@tempa=\box54
 \@tempa=\box55
-\c@columnbadness=\count113
-\c@finalcolumnbadness=\count114
-\last@try=\dimen125
-\multicolovershoot=\dimen126
-\multicolundershoot=\dimen127
+\c@columnbadness=\count116
+\c@finalcolumnbadness=\count117
+\last@try=\dimen130
+\multicolovershoot=\dimen131
+\multicolundershoot=\dimen132
 \mult@nat@firstbox=\box56
 \colbreak@box=\box57
+\multicol@sort@counter=\count118
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/etc/texmf/tex/latex/config/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
-) (./Project-Report-Template.aux)
+)
+(./Project-Report-Template.aux)
 \openout1 = `Project-Report-Template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -296,81 +318,93 @@ LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 
-*geometry auto-detecting driver*
-*geometry detected driver: pdftex*
--------------------- Geometry parameters
-paper: a4paper
-landscape: --
-twocolumn: --
-twoside: --
-asymmetric: --
-h-parts: 86.72377pt, 438.51411pt, 72.26999pt
-v-parts: 72.26999pt, 700.50687pt, 72.26999pt
-hmarginratio: --
-vmarginratio: --
-lines: --
-heightrounded: --
-bindingoffset: 0.0pt
-truedimen: --
-includehead: --
-includefoot: --
-includemp: --
-driver: pdftex
--------------------- Page layout dimensions and switches
-\paperwidth  597.50787pt
-\paperheight 845.04684pt
-\textwidth  438.51411pt
-\textheight 700.50687pt
-\oddsidemargin  14.45378pt
-\evensidemargin 14.45378pt
-\topmargin  -37.0pt
-\headheight 12.0pt
-\headsep    25.0pt
-\footskip   30.0pt
-\marginparwidth 44.0pt
-\marginparsep   10.0pt
-\columnsep  10.0pt
-\skip\footins  10.8pt plus 4.0pt minus 2.0pt
-\hoffset 0.0pt
-\voffset 0.0pt
-\mag 1000
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(86.72377pt, 438.51411pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=438.51411pt
+* \textheight=700.50687pt
+* \oddsidemargin=14.45378pt
+* \evensidemargin=14.45378pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(1in=72.27pt, 1cm=28.45pt)
------------------------
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
-\scratchdimen=\dimen128
+\scratchcounter=\count119
+\scratchdimen=\dimen133
 \scratchbox=\box58
-\nofMPsegments=\count116
-\nofMParguments=\count117
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count118
-\MPscratchDim=\dimen129
-\MPnumerator=\count119
-\everyMPtoPDFconversion=\toks23
-)
-Package hyperref Info: Link coloring OFF on input line 34.
- (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
-Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen134
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
-Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-\c@section@level=\count120
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box59
+Package hyperref Info: Link coloring OFF on input line 34.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count125
 )
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
 
 (./Project-Report-Template.out) (./Project-Report-Template.out)
 \@outlinefile=\write3
 \openout3 = `Project-Report-Template.out'.
 
-\AtBeginShipoutBox=\box59
 
-<IITB_logo.png, id=455, 67.2111pt x 70.1019pt>
+<IITB_logo.png, id=458, 67.2111pt x 70.1019pt>
 File: IITB_logo.png Graphic file (type png)
  <use IITB_logo.png>
+Package pdftex.def Info: IITB_logo.png used on input line 41.
+(pdftex.def)             Requested size: 85.35826pt x 89.02946pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <20.74> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -380,15 +414,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 58.
 
-<bits_logo.png, id=457, 501.875pt x 456.70625pt>
+<bits_logo.png, id=460, 501.875pt x 456.70625pt>
 File: bits_logo.png Graphic file (type png)
  <use bits_logo.png>
-<nit_logo.jpg, id=458, 258.9675pt x 248.42813pt>
+Package pdftex.def Info: bits_logo.png used on input line 68.
+(pdftex.def)             Requested size: 85.35826pt x 77.67387pt.
+
+<nit_logo.jpg, id=461, 258.9675pt x 248.42813pt>
 File: nit_logo.jpg Graphic file (type jpg)
  <use nit_logo.jpg>
-<rgukt_logo.jpg, id=459, 236.885pt x 162.6075pt>
+Package pdftex.def Info: nit_logo.jpg used on input line 69.
+(pdftex.def)             Requested size: 85.35826pt x 81.88297pt.
+
+<rgukt_logo.jpg, id=462, 236.885pt x 162.6075pt>
 File: rgukt_logo.jpg Graphic file (type jpg)
- <use rgukt_logo.jpg> [1
+ <use rgukt_logo.jpg>
+Package pdftex.def Info: rgukt_logo.jpg used on input line 70.
+(pdftex.def)             Requested size: 85.35826pt x 58.59323pt.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./IITB_logo.png> <./bits_l
 ogo.png> <./nit_logo.jpg> <./rgukt_logo.jpg>]pdfTeX warning (ext4): destination
@@ -498,7 +541,7 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 232.
 
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -639,38 +682,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 452--471
 
 [11
 
-] <./iterative_waterfall_model.png, id=866, 369.38pt x 269.005pt>
+] <./iterative_waterfall_model.png, id=872, 369.38pt x 269.005pt>
 File: ./iterative_waterfall_model.png Graphic file (type png)
 
-<use ./iterative_waterfall_model.png> [12] [13pdfTeX warning (ext4): destinatio
-n with the same identifier (name{figure.5.1}) has been already used, duplicate 
-ignored
+<use ./iterative_waterfall_model.png>
+Package pdftex.def Info: ./iterative_waterfall_model.png used on input line 495
+.
+(pdftex.def)             Requested size: 284.52756pt x 207.21246pt.
+ [12] [13pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.5.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.527 \item P
              ercentage completion of functionality could not be determined i...
  <./iterative_waterfall_model.png (PNG copy)>]
-<./usecase_app.png, id=875, 983.17313pt x 722.7pt>
+<./usecase_app.png, id=881, 983.17313pt x 722.7pt>
 File: ./usecase_app.png Graphic file (type png)
  <use ./usecase_app.png>
+Package pdftex.def Info: ./usecase_app.png used on input line 540.
+(pdftex.def)             Requested size: 284.52756pt x 209.14755pt.
+
 [14pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.545 
-       <./usecase_app.png (PNG copy)>]
-<./use_case_web_new.png, id=880, 813.79031pt x 665.48625pt>
+       <./usecase_app.png>]
+<./use_case_web_new.png, id=886, 813.79031pt x 665.48625pt>
 File: ./use_case_web_new.png Graphic file (type png)
 
-<use ./use_case_web_new.png> [15pdfTeX warning (ext4): destination with the sam
-e identifier (name{figure.5.3}) has been already used, duplicate ignored
+<use ./use_case_web_new.png>
+Package pdftex.def Info: ./use_case_web_new.png used on input line 549.
+(pdftex.def)             Requested size: 341.42949pt x 455.24606pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.554 
-       <./use_case_web_new.png (PNG copy)>]
+       <./use_case_web_new.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 556--690
 
  []
@@ -755,11 +807,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 556--690
 
  []
 
-[16] [17] [18] <./activity.png, id=899, 752.8125pt x 838.13126pt>
+[16] [17] [18] <./activity.png, id=905, 752.8125pt x 838.13126pt>
 File: ./activity.png Graphic file (type png)
 
-<use ./activity.png> [19pdfTeX warning (ext4): destination with the same identi
-fier (name{figure.5.4}) has been already used, duplicate ignored
+<use ./activity.png>
+Package pdftex.def Info: ./activity.png used on input line 702.
+(pdftex.def)             Requested size: 426.79134pt x 475.16922pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -769,12 +824,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 709--712
 
  []
 
-<./class_all.png, id=905, 867.24pt x 1414.28375pt>
+<./class_all.png, id=911, 867.24pt x 1414.28375pt>
 File: ./class_all.png Graphic file (type png)
  <use ./class_all.png>
-<./class_exp.png, id=906, 864.22874pt x 1126.2075pt>
+Package pdftex.def Info: ./class_all.png used on input line 716.
+(pdftex.def)             Requested size: 284.52756pt x 463.99599pt.
+
+<./class_exp.png, id=912, 864.22874pt x 1126.2075pt>
 File: ./class_exp.png Graphic file (type png)
  <use ./class_exp.png>
+Package pdftex.def Info: ./class_exp.png used on input line 723.
+(pdftex.def)             Requested size: 284.52756pt x 370.77322pt.
+
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5
 }) has been already used, duplicate ignored
 
@@ -782,9 +843,12 @@ File: ./class_exp.png Graphic file (type png)
                                                   \fi \fi 
 l.726 
        <./class_all.png (PNG copy)>]
-<./class_main.png, id=911, 869.2475pt x 938.50626pt>
+<./class_main.png, id=917, 869.2475pt x 938.50626pt>
 File: ./class_main.png Graphic file (type png)
  <use ./class_main.png>
+Package pdftex.def Info: ./class_main.png used on input line 730.
+(pdftex.def)             Requested size: 284.52756pt x 307.20195pt.
+
 [21pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6
 }) has been already used, duplicate ignored
 
@@ -792,13 +856,19 @@ File: ./class_main.png Graphic file (type png)
                                                   \fi \fi 
 l.733 
        <./class_exp.png (PNG copy)>]
-<./class_package.png, id=917, 505.89pt x 181.67876pt>
+<./class_package.png, id=924, 505.89pt x 181.67876pt>
 File: ./class_package.png Graphic file (type png)
 
 <use ./class_package.png>
-<./class_quiz.png, id=918, 978.65625pt x 1757.56625pt>
+Package pdftex.def Info: ./class_package.png used on input line 737.
+(pdftex.def)             Requested size: 284.52756pt x 102.18295pt.
+
+<./class_quiz.png, id=925, 978.65625pt x 1757.56625pt>
 File: ./class_quiz.png Graphic file (type png)
  <use ./class_quiz.png>
+Package pdftex.def Info: ./class_quiz.png used on input line 744.
+(pdftex.def)             Requested size: 284.52756pt x 510.99525pt.
+
 [22pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7
 }) has been already used, duplicate ignored
 
@@ -812,24 +882,33 @@ l.747
                                                   \fi \fi 
 l.747 
        <./class_main.png (PNG copy)> <./class_package.png (PNG copy)>]
-<./class_simulation.png, id=923, 1741.50626pt x 1788.6825pt>
+<./class_simulation.png, id=930, 1741.50626pt x 1788.6825pt>
 File: ./class_simulation.png Graphic file (type png)
 
-<use ./class_simulation.png> [23pdfTeX warning (ext4): destination with the sam
-e identifier (name{figure.5.9}) has been already used, duplicate ignored
+<use ./class_simulation.png>
+Package pdftex.def Info: ./class_simulation.png used on input line 751.
+(pdftex.def)             Requested size: 284.52756pt x 292.2268pt.
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.754 
        <./class_quiz.png (PNG copy)>]
-<./dfd_level0.png, id=928, 471.7625pt x 259.97125pt>
+<./dfd_level0.png, id=935, 471.7625pt x 259.97125pt>
 File: ./dfd_level0.png Graphic file (type png)
  <use ./dfd_level0.png>
-<./dfd_level1_image1.png, id=929, 547.04375pt x 386.44376pt>
+Package pdftex.def Info: ./dfd_level0.png used on input line 760.
+(pdftex.def)             Requested size: 284.52756pt x 156.79318pt.
+
+<./dfd_level1_image1.png, id=936, 547.04375pt x 386.44376pt>
 File: ./dfd_level1_image1.png Graphic file (type png)
 
-<use ./dfd_level1_image1.png> [24pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.5.10}) has been already used, duplicate ignored
+<use ./dfd_level1_image1.png>
+Package pdftex.def Info: ./dfd_level1_image1.png used on input line 767.
+(pdftex.def)             Requested size: 284.52756pt x 200.99908pt.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -841,14 +920,20 @@ l.770
                                                   \fi \fi 
 l.770 
        <./class_simulation.png (PNG copy)> <./dfd_level0.png>]
-<./dfd_level1_image2.png, id=935, 566.115pt x 366.36874pt>
+<./dfd_level1_image2.png, id=942, 566.115pt x 366.36874pt>
 File: ./dfd_level1_image2.png Graphic file (type png)
 
-<use ./dfd_level1_image2.png> <./sequence_1.png, id=936, 562.1pt x 590.205pt>
+<use ./dfd_level1_image2.png>
+Package pdftex.def Info: ./dfd_level1_image2.png used on input line 774.
+(pdftex.def)             Requested size: 284.52756pt x 184.13986pt.
+ <./sequence_1.png, id=943, 562.1pt x 590.205pt>
 File: ./sequence_1.png Graphic file (type png)
 
-<use ./sequence_1.png> [25pdfTeX warning (ext4): destination with the same iden
-tifier (name{figure.5.12}) has been already used, duplicate ignored
+<use ./sequence_1.png>
+Package pdftex.def Info: ./sequence_1.png used on input line 783.
+(pdftex.def)             Requested size: 284.52756pt x 298.74911pt.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -860,12 +945,18 @@ l.786
                                                   \fi \fi 
 l.786 
        <./dfd_level1_image1.png> <./dfd_level1_image2.png>]
-<./sequence_2.png, id=943, 758.835pt x 644.4075pt>
+<./sequence_2.png, id=950, 758.835pt x 644.4075pt>
 File: ./sequence_2.png Graphic file (type png)
  <use ./sequence_2.png>
-<./er_contact.png, id=944, 542.025pt x 309.155pt>
+Package pdftex.def Info: ./sequence_2.png used on input line 790.
+(pdftex.def)             Requested size: 284.52756pt x 241.62271pt.
+
+<./er_contact.png, id=951, 542.025pt x 309.155pt>
 File: ./er_contact.png Graphic file (type png)
  <use ./er_contact.png>
+Package pdftex.def Info: ./er_contact.png used on input line 799.
+(pdftex.def)             Requested size: 284.52756pt x 162.28993pt.
+
 [26pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 4}) has been already used, duplicate ignored
 
@@ -878,16 +969,22 @@ l.802
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.802 
-       <./sequence_1.png> <./sequence_2.png (PNG copy)>]
-<./er_contributer.png, id=950, 519.9425pt x 336.25626pt>
+       <./sequence_1.png> <./sequence_2.png>]
+<./er_contributer.png, id=957, 519.9425pt x 336.25626pt>
 File: ./er_contributer.png Graphic file (type png)
 
 <use ./er_contributer.png>
-<./er_experiment.png, id=951, 528.97626pt x 443.6575pt>
+Package pdftex.def Info: ./er_contributer.png used on input line 806.
+(pdftex.def)             Requested size: 284.52756pt x 184.00769pt.
+
+<./er_experiment.png, id=958, 528.97626pt x 443.6575pt>
 File: ./er_experiment.png Graphic file (type png)
 
-<use ./er_experiment.png> [27pdfTeX warning (ext4): destination with the same i
-dentifier (name{figure.5.16}) has been already used, duplicate ignored
+<use ./er_experiment.png>
+Package pdftex.def Info: ./er_experiment.png used on input line 813.
+(pdftex.def)             Requested size: 284.52756pt x 238.63725pt.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -898,10 +995,13 @@ l.816
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.816 
-       <./er_contact.png (PNG copy)> <./er_contributer.png (PNG copy)>]
-<./er_reviewer.png, id=957, 500.87125pt x 364.36125pt>
+       <./er_contact.png> <./er_contributer.png>]
+<./er_reviewer.png, id=964, 500.87125pt x 364.36125pt>
 File: ./er_reviewer.png Graphic file (type png)
  <use ./er_reviewer.png>
+Package pdftex.def Info: ./er_reviewer.png used on input line 820.
+(pdftex.def)             Requested size: 284.52756pt x 206.98753pt.
+
 [28pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 8}) has been already used, duplicate ignored
 
@@ -914,8 +1014,7 @@ ier (name{figure.5.19}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.824 \chapter
-              {Testing} <./er_experiment.png (PNG copy)> <./er_reviewer.png (PN
-G copy)>]
+              {Testing} <./er_experiment.png> <./er_reviewer.png>]
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 855--873
@@ -938,25 +1037,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 875--886
 Chapter 7.
 [31
 
-] [32] [33] <./1.png, id=983, 803.0pt x 481.8pt>
+] [32] [33] <./1.png, id=990, 803.0pt x 481.8pt>
 File: ./1.png Graphic file (type png)
- <use ./1.png> [34pdfTeX warning (ext4): destination with the same identifier (
-name{figure.7.1}) has been already used, duplicate ignored
+ <use ./1.png>
+Package pdftex.def Info: ./1.png used on input line 1004.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1009 \begin
              {figure}[H] <./1.png (PNG copy)>]
-<./2.png, id=988, 803.0pt x 481.8pt>
+<./2.png, id=995, 803.0pt x 481.8pt>
 File: ./2.png Graphic file (type png)
  <use ./2.png>
-<./3.png, id=989, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./2.png used on input line 1011.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./3.png, id=996, 803.0pt x 481.8pt>
 File: ./3.png Graphic file (type png)
  <use ./3.png>
-<./4.png, id=990, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./3.png used on input line 1017.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./4.png, id=997, 803.0pt x 481.8pt>
 File: ./4.png Graphic file (type png)
- <use ./4.png> [35pdfTeX warning (ext4): destination with the same identifier (
-name{figure.7.2}) has been already used, duplicate ignored
+ <use ./4.png>
+Package pdftex.def Info: ./4.png used on input line 1023.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -968,13 +1079,19 @@ l.1026
                                                   \fi \fi 
 l.1026 
         <./2.png (PNG copy)> <./3.png (PNG copy)>]
-<./5.png, id=995, 803.0pt x 481.8pt>
+<./5.png, id=1002, 803.0pt x 481.8pt>
 File: ./5.png Graphic file (type png)
  <use ./5.png>
-<./6.png, id=996, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./5.png used on input line 1029.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./6.png, id=1003, 803.0pt x 481.8pt>
 File: ./6.png Graphic file (type png)
- <use ./6.png> [36pdfTeX warning (ext4): destination with the same identifier (
-name{figure.7.4}) has been already used, duplicate ignored
+ <use ./6.png>
+Package pdftex.def Info: ./6.png used on input line 1035.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [36pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -986,13 +1103,19 @@ l.1038
                                                   \fi \fi 
 l.1038 
         <./4.png (PNG copy)> <./5.png (PNG copy)>]
-<./7.png, id=1001, 803.0pt x 481.8pt>
+<./7.png, id=1008, 803.0pt x 481.8pt>
 File: ./7.png Graphic file (type png)
  <use ./7.png>
-<./8.png, id=1002, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./7.png used on input line 1041.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./8.png, id=1009, 803.0pt x 481.8pt>
 File: ./8.png Graphic file (type png)
- <use ./8.png> [37pdfTeX warning (ext4): destination with the same identifier (
-name{figure.7.6}) has been already used, duplicate ignored
+ <use ./8.png>
+Package pdftex.def Info: ./8.png used on input line 1047.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1004,13 +1127,19 @@ l.1050
                                                   \fi \fi 
 l.1050 
         <./6.png (PNG copy)> <./7.png (PNG copy)>]
-<./11.png, id=1007, 803.0pt x 481.8pt>
+<./11.png, id=1014, 803.0pt x 481.8pt>
 File: ./11.png Graphic file (type png)
  <use ./11.png>
-<./12.png, id=1008, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./11.png used on input line 1053.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./12.png, id=1015, 803.0pt x 481.8pt>
 File: ./12.png Graphic file (type png)
- <use ./12.png> [38pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.8}) has been already used, duplicate ignored
+ <use ./12.png>
+Package pdftex.def Info: ./12.png used on input line 1059.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [38pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1022,13 +1151,19 @@ l.1062
                                                   \fi \fi 
 l.1062 
         <./8.png (PNG copy)> <./11.png (PNG copy)>]
-<./13.png, id=1013, 803.0pt x 481.8pt>
+<./13.png, id=1021, 803.0pt x 481.8pt>
 File: ./13.png Graphic file (type png)
  <use ./13.png>
-<./14.png, id=1014, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./13.png used on input line 1065.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./14.png, id=1022, 803.0pt x 481.8pt>
 File: ./14.png Graphic file (type png)
- <use ./14.png> [39pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.10}) has been already used, duplicate ignored
+ <use ./14.png>
+Package pdftex.def Info: ./14.png used on input line 1071.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [39pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1040,13 +1175,19 @@ l.1074
                                                   \fi \fi 
 l.1074 
         <./12.png (PNG copy)> <./13.png (PNG copy)>]
-<./16.png, id=1020, 803.0pt x 481.8pt>
+<./16.png, id=1028, 803.0pt x 481.8pt>
 File: ./16.png Graphic file (type png)
  <use ./16.png>
-<./17.png, id=1021, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./16.png used on input line 1077.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./17.png, id=1029, 803.0pt x 481.8pt>
 File: ./17.png Graphic file (type png)
- <use ./17.png> [40pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.12}) has been already used, duplicate ignored
+ <use ./17.png>
+Package pdftex.def Info: ./17.png used on input line 1084.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1058,13 +1199,19 @@ l.1087
                                                   \fi \fi 
 l.1087 
         <./14.png (PNG copy)> <./16.png (PNG copy)>]
-<./18.png, id=1026, 803.0pt x 481.8pt>
+<./18.png, id=1034, 803.0pt x 481.8pt>
 File: ./18.png Graphic file (type png)
  <use ./18.png>
-<./20.png, id=1027, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./18.png used on input line 1091.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./20.png, id=1035, 803.0pt x 481.8pt>
 File: ./20.png Graphic file (type png)
- <use ./20.png> [41pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.14}) has been already used, duplicate ignored
+ <use ./20.png>
+Package pdftex.def Info: ./20.png used on input line 1097.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1076,13 +1223,19 @@ l.1100
                                                   \fi \fi 
 l.1100 
         <./17.png (PNG copy)> <./18.png (PNG copy)>]
-<./22.png, id=1032, 803.0pt x 481.8pt>
+<./22.png, id=1040, 803.0pt x 481.8pt>
 File: ./22.png Graphic file (type png)
  <use ./22.png>
-<./24.png, id=1033, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./22.png used on input line 1103.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./24.png, id=1041, 803.0pt x 481.8pt>
 File: ./24.png Graphic file (type png)
- <use ./24.png> [42pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.16}) has been already used, duplicate ignored
+ <use ./24.png>
+Package pdftex.def Info: ./24.png used on input line 1111.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [42pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1094,13 +1247,19 @@ l.1114
                                                   \fi \fi 
 l.1114 
         <./20.png (PNG copy)> <./22.png (PNG copy)>]
-<./25.png, id=1038, 803.0pt x 481.8pt>
+<./25.png, id=1046, 803.0pt x 481.8pt>
 File: ./25.png Graphic file (type png)
  <use ./25.png>
-<./27.png, id=1039, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./25.png used on input line 1117.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./27.png, id=1047, 803.0pt x 481.8pt>
 File: ./27.png Graphic file (type png)
- <use ./27.png> [43pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.18}) has been already used, duplicate ignored
+ <use ./27.png>
+Package pdftex.def Info: ./27.png used on input line 1125.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [43pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1112,13 +1271,19 @@ l.1128
                                                   \fi \fi 
 l.1128 
         <./24.png (PNG copy)> <./25.png (PNG copy)>]
-<./28.png, id=1044, 803.0pt x 481.8pt>
+<./28.png, id=1052, 803.0pt x 481.8pt>
 File: ./28.png Graphic file (type png)
  <use ./28.png>
-<./29.png, id=1045, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./28.png used on input line 1131.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./29.png, id=1053, 803.0pt x 481.8pt>
 File: ./29.png Graphic file (type png)
- <use ./29.png> [44pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.20}) has been already used, duplicate ignored
+ <use ./29.png>
+Package pdftex.def Info: ./29.png used on input line 1137.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [44pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1130,13 +1295,19 @@ l.1140
                                                   \fi \fi 
 l.1140 
         <./27.png (PNG copy)> <./28.png (PNG copy)>]
-<./30.png, id=1050, 803.0pt x 481.8pt>
+<./30.png, id=1058, 803.0pt x 481.8pt>
 File: ./30.png Graphic file (type png)
  <use ./30.png>
-<./31.png, id=1051, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./30.png used on input line 1143.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./31.png, id=1059, 803.0pt x 481.8pt>
 File: ./31.png Graphic file (type png)
- <use ./31.png> [45pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.22}) has been already used, duplicate ignored
+ <use ./31.png>
+Package pdftex.def Info: ./31.png used on input line 1149.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1148,13 +1319,19 @@ l.1152
                                                   \fi \fi 
 l.1152 
         <./29.png (PNG copy)> <./30.png (PNG copy)>]
-<./32.png, id=1057, 803.0pt x 481.8pt>
+<./32.png, id=1065, 803.0pt x 481.8pt>
 File: ./32.png Graphic file (type png)
  <use ./32.png>
-<./33.png, id=1058, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./32.png used on input line 1155.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./33.png, id=1066, 803.0pt x 481.8pt>
 File: ./33.png Graphic file (type png)
- <use ./33.png> [46pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.24}) has been already used, duplicate ignored
+ <use ./33.png>
+Package pdftex.def Info: ./33.png used on input line 1161.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [46pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1166,13 +1343,19 @@ l.1164
                                                   \fi \fi 
 l.1164 
         <./31.png (PNG copy)> <./32.png (PNG copy)>]
-<./37.png, id=1063, 803.0pt x 481.8pt>
+<./37.png, id=1071, 803.0pt x 481.8pt>
 File: ./37.png Graphic file (type png)
  <use ./37.png>
-<./34.png, id=1064, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./37.png used on input line 1168.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./34.png, id=1072, 803.0pt x 481.8pt>
 File: ./34.png Graphic file (type png)
- <use ./34.png> [47pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.26}) has been already used, duplicate ignored
+ <use ./34.png>
+Package pdftex.def Info: ./34.png used on input line 1174.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+26}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1184,13 +1367,19 @@ l.1177
                                                   \fi \fi 
 l.1177 
         <./33.png (PNG copy)> <./37.png (PNG copy)>]
-<./35.png, id=1069, 803.0pt x 481.8pt>
+<./35.png, id=1077, 803.0pt x 481.8pt>
 File: ./35.png Graphic file (type png)
  <use ./35.png>
-<./36.png, id=1070, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./35.png used on input line 1180.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./36.png, id=1078, 803.0pt x 481.8pt>
 File: ./36.png Graphic file (type png)
- <use ./36.png> [48pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.28}) has been already used, duplicate ignored
+ <use ./36.png>
+Package pdftex.def Info: ./36.png used on input line 1186.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [48pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+28}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1202,13 +1391,19 @@ l.1189
                                                   \fi \fi 
 l.1189 
         <./34.png (PNG copy)> <./35.png (PNG copy)>]
-<./38.png, id=1075, 803.0pt x 481.8pt>
+<./38.png, id=1083, 803.0pt x 481.8pt>
 File: ./38.png Graphic file (type png)
  <use ./38.png>
-<./37_1.png, id=1076, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./38.png used on input line 1192.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./37_1.png, id=1084, 803.0pt x 481.8pt>
 File: ./37_1.png Graphic file (type png)
- <use ./37_1.png> [49pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.7.30}) has been already used, duplicate ignored
+ <use ./37_1.png>
+Package pdftex.def Info: ./37_1.png used on input line 1199.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [49pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+30}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1220,10 +1415,13 @@ l.1202
                                                   \fi \fi 
 l.1202 
         <./36.png (PNG copy)> <./38.png (PNG copy)>]
-<./40.png, id=1081, 803.0pt x 481.8pt>
+<./40.png, id=1089, 803.0pt x 481.8pt>
 File: ./40.png Graphic file (type png)
- <use ./40.png> [50pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.7.32}) has been already used, duplicate ignored
+ <use ./40.png>
+Package pdftex.def Info: ./40.png used on input line 1207.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [50pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+32}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1259,12 +1457,17 @@ Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
- <./101.png, id=1091, 803.0pt x 481.8pt>
+ <./101.png, id=1099, 803.0pt x 481.8pt>
 File: ./101.png Graphic file (type png)
- <use ./101.png> [52]
-<./102.png, id=1096, 803.0pt x 481.8pt>
+ <use ./101.png>
+Package pdftex.def Info: ./101.png used on input line 1290.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [52]
+<./102.png, id=1104, 803.0pt x 481.8pt>
 File: ./102.png Graphic file (type png)
  <use ./102.png>
+Package pdftex.def Info: ./102.png used on input line 1296.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 Missing character: There is no Â in font cmr12!
@@ -1274,9 +1477,11 @@ Missing character: There is no ­ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 
-<./103.png, id=1097, 803.0pt x 481.8pt>
+<./103.png, id=1105, 803.0pt x 481.8pt>
 File: ./103.png Graphic file (type png)
  <use ./103.png>
+Package pdftex.def Info: ./103.png used on input line 1303.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
  [53pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
@@ -1292,12 +1497,17 @@ l.1306
                                                   \fi \fi 
 l.1306 
         <./101.png (PNG copy)> <./102.png (PNG copy)>]
-<./104.png, id=1102, 803.0pt x 481.8pt>
+<./104.png, id=1110, 803.0pt x 481.8pt>
 File: ./104.png Graphic file (type png)
  <use ./104.png>
-<./106.png, id=1103, 803.0pt x 481.8pt>
+Package pdftex.def Info: ./104.png used on input line 1309.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+
+<./106.png, id=1111, 803.0pt x 481.8pt>
 File: ./106.png Graphic file (type png)
  <use ./106.png>
+Package pdftex.def Info: ./106.png used on input line 1315.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 Missing character: There is no Â in font cmr12!
@@ -1315,17 +1525,21 @@ l.1318
                                                   \fi \fi 
 l.1318 
         <./103.png (PNG copy)> <./104.png (PNG copy)>]
-<./107.png, id=1108, 803.0pt x 481.8pt>
+<./107.png, id=1116, 803.0pt x 481.8pt>
 File: ./107.png Graphic file (type png)
  <use ./107.png>
+Package pdftex.def Info: ./107.png used on input line 1321.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 
-<./108.png, id=1109, 803.0pt x 481.8pt>
+<./108.png, id=1117, 803.0pt x 481.8pt>
 File: ./108.png Graphic file (type png)
  <use ./108.png>
+Package pdftex.def Info: ./108.png used on input line 1327.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 Missing character: There is no Â in font cmr12!
@@ -1343,18 +1557,23 @@ l.1330
                                                   \fi \fi 
 l.1330 
         <./106.png (PNG copy)> <./107.png (PNG copy)>]
-<./109.png, id=1114, 803.0pt x 481.8pt>
+<./109.png, id=1122, 803.0pt x 481.8pt>
 File: ./109.png Graphic file (type png)
  <use ./109.png>
+Package pdftex.def Info: ./109.png used on input line 1333.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 
-<./110.png, id=1115, 803.0pt x 481.8pt>
+<./110.png, id=1123, 803.0pt x 481.8pt>
 File: ./110.png Graphic file (type png)
- <use ./110.png> [56pdfTeX warning (ext4): destination with the same identifier
- (name{figure.7.40}) has been already used, duplicate ignored
+ <use ./110.png>
+Package pdftex.def Info: ./110.png used on input line 1339.
+(pdftex.def)             Requested size: 426.79134pt x 256.0806pt.
+ [56pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+40}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1440,19 +1659,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 1510--1513
 
  []
 
-[62] <./301.jpg, id=1145, 1371.1225pt x 770.88pt>
+[62] <./301.jpg, id=1154, 1371.1225pt x 770.88pt>
 File: ./301.jpg Graphic file (type jpg)
  <use ./301.jpg>
-<./302.jpg, id=1146, 1371.1225pt x 770.88pt>
+Package pdftex.def Info: ./301.jpg used on input line 1518.
+(pdftex.def)             Requested size: 426.78008pt x 284.52715pt.
+
+<./302.jpg, id=1155, 1371.1225pt x 770.88pt>
 File: ./302.jpg Graphic file (type jpg)
  <use ./302.jpg>
-<./303.jpg, id=1147, 1371.1225pt x 770.88pt>
+Package pdftex.def Info: ./302.jpg used on input line 1523.
+(pdftex.def)             Requested size: 426.78008pt x 284.52715pt.
+
+<./303.jpg, id=1156, 1371.1225pt x 770.88pt>
 File: ./303.jpg Graphic file (type jpg)
  <use ./303.jpg>
-<./304.jpg, id=1148, 1015.54407pt x 488.57532pt>
+Package pdftex.def Info: ./303.jpg used on input line 1528.
+(pdftex.def)             Requested size: 426.78008pt x 284.52715pt.
+
+<./304.jpg, id=1157, 1015.54407pt x 488.57532pt>
 File: ./304.jpg Graphic file (type jpg)
- <use ./304.jpg> [63pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.1}) has been already used, duplicate ignored
+ <use ./304.jpg>
+Package pdftex.def Info: ./304.jpg used on input line 1533.
+(pdftex.def)             Requested size: 426.78903pt x 284.52942pt.
+ [63pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1464,13 +1695,19 @@ l.1535 \end{figure}
                                                   \fi \fi 
 l.1535 \end{figure}
                     <./301.jpg> <./302.jpg>]
-<./305.jpg, id=1154, 1014.79124pt x 493.0922pt>
+<./305.jpg, id=1163, 1014.79124pt x 493.0922pt>
 File: ./305.jpg Graphic file (type jpg)
  <use ./305.jpg>
-<./306.jpg, id=1155, 1014.03844pt x 493.845pt>
+Package pdftex.def Info: ./305.jpg used on input line 1538.
+(pdftex.def)             Requested size: 426.78235pt x 284.54153pt.
+
+<./306.jpg, id=1164, 1014.03844pt x 493.845pt>
 File: ./306.jpg Graphic file (type jpg)
- <use ./306.jpg> [64pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.3}) has been already used, duplicate ignored
+ <use ./306.jpg>
+Package pdftex.def Info: ./306.jpg used on input line 1543.
+(pdftex.def)             Requested size: 426.79068pt x 284.52382pt.
+ [64pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1482,13 +1719,19 @@ l.1545 \end{figure}
                                                   \fi \fi 
 l.1545 \end{figure}
                     <./303.jpg> <./304.jpg>]
-<./307.jpg, id=1161, 1015.54407pt x 492.33937pt>
+<./307.jpg, id=1170, 1015.54407pt x 492.33937pt>
 File: ./307.jpg Graphic file (type jpg)
  <use ./307.jpg>
-<./308.jpg, id=1162, 1371.1225pt x 770.88pt>
+Package pdftex.def Info: ./307.jpg used on input line 1548.
+(pdftex.def)             Requested size: 426.78903pt x 284.53532pt.
+
+<./308.jpg, id=1171, 1371.1225pt x 770.88pt>
 File: ./308.jpg Graphic file (type jpg)
- <use ./308.jpg> [65pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.5}) has been already used, duplicate ignored
+ <use ./308.jpg>
+Package pdftex.def Info: ./308.jpg used on input line 1553.
+(pdftex.def)             Requested size: 426.78008pt x 284.52715pt.
+ [65pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1500,13 +1743,19 @@ l.1555 \end{figure}
                                                   \fi \fi 
 l.1555 \end{figure}
                     <./305.jpg> <./306.jpg>]
-<./309.jpg, id=1169, 1028.34187pt x 578.16pt>
+<./309.jpg, id=1178, 1028.34187pt x 578.16pt>
 File: ./309.jpg Graphic file (type jpg)
  <use ./309.jpg>
-<./310.jpg, id=1170, 1028.34187pt x 578.16pt>
+Package pdftex.def Info: ./309.jpg used on input line 1558.
+(pdftex.def)             Requested size: 426.801pt x 284.52713pt.
+
+<./310.jpg, id=1179, 1028.34187pt x 578.16pt>
 File: ./310.jpg Graphic file (type jpg)
- <use ./310.jpg> [66pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.7}) has been already used, duplicate ignored
+ <use ./310.jpg>
+Package pdftex.def Info: ./310.jpg used on input line 1563.
+(pdftex.def)             Requested size: 426.801pt x 284.52713pt.
+ [66pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1518,13 +1767,19 @@ l.1565 \end{figure}
                                                   \fi \fi 
 l.1565 \end{figure}
                     <./307.jpg> <./308.jpg>]
-<./311.jpg, id=1176, 1028.34187pt x 578.16pt>
+<./311.jpg, id=1185, 1028.34187pt x 578.16pt>
 File: ./311.jpg Graphic file (type jpg)
  <use ./311.jpg>
-<./312.jpg, id=1177, 1028.34187pt x 578.16pt>
+Package pdftex.def Info: ./311.jpg used on input line 1568.
+(pdftex.def)             Requested size: 426.801pt x 284.52713pt.
+
+<./312.jpg, id=1186, 1028.34187pt x 578.16pt>
 File: ./312.jpg Graphic file (type jpg)
- <use ./312.jpg> [67pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.9}) has been already used, duplicate ignored
+ <use ./312.jpg>
+Package pdftex.def Info: ./312.jpg used on input line 1573.
+(pdftex.def)             Requested size: 426.801pt x 284.52713pt.
+ [67pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1535,14 +1790,20 @@ l.1575 \end{figure}
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1575 \end{figure}
-                    <./309.jpg (PNG copy)> <./310.jpg (PNG copy)>]
-<./313.jpg, id=1182, 1014.79124pt x 493.845pt>
+                    <./309.jpg> <./310.jpg>]
+<./313.jpg, id=1191, 1014.79124pt x 493.845pt>
 File: ./313.jpg Graphic file (type jpg)
  <use ./313.jpg>
-<./314.jpg, id=1183, 1016.29688pt x 489.32813pt>
+Package pdftex.def Info: ./313.jpg used on input line 1578.
+(pdftex.def)             Requested size: 426.78235pt x 284.52382pt.
+
+<./314.jpg, id=1192, 1016.29688pt x 489.32813pt>
 File: ./314.jpg Graphic file (type jpg)
- <use ./314.jpg> [68pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.11}) has been already used, duplicate ignored
+ <use ./314.jpg>
+Package pdftex.def Info: ./314.jpg used on input line 1583.
+(pdftex.def)             Requested size: 426.79526pt x 284.53476pt.
+ [68pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1553,11 +1814,14 @@ l.1585 \end{figure}
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1585 \end{figure}
-                    <./311.jpg (PNG copy)> <./312.jpg (PNG copy)>]
-<./315.jpg, id=1188, 1015.54407pt x 495.35063pt>
+                    <./311.jpg> <./312.jpg>]
+<./315.jpg, id=1197, 1015.54407pt x 495.35063pt>
 File: ./315.jpg Graphic file (type jpg)
- <use ./315.jpg> [69pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.13}) has been already used, duplicate ignored
+ <use ./315.jpg>
+Package pdftex.def Info: ./315.jpg used on input line 1588.
+(pdftex.def)             Requested size: 426.78903pt x 284.52962pt.
+ [69pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1568,16 +1832,25 @@ l.1591
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1591 
-        <./313.jpg> <./314.jpg>] <./317.jpg, id=1196, 1371.1225pt x 770.88pt>
+        <./313.jpg> <./314.jpg>] <./317.jpg, id=1205, 1371.1225pt x 770.88pt>
 File: ./317.jpg Graphic file (type jpg)
 
-<use ./317.jpg> <./318.jpg, id=1197, 1371.1225pt x 770.88pt>
+<use ./317.jpg>
+Package pdftex.def Info: ./317.jpg used on input line 1594.
+(pdftex.def)             Requested size: 426.78008pt x 284.52715pt.
+ <./318.jpg, id=1206, 1371.1225pt x 770.88pt>
 File: ./318.jpg Graphic file (type jpg)
  <use ./318.jpg>
-<./319.jpg, id=1198, 1014.79124pt x 493.0922pt>
+Package pdftex.def Info: ./318.jpg used on input line 1599.
+(pdftex.def)             Requested size: 426.78008pt x 284.52715pt.
+
+<./319.jpg, id=1207, 1014.79124pt x 493.0922pt>
 File: ./319.jpg Graphic file (type jpg)
- <use ./319.jpg> [70pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.15}) has been already used, duplicate ignored
+ <use ./319.jpg>
+Package pdftex.def Info: ./319.jpg used on input line 1604.
+(pdftex.def)             Requested size: 426.78235pt x 284.54153pt.
+ [70pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1589,13 +1862,19 @@ l.1606 \end{figure}
                                                   \fi \fi 
 l.1606 \end{figure}
                     <./315.jpg> <./317.jpg>]
-<./320.jpg, id=1204, 1013.28563pt x 494.59781pt>
+<./320.jpg, id=1213, 1013.28563pt x 494.59781pt>
 File: ./320.jpg Graphic file (type jpg)
  <use ./320.jpg>
-<./321.jpg, id=1205, 1016.29688pt x 493.0922pt>
+Package pdftex.def Info: ./320.jpg used on input line 1609.
+(pdftex.def)             Requested size: 426.78307pt x 284.52736pt.
+
+<./321.jpg, id=1214, 1016.29688pt x 493.0922pt>
 File: ./321.jpg Graphic file (type jpg)
- <use ./321.jpg> [71pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.17}) has been already used, duplicate ignored
+ <use ./321.jpg>
+Package pdftex.def Info: ./321.jpg used on input line 1614.
+(pdftex.def)             Requested size: 426.79526pt x 284.54153pt.
+ [71pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1607,13 +1886,19 @@ l.1616 \end{figure}
                                                   \fi \fi 
 l.1616 \end{figure}
                     <./318.jpg> <./319.jpg>]
-<./322.jpg, id=1211, 1017.8025pt x 493.845pt>
+<./322.jpg, id=1220, 1017.8025pt x 493.845pt>
 File: ./322.jpg Graphic file (type jpg)
  <use ./322.jpg>
-<./323.jpg, id=1212, 1028.34187pt x 578.16pt>
+Package pdftex.def Info: ./322.jpg used on input line 1619.
+(pdftex.def)             Requested size: 426.7908pt x 284.52382pt.
+
+<./323.jpg, id=1221, 1028.34187pt x 578.16pt>
 File: ./323.jpg Graphic file (type jpg)
- <use ./323.jpg> [72pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.19}) has been already used, duplicate ignored
+ <use ./323.jpg>
+Package pdftex.def Info: ./323.jpg used on input line 1624.
+(pdftex.def)             Requested size: 426.801pt x 284.52713pt.
+ [72pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1625,10 +1910,13 @@ l.1626 \end{figure}
                                                   \fi \fi 
 l.1626 \end{figure}
                     <./320.jpg> <./321.jpg>]
-<./324.jpg, id=1219, 963.6pt x 541.02126pt>
+<./324.jpg, id=1228, 963.6pt x 541.02126pt>
 File: ./324.jpg Graphic file (type jpg)
- <use ./324.jpg> [73pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.21}) has been already used, duplicate ignored
+ <use ./324.jpg>
+Package pdftex.def Info: ./324.jpg used on input line 1629.
+(pdftex.def)             Requested size: 426.77895pt x 284.53572pt.
+ [73pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1639,11 +1927,14 @@ l.1632
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1632 
-        <./322.jpg> <./323.jpg (PNG copy)>]
-<./325.jpg, id=1225, 963.6pt x 541.02126pt>
+        <./322.jpg> <./323.jpg>] <./325.jpg, id=1234, 963.6pt x 541.02126pt>
 File: ./325.jpg Graphic file (type jpg)
- <use ./325.jpg> [74pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8.23}) has been already used, duplicate ignored
+
+<use ./325.jpg>
+Package pdftex.def Info: ./325.jpg used on input line 1635.
+(pdftex.def)             Requested size: 426.77895pt x 284.53572pt.
+ [74pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1672,25 +1963,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 1641--1642
 ]
 Chapter 10.
 No file Project-Report-Template.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1672.
 [76
 
-] (./Project-Report-Template.aux) ) 
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1672.
+ (./Project-Report-Template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1672.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1672.
+
+
+
+Package rerunfilecheck Warning: File `Project-Report-Template.out' has changed.
+
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Project-Report-Template.out':
+(rerunfilecheck)             Before: 0737DF3BE91603CB161278F29DBE59AD;7590
+(rerunfilecheck)             After:  1F65A5BAC189DB1858724AD48EB89011;8047.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1672.
+ ) 
 Here is how much of TeX's memory you used:
- 5888 strings out of 495061
- 84557 string characters out of 1182621
- 163354 words of memory out of 3000000
- 8615 multiletter control sequences out of 15000+50000
- 10951 words of font info for 38 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 38i,10n,36p,1173b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Project-Report-Template.pdf (92 pages, 6594163 bytes).
+ 6906 strings out of 494985
+ 101241 string characters out of 6180357
+ 193764 words of memory out of 5000000
+ 9682 multiletter control sequences out of 15000+600000
+ 10951 words of font info for 38 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 29i,10n,28p,1173b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Project-Report-Template.pdf (92 pages, 6398674 bytes).
 PDF statistics:
- 1322 PDF objects out of 1440 (max. 8388607)
+ 1335 PDF objects out of 1440 (max. 8388607)
+ 1117 compressed objects within 12 object streams
  289 named destinations out of 1000 (max. 500000)
  1350 words of extra memory for PDF output out of 10000 (max. 10000000)
 
