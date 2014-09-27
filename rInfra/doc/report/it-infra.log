@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  27 SEP 2014 08:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  27 SEP 2014 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -419,15 +419,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 55.
 
-<rgukt_logo.jpg, id=97, 236.885pt x 162.6075pt>
+<rgukt_logo.jpg, id=100, 236.885pt x 162.6075pt>
 File: rgukt_logo.jpg Graphic file (type jpg)
  <use rgukt_logo.jpg>
-Package pdftex.def Info: rgukt_logo.jpg used on input line 72.
+Package pdftex.def Info: rgukt_logo.jpg used on input line 75.
 (pdftex.def)             Requested size: 99.58464pt x 68.35919pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./rgukt_logo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
@@ -442,17 +442,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--108
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.149 \chapter
+l.152 \chapter
               {Typical Solution} [1
 
 ]
@@ -461,16 +461,16 @@ Chapter 2.
 
 ]
 Chapter 3.
-<./idea.png, id=148, 511.9125pt x 428.60126pt>
+<./idea.png, id=151, 511.9125pt x 428.60126pt>
 File: ./idea.png Graphic file (type png)
  <use ./idea.png>
-Package pdftex.def Info: ./idea.png used on input line 178.
+Package pdftex.def Info: ./idea.png used on input line 181.
 (pdftex.def)             Requested size: 227.62204pt x 190.57326pt.
 
-<./all.png, id=149, 685.1196pt x 383.9946pt>
+<./all.png, id=152, 685.1196pt x 383.9946pt>
 File: ./all.png Graphic file (type png)
  <use ./all.png>
-Package pdftex.def Info: ./all.png used on input line 185.
+Package pdftex.def Info: ./all.png used on input line 188.
 (pdftex.def)             Requested size: 284.52756pt x 159.47197pt.
  [3
 
@@ -479,32 +479,32 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.189 \chapter
+l.192 \chapter
               {Design and Approach}pdfTeX warning (ext4): destination with the 
 same identifier (name{figure.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.189 \chapter
+l.192 \chapter
               {Design and Approach} <./idea.png> <./all.png>]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
@@ -513,30 +513,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--213
 ]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
 [5
 
 ] [6]
-Overfull \hbox (32.45982pt too wide) in paragraph at lines 296--322
+Overfull \hbox (38.00838pt too wide) in paragraph at lines 299--325
 [][] 
  []
 
 [7]
 Chapter 6.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 347.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
 [8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 347.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
  (./it-infra.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 347.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 347.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
 Package rerunfilecheck Info: File `it-infra.out' has not changed.
 (rerunfilecheck)             Checksum: BE08A39011C27D44E183BACC62C3B216;1378.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 347.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
  ) 
 Here is how much of TeX's memory you used:
  6049 strings out of 494985
@@ -552,10 +552,10 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on it-infra.pdf (11 pages, 410860 bytes).
+Output written on it-infra.pdf (11 pages, 412318 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
+ 216 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
  37 named destinations out of 1000 (max. 500000)
  192 words of extra memory for PDF output out of 10000 (max. 10000000)
 
