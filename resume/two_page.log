@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  14 OCT 2014 09:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  25 NOV 2014 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -174,10 +174,6 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
-
-LaTeX Warning: Unused global option(s):
-    [8pt].
-
 (./two_page.aux)
 \openout1 = `two_page.aux'.
 
@@ -215,15 +211,15 @@ LaTeX Font Info:    ... okay on input line 26.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(22.76228pt, 568.77043pt, 22.76228pt)
-* v-part:(T,H,B)=(22.76228pt, 749.44542pt, 22.76228pt)
+* h-part:(L,W,R)=(34.14322pt, 546.00856pt, 34.14322pt)
+* v-part:(T,H,B)=(34.14322pt, 726.68355pt, 34.14322pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=568.77043pt
-* \textheight=749.44542pt
-* \oddsidemargin=-49.5077pt
-* \evensidemargin=-49.5077pt
-* \topmargin=-86.5077pt
+* \textwidth=546.00856pt
+* \textheight=726.68355pt
+* \oddsidemargin=-38.12677pt
+* \evensidemargin=-38.12677pt
+* \topmargin=-75.12677pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -286,63 +282,63 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 36.
+(Font)              <7> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 36.
+(Font)              <5> on input line 41.
 
-Overfull \hbox (18.15659pt too wide) in paragraph at lines 73--79
+Overfull \hbox (23.2089pt too wide) in paragraph at lines 78--84
 [] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--115
+Underfull \hbox (badness 10000) in paragraph at lines 98--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--115
+Underfull \hbox (badness 10000) in paragraph at lines 98--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--115
+Underfull \hbox (badness 10000) in paragraph at lines 98--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--120
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 164--174
+Underfull \hbox (badness 10000) in paragraph at lines 170--180
 
  []
 
 [2] (./two_page.aux) ) 
 Here is how much of TeX's memory you used:
- 2938 strings out of 494985
- 40413 string characters out of 6180357
- 207957 words of memory out of 5000000
- 6130 multiletter control sequences out of 15000+600000
- 5067 words of font info for 19 fonts, out of 8000000 for 9000
+ 2939 strings out of 494985
+ 40441 string characters out of 6180357
+ 208963 words of memory out of 5000000
+ 6131 multiletter control sequences out of 15000+600000
+ 5672 words of font info for 21 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,8n,35p,234b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,35p,234b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on two_page.pdf (2 pages, 104347 bytes).
+Output written on two_page.pdf (2 pages, 106512 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
