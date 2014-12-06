@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{About us}{2}{0}{1}
+\beamer@sectionintoc {2}{Objective}{3}{0}{2}
+\beamer@sectionintoc {3}{Present System}{4}{0}{3}
+\beamer@sectionintoc {4}{Proposed System}{5}{0}{4}
+\beamer@sectionintoc {5}{Advantages}{6}{0}{5}
+\beamer@sectionintoc {6}{Questions?}{7}{0}{6}
