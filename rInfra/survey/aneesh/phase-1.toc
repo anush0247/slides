@@ -1,3 +1,4 @@
 \beamer@endinputifotherversion {3.24pt}
 \beamer@sectionintoc {1}{Objective}{2}{0}{1}
 \beamer@sectionintoc {2}{Cloud Computing}{3}{0}{2}
+\beamer@sectionintoc {3}{Private Clouds}{8}{0}{3}
