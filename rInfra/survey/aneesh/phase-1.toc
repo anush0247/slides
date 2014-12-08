@@ -2,3 +2,5 @@
 \beamer@sectionintoc {1}{Objective}{2}{0}{1}
 \beamer@sectionintoc {2}{Cloud Computing}{3}{0}{2}
 \beamer@sectionintoc {3}{Private Clouds}{8}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{11}{0}{4}
+\beamer@sectionintoc {5}{References}{12}{0}{5}

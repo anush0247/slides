@@ -1,13 +1,19 @@
 \documentclass[xcolor=dvipsnames]{beamer}
 
+\usepackage{natbib}
 \usetheme{Frankfurt}
 \usecolortheme[RGB={0,104,139}]{structure}
+
+\setbeamertemplate{bibliography item}{[\theenumiv]}
+
 
 \title[Cloud based IT Infra with Central Identity]{Cloud based IT Infra with Central Identity}
 \subtitle{\{Project reboot\} - Phase I - Literature Survey  }
 
 \author{ \underline{Project Guide} \\ \hspace{2mm} \\ \small{ T. Chandra Shekar }  }
 \institute{ \underline{Presenting by} \\ \hspace{2mm} \\ \textit {Aneesh Kumar | N090247 }  \\ \hspace{4mm} \\ \textit{Dept. of CSE, RGUKT - Nuzvid}}
+
+
 
 \begin{document}
 
@@ -23,7 +29,7 @@ Survey about Cloud Computing \& Infrastructure
 
 \item Cloud Computing -- Introduction, Service Models \& Challenges
 \item Private Cloud -- open source tools \& comparisons
-\item High performace Computing \& E - Learning systems
+%\item High performace Computing \& E - Learning systems
 
 \end{itemize}
 \end{frame}
@@ -38,7 +44,7 @@ demand network access to a shared pool of configurable
 computing resources (e.g., networks, servers, storage,
 applications, and services) that can be rapidly provisioned
 and released with minimal management effort or service
-provider interaction''} $ ^{[1]} $
+provider interaction''} \cite{ref_1}
 
 \end{frame}
 
@@ -60,26 +66,32 @@ If we providing any thing as a service comes, that will comes into Cloud Computi
 
 \begin{itemize}
 \item Software as a Service (SaaS) 
-\begin{itemize}
-	\item Google Docs, Photo editors, Calculators, etc
-\end{itemize}
+%\begin{itemize}
+%	\item Google Docs, Photo editors, Calculators, etc
+%\end{itemize}
 \item Platform as a Service (PaaS)
-\begin{itemize}
-	\item Harkoo, Aneka, Google App engine, etc
-\end{itemize}
+%\begin{itemize}
+%	\item Harkoo, Aneka, Google App engine, etc
+%\end{itemize}
 \item Infrastructure as a Service (IaaS)
-\begin{itemize}
-	\item AWS, Openstack, Cloudstack, Opennebula, Eucalyptus etc
-\end{itemize}
-\item Data storage as a Service (DaaS)
-\begin{itemize}
-	\item Amazon S3, DropBox, SkyDrive, etc
-\end{itemize}
+%\begin{itemize}
+%	\item AWS, Openstack, Cloudstack, Opennebula, Eucalyptus etc
+%\end{itemize}
+%\item Data storage as a Service (DaaS)
+%\begin{itemize}
+%	\item Amazon S3, DropBox, SkyDrive, etc
+%\end{itemize}
 \item Anything as a Service (Xaas)
 \end{itemize}
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=8cm]{./service.png}
+ \caption{Cloud Computing - Servcice Models \label{fig:service} }
+\end{figure}
+
 \end{frame}
 
-\begin{frame}{Cloud Computing - Challenges}
+\begin{frame}{Cloud Computing - Challenges \cite{ref_1}}
 Some challenges that todays Cloud Computing adopts
 
 \begin{itemize}
@@ -101,6 +113,11 @@ We can deploy the cloud in various ways.
 \item Hybrid cloud
 \end{itemize}
 
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=5cm]{./model.png}
+ \caption{Cloud Computing - Deployment Models \label{fig:model} }
+\end{figure}
 \end{frame}
 
 \section{Private Clouds}
@@ -119,9 +136,14 @@ As per our concern we mainly focused about private clouds inorder to ensure Orga
 
 We can construct private cloud using some open source tools like Openstack, Cloudstack, OpenNebula. \\
 
-\hspace{4cm} \\
+\hspace{4cm} 
 
 We can use this private cloud to deploy various services like Departmental Websites, Notice Boards, Events portal, High Computational Virtual Machines for Virtual Labs, High Performance Computing, Big data analytics.
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=5cm]{./cloud.jpg}
+ \caption{Private Cloud - Open source tools \label{fig:cloud} }
+\end{figure}
 
 \end{frame}
 
@@ -130,9 +152,21 @@ We can use this private cloud to deploy various services like Departmental Websi
 \begin{figure}[H]
  \centering
  \includegraphics[width=8cm]{./comp.png}
- \caption{Open Source Tools Comparision $ ^{[2]} $\label{fig:Comparision of Open Source Tools}}
+ \caption{Open Source Tools Comparision \cite{ref_2,ref_1} \label{fig:Comparision of Open Source Tools}}
 \end{figure}
+\bibliography{refer}
+\end{frame}
 
+\section{Conclusion}
+\begin{frame}{Conclusion}
+
+Hardware can be effinciently utilized by tronsforming them into cloud based infra. To maintain the institutional security we are going for privte clouds. We want to go with open source tools to maintain economically optimized.
+\end{frame}
+
+\section{References}
+\begin{frame}{References}
+	\bibliographystyle{plainnat}
+	\bibliography{my}  
 \end{frame}
 
 \end{document}

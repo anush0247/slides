@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  2 JUL 2014 22:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  8 DEC 2014 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -50,7 +50,9 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 2--3
 [] 
  []
 
-No file abc.aux.
+(./abc.aux
+No file content/Title.aux.
+)
 \openout1 = `abc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -65,6 +67,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
+
 
 ! LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
@@ -110,8 +113,8 @@ l.23 \include{content/Title}
 
  
 Here is how much of TeX's memory you used:
- 8 strings out of 494985
- 136 string characters out of 6180357
+ 10 strings out of 494985
+ 152 string characters out of 6180357
  46094 words of memory out of 5000000
  3323 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
