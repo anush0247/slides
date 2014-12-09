@@ -110,7 +110,7 @@ Central Identity, which can be available to third party developers as API with d
 
 New private cloud based IT Infra is aimed to develop using some opensource tools like OpenStack, NFS, LDAP, Ubuntu and etc \newline
 
-Expecting to surve with high computational virtual machines to the research, academic, learning purpose, virtual labs rather than dedicated lab hardware.
+Expecting to serve with high computational virtual machines to the research, academic, learning purpose, virtual labs rather than dedicated lab hardware.
 
 %\pagebreak \thispagestyle{empty} \textcolor{white}{text} \pagebreak
 
@@ -158,7 +158,7 @@ Expecting to surve with high computational virtual machines to the research, aca
 %	We have been observing that components we are planed develop name private cloud and central identity are already exsisted but key difference here is we want to combine them and extend the central identity as Identity as a service to all emerging developers in that organization with some sort of API calls in  
 
 \begin{itemize}
-	\item The environment we observed is our university, it cosists of 7000 students and more than 500+ faculty with 6 core Engg. departments apart from 2 years of PUC course.
+	\item The environment we observed is our university, it consists of 7000 students and more than 500+ faculty with 6 core Engg. departments apart from 2 years of PUC course.
 	\item Each Department is having strength of 700 students they arrenged these students into various various classes of 60 to 70 each, total 10 to 12 number. 
 	\item Each student is provided with one Laptop with 2G RAM, 1.5GHz Clock speed and 200 GB Harddisk Storage. 
 	\item All students are using these sytems for more than 8 hours in a day.
@@ -177,7 +177,7 @@ Expecting to surve with high computational virtual machines to the research, aca
 		%\item Redundent data in each prospect
 		\item Inadequate resource requirements for Research.
 		\item Dedicated computer course labs like Matlab, VLSI, etc. and these labs are useful only at lab hourse most of time they are idle.
-		\item Redendent data and failed to moniter the content over student laptops.
+		\item Redundent data and failed to moniter the content over student laptops.
 	\end{itemize}
 
 \pagebreak
@@ -501,16 +501,104 @@ REST API used to connect third party developers with the orgnaizational identiti
 Federated central Identity with single sign on through dynamic role based access control along with the REST API for third party application developers Implementation is our main aspect.
 
 \chapter{Network Components}
+\section{Network Components}
+	\subsection{Introduction}
+\hspace{6mm}Network devices are components used to connect computers or other electronic devices together so that they can share files or resources like printers or fax machines. Devices used to setup a Local Area Network (LAN) are the most common types of network devices used by the public. A LAN requires a hub, router, cabling or radio technology, network cards, and if online access is desired, a high-speed modem. \\
+\\
+To construct a Campus Area Network(CAN), building network existed in that network is an important and complex task. So in order to make that complex task easier and very robust in nature we have to use some of these components such as LDAP, AAA and NFS. In constructing a network with complex architecture and more people present is very difficult, unless efficient configuration of the network components present in that network will be there. In this section we will see why these components are so important and very efficient in designing such a complex task.
+   \subsection{Basic Networking Components}
+   \subsubsection{Router}
+A router is a device that forwards data packets along networks. A router is connected to at least two networks, commonly two LANs or WANs or a LAN and its ISP's network. Routers are located at gateways, the places where two or more networks connect. Router is a networking device, commonly specialized hardware, that forwards data packets between computer networks. This creates an overlay internetwork, as a router is connected to two or more data lines from different networks. 
 
-\section{Introduction}
+\subsubsection{Switch}
+A network switch is a computer networking device that connects devices together on a computer network, by using a form of packet switching to forward data to the destination device. A network switch is considered more advanced than a (repeater) hub because a switch will only forward a message to one or multiple devices that need to receive it, rather than broadcasting the same message out of each of its ports.
 
-\section{AAA}
+%\begin{figure}[H]
+%\begin{center}
+%\includegraphics[scale=0.6]{./rs.png}
+%\end{center}
+%\caption{Router and Switch \label{fig:Router and Switch }}
+%\end{figure}
 
-\section{LDAP}
+\newpage
+\section{AAA Server}
+AAA is the acronym for \textbf{A}uthentication,\textbf{A}uthorization, and \textbf{A}ccounting. Authentication controls access by requiring valid user credentials, which are typically a username and password. Authentication asks the user who they are. Authorization controls access per user after users authenticate, asks the user what privileges they have, and controls the services and commands available to each authenticated user. Accounting tracks traffic that passes through the security appliance, enabling you to have a record of user activity. If you enable authentication for that traffic, you can account for traffic per user. 
 
-\section{NFS}
+Without authentication of traffic, there's no account for traffic per IP address. Accounting information includes when sessions start and stop, username, the number of bytes that pass through the security appliance for the session, the service used, and the duration of each session.
+\\
+\\
+\textbf{Types of AAA Servers:} RADIUS Server, TACACS+ Server, Kerberos Server, LDAP Server Support and Local Database Support. Depending on the size of the network and available resources, AAA can be implemented on a device locally or can be managed from a central server running RADIUS or TACACS+ (Terminal Access Controller Access Control System Plus) protocols. The most functionally server type is the TACACS+ Server and it is chosen here for that purpose.
+\\
+\\
+The AAA server first checks to see if the user has been authenticated. If a valid authentication entry exists for the user, the session is allowed and no further intervention is required by the authentication proxy. If no entry exists, the authentication proxy responds to the connection request by prompting the user for a username and password. If the authentication fails, the AAA server reports the failure to the user and prompts the user for a configurable number of retries.
+\\
+\\
+TACAC+ is generally considered superior because of the following reasons:
+\begin{itemize}
+\item TACACS+ encrypts the entire TACACS+ packet, while RADIUS only encrypts the shared secret password portion.
+\item TACACS+ separates authentication and authorization, making possible distributed security services.
+\end{itemize}
 
-\section{Conclusion}
+\begin{table}[H]
+\begin{tabular}{ | l	| l	 | l | }
+\hline
+  & \textbf{TACACS +} & \textbf{RADIUS} \\
+  \hline
+ Functionality		&  Separates AAA  	& Combines Authentication, Authorization \\
+ Transport protocol 	&    TCP 		&			UDP \\
+ CHAP 			& Bidirectional 		&	    Unidirectional \\
+ Protocol Support      &   Multi- Protocol        &         No ARA No NetBEUI support \\
+ Confidentiality      &  Entire Packet		&	Password- Encrypted Encrypted \\
+ Accounting 		& Limited 			& 	Extensive \\
+ \hline
+ \end{tabular}
+ \caption{Comparision of Features Between TACACS+ AND RADIUS\label{fig:Comparision of Features Between TACACS+ AND RADIUS}}
+ \end{table}
+\newpage
+\section{LDAP Server}
+\textbf{L}ightweight \textbf{D}irectory \textbf{A}ccess \textbf{P}rotocol is a protocol for accessing a directory. A directory contains objects related to users, groups, computers, printers and so on etc. Lightweight Access Protocol (LDAP) is a  directory service access protocol. It's having layered structure, access control mechanism, customized data storage format etc. Company structure information (although frankly you can extend it and store anything in there).
+
+Directory is an important part of Internet technology to support such needs. Directory exists in a multitude of applications ranging from operating systems, asset management systems, security systems, etc. All entries in the directory are organized by the hierarchical model, which is tree structure called Directory Information Tree(DIT). Entry held in DIT is named directory service entry witch is identified by unique Distinguished Name(DN).\\
+\\
+LDAP gives you query methods to add, update and remove objects within a directory (and a bunch more, but those are the central ones). Distinguished Name(DN) having three major operations
+\begin{itemize}
+\item Add
+\item Modify
+\item Delete
+\end{itemize}
+
+\textbf{LDAP v3} specifies three authentication types
+\begin{itemize}
+\item No Authentication
+\item Basic Authentication
+\item Simple Authentication and Security Layer (SASL)
+\end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.6]{ldap-tools}
+\end{center}
+\caption{LDAP Hierarchy\label{fig:LDAP Hierarchy}}
+\end{figure}
+
+\section{NFS Server}
+\hspace{6mm} NFS stands for \textbf{N}etwork \textbf{F}ile \textbf{S}ystem, a file system developed by Sun Microsystems, Inc. It is a client/server system that allows users to access files across a network and treat them as if they resided in a local file directory. For example, if you were using a computer linked to a second computer via NFS, you could access files on the second computer as if they resided in a directory on the first computer. This is accomplished through the processes of exporting (the process by which an NFS server provides remote clients with access to its files) and mounting (the process by which file systems are made available to the operating system and the user).\\
+\\
+The NFS protocol is designed to be independent of the computer, operating system, network architecture, and transport protocol. This means that systems using the NFS service may be manufactured by different vendors, use different operating systems, and be connected to networks with different architectures. These differences are transparent to the NFS application, and thus, the user.
+\\
+Using NFS, the user or a system administrator can mount all or a portion of a file system (which is a portion of the hierarchical tree in any file directory and subdirectory, including the one you find on your PC or Mac). The portion of your file system that is mounted (designated as accessible) can be accessed with whatever privileges go with your access to each file (read-only or read-write). The operation of NFS is defined in the form of three main components as it is having a crucial role in providing it’s functionalities.
+
+\begin{itemize}
+\item Remote Procedure Call
+\item External Data Representation	
+\item NFS Procedures and Operations
+\end{itemize}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.7]{nfscomponents}
+\end{center}
+\caption{Components in NFS Server\label{fig:Components in NFS Server}}
+\end{figure}
 
 \chapter{Cloud Infrastructure}
 
@@ -721,11 +809,25 @@ Hardware can be effinciently utilized by tronsforming them into cloud based infr
 \item OAuth 2.0, http://oauth.net/
 \item Node.js https://nodejs.org
 \item Git, https://github.com
-\item Ascii doc, http://asciidoc.org
 \item Bootstrap, http://getbootstrap.com 
 \item Stack Overflow http://stackoverflow.com/
 
 \end{itemize}
 		
+\section{Articles}
+
+\begin{enumerate}
+\item Nabil Sultan, ``Cloud Computing for Education”, International journal information management, 30, pp 109-116, 2010.
+\item Tharam Dillon, Chen Wu and Elizabeth Chang, ``Cloud Computing: Issues and Challenges'',  24thIEEE International Conference on Advanced Information Networking and Applications, 2010 
+\item Sebastian Rieger, ``User-centric Identity Management in Heterogeneous Federations'', Fourth international conference on Internet and Web Applications and Services, 2009.
+\item Jun Zheng, Qikun Zhang ,Shangwen Zheng and Yuan Tan, ``Dynamic Role Based Access Control'',  JOURNAL OF SOFTWARE, VOL. 6, NO. 6, JUNE 2011.
+\item R. S. Sandhu, E. J. Coyne, H. L. Feinstein, and C. E.Youman, "Role-Based Access Control Models," [C] IEEE Computer, vol. 29, pp. 38-47, 1996.
+\item Ivan Novakov, ``Web Single Sign On Systems'', CESNET technical report number 21/2006
+\item C.S.Yang, C.Y.Liu, J.H.Chen, C.Y.Sung, ``Design and Implementations of Secure Web-based LDAP Management System''.
+\item Ning Li, Qing Wang, Zhongliang Deng, ``Authentication Framework of IIEDNS Based on LDAP and Kerberos'', Proceedings of IC-BNMT2010.
+\item Salah A.Jaro Alabady, ``Design implementation of Network Security Model Using Static VLAN and AAA Server
+\item Shengli Liu, Wenbing Wang, Yuefei Zhu, ``A New-Style Domain Integrated Management of Windows and UNIX'', The Ninth International Conference on Web-Age Information Management.
+\end{enumerate}
+
 
 \end{document}
