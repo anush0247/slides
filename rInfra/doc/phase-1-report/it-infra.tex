@@ -24,7 +24,7 @@
 \usepackage{multicol}
 \usepackage{color}
 \usepackage{float}
-
+\usepackage{paralist}
 %\usepackage[none]{hyphenat}
 \renewcommand{\bibname}{References}
 
@@ -257,11 +257,179 @@ In this project we are restricting ourselves to some componets of the above ment
 
 \chapter{Central Identiy}
 
-\section{Single Sign on}
+\section{Single Sign-On with REST API}
 
+\subsection{Introduction}
+	Single sign on is generally a process that allows the user to access multiple 
+applications requiring authentication by passing his credentials only once. The 
+user first authenticates to some trusted authentication authority and then is 
+granted access to all the applications trusting that authority.\\
+\\
+	So one of the main advantages of SSO systems is the convenience for the user. 
+Another major advantage is security. There is only one place of authentication, 
+which receives users credentials.Also, the user authenticates only once, so there is minimum transfer of sensitive information over the network.\\
+\\
+There is always a central authority, which handles user authentication. It may 
+support various backend authentication mechanisms like Kerberos, LDAP, relational database, etc. The central authentication server may provide also a user interface needed to retrieve users credentials - usually a login form.\\
+\\
+\begin{figure}[H]
+\includegraphics[width=15cm,height=5.3cm]{SSO}
+\caption{Google Single Sign-On System\label{fig: Google Single Sign-On System}}
+\end{figure}
+\pagebreak
+
+\subsection{Why Single Sign-On?}
+\hspace{6mm}The proliferation of web applications on the Internet has led to a sharp increase in the number of accounts (and corresponding credentials) that a web user has to create and remember. Inconveniences stemming from having to keep track of the accounts, and the tendency of web sites to suffer from security breaches, in which user credentials are exposed, has resulted in a recent push to adopt single sign-on (SSO) systems more widely. As the name implies, these systems help reduce the large amount of account credentials a web user has to keep track of, by replacing these credentials with a single identity with which she can authenticate herself at many different web sites.\\
+\\
+\hspace{6mm}In a University scenario there exists so many applications for different purposes. And each application provides it's own sign up form for users and follow their own password policies. It would be very difficult for a user to sign up every time when a new application comes in. And storing the user information at each applications database is a waste of memory and that is a redundant process.
+	\\
+	\\
+\hspace{6mm}By implementing Single Sign-On in the above scenarios will results in a stable \& convinient web experience for the users. And this Single Sign-On has so many advantages.
+	\\
+	\subsubsection{Advantages}
+	\begin{itemize}
+	\item Reduces the number of passwords a user has to remember and change before they expire.
+	\item Reduces the risk of identity theft by limiting the number of password stored on or off campus.
+	\item Users can login once and switch applications without having to login again.
+	\item Allows for better audit controls and management of resource availability.
+	\item Most applications/services are easier to integrate, and often can be plugged in for other services on campus.
+	\item Saves time and effort of a Web Developer by providing a single button like "Login with Central Identity". No need of creating Sign Up \& Login pages for every application.
+	\item Reduces phising. If users are accustomed to seeing one and only one screen when entering their credentials it may be easier for them to identify phishing attacks.
+	\item Transfer of sensitive data(like User credentials) across network is minimized.
+	\end{itemize}
+\pagebreak
+\subsection{Single Sign-On Work Flow}
+Here in this section the overall workflow of Authentication in a Single Sign-On System is explained. In order to Authenticate users with the given credentials we must use a robust and stable protocol. And many Single Sign-On systems uses OAuth protocols for this purpose. Single Sign-On uses OAuth protocol for both Authentication \& Authorization.
+\subsubsection{OAuth Protocol}
+OAuth is an authentication protocol that allows users to approve application to act on their behalf without sharing their password.
+The below figure explains the flow of Authentication in OAuth Protocol.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.5]{abstract_flow}
+\caption{OAuth Protocol Work Flow Diagram\label{fig:OAuth Protocol Work Flow Diagram}}
+\end{center}
+\end{figure}
+Steps invloved in the above flow diagram
+\begin{itemize}
+\item The application requests authorization to access service resources from the user
+\item If the user authorized the request, the application receives an authorization grant
+\item The application requests an access token from the authorization server (API) by presenting authentication of its own identity, and the authorization grant
+\item If the application identity is authenticated and the authorization grant is valid, the authorization server (API) issues an access token to the application. Authorization is complete.
+\item The application requests the resource from the resource server (API) and presents the access token for authentication
+\item If the access token is valid, the resource server (API) serves the resource to the application
+
+\end{itemize}
+\newpage
 \section{Identity Management}
 
+\newpage
 \section{Dynamic Role Based Access Control}
+
+\subsection{Introduction}
+	\hspace{6mm}Role Based Access Control (RBAC), also known as Non discretionary Access Control, takes more of a real world approach to structuring access control. Access under RBAC is based on a user's job function within the organization to which the computer system belongs. Essentially, RBAC assigns permissions to particular roles in an organization. Users are then assigned to that particular role.\newline
+		
+With the rapid development of network and the coming of information age, access control is particularly important. RBAC is an access control which is popular. RBAC authorizes and controls the roles corresponding to the users to operate the object. It solves problems of least privilege, separation of duties and so on. RBAC has better security, better flexibility, and can be well applied to the workflow system.\newline
+
+In a role-based access control (RBAC) mechanism, these rights are defined based on the role that individuals are assigned to in an organization. It overcomes the problems in DAC (Discretionary Access Control) which is flexible but not secure and MAC (Mandatory Access Control) which is Secure but not flexible. We use roles because,\\
+
+	\begin{itemize}
+		\item Fewer relationships to manage so reduces complexity.
+		\item Roles add a useful level of abstraction as organizations operate based on roles.
+		\item A role is more stable than the collection of users and the collection of permissions.
+	\end{itemize}
+
+	\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=11cm]{./4-1.png}
+	\caption{ Difference between NRBAC and RBAC. \label{fig:Difference between NRBAC and RBAC. }}
+	\end{center}
+	\end{figure}
+\newpage
+	\subsection{Basic Idea of RBAC}
+		Access Control policy is embodied in various components of RBAC such as 
+		\begin{itemize}
+		\item Role-Permission relationships
+		\item User-Role relationships
+		\item Role-Role relationships
+		\end{itemize}
+		
+		 These components collectively determine whether a particular user will be allowed to access a particular piece of data in the system. RBAC components may be configured directly by the system owner or indirectly by appropriate roles as delegated by the system owner. The policy enforced in a particular system is the net result of the precise configuration of various RBAC components as directed by the system owner. The ability to modify policy to meet the changing needs of an organization is an important benefit of RBAC.
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=9cm]{./4-2.png}
+		\caption{ The Core Idea of RBAC. \label{fig:The Core Idea of RBAC. }}
+		\end{center}
+		\end{figure}
+		RBAC model is defined in terms of three model components-Core RBAC, Hierarchical RBAC and Constraint RBAC. The core RBAC model includes five basic elements, i.e. U (users), R (roles), O (objects), OP (Operations) and P (permissions). The core idea of RBAC is that adds roles between users and permissions. It forms relationships among users, roles and permissions. Users get roles’ corresponding permissions by getting roles to operate on the objects.
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=9cm]{./4-3.png}
+		\caption{ The Family of RBAC Model. \label{fig:The Family of RBAC Model. }}
+		\end{center}
+		\end{figure}
+	\newpage	
+	\subsection{Structure Diagram of  RBAC Model}
+		\hspace{6mm} The Structure diagram of role based access control model consists of hierarchies and constraints. Role hierarchical relationship expresses the inheritance in roles’ permissions, such as the role A inherits role B, and then B’s permissions also belong to A. A role may inherit from multiple roles or be inherited by multiple roles. The use of role hierarchical relationship not only makes the system closer to reality, but also makes it easier to add and remove roles, easier to manage. The different types of inheritance can be,\\
+		
+		\begin{compactitem}
+		\item User inheritance 
+			\begin{itemize}
+			\item means every user that is a member of r1 is also a member of r2
+			\end{itemize}
+			
+		\item Permission inheritance
+			\begin{itemize}
+			\item means every permission that is authorized for r2 is also authorized r1 
+			\end{itemize}					
+
+		\item Activation inheritance 
+			\begin{itemize}
+			\item means that activating r1 will also activate r2
+			\end{itemize}					
+
+		\end{compactitem}
+\hspace{4mm}\\
+		Constraint RBAC model in RBAC adds separation of duty relations. Separation of duty can be static or dynamic. There is no formal model specified for constraints. Administrator can improve his own constraints based on requirement. Some example for constraints can be, \newline
+		\begin{compactitem}
+		
+		
+		\item Mutual Exclusion 
+			\begin{itemize}
+			\item No user should have more than one role in a session
+			\end{itemize}
+		\item Pre-condition
+			\begin{itemize}
+			\item Must satisfy some condition to be member of some role
+			\end{itemize}					
+		\item Cardinality 
+		\begin{itemize}
+			\item How many permission are assigning for a role
+		\end{itemize}
+		
+		\end{compactitem}
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=9cm]{./4-4.png}
+		\caption{ RBAC3 Model. \label{fig:RBAC3 Model. }}
+		\end{center}
+		\end{figure}
+		\newpage
+		\subsection{Dynamic Role Based Access Control Model}
+		\hspace{6mm}Although RBAC has many advantages, it also has some disadvantages. it ignores the need to make dynamic constraints executed on sequential order. This problem can be solved by dynamic constraint module, so the permissions required by the sequential order can be executed by order, ensuring when the workflow occurs can operate his dynamic permission, preventing abuse of the user’s own permissions, making the system more security.\newline
+		
+		Dynamic RBAC overcomes the shortages of the traditional RBAC by adding with dynamic constraints and dynamic permissions, so that it makes the system easier to manage and more close to the real world. The App creator no need to go for administration, Himself, he can create roles of his own requirement. If a role is already exist, he can just add. Otherwise he can request for new roles. We can deal application depends on time.
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=9cm]{./4-5.png}
+		\caption{ RBAC with Dynamic constraints. \label{fig:RBAC with Dynamic constraints. }}
+		\end{center}
+		\end{figure}
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=9cm]{./4-6.png}
+		\caption{ Different Types of Association. \label{fig:Different Types of Association. }}
+		\end{center}
+		\end{figure}
 
 \section{Hybrid version with REST API to third party }
 
@@ -285,19 +453,99 @@ In this project we are restricting ourselves to some componets of the above ment
 
 \subsection{Introduction}
 
-\subsection{Challenges}
+Cloud computing refers to both the applications delivered as services over the Internet and the hardware and system software in the data centers that provide those services. \\
+\\
+Definition -- \textit{``Cloud computing is a model for enabling convenient, on-
+demand network access to a shared pool of configurable
+computing resources (e.g., networks, servers, storage,
+applications, and services) that can be rapidly provisioned
+and released with minimal management effort or service
+provider interaction''} $^{[2]}$ \\
+\\
+This definition includes cloud architectures, security, and deployment strategies. 
+
+\subsection{Cloud Characterstics}
+Charactersitcs of Cloud Computing can be broudly defined as \\
+\\
+\textit{On-demand self-service:} A consumer with an instantaneous need at a particular timeslot can avail computing resources (such as CPU time, network storage, software use, and so forth) in an automatic (i.e. convenient, self-serve) fashion without resorting to human interactions with providers of these resources.\\
+\\
+\textit{Broad network access:} These computing resources are delivered over the network (e.g. Internet) and used by various client applications with heterogeneous platforms (such as mobile phones, laptops, and PDAs) situated at a consumer's site.\\
+\\
+\textit{Resource pooling:} When we combine available resource and we can experiance accessing one super computer kind of thing is the goal of this resource pooling\\
+\\
+\textit{Rapid elasticity:} For consumers, computing resources become immediate rather than persistent: there are no up-front commitment and contract as they can use them to scale up whenever they want, and release them once they finish to scale down. Moreover, resources provisioning appears to be infinite to them, the consumption can rapidly rise in order to meet peak requirement at any time.\\
+\\
+\textit{Measured Service:} Although computing resources are pooled and shared by multiple consumers (i.e. multi-tenancy), the cloud infrastructure is able to use appropriate mechanisms to measure the usage of these resources for each individual consumer through its metering capabilities.\\
+\\
+\textit{Virtualization:} Virtualization is key to use the one resource or group of resource to use up to multiple instances this can be done by directly or partially
 
 \subsection{Service Models}
 
+If we providing any thing as a service comes, that will comes into Cloud Computing. Various Service Delivery Models listed bellow.$ ^{[3]}$
+
+\begin{itemize}
+\item Software as a Service (SaaS) -- is where in many users can make use of the software hosted by the service provider and pay only for time its being used.
+\begin{itemize}
+	\item Salesforce, Zoho Office and Google Apps
+\end{itemize}
+\item Platform as a Service (PaaS) -- provides a high-level integrated environment to design, build, test, deploy and update online custom applications.
+\begin{itemize}
+	\item  Google’s App Engine , Microsoft Azure and SalesForce
+\end{itemize}
+\item Infrastructure as a Service (IaaS) -- refers to the services provided to the users to use processing power, storage, network and other computing resources, to run any software including operating systems and applications.
+\begin{itemize}
+	\item  AWS, Eucalyptus, Open Stack, GoGrid and Flexiscale
+\end{itemize}
+
+\item Data storage as a Service (DaaS) -- provides data store as a service for the storage requirements of the organizations and users on the basis of pay per use model in public cloud.
+\begin{itemize}
+	\item   Amazon S3, DropBox, SkyDrive, etc
+\end{itemize}
+
+\item Anything as a Service (XaaS) -- is broder way of say the services in cloud computing which includes anything that is offered as a service.
+
+\end{itemize}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=8cm]{./service.png}
+ \caption{Cloud Computing - Servcice Models \label{fig:Cloud Computing - Servcice Models} }
+\end{figure}
+
 \subsection{Deployment Models}
+
+More recently, four cloud deployment models have been defined in the Cloud community
+
+\begin{itemize}
+\item \textit{Public cloud} -- This is the dominant form of current Cloud computing deployment model. The public cloud is used by the general public cloud consumers and the cloud service provider has the full ownership of the public cloud with its own policy, value, and profit, costing, and charging model.
+\begin{itemize}
+	\item   Amazon EC2, S3, Google AppEngine, and Force.com
+\end{itemize}
+
+\item\textit{ Private cloud }-- The cloud infrastructure is operated solely within a single organization, and managed by the organization or a third party regardless whether it is located premise or off premise.
+\begin{itemize}
+	\item   Openstack, Cloudstack, OpenNebula, Nimbus etc.
+\end{itemize}
+\item \textit{Hybrid cloud }-- The cloud infrastructure is a combination of two or more clouds (private, community, or public) that remain unique entities but are bound together by standardized or proprietary technology that enables data and application portability.
+\begin{itemize}
+	\item   Openstack APIs, AWS APIs
+\end{itemize}
+\item \textit{Community cloud} -- Several organizations jointly construct and share the same cloud infrastructure as well as policies, requirements, values, and concerns. The cloud community forms into a degree of economic scalability and democratic equilibrium.
+\end{itemize}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=5cm]{./model.png}
+ \caption{Cloud Computing - Deployment Models \label{fig:model} }
+\end{figure}
+
+
 
 \section{Private Clouds}
 
-\section{Introduction}
+\subsection{Introduction}
 
-\section{Open Source Tools}
-
-\section{Comparisions}
+\subsection{Open Source Tools}
 
 \section{Conclusion}
 	
@@ -375,12 +623,6 @@ In this project we are restricting ourselves to some componets of the above ment
 	\item Extendable to several departments and Universities.
 	
 	\end{itemize}
-
-\chapter{Further Work}
-
-\section{Further Work}
-
-	Some modular design and works goes here	
 
 \chapter{References}
 
