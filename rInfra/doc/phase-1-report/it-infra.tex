@@ -321,6 +321,64 @@ Steps invloved in the above flow diagram
 \end{itemize}
 \newpage
 \section{Identity Management}
+	\subsection{Introduction}
+		The increasing amount of applications (web, desktop, etc.,) is one of the most important reasons why users have to remember different passwords to authenticate themselves. To simplify the use of the web applications users tend to choose the same password for every application or save the different passwords e.g., directly in the web browser. While this SSO solution is convenient for accessing the applications it also holds some security risks. For example a possible attack is phishing attack.\newline
+	
+             Secure Single Sign-On mechanism for web applications that were introduced in the past years can be classified in federated and user-centric identity management. Latter ones are more convenient for users as they allow them to log in with a globally unique username (e.g., their e-mail or a URL) and extended privacy by letting the user choose which personal information to send to the web applications. In referred literature they describes a solution to extended SAML-based federations with features of user-centric authentication.
+   \subsection{Authentication \& Authorization}
+		Due to the number and autonomy of the institutes a variety of authentication and authorization technologies are used for the different institutions. A large number of institutes use directory services (LDAP) or Kerberos, some applications use relational databases for authentication. Several legacy applications even use authentication by source IP address, which needs to be migrated in the near future. On the other hand some institutes are starting to use modern authentication techniques e.g., X.509 certificate based.\newline
+   
+	Traditionally identity management was done at a central point to unify authentication and authorization in heterogeneous IT infrastructures. Currently beside custom identity management there are two solutions to allow decentralized authentication and authorization in web applications: federated identity management normally SAML-based) and user-centric identity management (like OpenID).
+	\subsubsection{Federated Identity Management}
+		Single Sign-On was introduced on a large scale with the Kerberos protocol. For Web-based Single Sign-On OASIS issued the Security Assertion Markup Language (SAML) Standard. SAML divides the authentication and authorization in two parties (similar to Kerberos): the Service Provider (SP), being the party that holds the resources the user wants to access, and the Identity Provider (IdP), that holds the identities of the users for example at a local institute (home organization). SPs and IdPs are joined in a federation. The federation is also called an Authentication and Authorization Infrastructure (AAI). \newline
+		
+		Within the federation all SPs and IdPs trust each other using X.509 certificates. These certificates and addresses to resolve the handlers of the SPs and IdPs are stored in a metadata file that is distributed to all participants and builds the federation. Identity Providers issue a digitally signed assertion (or token) authenticating the user. SPs use the certificates of the IdPs published in the federation to verify the digital signature and accept the authentication. Authorization is done using attributes that the IdPs sends along with the assertion. Examples for this are Shibboleth, Liberty, and ADFS. Below figure illustrates the access to a resource protected by a Shibboleth Service Provider.
+	\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=11cm]{./3-1.png}
+	\caption{ SAML based federated identity management with Shibboleth 2.0 . \label{fig:SAML based federated identity management with Shibboleth2.0. }}
+	\end{center}
+	\end{figure}
+	Users accessing the SP are redirected to a Discovery Service (DS or WAYF server). At the DS the user selects his home organization and is redirected to his IdP that redirects him back to the SP containing the requested resource after successful authentication. A reference to the assertion issued to the user by the IdP is held as a cookie in the web browser to enable Single Sign-On. As the user subsequently accesses SPs belonging to the same federation, the browser sends the cookie referencing the assertion to the IdP and the user is directly able to access the resource without logging in again.\newline
+	
+	\textbf{Advantages}
+	\begin{itemize}
+		\item Fine grained authorization and the wide-acceptance of SAML.
+		\item The SAML standard guarantees interoperability between different implementations
+		\item More Secure and prevalent
+	\end{itemize}
+	\textbf{Dis-Advantages}
+	\begin{itemize}
+	\item Complexity of the protocol and user while logging
+	\item Single Logout
+	\item Unable to manage private info
+	\end{itemize}
+
+	\subsubsection{User-Centric Identity Management}
+	The latest development in the evolution of identity management are user-centric approaches. They extends the users’ privacy as the user can decide which private information to send to the SP (Service Provider). The user presents his/her information as a card (called I-Card) to the SP. It is up to the user which card to show and what information should be on the card.\newline
+	
+	There is no need for a DS in this. Users can either select their I-Card to get access or log in using a globally unique identifier (e-mail or URL).  The responsible Identity Provider (IdP) can be resolved by the Service Provider (SP) using the domain of the e-mail address or the URL given by the user.
+	\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=11cm]{./3-2.jpg}
+	\caption{ OpenId as an example for user-centric identity management . \label{fig:OpenId as an example for user-centric identity management . }}
+	\end{center}
+	\end{figure}
+	Above shows an example for user-centric identity management using OpenID. Some other typical implementations are CardSpace, sxip, OAuth, Higgins. Most important extension is the ability to exchange attributes for authorization as shown for SAML.\newline
+	
+	\textbf{Advantages}
+	\begin{itemize}
+	\item Higher Usability (use of e-mail or URL)
+	\item Privacy (decide which information to send to the Service Provider)
+	\item Simplification of the protocol \& configuration
+	\end{itemize}
+	
+	\textbf{Dis-Advantages}
+	\begin{itemize}
+	\item Security risks (like Phishing, replay attacks or web application logic flaws e.g., XSS, CSRF)
+	\end{itemize}
+	Besides the disadvantages because of the evolving security fixes e.g., in OpenID, user-centric solutions suffer from the fact that there is no
+	single standard. Another fact that strengthens the role of OpenID is that major web companies like Google,Yahoo offer OpenID Providers for their accounts. This retention bares another disadvantage. The user has to bound to a specific Provider, if his Provider changes his terms or closes down his service, the services the user is registered for are lost.
 
 \newpage
 \section{Dynamic Role Based Access Control}
@@ -431,9 +489,16 @@ In a role-based access control (RBAC) mechanism, these rights are defined based 
 		\end{center}
 		\end{figure}
 
-\section{Hybrid version with REST API to third party }
-
 \section{Conclusion}
+Federated identity management is still state of the art for Web-based Single Sign-On in scientific communities. Integration of multiple federations is a difficult task especially if usability and privacy is considered and it is very important in distributed environment. \\
+\\
+Single sign on helps us to assign only single key for each user for all available applications hence no redundant information about the user identification information.\\
+\\
+Dynamic role based access control improves security and reduces complexity by users with assigned roles and permissions to access resources of the organization.\\
+\\
+REST API used to connect third party developers with the orgnaizational identitiy services to their application developers and users.\\
+\\
+Federated central Identity with single sign on through dynamic role based access control along with the REST API for third party application developers Implementation is our main aspect.
 
 \chapter{Network Components}
 
@@ -535,19 +600,40 @@ More recently, four cloud deployment models have been defined in the Cloud commu
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=5cm]{./model.png}
+ \includegraphics[width=6cm]{./model.png}
  \caption{Cloud Computing - Deployment Models \label{fig:model} }
 \end{figure}
 
 
-
+\newpage
 \section{Private Clouds}
 
 \subsection{Introduction}
 
+\textit{Definition} -- ``It is one of the cloud deployment model where the resources of small or medium organization are united and cattered to users of the that organization or outsourced through internet'' \\
+\\
+The motivation to setup a private cloud within an organization has several aspects. 
+\begin{itemize}
+\item To maximize and optimize the utilization of existing in-house resources.
+\item Security concerns including data privacy and trust also make Private Cloud an option for many firms.
+\item Organizations always require full control over mission-critical activities that reside behind their firewalls.
+\item Academics often build private cloud for research and teaching purposes.
+\end{itemize}
+
 \subsection{Open Source Tools}
 
+We can construct private cloud using some open source tools like Openstack, Cloudstack, OpenNebula. \\
+\\
+We can use this private cloud to deploy various services like Departmental Websites, Notice Boards, Events portal, High Computational Virtual Machines for Virtual Labs, High Performance Computing, Big data analytics.
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=5cm]{./cloud.jpg}
+ \caption{Private Cloud - Open source tools \label{fig:cloud} }
+\end{figure}
+
 \section{Conclusion}
+
+Hardware can be effinciently utilized by tronsforming them into cloud based infra. To maintain the institutional security we are going for privte clouds. We want to go with open source tools to maintain economically optimized.
 	
 \chapter{Implentation and Specifications}
 

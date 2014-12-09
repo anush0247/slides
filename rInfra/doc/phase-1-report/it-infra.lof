@@ -6,15 +6,18 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Google Single Sign-On System}}{6}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces OAuth Protocol Work Flow Diagram}}{8}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Difference between NRBAC and RBAC. }}{10}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The Core Idea of RBAC. }}{11}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces The Family of RBAC Model. }}{11}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces RBAC3 Model. }}{12}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces RBAC with Dynamic constraints. }}{13}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Different Types of Association. }}{13}{figure.4.8}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces SAML based federated identity management with Shibboleth 2.0 . }}{10}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces OpenId as an example for user-centric identity management . }}{11}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Difference between NRBAC and RBAC. }}{12}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The Core Idea of RBAC. }}{13}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The Family of RBAC Model. }}{13}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces RBAC3 Model. }}{14}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces RBAC with Dynamic constraints. }}{15}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Different Types of Association. }}{15}{figure.4.10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Cloud Computing - Servcice Models }}{17}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Cloud Computing - Deployment Models }}{18}{figure.6.2}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Cloud Computing - Servcice Models }}{19}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Cloud Computing - Deployment Models }}{20}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Private Cloud - Open source tools }}{21}{figure.6.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

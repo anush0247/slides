@@ -19,33 +19,36 @@
 \contentsline {subsection}{\numberline {4.1.3}Single Sign-On Work Flow}{8}{subsection.4.1.3}
 \contentsline {subsubsection}{\numberline {4.1.3.1}OAuth Protocol}{8}{subsubsection.4.1.3.1}
 \contentsline {section}{\numberline {4.2}Identity Management}{9}{section.4.2}
-\contentsline {section}{\numberline {4.3}Dynamic Role Based Access Control}{10}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Introduction}{10}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Basic Idea of RBAC}{11}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Structure Diagram of RBAC Model}{12}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Dynamic Role Based Access Control Model}{13}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Hybrid version with REST API to third party }{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}Conclusion}{14}{section.4.5}
-\contentsline {chapter}{\numberline {5}Network Components}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{15}{section.5.1}
-\contentsline {section}{\numberline {5.2}AAA}{15}{section.5.2}
-\contentsline {section}{\numberline {5.3}LDAP}{15}{section.5.3}
-\contentsline {section}{\numberline {5.4}NFS}{15}{section.5.4}
-\contentsline {section}{\numberline {5.5}Conclusion}{15}{section.5.5}
-\contentsline {chapter}{\numberline {6}Cloud Infrastructure}{16}{chapter.6}
-\contentsline {section}{\numberline {6.1}Cloud Computing}{16}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Introduction}{16}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Cloud Characterstics}{16}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Service Models}{17}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Deployment Models}{18}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Private Clouds}{18}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Introduction}{18}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Open Source Tools}{18}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Conclusion}{18}{section.6.3}
-\contentsline {chapter}{\numberline {7}Implentation and Specifications}{19}{chapter.7}
-\contentsline {section}{\numberline {7.1}Implentation}{19}{section.7.1}
-\contentsline {section}{\numberline {7.2}Specifications}{19}{section.7.2}
-\contentsline {section}{\numberline {7.3}Desired Technologies}{19}{section.7.3}
-\contentsline {section}{\numberline {7.4}Expcted Results}{20}{section.7.4}
-\contentsline {chapter}{\numberline {8}References}{21}{chapter.8}
-\contentsline {section}{\numberline {8.1}Web References}{21}{section.8.1}
+\contentsline {subsection}{\numberline {4.2.1}Introduction}{9}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Authentication \& Authorization}{9}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Federated Identity Management}{9}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}User-Centric Identity Management}{10}{subsubsection.4.2.2.2}
+\contentsline {section}{\numberline {4.3}Dynamic Role Based Access Control}{12}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Introduction}{12}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Basic Idea of RBAC}{13}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Structure Diagram of RBAC Model}{14}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Dynamic Role Based Access Control Model}{15}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Conclusion}{16}{section.4.4}
+\contentsline {chapter}{\numberline {5}Network Components}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}AAA}{17}{section.5.2}
+\contentsline {section}{\numberline {5.3}LDAP}{17}{section.5.3}
+\contentsline {section}{\numberline {5.4}NFS}{17}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusion}{17}{section.5.5}
+\contentsline {chapter}{\numberline {6}Cloud Infrastructure}{18}{chapter.6}
+\contentsline {section}{\numberline {6.1}Cloud Computing}{18}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Introduction}{18}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Cloud Characterstics}{18}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Service Models}{19}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Deployment Models}{20}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Private Clouds}{21}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Introduction}{21}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Open Source Tools}{21}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Conclusion}{21}{section.6.3}
+\contentsline {chapter}{\numberline {7}Implentation and Specifications}{22}{chapter.7}
+\contentsline {section}{\numberline {7.1}Implentation}{22}{section.7.1}
+\contentsline {section}{\numberline {7.2}Specifications}{22}{section.7.2}
+\contentsline {section}{\numberline {7.3}Desired Technologies}{22}{section.7.3}
+\contentsline {section}{\numberline {7.4}Expcted Results}{23}{section.7.4}
+\contentsline {chapter}{\numberline {8}References}{24}{chapter.8}
+\contentsline {section}{\numberline {8.1}Web References}{24}{section.8.1}
