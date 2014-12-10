@@ -1,6 +1,8 @@
 \beamer@endinputifotherversion {3.24pt}
 \beamer@sectionintoc {1}{About us}{2}{0}{1}
-\beamer@sectionintoc {2}{Objective}{3}{0}{2}
-\beamer@sectionintoc {3}{Motivation}{5}{0}{3}
-\beamer@sectionintoc {4}{Proposed System}{6}{0}{4}
-\beamer@sectionintoc {5}{Questions?}{7}{0}{5}
+\beamer@sectionintoc {2}{Objective}{1}{0}{2}
+\beamer@sectionintoc {3}{Motivation}{3}{0}{3}
+\beamer@sectionintoc {4}{Proposed System}{4}{0}{4}
+\beamer@sectionintoc {5}{Cloud Computing}{7}{0}{5}
+\beamer@sectionintoc {6}{Private Clouds}{11}{0}{6}
+\beamer@sectionintoc {7}{Questions?}{13}{0}{7}

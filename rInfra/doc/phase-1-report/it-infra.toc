@@ -54,5 +54,4 @@
 \contentsline {section}{\numberline {7.3}Desired Technologies}{25}{section.7.3}
 \contentsline {section}{\numberline {7.4}Expcted Results}{26}{section.7.4}
 \contentsline {chapter}{\numberline {8}References}{27}{chapter.8}
-\contentsline {section}{\numberline {8.1}Web References}{27}{section.8.1}
-\contentsline {section}{\numberline {8.2}Articles}{27}{section.8.2}
+\contentsline {section}{\numberline {8.1}References}{27}{section.8.1}

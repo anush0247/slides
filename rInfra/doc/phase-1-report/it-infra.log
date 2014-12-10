@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  10 DEC 2014 01:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  10 DEC 2014 07:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,7 +428,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 54.
 
-<rgukt_logo.jpg, id=238, 236.885pt x 162.6075pt>
+<rgukt_logo.jpg, id=234, 236.885pt x 162.6075pt>
 File: rgukt_logo.jpg Graphic file (type jpg)
  <use rgukt_logo.jpg>
 Package pdftex.def Info: rgukt_logo.jpg used on input line 74.
@@ -502,13 +502,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
 [3]
 Chapter 3.
-<./it.png, id=383, 483.8075pt x 179.67125pt>
+<./it.png, id=377, 483.8075pt x 179.67125pt>
 File: ./it.png Graphic file (type png)
  <use ./it.png>
 Package pdftex.def Info: ./it.png used on input line 221.
 (pdftex.def)             Requested size: 199.16928pt x 73.96451pt.
 
-<./it2.png, id=384, 491.8375pt x 289.08pt>
+<./it2.png, id=378, 491.8375pt x 289.08pt>
 File: ./it2.png Graphic file (type png)
  <use ./it2.png>
 Package pdftex.def Info: ./it2.png used on input line 230.
@@ -529,7 +529,7 @@ l.239
 l.239 
        <./it.png> <./it2.png>] [5]
 Chapter 4.
-<SSO.png, id=394, 1060.96375pt x 326.21875pt>
+<SSO.png, id=388, 1060.96375pt x 326.21875pt>
 File: SSO.png Graphic file (type png)
  <use SSO.png>
 Package pdftex.def Info: SSO.png used on input line 276.
@@ -577,7 +577,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--289
 
  []
 
-[7] <abstract_flow.png, id=404, 563.10374pt x 373.395pt>
+[7] <abstract_flow.png, id=398, 563.10374pt x 373.395pt>
 File: abstract_flow.png Graphic file (type png)
 
 <use abstract_flow.png>
@@ -604,7 +604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
-<./3-1.png, id=410, 795.97375pt x 401.5pt>
+<./3-1.png, id=404, 795.97375pt x 401.5pt>
 File: ./3-1.png Graphic file (type png)
  <use ./3-1.png>
 Package pdftex.def Info: ./3-1.png used on input line 338.
@@ -622,7 +622,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
-<./3-2.jpg, id=415, 502.87875pt x 261.97874pt>
+<./3-2.jpg, id=409, 502.87875pt x 261.97874pt>
 File: ./3-2.jpg Graphic file (type jpg)
  <use ./3-2.jpg>
 Package pdftex.def Info: ./3-2.jpg used on input line 363.
@@ -659,7 +659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 391--392
 
  []
 
-<./4-1.png, id=424, 379.4175pt x 273.27094pt>
+<./4-1.png, id=418, 379.4175pt x 273.27094pt>
 File: ./4-1.png Graphic file (type png)
  <use ./4-1.png>
 Package pdftex.def Info: ./4-1.png used on input line 401.
@@ -671,7 +671,7 @@ Package pdftex.def Info: ./4-1.png used on input line 401.
                                                   \fi \fi 
 l.405 \newpage
                <./4-1.png (PNG copy)>]
-<./4-2.png, id=429, 371.88937pt x 149.8097pt>
+<./4-2.png, id=423, 371.88937pt x 149.8097pt>
 File: ./4-2.png Graphic file (type png)
  <use ./4-2.png>
 Package pdftex.def Info: ./4-2.png used on input line 417.
@@ -680,7 +680,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<./4-3.png, id=430, 316.18124pt x 107.65219pt>
+<./4-3.png, id=424, 316.18124pt x 107.65219pt>
 File: ./4-3.png Graphic file (type png)
  <use ./4-3.png>
 Package pdftex.def Info: ./4-3.png used on input line 424.
@@ -714,7 +714,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 449--452
 
  []
 
-<./4-4.png, id=436, 426.84468pt x 235.63031pt>
+<./4-4.png, id=430, 426.84468pt x 235.63031pt>
 File: ./4-4.png Graphic file (type png)
  <use ./4-4.png>
 Package pdftex.def Info: ./4-4.png used on input line 470.
@@ -734,13 +734,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 476--477
 
  []
 
-<./4-5.png, id=441, 373.395pt x 371.88937pt>
+<./4-5.png, id=435, 373.395pt x 371.88937pt>
 File: ./4-5.png Graphic file (type png)
  <use ./4-5.png>
 Package pdftex.def Info: ./4-5.png used on input line 481.
 (pdftex.def)             Requested size: 256.0748pt x 255.05478pt.
 
-<./4-6.png, id=442, 366.61969pt x 114.4275pt>
+<./4-6.png, id=436, 366.61969pt x 114.4275pt>
 File: ./4-6.png Graphic file (type png)
  <use ./4-6.png>
 Package pdftex.def Info: ./4-6.png used on input line 487.
@@ -812,7 +812,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 561--565
 
  []
 
-<ldap-tools.png, id=460, 534.99875pt x 300.12125pt>
+<ldap-tools.png, id=454, 534.99875pt x 300.12125pt>
 File: ldap-tools.png Graphic file (type png)
  <use ldap-tools.png>
 Package pdftex.def Info: ldap-tools.png used on input line 579.
@@ -832,7 +832,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 585--590
                                                   \fi \fi 
 l.590 
        <./ldap-tools.png (PNG copy)>]
-<nfscomponents.png, id=466, 479.8728pt x 347.6187pt>
+<nfscomponents.png, id=460, 479.8728pt x 347.6187pt>
 File: nfscomponents.png Graphic file (type png)
  <use nfscomponents.png>
 Package pdftex.def Info: nfscomponents.png used on input line 598.
@@ -892,7 +892,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 621--634
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- <./service.png, id=475, 652.4375pt x 165.61874pt>
+ <./service.png, id=469, 652.4375pt x 165.61874pt>
 File: ./service.png Graphic file (type png)
  <use ./service.png>
 Package pdftex.def Info: ./service.png used on input line 664.
@@ -905,7 +905,7 @@ Package pdftex.def Info: ./service.png used on input line 664.
                                                   \fi \fi 
 l.675 	\item   A
                 mazon EC2, S3, Google AppEngine, and Force.com <./service.png>]
-<./model.png, id=481, 353.32pt x 184.69pt>
+<./model.png, id=475, 353.32pt x 184.69pt>
 File: ./model.png Graphic file (type png)
  <use ./model.png>
 Package pdftex.def Info: ./model.png used on input line 691.
@@ -921,7 +921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 701--705
 
  []
 
-<./cloud.jpg, id=488, 552.0625pt x 301.125pt>
+<./cloud.jpg, id=482, 552.0625pt x 301.125pt>
 File: ./cloud.jpg Graphic file (type jpg)
  <use ./cloud.jpg>
 Package pdftex.def Info: ./cloud.jpg used on input line 718.
@@ -954,25 +954,21 @@ Missing character: There is no  in font cmr12!
 [27
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 833.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 827.
  [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 833.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 827.
  (./it-infra.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 833.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 833.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 827.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 827.
 Package rerunfilecheck Info: File `it-infra.out' has not changed.
-(rerunfilecheck)             Checksum: B6A20F498E80FE8B4833D84B417C10DD;3879.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 833.
+(rerunfilecheck)             Checksum: 50FC45D771AF1A0435F6F1B776233C61;3820.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 827.
  ) 
 Here is how much of TeX's memory you used:
- 6399 strings out of 494985
- 94510 string characters out of 6180357
- 186189 words of memory out of 5000000
- 9405 multiletter control sequences out of 15000+600000
+ 6405 strings out of 494985
+ 94462 string characters out of 6180357
+ 186110 words of memory out of 5000000
+ 9404 multiletter control sequences out of 15000+600000
  12022 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  29i,8n,28p,729b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -984,10 +980,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb>
-Output written on it-infra.pdf (34 pages, 1213560 bytes).
+Output written on it-infra.pdf (34 pages, 1213215 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 506 compressed objects within 6 object streams
- 124 named destinations out of 1000 (max. 500000)
- 555 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 580 PDF objects out of 1000 (max. 8388607)
+ 509 compressed objects within 6 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 547 words of extra memory for PDF output out of 10000 (max. 10000000)
 
