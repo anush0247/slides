@@ -45,7 +45,6 @@
 \titlepage
 \end{frame}
 
-\section{About us}
 \begin{frame}{About us}
 
 \small
@@ -69,6 +68,7 @@ M. Sanyasi Rao & N090891
  
 \setcounter{page}{1}
 \section{Objective}
+\subsection{Objective}
 \begin{frame}{Objective}
 
 The main objective of ``Cloud based IT Infra with Central Identity'' is to utilize exisiting hardware, turn them into private clouds and access all of its services using 
@@ -79,7 +79,7 @@ New private cloud based IT Infra is aimed to develop using some opensource tools
 Expecting to serve with high computational virtual machines to the research, academic, learning purpose, virtal labs rather than dedicated lab hardware.
 \end{frame}
 
-\section{Motivation}
+\subsection{Motivation}
 \begin{frame}{Motivation}
 
 \begin{itemize}
@@ -144,6 +144,58 @@ All University IT Services are deployed in a private cloud, constructed over exs
 	\end{itemize}
 \end{itemize}
 \end{frame}
+
+\section{Network Components}
+\subsection{Introduction}
+\begin{frame}{Introduction}
+To construct a Campus Area Network(CAN), building network existed in that network is an important and complex task. So in order to make that complex task easier and very robust in nature we have to use some of these components such as LDAP, AAA and NFS.
+\newline
+
+Devices used to setup a Local Area Network (LAN) are the most common types of network devices used by the public. A LAN requires a router, switch, cabling or radio technology, network cards.
+\end{frame}
+
+\subsection{Why Network Components?}
+\begin{frame}{Why Network Components?}
+To build a robust and secure network we must use some of these components in constructing that network. These will simple our manual work by automating many complex tasks and very useful.\linebreak \\
+The given below are some basis network components\linebreak \\ 
+
+\subsubsection{Router}
+\textbf{Router: }
+A router is a device that forwards data packets along networks. A router is connected to at least two networks, commonly two LANs or WANs or a LAN and its ISP's network. Routers are located at gateways.\linebreak \\
+\subsubsection{Switch}
+\textbf{Switch: }
+A network switch is a computer networking device that connects devices together on a computer network, by using a form of packet switching to forward data to the destination device.
+\end{frame}
+\subsection{AAA, LDAP and NFS Servers}
+\begin{frame}{AAA \& LDAP }
+\subsubsection{AAA}
+\textbf{AAA:}
+Authentication, Authorization and Accounting
+\begin{itemize}
+	\item An AAA server is a server program that handles user requests for access to computer resources and, provides authentication, authorization, and accounting (AAA) services
+	\item The current standard by which applications communicate with an AAA server is either RADIUS or TACACS+
+\end{itemize}
+\underline{}\\
+\subsubsection{LDAP}
+\textbf{LDAP:}
+Lightweight Directory Access Protocol
+\begin{itemize}
+	\item For accessing and maintaining distributed directory info
+	\item LDAP provides a secure way to access information presented in directories by using some authentication methods
+\end{itemize}
+\end{frame}
+\subsubsection{NFS}
+\begin{frame}{NFS Servers}
+\textbf{NFS:}
+Network File System
+\begin{itemize}
+	\item It is a client/server system that allows users to access files across a network and treat them as if they resided in a local file directory
+	\item Exporting: NFS Server provides clients with access to its files
+	\item Mounting: File systems are made available to OS and the user	
+\end{itemize}
+
+\end{frame}
+
 
 \section{Single Sign-On}
 \subsection{What is SSO}
@@ -250,6 +302,85 @@ All University IT Services are deployed in a private cloud, constructed over exs
 
 \end{frame}
 
+\section{Identity Management}
+\subsection{Introduction}
+\begin{frame}{Introduction}
+\begin{itemize}
+	\item Users need to Manage different passwords to authenticate at various applications
+	\item This is done at a central point to unify the authentication \& authorization
+	\item Organization has to take care of it, if not out-source it
+	\item \textbf{Different Implementations}
+\begin{itemize}
+	\item Kerberos, LDAP Servers, Relational db's
+	\item X.509 Certificate based, FIdM (Shibboleth)
+\end{itemize}
+	\item \textbf{Secure Mechanisms}
+\begin{itemize}
+	\item User-Centric Identity
+	\item Federated Identity
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\subsection{User Centric Identity Management}
+\begin{frame}{User-Centric Identity Management}
+\begin{itemize}
+\item The user presents the information as the I-Card
+\item There is no need of DS, its done on the user side
+\item User can get access by using I-Card or Unique URL
+\item \textbf{Components}: I-Card or Unique URL, SP, IdP, etc.
+\begin{figure}
+\includegraphics[width=4.5cm,height=3cm]{ucidm}
+\end{figure}
+\item Advantages
+\begin{itemize}
+	\item Usability,More Privacy, Simplification of Protocol
+\end{itemize}
+\item Disadvantages
+\begin{itemize}
+	\item Security Risks(Phishing, XSS, CSRF),No single standard 
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\subsection{Federated Identity Management}
+\begin{frame}{Federated Identity Management}
+\begin{itemize}
+\item SSO introduced on a large scale with Kerberos protocol
+\item SAML = Authentication + Authorizatio
+\item User can get access by using I-Card or Unique URL
+\item \textbf{Components}: SP, IdP, Federation(AAI), DS or WAYF Server, X.509 Certificates.
+\begin{figure}
+\includegraphics[width=4.5cm,height=3cm]{fidm}
+\end{figure}
+\item \textbf{Advantages}
+\begin{itemize}
+	\item Usability,More Privacy, Simplification of Protocol
+\end{itemize}
+\item \textbf{Disadvantages}
+\begin{itemize}
+	\item Security Risks(Phishing, XSS, CSRF),No single standard 
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\subsection{Relating to our University}
+\begin{frame}{Intra \& Inter campus Infrastructure}
+\begin{columns}
+\column{0.4\textwidth}
+\begin{figure}[H]
+\includegraphics[width=4cm,height=3.5cm]{U1}
+\caption{Intra Campus\label{fig:Intra Campus}}
+\end{figure}
+\column{0.6\textwidth}
+\begin{figure}[H]
+\includegraphics[width=6cm,height=4cm]{ex1}
+\caption{Inter Campus\label{fig:Inter Campus}}
+\end{figure}
+\end{columns}
+
+\end{frame}
+
 \section{RBAC}
 \subsection{Introduction}
 \begin{frame}{Introduction to RBAC}
@@ -300,10 +431,6 @@ All University IT Services are deployed in a private cloud, constructed over exs
 \item Cardinality
 \end{itemize}
 \end{itemize}
-
-
-
-
  
 \column{0.4\textwidth}
 \begin{figure}[H]
@@ -316,7 +443,6 @@ All University IT Services are deployed in a private cloud, constructed over exs
 \subsection{Dynamic RBAC}
 \begin{frame}{Dynamic RBAC}
 
-
 Dynamic RBAC overcomes the shortages of the traditional RBAC by adding with dynamic constraints and  permissions
 \begin{itemize}
  \item It retains original static constraints of traditional RBAC
@@ -328,7 +454,9 @@ Dynamic RBAC overcomes the shortages of the traditional RBAC by adding with dyna
 \caption{Different Types of Association}
 \end{figure}
 \end{frame}
-\section{Cloud Computing}
+\section{Cloud Infra}
+\subsection{Cloud Computing}
+\subsubsection{Definition  }
 \begin{frame}{Cloud Computing - Definition }
 
 What is Cloud Computing ...? \\
@@ -341,7 +469,7 @@ and released with minimal management effort or service
 provider interaction''} $ ^{[1]} $
 
 \end{frame}
-
+\subsubsection{Characteristics}
 \begin{frame} {Cloud Computing - Characteristics }
 One can define Cloud Computing with essential characteristics like
 
@@ -353,7 +481,7 @@ One can define Cloud Computing with essential characteristics like
 \item Measured Service
 \end{itemize}
 \end{frame}
-
+\subsubsection{Servcice Models}
 \begin{frame}{Cloud Computing - Servcice Models }
 
 If we providing any thing as a service comes, that will comes into Cloud Computing. Various Service Delivery Models listed bellow.
@@ -384,7 +512,7 @@ If we providing any thing as a service comes, that will comes into Cloud Computi
 \end{figure}
 
 \end{frame}
-
+\subsubsection{Deployment Model }
 \begin{frame}{Cloud Computing - Deployment Model }
 
 We can deploy the cloud in various ways.
@@ -401,8 +529,8 @@ We can deploy the cloud in various ways.
  \caption{Cloud Computing - Deployment Models \label{fig:model} }
 \end{figure}
 \end{frame}
-
-\section{Private Clouds}
+\subsection{Private Clouds}
+\subsubsection{Introduction}
 \begin{frame}{Private Clouds -- Introduction}
 
 As per our concern we mainly focused about private clouds inorder to ensure Organizational data security \& High resource utilization
@@ -413,7 +541,7 @@ As per our concern we mainly focused about private clouds inorder to ensure Orga
 \hspace{16mm} -- \textit{It is one of the cloud deployment model where the resources of small or medium organization are united and cattered to users of the that organization or outsourced through internet.} 
 
 \end{frame}
-
+\subsubsection{Open Soruce Tools}
 \begin{frame}{Private Clouds -- Open Soruce Tools}
 
 We can construct private cloud using some open source tools like Openstack, Cloudstack, OpenNebula. \\
@@ -429,15 +557,52 @@ We can use this private cloud to deploy various services like Departmental Websi
 
 \end{frame}
 
-\section{Questions?}
-\begin{frame}{Questions?}
-\centering
-Questions ?
+%\section{Queries }
+%\begin{frame}{Questions?}
+%\centering
+%Questions ? 
+%\end{frame}
+
+\section{References}
+\small
+\begin{frame}{References}
+\begin{itemize}
+\item Nabil Sultan, ``Cloud Computing for Education”, International journal information management, 30, pp 109-116, 2010.
+\item Tharam Dillon, Chen Wu and Elizabeth Chang, ``Cloud Computing: Issues and Challenges'',  24thIEEE International Conference on Advanced Information Networking and Applications, 2010 
+\item Sebastian Rieger, ``User-centric Identity Management in Heterogeneous Federations'', Fourth international conference on Internet and Web Applications and Services, 2009.
+\item Jun Zheng, Qikun Zhang ,Shangwen Zheng and Yuan Tan, ``Dynamic Role Based Access Control'',  JOURNAL OF SOFTWARE, VOL. 6, NO. 6, JUNE 2011.
+\item R. S. Sandhu, E. J. Coyne, H. L. Feinstein, and C. E.Youman, "Role-Based Access Control Models," [C] IEEE Computer, vol. 29, pp. 38-47, 1996.
+
+\end{itemize}
 \end{frame}
 
+\begin{frame}{References}
+\small
+\begin{itemize}
+\item Ivan Novakov, ``Web Single Sign On Systems'', CESNET technical report number 21/2006
+\item C.S.Yang, C.Y.Liu, J.H.Chen, C.Y.Sung, ``Design and Implementations of Secure Web-based LDAP Management System''.
+\item Ning Li, Qing Wang, Zhongliang Deng, ``Authentication Framework of IIEDNS Based on LDAP and Kerberos'', Proceedings of IC-BNMT2010.
+\item Salah A.Jaro Alabady, ``Design implementation of Network Security Model Using Static VLAN and AAA Server
+\item Shengli Liu, Wenbing Wang, Yuefei Zhu, ``A New-Style Domain Integrated Management of Windows and UNIX'', The Ninth International Conference on Web-Age Information Management.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{References}
+\small
+\begin{itemize}
+\item Ubnutu OS, http://www.ubuntu.com/
+\item Openstack, https://openstack.org/
+\item Linux Bible, http://tuxnetworks.blogspot.com
+\item OAuth 2.0, http://oauth.net/
+\item Node.js https://nodejs.org
+\item Git, https://github.com
+\item Bootstrap, http://getbootstrap.com 
+\item Stack Overflow http://stackoverflow.com/
+\end{itemize}
+\end{frame}
 
 \begin{frame}{One word to say ..}
-Thank you
+Thank you and Any Queries ?
 \end{frame}
 
 \end{document}
