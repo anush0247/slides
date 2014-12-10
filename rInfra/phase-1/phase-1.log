@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  10 DEC 2014 12:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  10 DEC 2014 21:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,31 +949,31 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 \end{frame}
+l.79 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (na
 me{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 \end{frame}
+l.79 \end{frame}
                  [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Navigation2}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \end{frame}
+l.92 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (na
 me{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \end{frame}
+l.92 \end{frame}
                  [2
 
 ] <./it.png, id=481, 483.8075pt x 179.67125pt>
 File: ./it.png Graphic file (type png)
 
 <use ./it.png>
-Package pdftex.def Info: ./it.png used on input line 112.
+Package pdftex.def Info: ./it.png used on input line 111.
 (pdftex.def)             Requested size: 142.26378pt x 52.83257pt.
  [3
 
@@ -981,7 +981,7 @@ Package pdftex.def Info: ./it.png used on input line 112.
 File: ./it2.png Graphic file (type png)
 
 <use ./it2.png>
-Package pdftex.def Info: ./it2.png used on input line 125.
+Package pdftex.def Info: ./it2.png used on input line 124.
 (pdftex.def)             Requested size: 199.16928pt x 117.06352pt.
  [4
 
@@ -999,7 +999,7 @@ Package pdftex.def Info: ./it2.png used on input line 125.
 <SSO.png, id=932, 1060.96375pt x 326.21875pt>
 File: SSO.png Graphic file (type png)
  <use SSO.png>
-Package pdftex.def Info: SSO.png used on input line 214.
+Package pdftex.def Info: SSO.png used on input line 213.
 (pdftex.def)             Requested size: 227.61708pt x 99.58368pt.
  [10
 
@@ -1012,13 +1012,13 @@ Package pdftex.def Info: SSO.png used on input line 214.
 File: technologies.png Graphic file (type png)
 
 <use technologies.png>
-Package pdftex.def Info: technologies.png used on input line 254.
+Package pdftex.def Info: technologies.png used on input line 253.
 (pdftex.def)             Requested size: 270.29642pt x 42.68008pt.
  <standards.png, id=1124, 562.1pt x 141.52875pt>
 File: standards.png Graphic file (type png)
 
 <use standards.png>
-Package pdftex.def Info: standards.png used on input line 254.
+Package pdftex.def Info: standards.png used on input line 253.
 (pdftex.def)             Requested size: 199.16522pt x 56.90419pt.
  [13
 
@@ -1031,7 +1031,7 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 ] <CRUD.png, id=1252, 595.22375pt x 159.59625pt>
 File: CRUD.png Graphic file (type png)
  <use CRUD.png>
-Package pdftex.def Info: CRUD.png used on input line 287.
+Package pdftex.def Info: CRUD.png used on input line 286.
 (pdftex.def)             Requested size: 199.16731pt x 56.90424pt.
  [15
 
@@ -1043,7 +1043,7 @@ Package pdftex.def Info: CRUD.png used on input line 287.
 File: ucidm.jpg Graphic file (type jpg)
 
 <use ucidm.jpg>
-Package pdftex.def Info: ucidm.jpg used on input line 344.
+Package pdftex.def Info: ucidm.jpg used on input line 343.
 (pdftex.def)             Requested size: 128.03937pt x 85.35628pt.
  [18
 
@@ -1051,30 +1051,30 @@ Package pdftex.def Info: ucidm.jpg used on input line 344.
 <fidm.jpg, id=1507, 374.90062pt x 220.57407pt>
 File: fidm.jpg Graphic file (type jpg)
  <use fidm.jpg>
-Package pdftex.def Info: fidm.jpg used on input line 365.
+Package pdftex.def Info: fidm.jpg used on input line 364.
 (pdftex.def)             Requested size: 128.03658pt x 85.35712pt.
  [19
 
  <./fidm.jpg>] <U1.JPG, id=1571, 288.3272pt x 217.5628pt>
 File: U1.JPG Graphic file (type jpg)
  <use U1.JPG>
-Package pdftex.def Info: U1.JPG used on input line 382.
+Package pdftex.def Info: U1.JPG used on input line 381.
 (pdftex.def)             Requested size: 113.81099pt x 99.58546pt.
 
 <ex1.JPG, id=1572, 575.14874pt x 266.9975pt>
 File: ex1.JPG Graphic file (type jpg)
  <use ex1.JPG>
-Package pdftex.def Info: ex1.JPG used on input line 382.
+Package pdftex.def Info: ex1.JPG used on input line 381.
 (pdftex.def)             Requested size: 170.71176pt x 113.8126pt.
  [20
 
  <./U1.JPG> <./ex1.JPG>] <sunny1.png, id=1637, 551.81157pt x 193.47281pt>
 File: sunny1.png Graphic file (type png)
  <use sunny1.png>
-Package pdftex.def Info: sunny1.png used on input line 396.
+Package pdftex.def Info: sunny1.png used on input line 395.
 (pdftex.def)             Requested size: 256.08453pt x 85.35857pt.
 
-Overfull \vbox (1.02718pt too high) detected at line 396
+Overfull \vbox (1.02718pt too high) detected at line 395
  []
 
 [21
@@ -1083,7 +1083,7 @@ Overfull \vbox (1.02718pt too high) detected at line 396
 File: sunny2_r.png Graphic file (type png)
 
 <use sunny2_r.png>
-Package pdftex.def Info: sunny2_r.png used on input line 413.
+Package pdftex.def Info: sunny2_r.png used on input line 412.
 (pdftex.def)             Requested size: 284.5231pt x 85.3572pt.
  [22
 
@@ -1091,14 +1091,14 @@ Package pdftex.def Info: sunny2_r.png used on input line 413.
 <sun3.png, id=1765, 426.84468pt x 235.63031pt>
 File: sun3.png Graphic file (type png)
  <use sun3.png>
-Package pdftex.def Info: sun3.png used on input line 441.
+Package pdftex.def Info: sun3.png used on input line 440.
 (pdftex.def)             Requested size: 113.8102pt x 85.35896pt.
  [23
 
  <./sun3.png (PNG copy)>] <ass.png, id=1830, 366.61969pt x 114.4275pt>
 File: ass.png Graphic file (type png)
  <use ass.png>
-Package pdftex.def Info: ass.png used on input line 456.
+Package pdftex.def Info: ass.png used on input line 455.
 (pdftex.def)             Requested size: 284.54688pt x 85.3612pt.
  [24
 
@@ -1110,14 +1110,14 @@ Package pdftex.def Info: ass.png used on input line 456.
 <./service.png, id=2021, 652.4375pt x 165.61874pt>
 File: ./service.png Graphic file (type png)
  <use ./service.png>
-Package pdftex.def Info: ./service.png used on input line 514.
+Package pdftex.def Info: ./service.png used on input line 513.
 (pdftex.def)             Requested size: 227.62204pt x 57.78041pt.
  [27
 
  <./service.png>] <./model.png, id=2088, 353.32pt x 184.69pt>
 File: ./model.png Graphic file (type png)
  <use ./model.png>
-Package pdftex.def Info: ./model.png used on input line 531.
+Package pdftex.def Info: ./model.png used on input line 530.
 (pdftex.def)             Requested size: 142.26378pt x 74.36504pt.
 
 [28
@@ -1128,7 +1128,7 @@ Package pdftex.def Info: ./model.png used on input line 531.
 File: ./cloud.jpg Graphic file (type jpg)
 
 <use ./cloud.jpg>
-Package pdftex.def Info: ./cloud.jpg used on input line 558.
+Package pdftex.def Info: ./cloud.jpg used on input line 557.
 (pdftex.def)             Requested size: 142.26378pt x 77.59683pt.
  [30
 
@@ -1154,11 +1154,11 @@ Missing character: There is no  in font cmss10!
 \tf@snm=\write8
 \openout8 = `phase-1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 608.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 608.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 607.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 607.
  (./phase-1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 608.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 608.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 607.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 607.
 Package rerunfilecheck Info: File `phase-1.out' has not changed.
 (rerunfilecheck)             Checksum: 965DE371729A0A03C2D20984476B46BD;2006.
 
@@ -1169,12 +1169,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 608.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 607.
  ) 
 Here is how much of TeX's memory you used:
  17648 strings out of 494985
  320794 string characters out of 6180357
- 474463 words of memory out of 5000000
+ 473463 words of memory out of 5000000
  20303 multiletter control sequences out of 15000+600000
  14475 words of font info for 54 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -1188,7 +1188,7 @@ st/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy9.pfb>
-Output written on phase-1.pdf (36 pages, 953708 bytes).
+Output written on phase-1.pdf (36 pages, 953525 bytes).
 PDF statistics:
  2597 PDF objects out of 2984 (max. 8388607)
  2454 compressed objects within 25 object streams
