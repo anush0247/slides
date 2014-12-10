@@ -1,8 +1,23 @@
 \beamer@endinputifotherversion {3.24pt}
 \beamer@sectionintoc {1}{About us}{2}{0}{1}
 \beamer@sectionintoc {2}{Objective}{1}{0}{2}
-\beamer@sectionintoc {3}{Motivation}{3}{0}{3}
-\beamer@sectionintoc {4}{Proposed System}{4}{0}{4}
-\beamer@sectionintoc {5}{Cloud Computing}{7}{0}{5}
-\beamer@sectionintoc {6}{Private Clouds}{11}{0}{6}
-\beamer@sectionintoc {7}{Questions?}{13}{0}{7}
+\beamer@sectionintoc {3}{Motivation}{2}{0}{3}
+\beamer@sectionintoc {4}{Proposed System}{3}{0}{4}
+\beamer@subsectionintoc {4}{1}{Users \& IT Services}{3}{0}{4}
+\beamer@subsectionintoc {4}{2}{Cloud Infrastructures}{4}{0}{4}
+\beamer@sectionintoc {5}{Single Sign-On}{6}{0}{5}
+\beamer@subsectionintoc {5}{1}{What is SSO}{6}{0}{5}
+\beamer@subsectionintoc {5}{2}{Why SSO}{7}{0}{5}
+\beamer@subsectionintoc {5}{3}{Advantages}{8}{0}{5}
+\beamer@subsectionintoc {5}{4}{How well we will implement?}{9}{0}{5}
+\beamer@subsectionintoc {5}{5}{What is JSON?}{10}{0}{5}
+\beamer@subsectionintoc {5}{6}{What is REST?}{11}{0}{5}
+\beamer@subsectionintoc {5}{7}{What is REST? (Contd...)}{12}{0}{5}
+\beamer@sectionintoc {6}{RBAC}{13}{0}{6}
+\beamer@subsectionintoc {6}{1}{Introduction}{13}{0}{6}
+\beamer@subsectionintoc {6}{2}{Idea of RBAC}{14}{0}{6}
+\beamer@subsectionintoc {6}{3}{Structure of RBAC}{15}{0}{6}
+\beamer@subsectionintoc {6}{4}{Dynamic RBAC}{16}{0}{6}
+\beamer@sectionintoc {7}{Cloud Computing}{17}{0}{7}
+\beamer@sectionintoc {8}{Private Clouds}{21}{0}{8}
+\beamer@sectionintoc {9}{Questions?}{23}{0}{9}

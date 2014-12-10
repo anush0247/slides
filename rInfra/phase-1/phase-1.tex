@@ -1,6 +1,7 @@
 \documentclass[xcolor=dvipsnames]{beamer}
 
 \usetheme{Frankfurt}
+\usepackage{listings}
 \usepackage{paralist}
 \usecolortheme[RGB={0,104,139}]{structure}%deepskyblue
 %\usecolortheme[named=Maroon]{structure}
@@ -10,7 +11,33 @@
 
 \author{ \underline{Project Guide} \\ \hspace{2mm} \\ \small{ T. Chandra Shekar }  }
 \institute{ \underline{Presenting by} \\ \hspace{2mm} \\ \textit {Team r3b00+ }  \\ \hspace{4mm} \\ \textit{Dept. of CSE, RGUKT - Nuzvid}}
-
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+ 
 \begin{document}
 
 
@@ -43,10 +70,6 @@ M. Sanyasi Rao & N090891
 \setcounter{page}{1}
 \section{Objective}
 \begin{frame}{Objective}
-To construct new Cloud based IT Infra with Central Identity.
-\end{frame}
-
-\begin{frame}{Objective Continued ...}
 
 The main objective of ``Cloud based IT Infra with Central Identity'' is to utilize exisiting hardware, turn them into private clouds and access all of its services using 
 Central Identity, which can be available to third party developers as API with dynamic role management and service endpoints. \newline
@@ -72,6 +95,7 @@ Expecting to serve with high computational virtual machines to the research, aca
 
 
 \section{Proposed System}
+\subsection{Users \& IT Services}
 \begin{frame}{Users \& IT Services}
 We are grouping all IT Services that are required for University into one and identifing the user who will going to use them. All Users are catagorized into 4 groups $ ^{[1]}$
 	
@@ -86,7 +110,7 @@ We are grouping all IT Services that are required for University into one and id
 \end{figure}
 	
 \end{frame}
-
+\subsection{Cloud Infrastructures}
 \begin{frame}{Cloud Infrastructures}
 All University IT Services are deployed in a private cloud, constructed over exsiting infrastructure, that can be browdly viewed as 
 	
@@ -102,16 +126,17 @@ All University IT Services are deployed in a private cloud, constructed over exs
 
 \begin{frame}{Proposed System -  Main Components}
 \begin{itemize}
+	
+	\item Network Components 
+	\begin{itemize}
+		\item AAA, LDAP, NFS
+	\end{itemize}
 	\item Central Identiy 
 	\begin{itemize}
 		\item Single Sign on
 		\item Fedarated Identity
 		\item Dynamic Role Based Access Control
 		\item REST API to third party
-	\end{itemize}
-	\item Network Components Configurations
-	\begin{itemize}
-		\item AAA, LDAP, NFS
 	\end{itemize}
 	\item Cloud Infrastructure
 	\begin{itemize}
@@ -120,6 +145,189 @@ All University IT Services are deployed in a private cloud, constructed over exs
 \end{itemize}
 \end{frame}
 
+\section{Single Sign-On}
+\subsection{What is SSO}
+\begin{frame}{What is Single Sign-On?}
+ 
+\begin{itemize}
+	\item Single Sign-On (SSO) is an authentication process that allows a user to access multiple applications with one set of login credentials. 
+	\item One login. All of RGUKT.
+\end{itemize}
+
+\begin{figure}
+\includegraphics[width=8cm,height=3.5cm]{SSO}
+\caption{Google SSO and Application \label{fig:Google SSO and Application}}
+\end{figure}
+
+\end{frame}
+\subsection{Why SSO}
+\begin{frame}{Why Single Sign-On?}
+
+\begin{itemize}
+	\item Signing Up everytime is troublesome
+	\item I am a nerd, I can't remember all the passwords across multiple Apps.
+	\item Is it possible to just sign-on once to perform all the actions?
+	\item Is basic Authorization on many sites is secure? Any alternative?
+	\item Yes!! Single sign-on can be used to answer all these Questions.
+\end{itemize}
+
+\end{frame}
+
+\subsection{Advantages}
+\begin{frame}{Advantages}
+\begin{itemize}
+	\item Ease burden on developers
+	\item Improved user experience, no password lists to carry. Thus, improving productivity.
+	\item Ease of Access through a single Central Database.
+	\item Transfer of Sensitive Data across network is minimized.
+	\item Enables users to login quickly and securely to all their applications.
+	\item Auditing \& Statistical history reviewing simplified.
+\end{itemize}
+\end{frame}
+
+\subsection{How well we will implement?}
+\begin{frame}{How well we will implement?}
+\begin{itemize}
+\item We want to develope well structured and documented REST API
+\item Designing neat and user friendly interface with Semantic UI
+\item Technologies to be Used
+\begin{figure}
+\includegraphics[width=9.5cm,height=1.5cm]{technologies}
+\end{figure}
+\item Standards to be followed
+\begin{figure}
+\includegraphics[width=7cm,height=2cm]{standards}
+\end{figure}
+\end{itemize}
+\end{frame}
+
+\subsection{What is JSON?}
+\begin{frame}{What is JSON?}
+
+\textbf{JSON}\\
+
+\begin{itemize}
+\item JSON stands for \textbf{J}ava\textbf{S}cript \textbf{O}bject \textbf{N}otation
+\item An open standard format that uses plain text to transmit data.
+\item Used primarily to transmit data between a server and web application, as an alternative to XML.
+
+\end{itemize}
+\textbf{Example}
+\lstinputlisting[language=Java,caption=JSON Example]{abc.json}
+\end{frame}
+
+\subsection{What is REST?}
+\begin{frame}{What is REST?}
+
+\textbf{REST API}
+
+\begin{itemize}
+\item REST stand for \textbf{RE}presentational \textbf{S}tate \textbf{T}ransfer
+\item A Collection of simple URIs, and HTTP calls to those URIs and some JSON resources
+\item Basic CRUD Operations
+\end{itemize}
+
+\begin{figure}
+\includegraphics[width=7cm,height=2cm]{CRUD}
+\caption{CRUD Operations \label{fig:CRUD Operations}}
+\end{figure}
+
+\end{frame}
+
+
+\subsection{What is REST? (Contd...)}
+\begin{frame}{REST API Example}
+\textbf{Syntax}
+\begin{itemize}
+	\item http://it-ebooks-api.info/v1/book/:id/:author/
+\end{itemize}
+\textbf{Example}
+\begin{itemize}
+	\item Request URI -- http://it-ebooks-api.info/v1/book/1234/
+	\item Response 
+\end{itemize}
+\lstinputlisting[language=Java,caption=REST Example]{abc2.json}
+
+\end{frame}
+
+\section{RBAC}
+\subsection{Introduction}
+\begin{frame}{Introduction to RBAC}
+\begin{itemize}
+ \item Role Based Access Control(RBAC) assigns users to roles and then roles to permissions, It solves problems of least privilege, separation of duty and other security issues
+ \item In RBAC model, these rights are defined based on the role that individuals are assigned to in an organization
+ \item It overcomes the problems in DAC which is flexible but not secure and MAC which is Secure but not flexible
+\end{itemize}
+\begin{figure}[H]
+\includegraphics[width=9cm,height=3cm]{sunny1}
+\caption{Scenario of RBAC\label{fig:Scenario of RBAC}}
+\end{figure}
+\end{frame}
+
+\subsection{Idea of RBAC}
+\begin{frame}{Basic Idea of RBAC}
+\begin{itemize}
+	\item  Access Control policy is embodied in various components of RBAC such as,
+	\begin{itemize}
+	\item Role-Permission relationships
+	\item User-Role relationships
+	\item Role-Role relationships
+	\end{itemize}
+	\item Users get roles corresponding permissions by getting roles to operate on the objects
+	\item RBAC model is defined in terms of three model components - Core RBAC, Hierarchical RBAC and Constraint RBAC
+\end{itemize}
+\begin{figure}[H]
+\includegraphics[width=10cm,height=3cm]{sunny2_r}
+\end{figure}
+\end{frame}
+\subsection{Structure of RBAC}
+\begin{frame}{Structure Diagram of RBAC Model}
+\begin{columns}
+ 
+\column{0.6\textwidth}
+\begin{itemize}
+\item The Structure diagram of role based access control model consists of role hierarchies and constraints
+\item Role hierarchical relationship expresses the inheritance in roles permissions
+\begin{itemize}
+\item User inheritance
+\item Permission inheritance
+\item Activation inheritance
+\end{itemize}
+\item Constraints in RBAC adds separation of duty relations
+\begin{itemize}
+\item Mutual exclusion
+\item Pre-condition
+\item Cardinality
+\end{itemize}
+\end{itemize}
+
+
+
+
+ 
+\column{0.4\textwidth}
+\begin{figure}[H]
+\includegraphics[width=4cm,height=3cm]{sun3}
+\caption{RBAC3 Mode}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\subsection{Dynamic RBAC}
+\begin{frame}{Dynamic RBAC}
+
+
+Dynamic RBAC overcomes the shortages of the traditional RBAC by adding with dynamic constraints and  permissions
+\begin{itemize}
+ \item It retains original static constraints of traditional RBAC
+ \item The App creator no need to go for administration, himself he can add or create a role for users
+ \item It supports each user has different levels of permission at different time
+\end{itemize}
+\begin{figure}[H]
+\includegraphics[width=10cm,height=3cm]{ass}
+\caption{Different Types of Association}
+\end{figure}
+\end{frame}
 \section{Cloud Computing}
 \begin{frame}{Cloud Computing - Definition }
 
