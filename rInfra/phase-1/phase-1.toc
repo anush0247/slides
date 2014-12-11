@@ -1,44 +1,43 @@
 \beamer@endinputifotherversion {3.24pt}
-\beamer@sectionintoc {1}{Objective}{1}{0}{1}
-\beamer@subsectionintoc {1}{1}{Objective}{1}{0}{1}
-\beamer@subsectionintoc {1}{2}{Motivation}{2}{0}{1}
-\beamer@sectionintoc {2}{Proposed System}{3}{0}{2}
-\beamer@subsectionintoc {2}{1}{Users \& IT Services}{3}{0}{2}
-\beamer@subsectionintoc {2}{2}{Cloud Infrastructures}{4}{0}{2}
-\beamer@sectionintoc {3}{Network Components}{6}{0}{3}
-\beamer@subsectionintoc {3}{1}{Introduction}{6}{0}{3}
-\beamer@subsectionintoc {3}{2}{Why Network Components?}{7}{0}{3}
-\beamer@subsubsectionintoc {3}{2}{1}{Router}{7}{0}{3}
-\beamer@subsubsectionintoc {3}{2}{2}{Switch}{7}{0}{3}
-\beamer@subsectionintoc {3}{3}{AAA, LDAP and NFS Servers}{8}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{1}{AAA}{8}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{2}{LDAP}{8}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{3}{NFS}{9}{0}{3}
-\beamer@sectionintoc {4}{Single Sign-On}{10}{0}{4}
-\beamer@subsectionintoc {4}{1}{What is SSO}{10}{0}{4}
-\beamer@subsectionintoc {4}{2}{Why SSO}{11}{0}{4}
-\beamer@subsectionintoc {4}{3}{Advantages}{12}{0}{4}
-\beamer@subsectionintoc {4}{4}{How well we will implement?}{13}{0}{4}
-\beamer@subsectionintoc {4}{5}{What is JSON?}{14}{0}{4}
-\beamer@subsectionintoc {4}{6}{What is REST?}{15}{0}{4}
-\beamer@subsectionintoc {4}{7}{What is REST? (Contd...)}{16}{0}{4}
-\beamer@sectionintoc {5}{Identity Management}{17}{0}{5}
-\beamer@subsectionintoc {5}{1}{Introduction}{17}{0}{5}
-\beamer@subsectionintoc {5}{2}{Federated Identity Management}{18}{0}{5}
-\beamer@subsectionintoc {5}{3}{User Centric Identity Management}{19}{0}{5}
-\beamer@subsectionintoc {5}{4}{Relating to our University}{20}{0}{5}
-\beamer@sectionintoc {6}{RBAC}{21}{0}{6}
-\beamer@subsectionintoc {6}{1}{Introduction}{21}{0}{6}
-\beamer@subsectionintoc {6}{2}{Idea of RBAC}{22}{0}{6}
-\beamer@subsectionintoc {6}{3}{Structure of RBAC}{23}{0}{6}
-\beamer@subsectionintoc {6}{4}{Dynamic RBAC}{24}{0}{6}
-\beamer@sectionintoc {7}{Cloud Infra}{25}{0}{7}
-\beamer@subsectionintoc {7}{1}{Cloud Computing}{25}{0}{7}
-\beamer@subsubsectionintoc {7}{1}{1}{Definition }{25}{0}{7}
-\beamer@subsubsectionintoc {7}{1}{2}{Characteristics}{26}{0}{7}
-\beamer@subsubsectionintoc {7}{1}{3}{Servcice Models}{27}{0}{7}
-\beamer@subsubsectionintoc {7}{1}{4}{Deployment Model }{28}{0}{7}
-\beamer@subsectionintoc {7}{2}{Private Clouds}{29}{0}{7}
-\beamer@subsubsectionintoc {7}{2}{1}{Introduction}{29}{0}{7}
-\beamer@subsubsectionintoc {7}{2}{2}{Open Soruce Tools}{30}{0}{7}
-\beamer@sectionintoc {8}{References}{31}{0}{8}
+\beamer@sectionintoc {1}{Objective}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Objective}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Motivation}{5}{0}{1}
+\beamer@sectionintoc {2}{Proposed System}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Users \& IT Services}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Cloud Infrastructures}{8}{0}{2}
+\beamer@sectionintoc {3}{Network Components}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Introduction}{11}{0}{3}
+\beamer@subsectionintoc {3}{2}{Why Network Components?}{12}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{1}{Router}{12}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{2}{Switch}{12}{0}{3}
+\beamer@subsectionintoc {3}{3}{AAA, LDAP and NFS Servers}{13}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{1}{AAA}{13}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{2}{LDAP}{13}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{3}{NFS}{14}{0}{3}
+\beamer@sectionintoc {4}{Single Sign-On}{15}{0}{4}
+\beamer@subsectionintoc {4}{1}{What is SSO}{16}{0}{4}
+\beamer@subsectionintoc {4}{2}{Why SSO}{17}{0}{4}
+\beamer@subsectionintoc {4}{3}{Advantages}{18}{0}{4}
+\beamer@subsectionintoc {4}{4}{How well we will implement?}{19}{0}{4}
+\beamer@subsectionintoc {4}{5}{What is JSON?}{20}{0}{4}
+\beamer@subsectionintoc {4}{6}{What is REST?}{21}{0}{4}
+\beamer@subsectionintoc {4}{7}{What is REST? (Contd...)}{22}{0}{4}
+\beamer@sectionintoc {5}{Identity Management}{23}{0}{5}
+\beamer@subsectionintoc {5}{1}{Introduction}{24}{0}{5}
+\beamer@subsectionintoc {5}{2}{Federated Identity Management}{25}{0}{5}
+\beamer@subsectionintoc {5}{3}{User Centric Identity Management}{26}{0}{5}
+\beamer@subsectionintoc {5}{4}{Relating to our University}{27}{0}{5}
+\beamer@sectionintoc {6}{RBAC}{28}{0}{6}
+\beamer@subsectionintoc {6}{1}{Introduction}{29}{0}{6}
+\beamer@subsectionintoc {6}{2}{Idea of RBAC}{30}{0}{6}
+\beamer@subsectionintoc {6}{3}{Structure of RBAC}{31}{0}{6}
+\beamer@subsectionintoc {6}{4}{Dynamic RBAC}{32}{0}{6}
+\beamer@sectionintoc {7}{Cloud Infra}{33}{0}{7}
+\beamer@subsectionintoc {7}{1}{Cloud Computing}{34}{0}{7}
+\beamer@subsubsectionintoc {7}{1}{1}{Definition }{34}{0}{7}
+\beamer@subsubsectionintoc {7}{1}{2}{Characteristics}{35}{0}{7}
+\beamer@subsubsectionintoc {7}{1}{3}{Servcice Models}{36}{0}{7}
+\beamer@subsubsectionintoc {7}{1}{4}{Deployment Model }{37}{0}{7}
+\beamer@subsectionintoc {7}{2}{Private Clouds}{38}{0}{7}
+\beamer@subsubsectionintoc {7}{2}{1}{Introduction}{38}{0}{7}
+\beamer@subsubsectionintoc {7}{2}{2}{Open Soruce Tools}{39}{0}{7}

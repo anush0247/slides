@@ -1,6 +1,8 @@
-\documentclass[xcolor=dvipsnames]{beamer}
+\documentclass[10pt,xcolor=dvipsnames]{beamer}
 
 \usetheme{Frankfurt}
+%\usetheme{Bergen}
+%\usetheme{Goettingen}
 \usepackage{listings}
 \usepackage{paralist}
 \usecolortheme[RGB={0,104,139}]{structure}%deepskyblue
@@ -38,6 +40,20 @@
  
 \lstset{style=mystyle}
 
+\AtBeginSection[]
+{
+	\begin{frame}
+		\frametitle{Outline}
+		\tableofcontents[currentsection,hideothersubsections]
+	\end{frame}
+}
+%\AtBeginSubsection[] % Do nothing for \subsection*
+%{
+%\begin{frame}<beamer>
+%\frametitle{Outline}
+%\tableofcontents[currentsection,]
+%\end{frame}
+%}
 
 \begin{document}
 
@@ -45,6 +61,11 @@
 \begin{frame}
 \titlepage
 \end{frame}
+
+%\begin{frame}
+%\frametitle{Outline}
+%\tableofcontents[hideallsubsections]
+%\end{frame}
 
 \begin{frame}{About us}
 
@@ -67,7 +88,7 @@ M. Sanyasirao & N090891
 
 \end{frame}
  
-\setcounter{page}{1}
+
 \section{Objective}
 \subsection{Objective}
 \begin{frame}{Objective}
@@ -455,6 +476,9 @@ Dynamic RBAC overcomes the shortages of the traditional RBAC by adding with dyna
 \caption{Different Types of Association}
 \end{figure}
 \end{frame}
+
+
+
 \section{Cloud Infra}
 \subsection{Cloud Computing}
 \subsubsection{Definition  }
@@ -564,7 +588,7 @@ We can use this private cloud to deploy various services like Departmental Websi
 %Questions ? 
 %\end{frame}
 
-\section{References}
+\section*{References}
 \small
 \begin{frame}{References}
 \begin{itemize}
@@ -576,6 +600,7 @@ We can use this private cloud to deploy various services like Departmental Websi
 
 \end{itemize}
 \end{frame}
+
 
 \begin{frame}{References}
 \small
