@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  10 DEC 2014 21:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  11 DEC 2014 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -406,13 +406,6 @@ LaTeX Info: Redefining \nameref on input line 34.
 \@outlinefile=\write3
 \openout3 = `it-infra.out'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -436,12 +429,12 @@ Package pdftex.def Info: rgukt_logo.jpg used on input line 74.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./rgukt_logo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
@@ -468,17 +461,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 135.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 136.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 135.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 \chapter
+l.153 \chapter
               {Motivation \& Approach} [1
 
 ]
@@ -486,32 +484,32 @@ Chapter 2.
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
 [3]
 Chapter 3.
-<./it.png, id=377, 483.8075pt x 179.67125pt>
+<./it.png, id=376, 483.8075pt x 179.67125pt>
 File: ./it.png Graphic file (type png)
  <use ./it.png>
-Package pdftex.def Info: ./it.png used on input line 221.
+Package pdftex.def Info: ./it.png used on input line 220.
 (pdftex.def)             Requested size: 199.16928pt x 73.96451pt.
 
-<./it2.png, id=378, 491.8375pt x 289.08pt>
+<./it2.png, id=377, 491.8375pt x 289.08pt>
 File: ./it2.png Graphic file (type png)
  <use ./it2.png>
-Package pdftex.def Info: ./it2.png used on input line 230.
+Package pdftex.def Info: ./it2.png used on input line 229.
 (pdftex.def)             Requested size: 199.16928pt x 117.06352pt.
  [4
 
@@ -520,37 +518,37 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.239 
+l.238 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.239 
+l.238 
        <./it.png> <./it2.png>] [5]
 Chapter 4.
-<SSO.png, id=388, 1060.96375pt x 326.21875pt>
+<SSO.png, id=387, 1060.96375pt x 326.21875pt>
 File: SSO.png Graphic file (type png)
  <use SSO.png>
-Package pdftex.def Info: SSO.png used on input line 276.
+Package pdftex.def Info: SSO.png used on input line 275.
 (pdftex.def)             Requested size: 426.79013pt x 150.80411pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--278
+Underfull \hbox (badness 10000) in paragraph at lines 262--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--278
+Underfull \hbox (badness 10000) in paragraph at lines 262--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--278
+Underfull \hbox (badness 10000) in paragraph at lines 262--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--278
+Underfull \hbox (badness 10000) in paragraph at lines 262--277
 
  []
 
@@ -561,56 +559,56 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.280 
+l.279 
        <./SSO.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 282--289
+Underfull \hbox (badness 10000) in paragraph at lines 281--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--289
+Underfull \hbox (badness 10000) in paragraph at lines 281--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--289
+Underfull \hbox (badness 10000) in paragraph at lines 281--288
 
  []
 
-[7] <abstract_flow.png, id=398, 563.10374pt x 373.395pt>
+[7] <abstract_flow.png, id=397, 563.10374pt x 373.395pt>
 File: abstract_flow.png Graphic file (type png)
 
 <use abstract_flow.png>
-Package pdftex.def Info: abstract_flow.png used on input line 308.
+Package pdftex.def Info: abstract_flow.png used on input line 307.
 (pdftex.def)             Requested size: 281.55118pt x 186.69704pt.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.322 \newpage
+l.321 \newpage
                <./abstract_flow.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
-<./3-1.png, id=404, 795.97375pt x 401.5pt>
+<./3-1.png, id=403, 795.97375pt x 401.5pt>
 File: ./3-1.png Graphic file (type png)
  <use ./3-1.png>
-Package pdftex.def Info: ./3-1.png used on input line 338.
+Package pdftex.def Info: ./3-1.png used on input line 337.
 (pdftex.def)             Requested size: 312.9803pt x 157.8709pt.
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
@@ -618,23 +616,23 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
-<./3-2.jpg, id=409, 502.87875pt x 261.97874pt>
+<./3-2.jpg, id=408, 502.87875pt x 261.97874pt>
 File: ./3-2.jpg Graphic file (type jpg)
  <use ./3-2.jpg>
-Package pdftex.def Info: ./3-2.jpg used on input line 363.
+Package pdftex.def Info: ./3-2.jpg used on input line 362.
 (pdftex.def)             Requested size: 312.9803pt x 163.04874pt.
  [10pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.366 	\end{figure}
+l.365 	\end{figure}
                     <./3-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
@@ -643,60 +641,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.383 \newpage
+l.382 \newpage
                <./3-2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--390
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
 
-<./4-1.png, id=418, 379.4175pt x 273.27094pt>
+<./4-1.png, id=417, 379.4175pt x 273.27094pt>
 File: ./4-1.png Graphic file (type png)
  <use ./4-1.png>
-Package pdftex.def Info: ./4-1.png used on input line 401.
+Package pdftex.def Info: ./4-1.png used on input line 400.
 (pdftex.def)             Requested size: 312.9803pt x 225.42627pt.
  [12pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.405 \newpage
+l.404 \newpage
                <./4-1.png (PNG copy)>]
-<./4-2.png, id=423, 371.88937pt x 149.8097pt>
+<./4-2.png, id=422, 371.88937pt x 149.8097pt>
 File: ./4-2.png Graphic file (type png)
  <use ./4-2.png>
-Package pdftex.def Info: ./4-2.png used on input line 417.
+Package pdftex.def Info: ./4-2.png used on input line 416.
 (pdftex.def)             Requested size: 256.0748pt x 103.15848pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-<./4-3.png, id=424, 316.18124pt x 107.65219pt>
+<./4-3.png, id=423, 316.18124pt x 107.65219pt>
 File: ./4-3.png Graphic file (type png)
  <use ./4-3.png>
-Package pdftex.def Info: ./4-3.png used on input line 424.
+Package pdftex.def Info: ./4-3.png used on input line 423.
 (pdftex.def)             Requested size: 256.0748pt x 87.19286pt.
  [13pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.428 	\newpage
+l.427 	\newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{figure.4.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.428 	\newpage
+l.427 	\newpage
                 <./4-2.png (PNG copy)> <./4-3.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
@@ -705,63 +703,63 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--452
+Underfull \hbox (badness 10000) in paragraph at lines 448--451
 
  []
 
-<./4-4.png, id=430, 426.84468pt x 235.63031pt>
+<./4-4.png, id=429, 426.84468pt x 235.63031pt>
 File: ./4-4.png Graphic file (type png)
  <use ./4-4.png>
-Package pdftex.def Info: ./4-4.png used on input line 470.
+Package pdftex.def Info: ./4-4.png used on input line 469.
 (pdftex.def)             Requested size: 256.0748pt x 141.36848pt.
  [14pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.474 		\newpage
+l.473 		\newpage
                  <./4-4.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
 
  []
 
-<./4-5.png, id=435, 373.395pt x 371.88937pt>
+<./4-5.png, id=434, 373.395pt x 371.88937pt>
 File: ./4-5.png Graphic file (type png)
  <use ./4-5.png>
-Package pdftex.def Info: ./4-5.png used on input line 481.
+Package pdftex.def Info: ./4-5.png used on input line 480.
 (pdftex.def)             Requested size: 256.0748pt x 255.05478pt.
 
-<./4-6.png, id=436, 366.61969pt x 114.4275pt>
+<./4-6.png, id=435, 366.61969pt x 114.4275pt>
 File: ./4-6.png Graphic file (type png)
  <use ./4-6.png>
-Package pdftex.def Info: ./4-6.png used on input line 487.
+Package pdftex.def Info: ./4-6.png used on input line 486.
 (pdftex.def)             Requested size: 256.0748pt x 79.92934pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--502
+Underfull \hbox (badness 10000) in paragraph at lines 492--501
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--502
+Underfull \hbox (badness 10000) in paragraph at lines 492--501
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--502
+Underfull \hbox (badness 10000) in paragraph at lines 492--501
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--502
+Underfull \hbox (badness 10000) in paragraph at lines 492--501
 
  []
 
@@ -770,34 +768,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 493--502
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.502 
+l.501 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.502 
+l.501 
        <./4-5.png (PNG copy)> <./4-6.png (PNG copy)>] [16]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--509
+Underfull \hbox (badness 10000) in paragraph at lines 505--508
 
  []
 
 [17
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 527--538
+Underfull \hbox (badness 10000) in paragraph at lines 526--537
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--538
+Underfull \hbox (badness 10000) in paragraph at lines 526--537
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--538
+Underfull \hbox (badness 10000) in paragraph at lines 526--537
 
  []
 
@@ -806,22 +804,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 527--538
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.557 \newpage
+l.556 \newpage
               ]
-Underfull \hbox (badness 10000) in paragraph at lines 561--565
+Underfull \hbox (badness 10000) in paragraph at lines 560--564
 
  []
 
-<ldap-tools.png, id=454, 534.99875pt x 300.12125pt>
+<ldap-tools.png, id=453, 534.99875pt x 300.12125pt>
 File: ldap-tools.png Graphic file (type png)
  <use ldap-tools.png>
-Package pdftex.def Info: ldap-tools.png used on input line 579.
+Package pdftex.def Info: ldap-tools.png used on input line 578.
 (pdftex.def)             Requested size: 321.00172pt x 180.07413pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--590
+Underfull \hbox (badness 10000) in paragraph at lines 584--589
 
  []
 
@@ -830,12 +828,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 585--590
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.590 
+l.589 
        <./ldap-tools.png (PNG copy)>]
-<nfscomponents.png, id=460, 479.8728pt x 347.6187pt>
+<nfscomponents.png, id=459, 479.8728pt x 347.6187pt>
 File: nfscomponents.png Graphic file (type png)
  <use nfscomponents.png>
-Package pdftex.def Info: nfscomponents.png used on input line 598.
+Package pdftex.def Info: nfscomponents.png used on input line 597.
 (pdftex.def)             Requested size: 335.90866pt x 243.33142pt.
 
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
@@ -843,46 +841,46 @@ Package pdftex.def Info: nfscomponents.png used on input line 598.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.603 \chapter
+l.602 \chapter
               {Cloud Infrastructure} <./nfscomponents.png>]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--619
+Underfull \hbox (badness 10000) in paragraph at lines 608--618
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--619
+Underfull \hbox (badness 10000) in paragraph at lines 608--618
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--634
+Underfull \hbox (badness 10000) in paragraph at lines 620--633
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--634
+Underfull \hbox (badness 10000) in paragraph at lines 620--633
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--634
+Underfull \hbox (badness 10000) in paragraph at lines 620--633
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--634
+Underfull \hbox (badness 10000) in paragraph at lines 620--633
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--634
+Underfull \hbox (badness 10000) in paragraph at lines 620--633
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--634
+Underfull \hbox (badness 10000) in paragraph at lines 620--633
 
  []
 
@@ -892,10 +890,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 621--634
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- <./service.png, id=469, 652.4375pt x 165.61874pt>
+ <./service.png, id=468, 652.4375pt x 165.61874pt>
 File: ./service.png Graphic file (type png)
  <use ./service.png>
-Package pdftex.def Info: ./service.png used on input line 664.
+Package pdftex.def Info: ./service.png used on input line 663.
 (pdftex.def)             Requested size: 227.62204pt x 57.78041pt.
 
 [22pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
@@ -903,31 +901,31 @@ Package pdftex.def Info: ./service.png used on input line 664.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.675 	\item   A
+l.674 	\item   A
                 mazon EC2, S3, Google AppEngine, and Force.com <./service.png>]
-<./model.png, id=475, 353.32pt x 184.69pt>
+<./model.png, id=474, 353.32pt x 184.69pt>
 File: ./model.png Graphic file (type png)
  <use ./model.png>
-Package pdftex.def Info: ./model.png used on input line 691.
+Package pdftex.def Info: ./model.png used on input line 690.
 (pdftex.def)             Requested size: 170.71652pt x 89.23917pt.
  [23pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.696 \newpage
+l.695 \newpage
                <./model.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 701--705
+Underfull \hbox (badness 10000) in paragraph at lines 700--704
 
  []
 
-<./cloud.jpg, id=482, 552.0625pt x 301.125pt>
+<./cloud.jpg, id=481, 552.0625pt x 301.125pt>
 File: ./cloud.jpg Graphic file (type jpg)
  <use ./cloud.jpg>
-Package pdftex.def Info: ./cloud.jpg used on input line 718.
+Package pdftex.def Info: ./cloud.jpg used on input line 717.
 (pdftex.def)             Requested size: 142.26378pt x 77.59683pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--720
+Underfull \hbox (badness 10000) in paragraph at lines 712--719
 
  []
 
@@ -936,11 +934,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 713--720
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.726 \chapter
+l.725 \chapter
               {Implentation and Specifications} <./cloud.jpg>]
 Chapter 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--731
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
 
  []
 
@@ -954,36 +952,35 @@ Missing character: There is no ù in font cmr12!
 [27
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 827.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 826.
  [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 827.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 826.
  (./it-infra.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 827.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 827.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 826.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 826.
 Package rerunfilecheck Info: File `it-infra.out' has not changed.
 (rerunfilecheck)             Checksum: 50FC45D771AF1A0435F6F1B776233C61;3820.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 827.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 826.
  ) 
 Here is how much of TeX's memory you used:
- 6405 strings out of 494985
- 94462 string characters out of 6180357
+ 6400 strings out of 494985
+ 94386 string characters out of 6180357
  186110 words of memory out of 5000000
- 9404 multiletter control sequences out of 15000+600000
- 12022 words of font info for 42 fonts, out of 8000000 for 9000
+ 9400 multiletter control sequences out of 15000+600000
+ 11767 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  29i,8n,28p,729b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmtt10.pfb>
-Output written on it-infra.pdf (34 pages, 1213215 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt10.pfb>
+Output written on it-infra.pdf (34 pages, 1205895 bytes).
 PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
- 509 compressed objects within 6 object streams
+ 576 PDF objects out of 1000 (max. 8388607)
+ 506 compressed objects within 6 object streams
  131 named destinations out of 1000 (max. 500000)
  547 words of extra memory for PDF output out of 10000 (max. 10000000)
 
