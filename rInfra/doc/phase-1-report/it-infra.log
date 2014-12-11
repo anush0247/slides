@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  11 DEC 2014 13:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  11 DEC 2014 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -307,23 +307,1922 @@ Package: paralist 2013/06/09 v2.4 Extended list environments
 \plitemsep=\skip54
 \plparsep=\skip55
 \pl@lab=\toks21
-) (./it-infra.aux)
+)
+! Undefined control sequence.
+l.34 \AtBeginSection
+                    []
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \AtBeginSection[
+                     ]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \frametitle 
+                       
+l.37 		\frametitle
+                  {Outline}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.38 		\tableofcontents
+                       [currentsection]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.38 		\tableofcontents
+                       [currentsection]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 		\tableofcontents
+                       [currentsection]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(./it-infra.toc
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.1 ...{\numberline {1}Introduction}{1}{chapter.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.1 ...{\numberline {1}Introduction}{1}{chapter.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.2 ...mberline {1.1}Introduction}{1}{section.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.2 ...mberline {1.1}Introduction}{1}{section.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.2 ...mberline {1.1}Introduction}{1}{section.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.3 ... {1.1.1}Private Cloud}{1}{subsection.1.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.3 ... {1.1.1}Private Cloud}{1}{subsection.1.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.3 ... {1.1.1}Private Cloud}{1}{subsection.1.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.4 ...ying Network Services}{1}{subsection.1.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.4 ...ying Network Services}{1}{subsection.1.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.4 ...ying Network Services}{1}{subsection.1.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.5 ....1.3}Central Identity}{1}{subsection.1.1.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.5 ....1.3}Central Identity}{1}{subsection.1.1.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.5 ....1.3}Central Identity}{1}{subsection.1.1.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.6 ...ne {2}Motivation \& Approach}{2}{chapter.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.6 ...ne {2}Motivation \& Approach}{2}{chapter.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.7 ...rline {2.1}Existing System}{2}{section.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.7 ...rline {2.1}Existing System}{2}{section.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.7 ...rline {2.1}Existing System}{2}{section.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.8 ...oblems under consideration}{2}{section.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.8 ...oblems under consideration}{2}{section.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.8 ...oblems under consideration}{2}{section.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.9 ...rline {2.3}Proposed System}{3}{section.2.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.9 ...rline {2.3}Proposed System}{3}{section.2.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.9 ...rline {2.3}Proposed System}{3}{section.2.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.10 ...\numberline {2.4}Approach}{3}{section.2.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.10 ...\numberline {2.4}Approach}{3}{section.2.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.10 ...\numberline {2.4}Approach}{3}{section.2.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.11 ...numberline {3}System Design}{4}{chapter.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.11 ...numberline {3}System Design}{4}{chapter.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.12 ...{3.1}Users \& IT Services}{4}{section.3.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.12 ...{3.1}Users \& IT Services}{4}{section.3.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.12 ...{3.1}Users \& IT Services}{4}{section.3.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.13 ...3.2}Components Identified}{5}{section.3.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.13 ...3.2}Components Identified}{5}{section.3.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.13 ...3.2}Components Identified}{5}{section.3.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.14 ...mberline {4}Central Identiy}{6}{chapter.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.14 ...mberline {4}Central Identiy}{6}{chapter.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.15 ...gle Sign-On with REST API}{6}{section.4.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.15 ...gle Sign-On with REST API}{6}{section.4.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.15 ...gle Sign-On with REST API}{6}{section.4.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.16 ... {4.1.1}Introduction}{6}{subsection.4.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.16 ... {4.1.1}Introduction}{6}{subsection.4.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.16 ... {4.1.1}Introduction}{6}{subsection.4.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.17 ...}Why Single Sign-On?}{7}{subsection.4.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.17 ...}Why Single Sign-On?}{7}{subsection.4.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.17 ...}Why Single Sign-On?}{7}{subsection.4.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.18 ....2.1}Advantages}{7}{subsubsection.4.1.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.18 ....2.1}Advantages}{7}{subsubsection.4.1.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.18 ....2.1}Advantages}{7}{subsubsection.4.1.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.19 ...le Sign-On Work Flow}{8}{subsection.4.1.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.19 ...le Sign-On Work Flow}{8}{subsection.4.1.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.19 ...le Sign-On Work Flow}{8}{subsection.4.1.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.20 ...}OAuth Protocol}{8}{subsubsection.4.1.3.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.20 ...}OAuth Protocol}{8}{subsubsection.4.1.3.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.20 ...}OAuth Protocol}{8}{subsubsection.4.1.3.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.21 ... {4.2}Identity Management}{9}{section.4.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.21 ... {4.2}Identity Management}{9}{section.4.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.21 ... {4.2}Identity Management}{9}{section.4.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.22 ... {4.2.1}Introduction}{9}{subsection.4.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.22 ... {4.2.1}Introduction}{9}{subsection.4.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.22 ... {4.2.1}Introduction}{9}{subsection.4.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.23 ...ion \& Authorization}{9}{subsection.4.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.23 ...ion \& Authorization}{9}{subsection.4.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.23 ...ion \& Authorization}{9}{subsection.4.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.24 ...tity Management}{9}{subsubsection.4.2.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.24 ...tity Management}{9}{subsubsection.4.2.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.24 ...tity Management}{9}{subsubsection.4.2.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.25 ...ity Management}{10}{subsubsection.4.2.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.25 ...ity Management}{10}{subsubsection.4.2.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.25 ...ity Management}{10}{subsubsection.4.2.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.26 ...ole Based Access Control}{12}{section.4.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.26 ...ole Based Access Control}{12}{section.4.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.26 ...ole Based Access Control}{12}{section.4.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.27 ...{4.3.1}Introduction}{12}{subsection.4.3.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.27 ...{4.3.1}Introduction}{12}{subsection.4.3.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.27 ...{4.3.1}Introduction}{12}{subsection.4.3.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.28 ...}Basic Idea of RBAC}{13}{subsection.4.3.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.28 ...}Basic Idea of RBAC}{13}{subsection.4.3.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.28 ...}Basic Idea of RBAC}{13}{subsection.4.3.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.29 ...agram of RBAC Model}{14}{subsection.4.3.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.29 ...agram of RBAC Model}{14}{subsection.4.3.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.29 ...agram of RBAC Model}{14}{subsection.4.3.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.30 ...ccess Control Model}{15}{subsection.4.3.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.30 ...ccess Control Model}{15}{subsection.4.3.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.30 ...ccess Control Model}{15}{subsection.4.3.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.31 ...mberline {4.4}Conclusion}{16}{section.4.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.31 ...mberline {4.4}Conclusion}{16}{section.4.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.31 ...mberline {4.4}Conclusion}{16}{section.4.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.32 ...line {5}Network Components}{17}{chapter.5}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.32 ...line {5}Network Components}{17}{chapter.5}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.33 ... {5.1}Network Components}{17}{section.5.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.33 ... {5.1}Network Components}{17}{section.5.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.33 ... {5.1}Network Components}{17}{section.5.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.34 ...{5.1.1}Introduction}{17}{subsection.5.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.34 ...{5.1.1}Introduction}{17}{subsection.5.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.34 ...{5.1.1}Introduction}{17}{subsection.5.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.35 ...tworking Components}{17}{subsection.5.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.35 ...tworking Components}{17}{subsection.5.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.35 ...tworking Components}{17}{subsection.5.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.36 ...5.1.2.1}Router}{17}{subsubsection.5.1.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.36 ...5.1.2.1}Router}{17}{subsubsection.5.1.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.36 ...5.1.2.1}Router}{17}{subsubsection.5.1.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.37 ...5.1.2.2}Switch}{17}{subsubsection.5.1.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.37 ...5.1.2.2}Switch}{17}{subsubsection.5.1.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2
+
+]
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.37 ...5.1.2.2}Switch}{17}{subsubsection.5.1.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.37 ...5.1.2.2}Switch}{17}{subsubsection.5.1.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.37 ...5.1.2.2}Switch}{17}{subsubsection.5.1.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.38 ...mberline {5.2}AAA Server}{18}{section.5.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.38 ...mberline {5.2}AAA Server}{18}{section.5.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.38 ...mberline {5.2}AAA Server}{18}{section.5.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.39 ...berline {5.3}LDAP Server}{19}{section.5.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.39 ...berline {5.3}LDAP Server}{19}{section.5.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.39 ...berline {5.3}LDAP Server}{19}{section.5.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.40 ...mberline {5.4}NFS Server}{20}{section.5.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.40 ...mberline {5.4}NFS Server}{20}{section.5.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.40 ...mberline {5.4}NFS Server}{20}{section.5.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.41 ...ne {6}Cloud Infrastructure}{21}{chapter.6}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.41 ...ne {6}Cloud Infrastructure}{21}{chapter.6}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.42 ...ine {6.1}Cloud Computing}{21}{section.6.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.42 ...ine {6.1}Cloud Computing}{21}{section.6.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.42 ...ine {6.1}Cloud Computing}{21}{section.6.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.43 ...{6.1.1}Introduction}{21}{subsection.6.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.43 ...{6.1.1}Introduction}{21}{subsection.6.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.43 ...{6.1.1}Introduction}{21}{subsection.6.1.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.44 ...loud Characterstics}{21}{subsection.6.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.44 ...loud Characterstics}{21}{subsection.6.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.44 ...loud Characterstics}{21}{subsection.6.1.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.45 ....1.3}Service Models}{22}{subsection.6.1.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.45 ....1.3}Service Models}{22}{subsection.6.1.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.45 ....1.3}Service Models}{22}{subsection.6.1.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.46 ...4}Deployment Models}{23}{subsection.6.1.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.46 ...4}Deployment Models}{23}{subsection.6.1.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.46 ...4}Deployment Models}{23}{subsection.6.1.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.47 ...line {6.2}Private Clouds}{24}{section.6.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.47 ...line {6.2}Private Clouds}{24}{section.6.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.47 ...line {6.2}Private Clouds}{24}{section.6.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.48 ...{6.2.1}Introduction}{24}{subsection.6.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.48 ...{6.2.1}Introduction}{24}{subsection.6.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.48 ...{6.2.1}Introduction}{24}{subsection.6.2.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.49 ...2}Open Source Tools}{24}{subsection.6.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.49 ...2}Open Source Tools}{24}{subsection.6.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.49 ...2}Open Source Tools}{24}{subsection.6.2.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.50 ...mberline {6.3}Conclusion}{24}{section.6.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.50 ...mberline {6.3}Conclusion}{24}{section.6.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.50 ...mberline {6.3}Conclusion}{24}{section.6.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.51 ...ntation and Specifications}{25}{chapter.7}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.51 ...ntation and Specifications}{25}{chapter.7}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.52 ...erline {7.1}Implentation}{25}{section.7.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.52 ...erline {7.1}Implentation}{25}{section.7.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.52 ...erline {7.1}Implentation}{25}{section.7.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.53 ...line {7.2}Specifications}{25}{section.7.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.53 ...line {7.2}Specifications}{25}{section.7.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.53 ...line {7.2}Specifications}{25}{section.7.2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.54 ...7.3}Desired Technologies}{25}{section.7.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.54 ...7.3}Desired Technologies}{25}{section.7.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.54 ...7.3}Desired Technologies}{25}{section.7.3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.55 ...ine {7.4}Expcted Results}{26}{section.7.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.55 ...ine {7.4}Expcted Results}{26}{section.7.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.55 ...ine {7.4}Expcted Results}{26}{section.7.4}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.56 ...{\numberline {8}References}{27}{chapter.8}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.56 ...{\numberline {8}References}{27}{chapter.8}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.57 ...mberline {8.1}References}{27}{section.8.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.57 ...mberline {8.1}References}{27}{section.8.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.57 ...mberline {8.1}References}{27}{section.8.1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+\tf@toc=\write3
+\openout3 = `it-infra.toc'.
+
+ (./it-infra.aux)
 \openout1 = `it-infra.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -388,7 +2287,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -398,85 +2297,78 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count125
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./it-infra.out) (./it-infra.out)
-\@outlinefile=\write3
-\openout3 = `it-infra.out'.
+\@outlinefile=\write4
+\openout4 = `it-infra.out'.
 
+ [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 47.
+(Font)              <17.28> on input line 56.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 47.
+(Font)              <14.4> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 49.
+(Font)              <7> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 49.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 54.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 54.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 54.
+(Font)              <10.95> on input line 63.
 
-<rgukt_logo.jpg, id=234, 236.885pt x 162.6075pt>
+<rgukt_logo.jpg, id=305, 236.885pt x 162.6075pt>
 File: rgukt_logo.jpg Graphic file (type jpg)
  <use rgukt_logo.jpg>
-Package pdftex.def Info: rgukt_logo.jpg used on input line 74.
+Package pdftex.def Info: rgukt_logo.jpg used on input line 83.
 (pdftex.def)             Requested size: 99.58464pt x 68.35919pt.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./rgukt_logo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+ [1 <./rgukt_logo.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 [1
 
-] (./it-infra.toc [2
+] (./it-infra.toc)
+\tf@toc=\write5
+\openout5 = `it-infra.toc'.
 
-])
-\tf@toc=\write4
-\openout4 = `it-infra.toc'.
+ [2
 
- [3] (./it-infra.lof)
-\tf@lof=\write5
-\openout5 = `it-infra.lof'.
+] (./it-infra.lof)
+\tf@lof=\write6
+\openout6 = `it-infra.lof'.
 
- [4
+ [3
 
 ] (./it-infra.lot)
-\tf@lot=\write6
-\openout6 = `it-infra.lot'.
+\tf@lot=\write7
+\openout7 = `it-infra.lot'.
 
- [5
+ [4
 
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 135.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 144.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 135.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.153 \chapter
+l.162 \chapter
               {Motivation \& Approach} [1
 
 ]
@@ -484,32 +2376,37 @@ Chapter 2.
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
-[3]
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.214 \chapter
+              {System Design} [3]
 Chapter 3.
-<./it.png, id=376, 483.8075pt x 179.67125pt>
+<./it.png, id=382, 483.8075pt x 179.67125pt>
 File: ./it.png Graphic file (type png)
  <use ./it.png>
-Package pdftex.def Info: ./it.png used on input line 220.
+Package pdftex.def Info: ./it.png used on input line 229.
 (pdftex.def)             Requested size: 199.16928pt x 73.96451pt.
 
-<./it2.png, id=377, 491.8375pt x 289.08pt>
+<./it2.png, id=383, 491.8375pt x 289.08pt>
 File: ./it2.png Graphic file (type png)
  <use ./it2.png>
-Package pdftex.def Info: ./it2.png used on input line 229.
+Package pdftex.def Info: ./it2.png used on input line 238.
 (pdftex.def)             Requested size: 199.16928pt x 117.06352pt.
  [4
 
@@ -518,37 +2415,37 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.238 
+l.247 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.238 
+l.247 
        <./it.png> <./it2.png>] [5]
 Chapter 4.
-<SSO.png, id=387, 1060.96375pt x 326.21875pt>
+<SSO.png, id=394, 1060.96375pt x 326.21875pt>
 File: SSO.png Graphic file (type png)
  <use SSO.png>
-Package pdftex.def Info: SSO.png used on input line 275.
+Package pdftex.def Info: SSO.png used on input line 284.
 (pdftex.def)             Requested size: 426.79013pt x 150.80411pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--277
+Underfull \hbox (badness 10000) in paragraph at lines 271--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--277
+Underfull \hbox (badness 10000) in paragraph at lines 271--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--277
+Underfull \hbox (badness 10000) in paragraph at lines 271--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--277
+Underfull \hbox (badness 10000) in paragraph at lines 271--286
 
  []
 
@@ -559,56 +2456,56 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.279 
+l.288 
        <./SSO.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 281--288
+Underfull \hbox (badness 10000) in paragraph at lines 290--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--288
+Underfull \hbox (badness 10000) in paragraph at lines 290--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--288
+Underfull \hbox (badness 10000) in paragraph at lines 290--297
 
  []
 
-[7] <abstract_flow.png, id=397, 563.10374pt x 373.395pt>
+[7] <abstract_flow.png, id=403, 563.10374pt x 373.395pt>
 File: abstract_flow.png Graphic file (type png)
 
 <use abstract_flow.png>
-Package pdftex.def Info: abstract_flow.png used on input line 307.
+Package pdftex.def Info: abstract_flow.png used on input line 316.
 (pdftex.def)             Requested size: 281.55118pt x 186.69704pt.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.321 \newpage
+l.330 \newpage
                <./abstract_flow.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
-<./3-1.png, id=403, 795.97375pt x 401.5pt>
+<./3-1.png, id=409, 795.97375pt x 401.5pt>
 File: ./3-1.png Graphic file (type png)
  <use ./3-1.png>
-Package pdftex.def Info: ./3-1.png used on input line 337.
+Package pdftex.def Info: ./3-1.png used on input line 346.
 (pdftex.def)             Requested size: 312.9803pt x 157.8709pt.
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
@@ -616,23 +2513,23 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
-<./3-2.jpg, id=408, 502.87875pt x 261.97874pt>
+<./3-2.jpg, id=414, 502.87875pt x 261.97874pt>
 File: ./3-2.jpg Graphic file (type jpg)
  <use ./3-2.jpg>
-Package pdftex.def Info: ./3-2.jpg used on input line 362.
+Package pdftex.def Info: ./3-2.jpg used on input line 371.
 (pdftex.def)             Requested size: 312.9803pt x 163.04874pt.
  [10pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.365 	\end{figure}
+l.374 	\end{figure}
                     <./3-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
 
@@ -641,60 +2538,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.382 \newpage
+l.391 \newpage
                <./3-2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
-<./4-1.png, id=417, 379.4175pt x 273.27094pt>
+<./4-1.png, id=424, 379.4175pt x 273.27094pt>
 File: ./4-1.png Graphic file (type png)
  <use ./4-1.png>
-Package pdftex.def Info: ./4-1.png used on input line 400.
+Package pdftex.def Info: ./4-1.png used on input line 409.
 (pdftex.def)             Requested size: 312.9803pt x 225.42627pt.
  [12pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.404 \newpage
+l.413 \newpage
                <./4-1.png (PNG copy)>]
-<./4-2.png, id=422, 371.88937pt x 149.8097pt>
+<./4-2.png, id=429, 371.88937pt x 149.8097pt>
 File: ./4-2.png Graphic file (type png)
  <use ./4-2.png>
-Package pdftex.def Info: ./4-2.png used on input line 416.
+Package pdftex.def Info: ./4-2.png used on input line 425.
 (pdftex.def)             Requested size: 256.0748pt x 103.15848pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<./4-3.png, id=423, 316.18124pt x 107.65219pt>
+<./4-3.png, id=430, 316.18124pt x 107.65219pt>
 File: ./4-3.png Graphic file (type png)
  <use ./4-3.png>
-Package pdftex.def Info: ./4-3.png used on input line 423.
+Package pdftex.def Info: ./4-3.png used on input line 432.
 (pdftex.def)             Requested size: 256.0748pt x 87.19286pt.
  [13pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.427 	\newpage
+l.436 	\newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{figure.4.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.427 	\newpage
+l.436 	\newpage
                 <./4-2.png (PNG copy)> <./4-3.png (PNG copy)>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -703,63 +2600,63 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--451
+Underfull \hbox (badness 10000) in paragraph at lines 457--460
 
  []
 
-<./4-4.png, id=429, 426.84468pt x 235.63031pt>
+<./4-4.png, id=435, 426.84468pt x 235.63031pt>
 File: ./4-4.png Graphic file (type png)
  <use ./4-4.png>
-Package pdftex.def Info: ./4-4.png used on input line 469.
+Package pdftex.def Info: ./4-4.png used on input line 478.
 (pdftex.def)             Requested size: 256.0748pt x 141.36848pt.
  [14pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.473 		\newpage
+l.482 		\newpage
                  <./4-4.png (PNG copy)>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
 
  []
 
-<./4-5.png, id=434, 373.395pt x 371.88937pt>
+<./4-5.png, id=440, 373.395pt x 371.88937pt>
 File: ./4-5.png Graphic file (type png)
  <use ./4-5.png>
-Package pdftex.def Info: ./4-5.png used on input line 480.
+Package pdftex.def Info: ./4-5.png used on input line 489.
 (pdftex.def)             Requested size: 256.0748pt x 255.05478pt.
 
-<./4-6.png, id=435, 366.61969pt x 114.4275pt>
+<./4-6.png, id=441, 366.61969pt x 114.4275pt>
 File: ./4-6.png Graphic file (type png)
  <use ./4-6.png>
-Package pdftex.def Info: ./4-6.png used on input line 486.
+Package pdftex.def Info: ./4-6.png used on input line 495.
 (pdftex.def)             Requested size: 256.0748pt x 79.92934pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--501
+Underfull \hbox (badness 10000) in paragraph at lines 501--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--501
+Underfull \hbox (badness 10000) in paragraph at lines 501--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--501
+Underfull \hbox (badness 10000) in paragraph at lines 501--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--501
+Underfull \hbox (badness 10000) in paragraph at lines 501--510
 
  []
 
@@ -768,34 +2665,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 492--501
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.501 
+l.510 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.501 
+l.510 
        <./4-5.png (PNG copy)> <./4-6.png (PNG copy)>] [16]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--508
+Underfull \hbox (badness 10000) in paragraph at lines 514--517
 
  []
 
 [17
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 526--537
+Underfull \hbox (badness 10000) in paragraph at lines 535--546
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--537
+Underfull \hbox (badness 10000) in paragraph at lines 535--546
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--537
+Underfull \hbox (badness 10000) in paragraph at lines 535--546
 
  []
 
@@ -804,22 +2701,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 526--537
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.556 \newpage
+l.565 \newpage
               ]
-Underfull \hbox (badness 10000) in paragraph at lines 560--564
+Underfull \hbox (badness 10000) in paragraph at lines 569--573
 
  []
 
-<ldap-tools.png, id=453, 534.99875pt x 300.12125pt>
+<ldap-tools.png, id=460, 534.99875pt x 300.12125pt>
 File: ldap-tools.png Graphic file (type png)
  <use ldap-tools.png>
-Package pdftex.def Info: ldap-tools.png used on input line 578.
+Package pdftex.def Info: ldap-tools.png used on input line 587.
 (pdftex.def)             Requested size: 321.00172pt x 180.07413pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--589
+Underfull \hbox (badness 10000) in paragraph at lines 593--598
 
  []
 
@@ -828,12 +2725,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 584--589
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.589 
+l.598 
        <./ldap-tools.png (PNG copy)>]
-<nfscomponents.png, id=459, 479.8728pt x 347.6187pt>
+<nfscomponents.png, id=465, 479.8728pt x 347.6187pt>
 File: nfscomponents.png Graphic file (type png)
  <use nfscomponents.png>
-Package pdftex.def Info: nfscomponents.png used on input line 597.
+Package pdftex.def Info: nfscomponents.png used on input line 606.
 (pdftex.def)             Requested size: 335.90866pt x 243.33142pt.
 
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
@@ -841,46 +2738,46 @@ Package pdftex.def Info: nfscomponents.png used on input line 597.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.602 \chapter
+l.611 \chapter
               {Cloud Infrastructure} <./nfscomponents.png>]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--618
+Underfull \hbox (badness 10000) in paragraph at lines 617--627
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--618
+Underfull \hbox (badness 10000) in paragraph at lines 617--627
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--633
+Underfull \hbox (badness 10000) in paragraph at lines 629--642
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--633
+Underfull \hbox (badness 10000) in paragraph at lines 629--642
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--633
+Underfull \hbox (badness 10000) in paragraph at lines 629--642
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--633
+Underfull \hbox (badness 10000) in paragraph at lines 629--642
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--633
+Underfull \hbox (badness 10000) in paragraph at lines 629--642
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--633
+Underfull \hbox (badness 10000) in paragraph at lines 629--642
 
  []
 
@@ -890,10 +2787,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 620--633
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- <./service.png, id=468, 652.4375pt x 165.61874pt>
+ <./service.png, id=474, 652.4375pt x 165.61874pt>
 File: ./service.png Graphic file (type png)
  <use ./service.png>
-Package pdftex.def Info: ./service.png used on input line 663.
+Package pdftex.def Info: ./service.png used on input line 672.
 (pdftex.def)             Requested size: 227.62204pt x 57.78041pt.
 
 [22pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
@@ -901,31 +2798,31 @@ Package pdftex.def Info: ./service.png used on input line 663.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.674 	\item   A
+l.683 	\item   A
                 mazon EC2, S3, Google AppEngine, and Force.com <./service.png>]
-<./model.png, id=474, 353.32pt x 184.69pt>
+<./model.png, id=480, 353.32pt x 184.69pt>
 File: ./model.png Graphic file (type png)
  <use ./model.png>
-Package pdftex.def Info: ./model.png used on input line 690.
+Package pdftex.def Info: ./model.png used on input line 699.
 (pdftex.def)             Requested size: 170.71652pt x 89.23917pt.
  [23pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.695 \newpage
+l.704 \newpage
                <./model.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 700--704
+Underfull \hbox (badness 10000) in paragraph at lines 709--713
 
  []
 
-<./cloud.jpg, id=481, 552.0625pt x 301.125pt>
+<./cloud.jpg, id=488, 552.0625pt x 301.125pt>
 File: ./cloud.jpg Graphic file (type jpg)
  <use ./cloud.jpg>
-Package pdftex.def Info: ./cloud.jpg used on input line 717.
+Package pdftex.def Info: ./cloud.jpg used on input line 726.
 (pdftex.def)             Requested size: 142.26378pt x 77.59683pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 712--719
+Underfull \hbox (badness 10000) in paragraph at lines 721--728
 
  []
 
@@ -934,11 +2831,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 712--719
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.725 \chapter
+l.734 \chapter
               {Implentation and Specifications} <./cloud.jpg>]
 Chapter 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 729--730
+Underfull \hbox (badness 10000) in paragraph at lines 738--739
 
  []
 
@@ -952,21 +2849,21 @@ Missing character: There is no  in font cmr12!
 [27
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 826.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 835.
  [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 826.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 835.
  (./it-infra.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 826.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 826.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 835.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 835.
 Package rerunfilecheck Info: File `it-infra.out' has not changed.
 (rerunfilecheck)             Checksum: 50FC45D771AF1A0435F6F1B776233C61;3820.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 826.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 835.
  ) 
 Here is how much of TeX's memory you used:
- 6400 strings out of 494985
- 94386 string characters out of 6180357
- 186110 words of memory out of 5000000
- 9400 multiletter control sequences out of 15000+600000
+ 6404 strings out of 494985
+ 94434 string characters out of 6180357
+ 186583 words of memory out of 5000000
+ 9402 multiletter control sequences out of 15000+600000
  11767 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  29i,8n,28p,729b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -977,10 +2874,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt10.pfb>
-Output written on it-infra.pdf (34 pages, 1205895 bytes).
+Output written on it-infra.pdf (36 pages, 1206368 bytes).
 PDF statistics:
- 576 PDF objects out of 1000 (max. 8388607)
- 506 compressed objects within 6 object streams
+ 582 PDF objects out of 1000 (max. 8388607)
+ 510 compressed objects within 6 object streams
  131 named destinations out of 1000 (max. 500000)
  547 words of extra memory for PDF output out of 10000 (max. 10000000)
 

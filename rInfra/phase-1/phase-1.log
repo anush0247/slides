@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  11 DEC 2014 14:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  11 DEC 2014 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -784,20 +784,20 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (./phase-1.aux)
 \openout1 = `phase-1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -863,7 +863,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -873,56 +873,56 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count167
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./phase-1.out) (./phase-1.out)
 \@outlinefile=\write5
 \openout5 = `phase-1.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 41.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 41.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 43.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 41.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 41.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 41.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 41.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 41.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 41.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 41.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 41.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 41.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 41.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 41.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 41.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 41.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 41.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 41.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 41.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 43.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -948,34 +948,34 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 41.
+LaTeX Info: Redefining \includegraphics on input line 43.
 \c@lstlisting=\count168
  (./phase-1.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 46.
+(Font)              size <5> substituted on input line 48.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 67.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 69.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 67.
+LaTeX Font Info:    No file OMScmss.fd. on input line 69.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 67.
+(Font)              for symbol `textbraceleft' on input line 69.
 
 [2
 
@@ -983,39 +983,39 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 \end{frame}
+l.81 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (na
 me{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 \end{frame}
+l.81 \end{frame}
                  [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Navigation2}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 \end{frame}
+l.94 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (na
 me{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 \end{frame}
+l.94 \end{frame}
                  [2
 
-] <./it.png, id=481, 483.8075pt x 179.67125pt>
+] <./it.png, id=490, 483.8075pt x 179.67125pt>
 File: ./it.png Graphic file (type png)
 
 <use ./it.png>
-Package pdftex.def Info: ./it.png used on input line 111.
+Package pdftex.def Info: ./it.png used on input line 113.
 (pdftex.def)             Requested size: 142.26378pt x 52.83257pt.
  [3
 
- <./it.png>] <./it2.png, id=545, 491.8375pt x 289.08pt>
+ <./it.png>] <./it2.png, id=555, 491.8375pt x 289.08pt>
 File: ./it2.png Graphic file (type png)
 
 <use ./it2.png>
-Package pdftex.def Info: ./it2.png used on input line 124.
+Package pdftex.def Info: ./it2.png used on input line 126.
 (pdftex.def)             Requested size: 199.16928pt x 117.06352pt.
  [4
 
@@ -1030,10 +1030,10 @@ Package pdftex.def Info: ./it2.png used on input line 124.
 ] [9
 
 ]
-<SSO.png, id=932, 1060.96375pt x 326.21875pt>
+<SSO.png, id=946, 1060.96375pt x 326.21875pt>
 File: SSO.png Graphic file (type png)
  <use SSO.png>
-Package pdftex.def Info: SSO.png used on input line 213.
+Package pdftex.def Info: SSO.png used on input line 215.
 (pdftex.def)             Requested size: 227.61708pt x 99.58368pt.
  [10
 
@@ -1042,17 +1042,17 @@ Package pdftex.def Info: SSO.png used on input line 213.
 
 ] [12
 
-] <technologies.png, id=1123, 818.05624pt x 85.31876pt>
+] <technologies.png, id=1140, 818.05624pt x 85.31876pt>
 File: technologies.png Graphic file (type png)
 
 <use technologies.png>
-Package pdftex.def Info: technologies.png used on input line 253.
+Package pdftex.def Info: technologies.png used on input line 255.
 (pdftex.def)             Requested size: 270.29642pt x 42.68008pt.
- <standards.png, id=1124, 562.1pt x 141.52875pt>
+ <standards.png, id=1141, 562.1pt x 141.52875pt>
 File: standards.png Graphic file (type png)
 
 <use standards.png>
-Package pdftex.def Info: standards.png used on input line 253.
+Package pdftex.def Info: standards.png used on input line 255.
 (pdftex.def)             Requested size: 199.16522pt x 56.90419pt.
  [13
 
@@ -1062,10 +1062,10 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 ) (./abc.json)
 [14
 
-] <CRUD.png, id=1252, 595.22375pt x 159.59625pt>
+] <CRUD.png, id=1271, 595.22375pt x 159.59625pt>
 File: CRUD.png Graphic file (type png)
  <use CRUD.png>
-Package pdftex.def Info: CRUD.png used on input line 286.
+Package pdftex.def Info: CRUD.png used on input line 288.
 (pdftex.def)             Requested size: 199.16731pt x 56.90424pt.
  [15
 
@@ -1073,66 +1073,66 @@ Package pdftex.def Info: CRUD.png used on input line 286.
 
 ] [17
 
-] <fidm.jpg, id=1443, 374.90062pt x 220.57407pt>
+] <fidm.jpg, id=1465, 374.90062pt x 220.57407pt>
 File: fidm.jpg Graphic file (type jpg)
 
 <use fidm.jpg>
-Package pdftex.def Info: fidm.jpg used on input line 343.
+Package pdftex.def Info: fidm.jpg used on input line 345.
 (pdftex.def)             Requested size: 128.03658pt x 85.35712pt.
  [18
 
  <./fidm.jpg>]
-<ucidm.jpg, id=1507, 378.66469pt x 233.37187pt>
+<ucidm.jpg, id=1530, 378.66469pt x 233.37187pt>
 File: ucidm.jpg Graphic file (type jpg)
  <use ucidm.jpg>
-Package pdftex.def Info: ucidm.jpg used on input line 365.
+Package pdftex.def Info: ucidm.jpg used on input line 367.
 (pdftex.def)             Requested size: 128.03937pt x 85.35628pt.
  [19
 
- <./ucidm.jpg>] <U1.JPG, id=1571, 288.3272pt x 217.5628pt>
+ <./ucidm.jpg>] <U1.JPG, id=1595, 288.3272pt x 217.5628pt>
 File: U1.JPG Graphic file (type jpg)
  <use U1.JPG>
-Package pdftex.def Info: U1.JPG used on input line 382.
+Package pdftex.def Info: U1.JPG used on input line 384.
 (pdftex.def)             Requested size: 113.81099pt x 99.58546pt.
 
-<ex1.JPG, id=1572, 575.14874pt x 266.9975pt>
+<ex1.JPG, id=1596, 575.14874pt x 266.9975pt>
 File: ex1.JPG Graphic file (type jpg)
  <use ex1.JPG>
-Package pdftex.def Info: ex1.JPG used on input line 382.
+Package pdftex.def Info: ex1.JPG used on input line 384.
 (pdftex.def)             Requested size: 170.71176pt x 113.8126pt.
  [20
 
- <./U1.JPG> <./ex1.JPG>] <sunny1.png, id=1637, 551.81157pt x 193.47281pt>
+ <./U1.JPG> <./ex1.JPG>] <sunny1.png, id=1662, 551.81157pt x 193.47281pt>
 File: sunny1.png Graphic file (type png)
  <use sunny1.png>
-Package pdftex.def Info: sunny1.png used on input line 396.
+Package pdftex.def Info: sunny1.png used on input line 398.
 (pdftex.def)             Requested size: 256.08453pt x 85.35857pt.
 
-Overfull \vbox (1.02718pt too high) detected at line 396
+Overfull \vbox (1.02718pt too high) detected at line 398
  []
 
 [21
 
- <./sunny1.png (PNG copy)>] <sunny2_r.png, id=1702, 971.63pt x 253.94875pt>
+ <./sunny1.png (PNG copy)>] <sunny2_r.png, id=1728, 971.63pt x 253.94875pt>
 File: sunny2_r.png Graphic file (type png)
 
 <use sunny2_r.png>
-Package pdftex.def Info: sunny2_r.png used on input line 413.
+Package pdftex.def Info: sunny2_r.png used on input line 415.
 (pdftex.def)             Requested size: 284.5231pt x 85.3572pt.
  [22
 
  <./sunny2_r.png>]
-<sun3.png, id=1765, 426.84468pt x 235.63031pt>
+<sun3.png, id=1792, 426.84468pt x 235.63031pt>
 File: sun3.png Graphic file (type png)
  <use sun3.png>
-Package pdftex.def Info: sun3.png used on input line 441.
+Package pdftex.def Info: sun3.png used on input line 443.
 (pdftex.def)             Requested size: 113.8102pt x 85.35896pt.
  [23
 
- <./sun3.png (PNG copy)>] <ass.png, id=1830, 366.61969pt x 114.4275pt>
+ <./sun3.png (PNG copy)>] <ass.png, id=1858, 366.61969pt x 114.4275pt>
 File: ass.png Graphic file (type png)
  <use ass.png>
-Package pdftex.def Info: ass.png used on input line 456.
+Package pdftex.def Info: ass.png used on input line 458.
 (pdftex.def)             Requested size: 284.54688pt x 85.3612pt.
  [24
 
@@ -1141,28 +1141,28 @@ Package pdftex.def Info: ass.png used on input line 456.
 ] [26
 
 ]
-<./service.png, id=2021, 652.4375pt x 165.61874pt>
+<./service.png, id=2051, 652.4375pt x 165.61874pt>
 File: ./service.png Graphic file (type png)
  <use ./service.png>
-Package pdftex.def Info: ./service.png used on input line 514.
+Package pdftex.def Info: ./service.png used on input line 516.
 (pdftex.def)             Requested size: 227.62204pt x 57.78041pt.
  [27
 
- <./service.png>] <./model.png, id=2088, 353.32pt x 184.69pt>
+ <./service.png>] <./model.png, id=2118, 353.32pt x 184.69pt>
 File: ./model.png Graphic file (type png)
  <use ./model.png>
-Package pdftex.def Info: ./model.png used on input line 531.
+Package pdftex.def Info: ./model.png used on input line 533.
 (pdftex.def)             Requested size: 142.26378pt x 74.36504pt.
 
 [28
 
  <./model.png>] [29
 
-] <./cloud.jpg, id=2220, 552.0625pt x 301.125pt>
+] <./cloud.jpg, id=2251, 552.0625pt x 301.125pt>
 File: ./cloud.jpg Graphic file (type jpg)
 
 <use ./cloud.jpg>
-Package pdftex.def Info: ./cloud.jpg used on input line 558.
+Package pdftex.def Info: ./cloud.jpg used on input line 560.
 (pdftex.def)             Requested size: 142.26378pt x 77.59683pt.
  [30
 
@@ -1188,11 +1188,11 @@ Missing character: There is no ù in font cmss10!
 \tf@snm=\write8
 \openout8 = `phase-1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 608.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 608.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 610.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 610.
  (./phase-1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 608.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 608.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 610.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 610.
 
 
 Package rerunfilecheck Warning: File `phase-1.out' has changed.
@@ -1200,7 +1200,7 @@ Package rerunfilecheck Warning: File `phase-1.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `phase-1.out':
-(rerunfilecheck)             Before: 965DE371729A0A03C2D20984476B46BD;2006
+(rerunfilecheck)             Before: FA4CB337F8985253CD7CA195EB28B5F7;2008
 (rerunfilecheck)             After:  C1826F862DF47FF81DC5BBA833279009;2006.
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1209,29 +1209,119 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 608.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 610.
  ) 
 Here is how much of TeX's memory you used:
- 17647 strings out of 494985
- 320776 string characters out of 6180357
- 474531 words of memory out of 5000000
- 20302 multiletter control sequences out of 15000+600000
+ 17692 strings out of 494985
+ 321337 string characters out of 6180357
+ 474827 words of memory out of 5000000
+ 20318 multiletter control sequences out of 15000+600000
  14475 words of font info for 54 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,20n,57p,396b,1151s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy9.pfb>
-Output written on phase-1.pdf (36 pages, 953225 bytes).
+pdfTeX warning (dest): name{Navigation38} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation37} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation36} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation35} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation42} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.7.2.36} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.7.1.32} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.6.4.30} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.6.3.29} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.6.2.28} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.6.1.27} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.5.4.25} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.5.3.24} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.5.2.23} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.5.1.22} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.7.20} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.6.19} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.5.18} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.4.17} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.3.16} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.2.15} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.1.14} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.3.3.11} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.3.2.10} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.3.1.9} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.2.2.6} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.2.1.5} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.1.2.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.1.1.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy9.pfb>
+Output written on phase-1.pdf (36 pages, 953954 bytes).
 PDF statistics:
- 2597 PDF objects out of 2984 (max. 8388607)
- 2454 compressed objects within 25 object streams
- 122 named destinations out of 1000 (max. 500000)
+ 2632 PDF objects out of 2984 (max. 8388607)
+ 2489 compressed objects within 25 object streams
+ 151 named destinations out of 1000 (max. 500000)
  432 words of extra memory for PDF output out of 10000 (max. 10000000)
 
