@@ -24,8 +24,8 @@
 \beamer@subsectionintoc {4}{7}{What is REST? (Contd...)}{16}{0}{4}
 \beamer@sectionintoc {5}{Identity Management}{17}{0}{5}
 \beamer@subsectionintoc {5}{1}{Introduction}{17}{0}{5}
-\beamer@subsectionintoc {5}{2}{User Centric Identity Management}{18}{0}{5}
-\beamer@subsectionintoc {5}{3}{Federated Identity Management}{19}{0}{5}
+\beamer@subsectionintoc {5}{2}{Federated Identity Management}{18}{0}{5}
+\beamer@subsectionintoc {5}{3}{User Centric Identity Management}{19}{0}{5}
 \beamer@subsectionintoc {5}{4}{Relating to our University}{20}{0}{5}
 \beamer@sectionintoc {6}{RBAC}{21}{0}{6}
 \beamer@subsectionintoc {6}{1}{Introduction}{21}{0}{6}
