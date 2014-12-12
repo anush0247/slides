@@ -350,9 +350,7 @@ Network File System
 \item SAML = Authentication + Authorization
 \item User can get access by using I-Card or Unique URL
 \item \textbf{Components}: SP, IdP, Federation(AAI), DS or WAYF Server, X.509 Certificates.
-\begin{figure}
-\includegraphics[width=4.5cm,height=3cm]{fidm}
-\end{figure}
+
 \item \textbf{Advantages}
 \begin{itemize}
 	\item Secure, Prevalent, Fine-grained Authorization
@@ -364,6 +362,11 @@ Network File System
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Federated Identity Management Continued}
+\begin{figure}
+\includegraphics[width=8cm,height=6cm]{fidm}
+\end{figure}
+\end{frame}
 
 \subsection{User Centric Identity Management}
 \begin{frame}{User-Centric Identity Management}
@@ -372,9 +375,6 @@ Network File System
 \item There is no need of DS, its done on the user side
 \item User can get access by using I-Card or Unique URL
 \item \textbf{Components}: I-Card or Unique URL, SP, IdP, etc.
-\begin{figure}
-\includegraphics[width=4.5cm,height=3cm]{ucidm}
-\end{figure}
 \item \textbf{Advantages}
 \begin{itemize}
 	\item Usability,More Privacy, Simplification of Protocol
@@ -384,6 +384,12 @@ Network File System
 	\item Security Risks(Phishing, XSS, CSRF),No single standard 
 \end{itemize}
 \end{itemize}
+\end{frame}
+
+\begin{frame}{User-Centric Identity Management Continued}
+\begin{figure}
+\includegraphics[width=8cm,height=6cm]{ucidm}
+\end{figure}
 \end{frame}
 
 \subsection{Relating to our University}
@@ -481,113 +487,67 @@ Dynamic RBAC overcomes the shortages of the traditional RBAC by adding with dyna
 
 \section{Cloud Infra}
 \subsection{Cloud Computing}
-\subsubsection{Definition  }
-\begin{frame}{Cloud Computing - Definition }
 
-What is Cloud Computing ...? \\
+\subsubsection{Introduction}
+\begin{frame} {Cloud Computing - Introduction }
+%One can define Cloud Computing with essential characteristics like
+\textbf{What is Cloud Computing ...?} \\
 \hspace{4cm} \\
 \textit{``Cloud computing is a model for enabling convenient, on-
 demand network access to a shared pool of configurable
 computing resources (e.g., networks, servers, storage,
 applications, and services) that can be rapidly provisioned
 and released with minimal management effort or service
-provider interaction''} $ ^{[1]} $
-
-\end{frame}
-\subsubsection{Characteristics}
-\begin{frame} {Cloud Computing - Characteristics }
-One can define Cloud Computing with essential characteristics like
-
+provider interaction''} $ ^{[1]} $\newline
+\\
+\textbf{Essential Characteristics:} \\
 \begin{itemize}
 \item On-demand self-service
-\item Broad network access
-\item Resource pooling
-\item Rapid elasticity
-\item Measured Service
+\item Broad network access 
+\item Resource pooling 
+\item Rapid elasticity 
+\item Measured Service 
 \end{itemize}
 \end{frame}
-\subsubsection{Servcice Models}
-\begin{frame}{Cloud Computing - Servcice Models }
 
-If we providing any thing as a service comes, that will comes into Cloud Computing. Various Service Delivery Models listed bellow.
-
-\begin{itemize}
-\item Software as a Service (SaaS) 
-%\begin{itemize}
-%	\item Google Docs, Photo editors, Calculators, etc
-%\end{itemize}
-\item Platform as a Service (PaaS)
-%\begin{itemize}
-%	\item Harkoo, Aneka, Google App engine, etc
-%\end{itemize}
-\item Infrastructure as a Service (IaaS)
-%\begin{itemize}
-%	\item AWS, Openstack, Cloudstack, Opennebula, Eucalyptus etc
-%\end{itemize}
-%\item Data storage as a Service (DaaS)
-%\begin{itemize}
-%	\item Amazon S3, DropBox, SkyDrive, etc
-%\end{itemize}
-\item Anything as a Service (XaaS)
-\end{itemize}
+\subsubsection{Servcice & Deployment Models}
+\begin{frame}{Cloud Computing - Servcice \& Deployment Models }
+\textbf{Servcice Models:} \\ 
 \begin{figure}[H]
  \centering
- \includegraphics[width=8cm]{./service.png}
+ \includegraphics[width=7cm,height=1.75cm]{./service.png}
  \caption{Cloud Computing - Servcice Models \label{fig:Cloud Computing - Servcice Models} }
 \end{figure}
 
-\end{frame}
-\subsubsection{Deployment Model }
-\begin{frame}{Cloud Computing - Deployment Model }
-
-We can deploy the cloud in various ways.
-
-\begin{itemize}
-\item Public Cloud
-\item Private Cloud
-\item Hybrid cloud
-\end{itemize}
+\textbf{Deployment Models:} \\ 
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=5cm]{./model.png}
+ \includegraphics[width=4cm,height=2.5cm]{./model.png}
  \caption{Cloud Computing - Deployment Models \label{fig:model} }
 \end{figure}
 \end{frame}
+
 \subsection{Private Clouds}
-\subsubsection{Introduction}
-\begin{frame}{Private Clouds -- Introduction}
 
-%As per our concern we mainly focused about private clouds inorder to ensure Organizational data security \& High resource utilization
-
-\hspace{4cm}\\
-
+\begin{frame}{Private Clouds -- Definition \& Opensource Tools }
 \textbf{``Private Cloud''} \\ 
-\hspace{16mm} -- \textit{It is one of the cloud deployment model where the resources of small or medium organization are united and cattered to users of the that organization or outsourced through internet.} 
-
-\end{frame}
-\subsubsection{Open Soruce Tools}
-\begin{frame}{Private Clouds -- Open Soruce Tools}
-
-We can construct private cloud using some open source tools like Openstack, Cloudstack, OpenNebula. \\
-
-\hspace{4cm} 
-
-We can use this private cloud to deploy various services like Departmental Websites, Notice Boards, Events portal, High Computational Virtual Machines for Virtual Labs, High Performance Computing, Big data analytics.
+\hspace{16mm} -- \textit{It is one of the cloud deployment model where the resources of small or medium organization are united and cattered to users of the that organization or outsourced through internet.}\newline \\
+\textbf{Opensource Tools:} \\ 
 \begin{figure}[H]
  \centering
  \includegraphics[width=5cm]{./cloud.jpg}
  \caption{Private Cloud - Open source tools \label{fig:cloud} }
 \end{figure}
-
 \end{frame}
 
-%\section{Queries }
-%\begin{frame}{Questions?}
-%\centering
-%Questions ? 
-%\end{frame}
-
+\subsection{Cloud Infrastructure}
+\begin{frame}{Architecture}
+\begin{figure}[H]
+ \includegraphics[height=6cm]{./all.png} \\ 
+\caption{Cloud Infrastructure Archtitecture} 
+\end{figure}
+\end{frame}
 \section*{References}
 \small
 \begin{frame}{References}

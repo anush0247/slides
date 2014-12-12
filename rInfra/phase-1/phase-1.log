@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  11 DEC 2014 20:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  12 DEC 2014 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -988,7 +988,7 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 ] (./phase-1.toc) [6
 
 ]
-<./it.png, id=636, 483.8075pt x 179.67125pt>
+<./it.png, id=640, 483.8075pt x 179.67125pt>
 File: ./it.png Graphic file (type png)
  <use ./it.png>
 Package pdftex.def Info: ./it.png used on input line 133.
@@ -996,7 +996,7 @@ Package pdftex.def Info: ./it.png used on input line 133.
  [7
 
  <./it.png>]
-<./it2.png, id=702, 491.8375pt x 289.08pt>
+<./it2.png, id=706, 491.8375pt x 289.08pt>
 File: ./it2.png Graphic file (type png)
  <use ./it2.png>
 Package pdftex.def Info: ./it2.png used on input line 146.
@@ -1022,7 +1022,7 @@ Overfull \vbox (37.13116pt too high) detected at line 221
 
 [15
 
-] <SSO.png, id=1238, 1060.96375pt x 326.21875pt>
+] <SSO.png, id=1242, 1060.96375pt x 326.21875pt>
 File: SSO.png Graphic file (type png)
  <use SSO.png>
 Package pdftex.def Info: SSO.png used on input line 235.
@@ -1033,13 +1033,13 @@ Package pdftex.def Info: SSO.png used on input line 235.
 
 ] [18
 
-] <technologies.png, id=1428, 818.05624pt x 85.31876pt>
+] <technologies.png, id=1432, 818.05624pt x 85.31876pt>
 File: technologies.png Graphic file (type png)
 
 <use technologies.png>
 Package pdftex.def Info: technologies.png used on input line 275.
 (pdftex.def)             Requested size: 270.29642pt x 42.68008pt.
- <standards.png, id=1429, 562.1pt x 141.52875pt>
+ <standards.png, id=1433, 562.1pt x 141.52875pt>
 File: standards.png Graphic file (type png)
 
 <use standards.png>
@@ -1053,7 +1053,7 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 ) (./abc.json)
 [20
 
-] <CRUD.png, id=1557, 595.22375pt x 159.59625pt>
+] <CRUD.png, id=1561, 595.22375pt x 159.59625pt>
 File: CRUD.png Graphic file (type png)
  <use CRUD.png>
 Package pdftex.def Info: CRUD.png used on input line 308.
@@ -1070,109 +1070,116 @@ Overfull \vbox (1.13116pt too high) detected at line 326
 
 ] [24
 
-] <fidm.jpg, id=1821, 374.90062pt x 220.57407pt>
+] [25
+
+] <fidm.jpg, id=1889, 374.90062pt x 220.57407pt>
 File: fidm.jpg Graphic file (type jpg)
  <use fidm.jpg>
-Package pdftex.def Info: fidm.jpg used on input line 365.
-(pdftex.def)             Requested size: 128.03658pt x 85.35712pt.
+Package pdftex.def Info: fidm.jpg used on input line 369.
+(pdftex.def)             Requested size: 227.62503pt x 170.72435pt.
 
-[25
+[26
 
- <./fidm.jpg>] <ucidm.jpg, id=1886, 378.66469pt x 233.37187pt>
+ <./fidm.jpg>] [27
+
+] <ucidm.jpg, id=2015, 378.66469pt x 233.37187pt>
 File: ucidm.jpg Graphic file (type jpg)
 
 <use ucidm.jpg>
-Package pdftex.def Info: ucidm.jpg used on input line 387.
-(pdftex.def)             Requested size: 128.03937pt x 85.35628pt.
- [26
+Package pdftex.def Info: ucidm.jpg used on input line 393.
+(pdftex.def)             Requested size: 227.62234pt x 170.72325pt.
+ [28
 
- <./ucidm.jpg>] <U1.JPG, id=1949, 288.3272pt x 217.5628pt>
+ <./ucidm.jpg>] <U1.JPG, id=2078, 288.3272pt x 217.5628pt>
 File: U1.JPG Graphic file (type jpg)
 
 <use U1.JPG>
-Package pdftex.def Info: U1.JPG used on input line 404.
+Package pdftex.def Info: U1.JPG used on input line 410.
 (pdftex.def)             Requested size: 113.81099pt x 99.58546pt.
- <ex1.JPG, id=1950, 575.14874pt x 266.9975pt>
+ <ex1.JPG, id=2079, 575.14874pt x 266.9975pt>
 File: ex1.JPG Graphic file (type jpg)
  <use ex1.JPG>
-Package pdftex.def Info: ex1.JPG used on input line 404.
+Package pdftex.def Info: ex1.JPG used on input line 410.
 (pdftex.def)             Requested size: 170.71176pt x 113.8126pt.
 
-[27
+[29
 
  <./U1.JPG> <./ex1.JPG>] (./phase-1.toc)
-Overfull \vbox (1.13116pt too high) detected at line 406
+Overfull \vbox (1.13116pt too high) detected at line 412
  []
 
-[28
+[30
 
-] <sunny1.png, id=2090, 551.81157pt x 193.47281pt>
+] <sunny1.png, id=2219, 551.81157pt x 193.47281pt>
 File: sunny1.png Graphic file (type png)
  <use sunny1.png>
-Package pdftex.def Info: sunny1.png used on input line 418.
+Package pdftex.def Info: sunny1.png used on input line 424.
 (pdftex.def)             Requested size: 256.08453pt x 85.35857pt.
- [29
+ [31
 
- <./sunny1.png (PNG copy)>] <sunny2_r.png, id=2154, 971.63pt x 253.94875pt>
+ <./sunny1.png (PNG copy)>] <sunny2_r.png, id=2284, 971.63pt x 253.94875pt>
 File: sunny2_r.png Graphic file (type png)
 
 <use sunny2_r.png>
-Package pdftex.def Info: sunny2_r.png used on input line 435.
+Package pdftex.def Info: sunny2_r.png used on input line 441.
 (pdftex.def)             Requested size: 284.5231pt x 85.3572pt.
- [30
-
- <./sunny2_r.png>]
-<sun3.png, id=2218, 426.84468pt x 235.63031pt>
-File: sun3.png Graphic file (type png)
- <use sun3.png>
-Package pdftex.def Info: sun3.png used on input line 463.
-(pdftex.def)             Requested size: 113.8102pt x 85.35896pt.
- [31
-
- <./sun3.png (PNG copy)>] <ass.png, id=2282, 366.61969pt x 114.4275pt>
-File: ass.png Graphic file (type png)
- <use ass.png>
-Package pdftex.def Info: ass.png used on input line 478.
-(pdftex.def)             Requested size: 284.54688pt x 85.3612pt.
  [32
 
- <./ass.png (PNG copy)>] (./phase-1.toc) [33
+ <./sunny2_r.png>]
+<sun3.png, id=2348, 426.84468pt x 235.63031pt>
+File: sun3.png Graphic file (type png)
+ <use sun3.png>
+Package pdftex.def Info: sun3.png used on input line 469.
+(pdftex.def)             Requested size: 113.8102pt x 85.35896pt.
+ [33
 
-] [34
+ <./sun3.png (PNG copy)>] <ass.png, id=2412, 366.61969pt x 114.4275pt>
+File: ass.png Graphic file (type png)
+ <use ass.png>
+Package pdftex.def Info: ass.png used on input line 484.
+(pdftex.def)             Requested size: 284.54688pt x 85.3612pt.
+ [34
 
-] [35
+ <./ass.png (PNG copy)>] (./phase-1.toc) [35
+
+] [36
 
 ]
-<./service.png, id=2546, 652.4375pt x 165.61874pt>
+<./service.png, id=2613, 652.4375pt x 165.61874pt>
 File: ./service.png Graphic file (type png)
  <use ./service.png>
-Package pdftex.def Info: ./service.png used on input line 539.
-(pdftex.def)             Requested size: 227.62204pt x 57.78041pt.
- [36
+Package pdftex.def Info: ./service.png used on input line 529.
+(pdftex.def)             Requested size: 199.16736pt x 49.79213pt.
 
- <./service.png>] <./model.png, id=2613, 353.32pt x 184.69pt>
+<./model.png, id=2614, 353.32pt x 184.69pt>
 File: ./model.png Graphic file (type png)
  <use ./model.png>
-Package pdftex.def Info: ./model.png used on input line 556.
-(pdftex.def)             Requested size: 142.26378pt x 74.36504pt.
+Package pdftex.def Info: ./model.png used on input line 529.
+(pdftex.def)             Requested size: 113.80869pt x 71.13263pt.
+ [37
 
-[37
-
- <./model.png>] [38
-
-] <./cloud.jpg, id=2745, 552.0625pt x 301.125pt>
+ <./service.png> <./model.png>] <./cloud.jpg, id=2684, 552.0625pt x 301.125pt>
 File: ./cloud.jpg Graphic file (type jpg)
 
 <use ./cloud.jpg>
-Package pdftex.def Info: ./cloud.jpg used on input line 583.
+Package pdftex.def Info: ./cloud.jpg used on input line 542.
 (pdftex.def)             Requested size: 142.26378pt x 77.59683pt.
- [39
+ [38
 
  <./cloud.jpg>]
+<./all.png, id=2749, 685.1196pt x 383.9946pt>
+File: ./all.png Graphic file (type png)
+ <use ./all.png>
+Package pdftex.def Info: ./all.png used on input line 550.
+(pdftex.def)             Requested size: 304.58977pt x 170.71652pt.
+ [39
+
+ <./all.png>]
 Missing character: There is no â in font cmss9!
 Missing character: There is no € in font cmss9!
 Missing character: There is no  in font cmss9!
- [40
+
+[40
 
 ] [41
 
@@ -1190,13 +1197,13 @@ Missing character: There is no  in font cmss9!
 \tf@snm=\write8
 \openout8 = `phase-1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 634.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 634.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 594.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 594.
  (./phase-1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 634.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 634.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 594.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 594.
 Package rerunfilecheck Info: File `phase-1.out' has not changed.
-(rerunfilecheck)             Checksum: 7B3B695F560A99AFBCB05C65499F5274;1963.
+(rerunfilecheck)             Checksum: 86258472E890998CEDD5A200BADC718A;2034.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1205,13 +1212,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 634.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 594.
  ) 
 Here is how much of TeX's memory you used:
- 17752 strings out of 494985
- 323201 string characters out of 6180357
- 475074 words of memory out of 5000000
- 20374 multiletter control sequences out of 15000+600000
+ 17753 strings out of 494985
+ 323209 string characters out of 6180357
+ 474039 words of memory out of 5000000
+ 20377 multiletter control sequences out of 15000+600000
  12275 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,20n,64p,396b,1151s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1225,10 +1232,10 @@ nts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb>
-Output written on phase-1.pdf (43 pages, 993332 bytes).
+Output written on phase-1.pdf (43 pages, 1294551 bytes).
 PDF statistics:
- 3132 PDF objects out of 3580 (max. 8388607)
+ 3134 PDF objects out of 3580 (max. 8388607)
  2974 compressed objects within 30 object streams
- 140 named destinations out of 1000 (max. 500000)
- 436 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 named destinations out of 1000 (max. 500000)
+ 449 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -11,47 +11,49 @@
 \BOOKMARK [0][-]{chapter.3}{System Design}{}% 11
 \BOOKMARK [1][-]{section.3.1}{Users \046 IT Services}{chapter.3}% 12
 \BOOKMARK [1][-]{section.3.2}{Components Identified}{chapter.3}% 13
-\BOOKMARK [0][-]{chapter.4}{Central Identiy}{}% 14
-\BOOKMARK [1][-]{section.4.1}{Single Sign-On with REST API}{chapter.4}% 15
-\BOOKMARK [2][-]{subsection.4.1.1}{Introduction}{section.4.1}% 16
-\BOOKMARK [2][-]{subsection.4.1.2}{Why Single Sign-On?}{section.4.1}% 17
-\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Advantages}{subsection.4.1.2}% 18
-\BOOKMARK [2][-]{subsection.4.1.3}{Single Sign-On Work Flow}{section.4.1}% 19
-\BOOKMARK [3][-]{subsubsection.4.1.3.1}{OAuth Protocol}{subsection.4.1.3}% 20
-\BOOKMARK [1][-]{section.4.2}{Identity Management}{chapter.4}% 21
-\BOOKMARK [2][-]{subsection.4.2.1}{Introduction}{section.4.2}% 22
-\BOOKMARK [2][-]{subsection.4.2.2}{Authentication \046 Authorization}{section.4.2}% 23
-\BOOKMARK [3][-]{subsubsection.4.2.2.1}{Federated Identity Management}{subsection.4.2.2}% 24
-\BOOKMARK [3][-]{subsubsection.4.2.2.2}{User-Centric Identity Management}{subsection.4.2.2}% 25
-\BOOKMARK [1][-]{section.4.3}{Dynamic Role Based Access Control}{chapter.4}% 26
-\BOOKMARK [2][-]{subsection.4.3.1}{Introduction}{section.4.3}% 27
-\BOOKMARK [2][-]{subsection.4.3.2}{Basic Idea of RBAC}{section.4.3}% 28
-\BOOKMARK [2][-]{subsection.4.3.3}{Structure Diagram of RBAC Model}{section.4.3}% 29
-\BOOKMARK [2][-]{subsection.4.3.4}{Dynamic Role Based Access Control Model}{section.4.3}% 30
-\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 31
-\BOOKMARK [0][-]{chapter.5}{Network Components}{}% 32
-\BOOKMARK [1][-]{section.5.1}{Network Components}{chapter.5}% 33
-\BOOKMARK [2][-]{subsection.5.1.1}{Introduction}{section.5.1}% 34
-\BOOKMARK [2][-]{subsection.5.1.2}{Basic Networking Components}{section.5.1}% 35
-\BOOKMARK [3][-]{subsubsection.5.1.2.1}{Router}{subsection.5.1.2}% 36
-\BOOKMARK [3][-]{subsubsection.5.1.2.2}{Switch}{subsection.5.1.2}% 37
-\BOOKMARK [1][-]{section.5.2}{AAA Server}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.3}{LDAP Server}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.4}{NFS Server}{chapter.5}% 40
-\BOOKMARK [0][-]{chapter.6}{Cloud Infrastructure}{}% 41
-\BOOKMARK [1][-]{section.6.1}{Cloud Computing}{chapter.6}% 42
-\BOOKMARK [2][-]{subsection.6.1.1}{Introduction}{section.6.1}% 43
-\BOOKMARK [2][-]{subsection.6.1.2}{Cloud Characterstics}{section.6.1}% 44
-\BOOKMARK [2][-]{subsection.6.1.3}{Service Models}{section.6.1}% 45
-\BOOKMARK [2][-]{subsection.6.1.4}{Deployment Models}{section.6.1}% 46
-\BOOKMARK [1][-]{section.6.2}{Private Clouds}{chapter.6}% 47
-\BOOKMARK [2][-]{subsection.6.2.1}{Introduction}{section.6.2}% 48
-\BOOKMARK [2][-]{subsection.6.2.2}{Open Source Tools}{section.6.2}% 49
-\BOOKMARK [1][-]{section.6.3}{Conclusion}{chapter.6}% 50
-\BOOKMARK [0][-]{chapter.7}{Implentation and Specifications}{}% 51
-\BOOKMARK [1][-]{section.7.1}{Implentation}{chapter.7}% 52
-\BOOKMARK [1][-]{section.7.2}{Specifications}{chapter.7}% 53
-\BOOKMARK [1][-]{section.7.3}{Desired Technologies}{chapter.7}% 54
-\BOOKMARK [1][-]{section.7.4}{Expcted Results}{chapter.7}% 55
-\BOOKMARK [0][-]{chapter.8}{References}{}% 56
-\BOOKMARK [1][-]{section.8.1}{References}{chapter.8}% 57
+\BOOKMARK [1][-]{section.3.3}{Cloud Infrastructure Architecture}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{Central Identiy}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Single Sign-On with REST API}{chapter.4}% 16
+\BOOKMARK [2][-]{subsection.4.1.1}{Introduction}{section.4.1}% 17
+\BOOKMARK [2][-]{subsection.4.1.2}{Why Single Sign-On?}{section.4.1}% 18
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Advantages}{subsection.4.1.2}% 19
+\BOOKMARK [2][-]{subsection.4.1.3}{Single Sign-On Work Flow}{section.4.1}% 20
+\BOOKMARK [3][-]{subsubsection.4.1.3.1}{OAuth Protocol}{subsection.4.1.3}% 21
+\BOOKMARK [1][-]{section.4.2}{Identity Management}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.2.1}{Introduction}{section.4.2}% 23
+\BOOKMARK [2][-]{subsection.4.2.2}{Authentication \046 Authorization}{section.4.2}% 24
+\BOOKMARK [3][-]{subsubsection.4.2.2.1}{Federated Identity Management}{subsection.4.2.2}% 25
+\BOOKMARK [3][-]{subsubsection.4.2.2.2}{User-Centric Identity Management}{subsection.4.2.2}% 26
+\BOOKMARK [3][-]{subsubsection.4.2.2.3}{Relating to Our University}{subsection.4.2.2}% 27
+\BOOKMARK [1][-]{section.4.3}{Dynamic Role Based Access Control}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.3.1}{Introduction}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.2}{Basic Idea of RBAC}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.3}{Structure Diagram of RBAC Model}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.4}{Dynamic Role Based Access Control Model}{section.4.3}% 32
+\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Network Components}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Network Components}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.1.1}{Introduction}{section.5.1}% 36
+\BOOKMARK [2][-]{subsection.5.1.2}{Basic Networking Components}{section.5.1}% 37
+\BOOKMARK [3][-]{subsubsection.5.1.2.1}{Router}{subsection.5.1.2}% 38
+\BOOKMARK [3][-]{subsubsection.5.1.2.2}{Switch}{subsection.5.1.2}% 39
+\BOOKMARK [1][-]{section.5.2}{AAA Server}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.3}{LDAP Server}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.4}{NFS Server}{chapter.5}% 42
+\BOOKMARK [0][-]{chapter.6}{Cloud Infrastructure}{}% 43
+\BOOKMARK [1][-]{section.6.1}{Cloud Computing}{chapter.6}% 44
+\BOOKMARK [2][-]{subsection.6.1.1}{Introduction}{section.6.1}% 45
+\BOOKMARK [2][-]{subsection.6.1.2}{Cloud Characterstics}{section.6.1}% 46
+\BOOKMARK [2][-]{subsection.6.1.3}{Service Models}{section.6.1}% 47
+\BOOKMARK [2][-]{subsection.6.1.4}{Deployment Models}{section.6.1}% 48
+\BOOKMARK [1][-]{section.6.2}{Private Clouds}{chapter.6}% 49
+\BOOKMARK [2][-]{subsection.6.2.1}{Introduction}{section.6.2}% 50
+\BOOKMARK [2][-]{subsection.6.2.2}{Open Source Tools}{section.6.2}% 51
+\BOOKMARK [1][-]{section.6.3}{Conclusion}{chapter.6}% 52
+\BOOKMARK [0][-]{chapter.7}{Implentation and Specifications}{}% 53
+\BOOKMARK [1][-]{section.7.1}{Implentation}{chapter.7}% 54
+\BOOKMARK [1][-]{section.7.2}{Specifications}{chapter.7}% 55
+\BOOKMARK [1][-]{section.7.3}{Technologies and Tools}{chapter.7}% 56
+\BOOKMARK [1][-]{section.7.4}{Expcted Results}{chapter.7}% 57
+\BOOKMARK [0][-]{chapter.8}{References}{}% 58
+\BOOKMARK [1][-]{section.8.1}{References}{chapter.8}% 59

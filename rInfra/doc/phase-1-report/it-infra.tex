@@ -225,12 +225,12 @@ Expecting to serve with virtual machines to the research, virtual labs rather th
 \end{center}
 \end{figure}
 	
-	All University IT Services are deployed in a private cloud, constructed over exsiting infrastructure, that can be browdly viewed as 
+	All University IT Services are deployed in a private cloud, constructed over exsiting infrastructure, that can be broadly viewed as  
 	
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=7cm]{./it2.png}
-\caption{ IT Services and Users in Cloud Computing\label{fig:IT Services and Users in Cloud Computing }}
+\caption{ IT Services and Users in Cloud Computing $ ^{[1]}$ \label{fig:IT Services and Users in Cloud Computing }}
 \end{center}
 \end{figure}	
 	
@@ -257,6 +257,15 @@ In this project we are restricting ourselves to some componets of the above ment
 	\end{itemize}
 \end{itemize}
 
+\section{Cloud Infrastructure Architecture}
+
+\begin{figure}[H]
+\begin{center}
+ \includegraphics[height=9cm,width=14cm]{./all.png} \\ 
+\caption{Cloud Infrastructure Architecture \label{fig: Cloud Infrastructure Architecture }} 
+\end{center}
+\end{figure}
+
 \chapter{Central Identiy}
 
 \section{Single Sign-On with REST API}
@@ -276,7 +285,7 @@ support various backend authentication mechanisms like Kerberos, LDAP, relationa
 \\
 \begin{figure}[H]
 \includegraphics[width=15cm,height=5.3cm]{SSO}
-\caption{Google Single Sign-On System\label{fig: Google Single Sign-On System}}
+\caption{Google Single Sign-On System$ ^{[19]}$\label{fig: Google Single Sign-On System}}
 \end{figure}
 \pagebreak
 
@@ -303,7 +312,7 @@ support various backend authentication mechanisms like Kerberos, LDAP, relationa
 \subsection{Single Sign-On Work Flow}
 Here in this section the overall workflow of Authentication in a Single Sign-On System is explained. In order to Authenticate users with the given credentials we must use a robust and stable protocol. And many Single Sign-On systems uses OAuth protocols for this purpose. Single Sign-On uses OAuth protocol for both Authentication \& Authorization.
 \subsubsection{OAuth Protocol}
-OAuth is an authentication protocol that allows users to approve application to act on their behalf without sharing their password.
+OAuth$ ^{[14]}$ is an authentication protocol that allows users to approve application to act on their behalf without sharing their password.
 The below figure explains the flow of Authentication in OAuth Protocol.
 \begin{figure}[H]
 \begin{center}
@@ -337,8 +346,8 @@ Steps invloved in the above flow diagram
 		Within the federation all SPs and IdPs trust each other using X.509 certificates. These certificates and addresses to resolve the handlers of the SPs and IdPs are stored in a metadata file that is distributed to all participants and builds the federation. Identity Providers issue a digitally signed assertion (or token) authenticating the user. SPs use the certificates of the IdPs published in the federation to verify the digital signature and accept the authentication. Authorization is done using attributes that the IdPs sends along with the assertion. Examples for this are Shibboleth, Liberty, and ADFS. Below figure illustrates the access to a resource protected by a Shibboleth Service Provider.
 	\begin{figure}[H]
 	\begin{center}
-	\includegraphics[width=11cm]{./3-1.png}
-	\caption{ SAML based federated identity management with Shibboleth 2.0 . \label{fig:SAML based federated identity management with Shibboleth2.0. }}
+	\includegraphics[width=11cm,height=7cm]{./3-1.png}
+	\caption{ SAML based federated identity management with Shibboleth 2.0. $ ^{[3]}$ \label{fig:SAML based federated identity management with Shibboleth2.0. }}
 	\end{center}
 	\end{figure}
 	Users accessing the SP are redirected to a Discovery Service (DS or WAYF server). At the DS the user selects his home organization and is redirected to his IdP that redirects him back to the SP containing the requested resource after successful authentication. A reference to the assertion issued to the user by the IdP is held as a cookie in the web browser to enable Single Sign-On. As the user subsequently accesses SPs belonging to the same federation, the browser sends the cookie referencing the assertion to the IdP and the user is directly able to access the resource without logging in again.\newline
@@ -362,8 +371,8 @@ Steps invloved in the above flow diagram
 	There is no need for a DS in this. Users can either select their I-Card to get access or log in using a globally unique identifier (e-mail or URL).  The responsible Identity Provider (IdP) can be resolved by the Service Provider (SP) using the domain of the e-mail address or the URL given by the user.
 	\begin{figure}[H]
 	\begin{center}
-	\includegraphics[width=11cm]{./3-2.jpg}
-	\caption{ OpenId as an example for user-centric identity management . \label{fig:OpenId as an example for user-centric identity management . }}
+	\includegraphics[width=11cm,height=8cm]{./3-2.jpg}
+	\caption{ OpenId as an example for user-centric identity management. $ ^{[3]}$\label{fig:OpenId as an example for user-centric identity management . }}
 	\end{center}
 	\end{figure}
 	Above shows an example for user-centric identity management using OpenID. Some other typical implementations are CardSpace, sxip, OAuth, Higgins. Most important extension is the ability to exchange attributes for authorization as shown for SAML.\newline
@@ -382,11 +391,30 @@ Steps invloved in the above flow diagram
 	Besides the disadvantages because of the evolving security fixes e.g., in OpenID, user-centric solutions suffer from the fact that there is no
 	single standard. Another fact that strengthens the role of OpenID is that major web companies like Google,Yahoo offer OpenID Providers for their accounts. This retention bares another disadvantage. The user has to bound to a specific Provider, if his Provider changes his terms or closes down his service, the services the user is registered for are lost.
 
+\subsubsection{Relating to Our University}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=12cm,height=9cm]{U1}
+\caption{Intra Campus\label{fig:Intra Campus}}
+\end{center}
+\end{figure}
+\vfill
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=12cm,height=9cm]{ex1}
+\caption{Inter Campus\label{fig:Inter Campus}}
+\end{center}
+\end{figure}
+
+
+
 \newpage
 \section{Dynamic Role Based Access Control}
 
 \subsection{Introduction}
-	\hspace{6mm}Role Based Access Control (RBAC), also known as Non discretionary Access Control, takes more of a real world approach to structuring access control. Access under RBAC is based on a user's job function within the organization to which the computer system belongs. Essentially, RBAC assigns permissions to particular roles in an organization. Users are then assigned to that particular role.\newline
+	\hspace{6mm}Role Based Access Control (RBAC), also known as Non discretionary Access Control, takes more of a real world approach to structuring access control. Access under RBAC is based on a user's job function within the organization to which the computer system belongs. Essentially, RBAC assigns permissions to particular roles in an organization. Users are then assigned to that particular role.$ ^{[4]}$\newline
 		
 With the rapid development of network and the coming of information age, access control is particularly important. RBAC is an access control which is popular. RBAC authorizes and controls the roles corresponding to the users to operate the object. It solves problems of least privilege, separation of duties and so on. RBAC has better security, better flexibility, and can be well applied to the workflow system.\newline
 
@@ -406,7 +434,7 @@ In a role-based access control (RBAC) mechanism, these rights are defined based 
 	\end{figure}
 \newpage
 	\subsection{Basic Idea of RBAC}
-		Access Control policy is embodied in various components of RBAC such as 
+		Access Control policy is embodied in various components of RBAC such as $ ^{[4]}$
 		\begin{itemize}
 		\item Role-Permission relationships
 		\item User-Role relationships
@@ -424,7 +452,7 @@ In a role-based access control (RBAC) mechanism, these rights are defined based 
 		\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=9cm]{./4-3.png}
-		\caption{ The Family of RBAC Model. \label{fig:The Family of RBAC Model. }}
+		\caption{ The Family of RBAC Model.$ ^{[5]}$ \label{fig:The Family of RBAC Model. }}
 		\end{center}
 		\end{figure}
 	\newpage	
@@ -663,7 +691,7 @@ If we providing any thing as a service comes, that will comes into Cloud Computi
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=8cm]{./service.png}
+ \includegraphics[width=12cm,height=3cm]{./service.png}
  \caption{Cloud Computing - Servcice Models \label{fig:Cloud Computing - Servcice Models} }
 \end{figure}
 
@@ -690,7 +718,7 @@ More recently, four cloud deployment models have been defined in the Cloud commu
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=6cm]{./model.png}
+ \includegraphics[width=8cm,height=5cm]{./model.png}
  \caption{Cloud Computing - Deployment Models \label{fig:model} }
 \end{figure}
 
@@ -717,7 +745,7 @@ We can construct private cloud using some open source tools like Openstack, Clou
 We can use this private cloud to deploy various services like Departmental Websites, Notice Boards, Events portal, High Computational Virtual Machines for Virtual Labs, High Performance Computing, Big data analytics.
 \begin{figure}[H]
  \centering
- \includegraphics[width=5cm]{./cloud.jpg}
+ \includegraphics[width=8cm,height=5cm]{./cloud.jpg}
  \caption{Private Cloud - Open source tools \label{fig:cloud} }
 \end{figure}
 
@@ -752,7 +780,7 @@ Hardware can be effinciently utilized by tronsforming them into cloud based infr
 		
 	\end{itemize}
 	
-\section{Desired Technologies}
+\section{Technologies and Tools}
 
 	\begin{itemize}
 		\item Opensource private cluod tools such as Openstack, Cloudstack, etc.
@@ -761,7 +789,8 @@ Hardware can be effinciently utilized by tronsforming them into cloud based infr
 		\item OAuth 2.0 with extended dynamic roles managment.
 		\item Nodejs for Implementation of OAuth 2.0 as REST API.
 		\item Git for Version control. 
-		\item Ascii doc / python shpenix \& Latex for Documentation.
+		\item Python shpenix \& Latex for Documentation.
+%		\item MongoDB for NoSQL Database
 	\end{itemize}
 	
 \section{Expcted Results}
@@ -823,6 +852,7 @@ Hardware can be effinciently utilized by tronsforming them into cloud based infr
 \item Git, https://github.com
 \item Bootstrap, http://getbootstrap.com 
 \item Stack Overflow http://stackoverflow.com/
+\item Google, http://www.google.com/
 \end{enumerate}
 
 
