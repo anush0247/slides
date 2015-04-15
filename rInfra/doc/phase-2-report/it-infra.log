@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  15 APR 2015 23:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  15 APR 2015 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,7 +448,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 80.
 
-<rgukt_logo.jpg, id=197, 236.885pt x 162.6075pt>
+<rgukt_logo.jpg, id=246, 236.885pt x 162.6075pt>
 File: rgukt_logo.jpg Graphic file (type jpg)
  <use rgukt_logo.jpg>
 Package pdftex.def Info: rgukt_logo.jpg used on input line 100.
@@ -515,7 +515,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--245
  
  []
 
-<abstract_flow.png, id=319, 563.10374pt x 373.395pt>
+<abstract_flow.png, id=380, 563.10374pt x 373.395pt>
 File: abstract_flow.png Graphic file (type png)
  <use abstract_flow.png>
 Package pdftex.def Info: abstract_flow.png used on input line 250.
@@ -530,7 +530,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.259 \item I
              f the application identity is authenticated and the authorizati...
- <./abstract_flow.png>] <RID_Pics/Profile.png, id=326, 1236.62pt x 632.3625pt>
+ <./abstract_flow.png>] <RID_Pics/Profile.png, id=386, 1236.62pt x 632.3625pt>
 File: RID_Pics/Profile.png Graphic file (type png)
 
 <use RID_Pics/Profile.png>
@@ -541,7 +541,7 @@ Overfull \hbox (41.67134pt too wide) in paragraph at lines 269--270
  [] 
  []
 
-<RID_Pics/Edit_Profile.png, id=327, 1117.17375pt x 505.89pt>
+<RID_Pics/Edit_Profile.png, id=387, 1117.17375pt x 505.89pt>
 File: RID_Pics/Edit_Profile.png Graphic file (type png)
 
 <use RID_Pics/Edit_Profile.png>
@@ -554,7 +554,7 @@ Package pdftex.def Info: RID_Pics/Edit_Profile.png used on input line 275.
                                                   \fi \fi 
 l.279 \section
               {REST API} <./RID_Pics/Profile.png>]
-<CRUD.png, id=332, 595.22375pt x 159.59625pt>
+<CRUD.png, id=392, 595.22375pt x 159.59625pt>
 File: CRUD.png Graphic file (type png)
  <use CRUD.png>
 Package pdftex.def Info: CRUD.png used on input line 283.
@@ -598,14 +598,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 311--312
 
  []
 
-<RID_Pics/Roles.png, id=398, 1111.15125pt x 542.025pt>
+<RID_Pics/Roles.png, id=459, 1111.15125pt x 542.025pt>
 File: RID_Pics/Roles.png Graphic file (type png)
 
 <use RID_Pics/Roles.png>
 Package pdftex.def Info: RID_Pics/Roles.png used on input line 317.
 (pdftex.def)             Requested size: 444.45262pt x 216.80615pt.
 
-<RID_Pics/Add_Permission.png, id=399, 1108.14pt x 506.89375pt>
+<RID_Pics/Add_Permission.png, id=460, 1108.14pt x 506.89375pt>
 File: RID_Pics/Add_Permission.png Graphic file (type png)
 
 <use RID_Pics/Add_Permission.png>
@@ -647,14 +647,14 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  (./conf.php)
-<Screens/LdapServerLogin.png, id=479, 441.65pt x 324.21124pt>
+<Screens/LdapServerLogin.png, id=539, 441.65pt x 324.21124pt>
 File: Screens/LdapServerLogin.png Graphic file (type png)
 
 <use Screens/LdapServerLogin.png>
 Package pdftex.def Info: Screens/LdapServerLogin.png used on input line 415.
 (pdftex.def)             Requested size: 170.71304pt x 170.71805pt.
 
-<Screens/serversidebar.png, id=480, 345.29pt x 367.3725pt>
+<Screens/serversidebar.png, id=540, 345.29pt x 367.3725pt>
 File: Screens/serversidebar.png Graphic file (type png)
 
 <use Screens/serversidebar.png>
@@ -665,7 +665,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--426
 []\OT1/cmr/m/n/12 Figure 5.2: []Complete cat-e-gory of
  []
 
-<Screens/UserCreation.png, id=481, 465.74pt x 721.69624pt>
+<Screens/UserCreation.png, id=541, 465.74pt x 721.69624pt>
 File: Screens/UserCreation.png Graphic file (type png)
 
 <use Screens/UserCreation.png>
@@ -684,14 +684,14 @@ l.444
                                                   \fi \fi 
 l.444 
        <./Screens/LdapServerLogin.png> <./Screens/serversidebar.png>]
-<Screens/admin_group.png, id=491, 497.86pt x 310.15875pt>
+<Screens/admin_group.png, id=552, 497.86pt x 310.15875pt>
 File: Screens/admin_group.png Graphic file (type png)
 
 <use Screens/admin_group.png>
 Package pdftex.def Info: Screens/admin_group.png used on input line 448.
 (pdftex.def)             Requested size: 227.62817pt x 170.7156pt.
 
-<Screens/AddUsertoGroup.png, id=493, 577.15625pt x 469.755pt>
+<Screens/AddUsertoGroup.png, id=554, 577.15625pt x 469.755pt>
 File: Screens/AddUsertoGroup.png Graphic file (type png)
 
 <use Screens/AddUsertoGroup.png>
@@ -710,7 +710,7 @@ l.460
                                                   \fi \fi 
 l.460 
        <./Screens/UserCreation.png> <./Screens/admin_group.png>]
-<Screens/Groupsinfo.png, id=500, 988.69376pt x 601.24625pt>
+<Screens/Groupsinfo.png, id=561, 988.69376pt x 601.24625pt>
 File: Screens/Groupsinfo.png Graphic file (type png)
 
 <use Screens/Groupsinfo.png>
@@ -744,84 +744,214 @@ Underfull \hbox (badness 10000) in paragraph at lines 495--500
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (./nsswitch.conf) [17]
-Chapter 6.
-<./openstack_1.png, id=517, 606.265pt x 414.54875pt>
-File: ./openstack_1.png Graphic file (type png)
- <use ./openstack_1.png>
-Package pdftex.def Info: ./openstack_1.png used on input line 550.
-(pdftex.def)             Requested size: 312.9839pt x 227.61665pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--553
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
 
 
-Overfull \hbox (8.68567pt too wide) in paragraph at lines 557--558
+Underfull \hbox (badness 10000) in paragraph at lines 544--550
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--564
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--564
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--564
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 567--570
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--575
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--581
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--592
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--600
+
+ []
+
+[19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 601--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--608
+
+ []
+
+
+Overfull \hbox (1.09544pt too wide) in paragraph at lines 616--617
+[]\OT1/cmr/m/n/12 Creating a new vol-ume with de-fault set-tings : $sudo mkfs.x
+treemfs lo-cal-hot-s/myVol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--633
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--633
+
+ []
+
+[21]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--656
+
+ []
+
+[22]
+Chapter 6.
+<./openstack_1.png, id=599, 606.265pt x 414.54875pt>
+File: ./openstack_1.png Graphic file (type png)
+ <use ./openstack_1.png>
+Package pdftex.def Info: ./openstack_1.png used on input line 666.
+(pdftex.def)             Requested size: 312.9839pt x 227.61665pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 662--669
+
+ []
+
+
+Overfull \hbox (8.68567pt too wide) in paragraph at lines 673--674
 \OT1/cmr/m/n/12 Installing open-stack in-cludes com-po-nent wise in-stal-la-tio
 n namely NTP, MySQL, Rabbitmq-
  []
 
-[18
+[23
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.558 \subsection
-                 {NTP} <./openstack_1.png>] [19]
-<./openstack_2.png, id=527, 1333.98375pt x 746.79pt>
+l.674 \subsection
+                 {NTP} <./openstack_1.png>] [24]
+<./openstack_2.png, id=608, 1333.98375pt x 746.79pt>
 File: ./openstack_2.png Graphic file (type png)
  <use ./openstack_2.png>
-Package pdftex.def Info: ./openstack_2.png used on input line 577.
+Package pdftex.def Info: ./openstack_2.png used on input line 693.
 (pdftex.def)             Requested size: 341.43353pt x 227.61678pt.
 
-<./openstack_3.png, id=528, 1371.1225pt x 770.88pt>
+<./openstack_3.png, id=609, 1371.1225pt x 770.88pt>
 File: ./openstack_3.png Graphic file (type png)
  <use ./openstack_3.png>
-Package pdftex.def Info: ./openstack_3.png used on input line 583.
+Package pdftex.def Info: ./openstack_3.png used on input line 699.
 (pdftex.def)             Requested size: 341.41988pt x 227.61935pt.
 
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.587 \chapter
+l.703 \chapter
               {Conclusion \& Future Work}pdfTeX warning (ext4): destination wit
 h the same identifier (name{figure.6.3}) has been already used, duplicate ignor
 ed
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.587 \chapter
+l.703 \chapter
               {Conclusion \& Future Work} <./openstack_2.png> <./openstack_3.pn
 g>]
 Chapter 7.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[21
+[26
 
 ]
 Chapter 8.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 598.
-[22
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 714.
+[27
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 598.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 714.
  (./it-infra.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 598.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 598.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 714.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 714.
 Package rerunfilecheck Info: File `it-infra.out' has not changed.
-(rerunfilecheck)             Checksum: F9DBCFC31DEBC7880079AE13C8EFB3EF;3122.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 598.
+(rerunfilecheck)             Checksum: FD1105844CA9AB67CEABAD7510EF0E26;4011.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 714.
  ) 
 Here is how much of TeX's memory you used:
- 9696 strings out of 494985
- 148810 string characters out of 6180357
- 661869 words of memory out of 5000000
- 12556 multiletter control sequences out of 15000+600000
+ 9725 strings out of 494985
+ 149223 string characters out of 6180357
+ 661878 words of memory out of 5000000
+ 12568 multiletter control sequences out of 15000+600000
  11936 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  31i,8n,43p,606b,3012s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -835,10 +965,10 @@ ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmtt12.pfb>
-Output written on it-infra.pdf (27 pages, 702899 bytes).
+Output written on it-infra.pdf (32 pages, 713067 bytes).
 PDF statistics:
- 621 PDF objects out of 1000 (max. 8388607)
- 557 compressed objects within 6 object streams
- 207 named destinations out of 1000 (max. 500000)
- 465 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 709 PDF objects out of 1000 (max. 8388607)
+ 639 compressed objects within 7 object streams
+ 224 named destinations out of 1000 (max. 500000)
+ 561 words of extra memory for PDF output out of 10000 (max. 10000000)
 

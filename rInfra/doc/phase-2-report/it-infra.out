@@ -31,18 +31,30 @@
 \BOOKMARK [1][-]{section.5.4}{LDAP Client:}{chapter.5}% 31
 \BOOKMARK [2][-]{subsection.5.4.1}{Installation and Configuration:}{section.5.4}% 32
 \BOOKMARK [2][-]{subsection.5.4.2}{Log In as an LDAP User:}{section.5.4}% 33
-\BOOKMARK [0][-]{chapter.6}{Private Infrastructure Cloud}{}% 34
-\BOOKMARK [1][-]{section.6.1}{Openstack Architecture}{chapter.6}% 35
-\BOOKMARK [1][-]{section.6.2}{Installation}{chapter.6}% 36
-\BOOKMARK [2][-]{subsection.6.2.1}{NTP}{section.6.2}% 37
-\BOOKMARK [2][-]{subsection.6.2.2}{MySQL}{section.6.2}% 38
-\BOOKMARK [2][-]{subsection.6.2.3}{Rabbitmq-server}{section.6.2}% 39
-\BOOKMARK [2][-]{subsection.6.2.4}{Keystone}{section.6.2}% 40
-\BOOKMARK [2][-]{subsection.6.2.5}{Glance}{section.6.2}% 41
-\BOOKMARK [2][-]{subsection.6.2.6}{Nova}{section.6.2}% 42
-\BOOKMARK [2][-]{subsection.6.2.7}{Neutron}{section.6.2}% 43
-\BOOKMARK [1][-]{section.6.3}{Virtual Machines}{chapter.6}% 44
-\BOOKMARK [0][-]{chapter.7}{Conclusion \046 Future Work}{}% 45
-\BOOKMARK [1][-]{section.7.1}{Conclusion}{chapter.7}% 46
-\BOOKMARK [1][-]{section.7.2}{Future Work}{chapter.7}% 47
-\BOOKMARK [0][-]{chapter.8}{References}{}% 48
+\BOOKMARK [1][-]{section.5.5}{HAProxy}{chapter.5}% 34
+\BOOKMARK [2][-]{subsection.5.5.1}{Installing HAProxy}{section.5.5}% 35
+\BOOKMARK [2][-]{subsection.5.5.2}{Configuring HAProxy}{section.5.5}% 36
+\BOOKMARK [1][-]{section.5.6}{GlusterFS}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.6.1}{Configure DNS solution}{section.5.6}% 38
+\BOOKMARK [2][-]{subsection.5.6.2}{Install server components}{section.5.6}% 39
+\BOOKMARK [2][-]{subsection.5.6.3}{Create a storage volume}{section.5.6}% 40
+\BOOKMARK [2][-]{subsection.5.6.4}{Install and configure client components}{section.5.6}% 41
+\BOOKMARK [2][-]{subsection.5.6.5}{Restrict access to the volume}{section.5.6}% 42
+\BOOKMARK [1][-]{section.5.7}{XtreemFS}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.7.1}{Installation, Creating \046 Mounting Filesystem}{section.5.7}% 44
+\BOOKMARK [2][-]{subsection.5.7.2}{Distributed Step}{section.5.7}% 45
+\BOOKMARK [0][-]{chapter.6}{Private Infrastructure Cloud}{}% 46
+\BOOKMARK [1][-]{section.6.1}{Openstack Architecture}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.2}{Installation}{chapter.6}% 48
+\BOOKMARK [2][-]{subsection.6.2.1}{NTP}{section.6.2}% 49
+\BOOKMARK [2][-]{subsection.6.2.2}{MySQL}{section.6.2}% 50
+\BOOKMARK [2][-]{subsection.6.2.3}{Rabbitmq-server}{section.6.2}% 51
+\BOOKMARK [2][-]{subsection.6.2.4}{Keystone}{section.6.2}% 52
+\BOOKMARK [2][-]{subsection.6.2.5}{Glance}{section.6.2}% 53
+\BOOKMARK [2][-]{subsection.6.2.6}{Nova}{section.6.2}% 54
+\BOOKMARK [2][-]{subsection.6.2.7}{Neutron}{section.6.2}% 55
+\BOOKMARK [1][-]{section.6.3}{Virtual Machines}{chapter.6}% 56
+\BOOKMARK [0][-]{chapter.7}{Conclusion \046 Future Work}{}% 57
+\BOOKMARK [1][-]{section.7.1}{Conclusion}{chapter.7}% 58
+\BOOKMARK [1][-]{section.7.2}{Future Work}{chapter.7}% 59
+\BOOKMARK [0][-]{chapter.8}{References}{}% 60

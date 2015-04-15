@@ -537,6 +537,122 @@ By following these below steps we need to configure the LDAP Client
 		\begin{itemize}
 		\item ssh \textbf{atangella@10.4.34.45}
 		\end{itemize}
+\pagebreak
+\section{HAProxy}
+HAProxy(High Availability Proxy) is an open source load balancer which can load balance any TCP service. It is particularly suited for HTTP load balancing as it supports session persistence and layer 7 processing. HAProxy can be configured as a front-end to load balance two VPS through private network connectivity.\\
+\subsection{Installing HAProxy}
+\# to install haproxy\\
+sudo apt-get install haproxy\\
+\# to get started by init script\\
+edit /etc/default/haproxy, set ENABLED option to 1\\
+\# using haproxy\\
+sudo /etc/init.d/haproxy {start|stop|reload|restart|status}\\
+\subsection{Configuring HAProxy}
+edit gedit /etc/haproxy/haproxy.cfg\\
+\\
+frontend sunny\\
+   bind 10.4.34.250:8080\\
+   default\_backend sunny-backend\\
+backend sunny-backend\\
+   balance roundrobin\\
+   mode tcp\\
+   server sunny 10.4.34.250:80 check\\
+   server ram 10.4.34.242:80 check\\
+   server knc 10.4.34.245:80 check\\
+\\
+Requests come to frontend PC will be send to any one of the backend PC's based on the algorithm. Here algorithm can be roundrobin, leastconn.\\
+
+\pagebreak
+\section{GlusterFS}
+	GlusterFS is a unified, poly-protocol, scale-out file system serving many peta bytes of data. While many databases and other software allows you to spread data out in the context of a single application, other systems can operate on the file system level to ensure that data is copied to another location whenever it is written to disk. A clustered storage solution like GlusterFS provides this exact functionality.\\
+\\
+	We are writing by considering three systems. we are considering the two of our machines as cluster members and the third as a client. We will be configuring the computers we labeled as gluster0 and gluster1 as the cluster components. We will use gluster2 as the client.
+\subsection{Configure DNS solution}
+Go to \textbf{sudo nano /etc/hosts} and add below lines\\
+\#first\_ip gluster0.droplet.com gluster0\\
+\#second\_ip gluster1.droplet.com gluster1\\
+\#third\_ip gluster2.droplet.com gluster2\\
+
+\subsection{Install server components}
+\# On our cluster member machines (gluster0 and gluster1), we can install the GlusterFS server package\\
+sudo apt-get install glusterfs-server\\
+\#On one of the hosts, we need to peer with the second host. \\ 
+sudo gluster peer probe gluster1.droplet.com\\
+\subsection{Create a storage volume}
+\#Creating and enabling replication property for volume1\\
+sudo gluster volume create volume1 replica 2 transport tcp gluster0.droplet.com:/gluster-storage gluster1.droplet.com:/gluster-storage force\\
+\#And we can activate the storage by command\\
+sudo gluster volume start volume1\\
+\subsection{Install and configure client components}
+\#On our client machine, we can install the GlusterFS client package\\
+sudo apt-get install glusterfs-client\\
+\#for mounting our remote storage volume on our client computer\\
+sudo mkdir /storage-pool\\
+sudo mount -t glusterfs gluster0.droplet.com:/volume1 /storage-pool\\
+\subsection{Restrict access to the volume}
+\#for restriction of storage volume for clients\\
+sudo gluster volume set volume1 auth.allow *\\
+\#for removing restrictions\\
+sudo gluster volume set volume1 auth.allow gluster\_client1\_ip,gluster\_client2\_ip\\
+\\
+At this point, you should have a redundant storage system that will allow us to write to two separate servers simultaneously. This can be useful for a great number of applications and can ensure that our data is available even when one server goes down. But GlusterFS is failing in distributed environment at some situations. For that we moved an efficient one XtreemFS, which works very well in distributed environment and tackles all errors.\\
+\pagebreak
+\section{XtreemFS}
+XtreemFS is a fault-tolerant distributed file system for all storage needs. It is simple to setup as it does not use any kernel modules. It's easy to integrate with clients for Linux and Windows. XtreemFS is also a parallel, object-based file system. You can stripe your files across many storage servers for high-performance parallel access. The stripe width can be configured per file.\\
+\\
+It can stripe files within your cluster and can replicate your data across clusters. This allows you to have high-performance access within your cluster and to share your data in your virtual organization.\\
+\\
+XtreemFS' replication is fault-tolerant. A broken hard drive or unhealthy storage server does not result in data loss or even degraded service quality. \\
+\\
+This matters if you have 10 or 1000s of machines, as your jobs finish without interruptions and you can delay repairs to whenever you have time.\\
+\subsection{Installation, Creating \& Mounting Filesystem}
+\begin{itemize}
+\item Added the XtreemFS repo to our system and then installed the packages xtreemfs-server and xtreemfs-client.
+\item Starting the Directory Service: \$sudo /etc/init.d/xtreemfs-dir start 
+\item Starting the Metadata Server: \$sudo /etc/init.d/xtreemfs-mrc start
+\item Starting OSD: \$sudo /etc/init.d/xtreemfs-osd start
+\item Loading the FUSE kernel module: \$sudo modprobe fuse
+\item We can check the registry by opening the DIR status page in our web browser at http://localhost:30638
+\item Creating a new volume with default settings : \$sudo mkfs.xtreemfs localhots/myVolume
+\item Creating mounting point : \$sudo mkdir ~/xtreemfs
+\item Mounting XtreemFS: \$sudo mount.xtreemfs localhost/myVolume ~/xtreemfs
+\item We can unmount using : \$sudo umount.xtreemfs ~/xtreemfs
+\end{itemize}
+\subsection{Distributed Step}
+We assume a setup with two machines:
+\begin{itemize}
+\item One system running the directory service (DIR), metadata server (MRC), storage server (OSD).
+\item Another system running the only storage server (OSD).
+\end{itemize}
+First, installed the binary packages using repositories made available by the XtreemFS team. Once the repository file is registered, we can install these packages:\\
+\\
+sudo apt-get install xtreemfs-client xtreemfs-server xtreemfs-tools\\
+\\
+Now suppose one server to host the DIR and MRC service is called osd1, and my OSDs will be running on osd1 and osd2. On osd2, we have to edit the following config files under /etc/xos/xtreemfs and \textbf{set dir\_service.host = kdc01}. For the mrc and osd config files, we have to set up \textbf{hostname = kdc01}
+\begin{itemize}
+\item mrcconfig.properties
+\item osdconfig.properties
+\end{itemize}
+On WKS01 where a second OSD will be running, edited the osd config file, point \textbf{dir\_service.host = kdc01} and \textbf{hostname = wks01}
+\begin{itemize}
+\item osdconfig.properties
+\end{itemize}
+Then we have to start the services. On KDC01, the following services are started:\\
+\\
+sudo /etc/init.d/xtreemfs-dir start\\
+sudo /etc/init.d/xtreemfs-mrc start\\
+sudo /etc/init.d/xtreemfs-osd start\\
+\\
+On WKS01, OSD service \\
+\\
+sudo /etc/init.d/xtreemfs-osd start\\
+\\
+Then we created the XtreemFS filesystem using following commands:\\
+\\
+sudo mkfs.xtreemfs kdc01/myVol \# on KDC01\\
+sudo mount.xtreemfs kdc01/myVol /data \# on KDC01 and WKS01\\
+\\
+By default, 1 replica will be stored on the entire XtreemFS volume. XtreemFS client is smart enough to contact the best OSD for the file resource. In case it’s desirable to maintain more than 1 replica of the same file, it can be done with the xtfsutil tool. For example, to configure XtreemFS to replicate a file to all available OSDs:\\
 
 
 \chapter{Private Infrastructure Cloud}
