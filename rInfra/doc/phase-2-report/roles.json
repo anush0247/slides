@@ -1,0 +1,22 @@
+[
+    {
+        "role": {
+            "id": 2, 
+            "title": "DBA", 
+            "is_verified": false, 
+            "permissions": [
+                {
+                    "id": 4, 
+                    "title": "DB Delete", 
+                    "is_verified": true
+                }, 
+                {
+                    "id": 5, 
+                    "title": "DB Edit", 
+                    "is_verified": true
+                }, 
+            ]
+        }, 
+        "is_verified": true
+    }
+]

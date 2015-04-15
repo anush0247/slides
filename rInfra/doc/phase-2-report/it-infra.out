@@ -7,28 +7,42 @@
 \BOOKMARK [1][-]{section.2.1}{Components}{chapter.2}% 7
 \BOOKMARK [0][-]{chapter.3}{Phase II Work}{}% 8
 \BOOKMARK [1][-]{section.3.1}{Components}{chapter.3}% 9
-\BOOKMARK [0][-]{chapter.4}{Network Single Sign-On}{}% 10
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 11
-\BOOKMARK [1][-]{section.4.2}{LDAP Server}{chapter.4}% 12
-\BOOKMARK [2][-]{subsection.4.2.1}{Installation and Configuration}{section.4.2}% 13
-\BOOKMARK [1][-]{section.4.3}{phpLDAPadmin}{chapter.4}% 14
-\BOOKMARK [2][-]{subsection.4.3.1}{Installation and Configuration}{section.4.3}% 15
-\BOOKMARK [2][-]{subsection.4.3.2}{Web Interface of phpLDAPadmin:}{section.4.3}% 16
-\BOOKMARK [1][-]{section.4.4}{LDAP Client:}{chapter.4}% 17
-\BOOKMARK [2][-]{subsection.4.4.1}{Installation and Configuration:}{section.4.4}% 18
-\BOOKMARK [2][-]{subsection.4.4.2}{Log In as an LDAP User:}{section.4.4}% 19
-\BOOKMARK [0][-]{chapter.5}{Private Infrastructure Cloud}{}% 20
-\BOOKMARK [1][-]{section.5.1}{Openstack Architecture}{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.2}{Installation}{chapter.5}% 22
-\BOOKMARK [2][-]{subsection.5.2.1}{NTP}{section.5.2}% 23
-\BOOKMARK [2][-]{subsection.5.2.2}{MySQL}{section.5.2}% 24
-\BOOKMARK [2][-]{subsection.5.2.3}{Rabbitmq-server}{section.5.2}% 25
-\BOOKMARK [2][-]{subsection.5.2.4}{Keystone}{section.5.2}% 26
-\BOOKMARK [2][-]{subsection.5.2.5}{Glance}{section.5.2}% 27
-\BOOKMARK [2][-]{subsection.5.2.6}{Nova}{section.5.2}% 28
-\BOOKMARK [2][-]{subsection.5.2.7}{Neutron}{section.5.2}% 29
-\BOOKMARK [1][-]{section.5.3}{Virtual Machines}{chapter.5}% 30
-\BOOKMARK [0][-]{chapter.6}{Conclusion \046 Future Work}{}% 31
-\BOOKMARK [1][-]{section.6.1}{Conclusion}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 33
-\BOOKMARK [0][-]{chapter.7}{References}{}% 34
+\BOOKMARK [0][-]{chapter.4}{Web based Single Sign-On}{}% 10
+\BOOKMARK [1][-]{section.4.1}{OAuth Provider}{chapter.4}% 11
+\BOOKMARK [2][-]{subsection.4.1.1}{OAuth Protocol}{section.4.1}% 12
+\BOOKMARK [1][-]{section.4.2}{University User Profiles}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.3}{REST API}{chapter.4}% 14
+\BOOKMARK [2][-]{subsection.4.3.1}{Technologies Used}{section.4.3}% 15
+\BOOKMARK [2][-]{subsection.4.3.2}{API Testing}{section.4.3}% 16
+\BOOKMARK [1][-]{section.4.4}{Roles \046 Permissions}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.5}{PHP Client Libraray}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.5.1}{Initializing the Client Library}{section.4.5}% 19
+\BOOKMARK [2][-]{subsection.4.5.2}{Get Authorization URL}{section.4.5}% 20
+\BOOKMARK [2][-]{subsection.4.5.3}{Get Access Token}{section.4.5}% 21
+\BOOKMARK [2][-]{subsection.4.5.4}{Initializing API with Access Token}{section.4.5}% 22
+\BOOKMARK [2][-]{subsection.4.5.5}{Getting User Info from API}{section.4.5}% 23
+\BOOKMARK [0][-]{chapter.5}{Network Single Sign-On}{}% 24
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.2}{LDAP Server}{chapter.5}% 26
+\BOOKMARK [2][-]{subsection.5.2.1}{Installation and Configuration}{section.5.2}% 27
+\BOOKMARK [1][-]{section.5.3}{phpLDAPadmin}{chapter.5}% 28
+\BOOKMARK [2][-]{subsection.5.3.1}{Installation and Configuration}{section.5.3}% 29
+\BOOKMARK [2][-]{subsection.5.3.2}{Web Interface of phpLDAPadmin:}{section.5.3}% 30
+\BOOKMARK [1][-]{section.5.4}{LDAP Client:}{chapter.5}% 31
+\BOOKMARK [2][-]{subsection.5.4.1}{Installation and Configuration:}{section.5.4}% 32
+\BOOKMARK [2][-]{subsection.5.4.2}{Log In as an LDAP User:}{section.5.4}% 33
+\BOOKMARK [0][-]{chapter.6}{Private Infrastructure Cloud}{}% 34
+\BOOKMARK [1][-]{section.6.1}{Openstack Architecture}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.2}{Installation}{chapter.6}% 36
+\BOOKMARK [2][-]{subsection.6.2.1}{NTP}{section.6.2}% 37
+\BOOKMARK [2][-]{subsection.6.2.2}{MySQL}{section.6.2}% 38
+\BOOKMARK [2][-]{subsection.6.2.3}{Rabbitmq-server}{section.6.2}% 39
+\BOOKMARK [2][-]{subsection.6.2.4}{Keystone}{section.6.2}% 40
+\BOOKMARK [2][-]{subsection.6.2.5}{Glance}{section.6.2}% 41
+\BOOKMARK [2][-]{subsection.6.2.6}{Nova}{section.6.2}% 42
+\BOOKMARK [2][-]{subsection.6.2.7}{Neutron}{section.6.2}% 43
+\BOOKMARK [1][-]{section.6.3}{Virtual Machines}{chapter.6}% 44
+\BOOKMARK [0][-]{chapter.7}{Conclusion \046 Future Work}{}% 45
+\BOOKMARK [1][-]{section.7.1}{Conclusion}{chapter.7}% 46
+\BOOKMARK [1][-]{section.7.2}{Future Work}{chapter.7}% 47
+\BOOKMARK [0][-]{chapter.8}{References}{}% 48

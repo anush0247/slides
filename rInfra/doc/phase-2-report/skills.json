@@ -1,0 +1,30 @@
+[
+    {
+        "skills": [
+            {
+                "id": 1, 
+                "title": "C"
+            }, 
+            {
+                "id": 2, 
+                "title": "java"
+            }, 
+            {
+                "id": 3, 
+                "title": "cloud"
+            }, 
+            {
+                "id": 4, 
+                "title": "computing"
+            }, 
+            {
+                "id": 5, 
+                "title": "python"
+            }, 
+            {
+                "id": 6, 
+                "title": "mongldb"
+            }
+        ]
+    }
+]

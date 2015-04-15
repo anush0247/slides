@@ -7,28 +7,42 @@
 \contentsline {section}{\numberline {2.1}Components}{2}{section.2.1}
 \contentsline {chapter}{\numberline {3}Phase II Work}{3}{chapter.3}
 \contentsline {section}{\numberline {3.1}Components}{3}{section.3.1}
-\contentsline {chapter}{\numberline {4}Network Single Sign-On}{4}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{4}{section.4.1}
-\contentsline {section}{\numberline {4.2}LDAP Server}{4}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Installation and Configuration}{4}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}phpLDAPadmin}{5}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Installation and Configuration}{5}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Web Interface of phpLDAPadmin:}{6}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}LDAP Client:}{9}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Installation and Configuration:}{9}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Log In as an LDAP User:}{10}{subsection.4.4.2}
-\contentsline {chapter}{\numberline {5}Private Infrastructure Cloud}{11}{chapter.5}
-\contentsline {section}{\numberline {5.1}Openstack Architecture}{11}{section.5.1}
-\contentsline {section}{\numberline {5.2}Installation}{12}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}NTP}{12}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}MySQL}{12}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Rabbitmq-server}{12}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Keystone}{12}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}Glance}{12}{subsection.5.2.5}
-\contentsline {subsection}{\numberline {5.2.6}Nova}{12}{subsection.5.2.6}
-\contentsline {subsection}{\numberline {5.2.7}Neutron}{12}{subsection.5.2.7}
-\contentsline {section}{\numberline {5.3}Virtual Machines}{13}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusion \& Future Work}{14}{chapter.6}
-\contentsline {section}{\numberline {6.1}Conclusion}{14}{section.6.1}
-\contentsline {section}{\numberline {6.2}Future Work}{14}{section.6.2}
-\contentsline {chapter}{\numberline {7}References}{15}{chapter.7}
+\contentsline {chapter}{\numberline {4}Web based Single Sign-On}{4}{chapter.4}
+\contentsline {section}{\numberline {4.1}OAuth Provider}{4}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}OAuth Protocol}{4}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}University User Profiles}{5}{section.4.2}
+\contentsline {section}{\numberline {4.3}REST API}{6}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Technologies Used}{6}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}API Testing}{7}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Roles \& Permissions}{9}{section.4.4}
+\contentsline {section}{\numberline {4.5}PHP Client Libraray}{10}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Initializing the Client Library}{10}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Get Authorization URL}{10}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Get Access Token}{10}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Initializing API with Access Token}{10}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Getting User Info from API}{10}{subsection.4.5.5}
+\contentsline {chapter}{\numberline {5}Network Single Sign-On}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{11}{section.5.1}
+\contentsline {section}{\numberline {5.2}LDAP Server}{12}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Installation and Configuration}{12}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}phpLDAPadmin}{13}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Installation and Configuration}{13}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Web Interface of phpLDAPadmin:}{13}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}LDAP Client:}{16}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Installation and Configuration:}{16}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Log In as an LDAP User:}{17}{subsection.5.4.2}
+\contentsline {chapter}{\numberline {6}Private Infrastructure Cloud}{18}{chapter.6}
+\contentsline {section}{\numberline {6.1}Openstack Architecture}{18}{section.6.1}
+\contentsline {section}{\numberline {6.2}Installation}{19}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}NTP}{19}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}MySQL}{19}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Rabbitmq-server}{19}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Keystone}{19}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Glance}{19}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}Nova}{19}{subsection.6.2.6}
+\contentsline {subsection}{\numberline {6.2.7}Neutron}{19}{subsection.6.2.7}
+\contentsline {section}{\numberline {6.3}Virtual Machines}{20}{section.6.3}
+\contentsline {chapter}{\numberline {7}Conclusion \& Future Work}{21}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclusion}{21}{section.7.1}
+\contentsline {section}{\numberline {7.2}Future Work}{21}{section.7.2}
+\contentsline {chapter}{\numberline {8}References}{22}{chapter.8}

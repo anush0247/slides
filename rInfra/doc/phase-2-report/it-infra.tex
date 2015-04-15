@@ -120,7 +120,7 @@ M. Sanyasi Rao & N090891
 %\end{flushright}
 %\end{multicols}
 
-\textbf{Sep 2014 -- Dec 2014 }
+\textbf{Jan 2015 -- Apr 2015 }
 
 \end{center}
 \end{titlepage}
@@ -141,7 +141,7 @@ Implementing the Web based central identity, network based central identity, ach
 \pagenumbering{roman}
 \tableofcontents
 \listoffigures
-\listoftables
+%\listoftables
 \pagebreak \thispagestyle{empty} \pagebreak
 
  
@@ -237,6 +237,108 @@ Implementing the Web based central identity, network based central identity, ach
 		\end{itemize}		 			
 
 	\end{itemize}
+
+\chapter{Web based Single Sign-On}
+
+\section{OAuth Provider}
+\hspace{6mm} \linebreak Here in this section the overall workflow of Authentication in a Single Sign-On System is explained. In order to Authenticate users with the given credentials we must use a robust and stable protocol. And many Single Sign-On systems uses OAuth protocols for this purpose. Single Sign-On uses OAuth protocol for both Authentication \& Authorization.
+\subsection{OAuth Protocol}
+OAuth is an authentication protocol that allows users to approve application to act on their behalf without sharing their password.
+The below figure explains the flow of Authentication in OAuth Protocol.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.5]{abstract_flow}
+\caption{OAuth Protocol Work Flow Diagram\label{fig:OAuth Protocol Work Flow Diagram}}
+\end{center}
+\end{figure}
+Steps invloved in the above flow diagram
+\begin{itemize}
+\item The application requests authorization to access service resources from the user
+\item If the user authorized the request, the application receives an authorization grant
+\item The application requests an access token from the authorization server (API) by presenting authentication of its own identity, and the authorization grant
+\item If the application identity is authenticated and the authorization grant is valid, the authorization server (API) issues an access token to the application. Authorization is complete.
+\item The application requests the resource from the resource server (API) and presents the access token for authentication
+\item If the access token is valid, the resource server (API) serves the resource to the application
+\end{itemize}
+%\subsection{How well we implemented this?}
+%\hspace{6mm} 
+%To implement OAuth provider we used python-django with oauth-tool-kit. When user requests the protected resource, oauth-tool-kit will generate client id and client secret. By using those user will get access token to access protected resource. 
+\section{University User Profiles}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{RID_Pics/Profile}
+\caption{User Profile\label{fig:User Profile Section}}
+\end{center}
+\end{figure}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{RID_Pics/Edit_Profile}
+\caption{Edit User Profile\label{fig:Edit User Profile}}
+\end{center}
+\end{figure}
+\section{REST API} 
+\hspace{6mm}REST stand for \textbf{RE}presentational \textbf{S}tate \textbf{T}ransfer. It's a collection of simple URIs, and HTTP calls like GET,PUT,POST,DELETE to those URIs to get some Protected data from a Resource Server. Once User provides a set of valid credentials to OAuth Provider it will generate an access token to that particular user, with that token user can fetch protected resources from the resource server by making basic HTTP calls through REST API. REST API provides users a flexibility to perform Basic CRUD(Create,Read,Update,Delete) on resource server.
+	\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=7cm,height=2cm]{CRUD}
+	\caption{CRUD Operations\label{fig:CRUD Operations}}
+	\end{center}
+	\end{figure}
+\subsection{Technologies Used}
+\begin{itemize}
+	\item django $ >= $ 1.6.0
+	\item SQLite3
+	\item django-rest-framework
+	\item oauth-tool-kit
+	\item semantic ui 2.0
+\end{itemize}
+\pagebreak
+\subsection{API Testing}
+\textbf{\url{/api/basic_info/?access_token=<token>}}
+\lstinputlisting[language=Java]{basic_info.json} 
+\underline{} \newline
+\textbf{\url{/api/contact_info/?access_token=<token>}}
+\lstinputlisting[language=Java]{contact_info.json}
+\underline{} \newline
+\textbf{\url{/api/education/?access_token=<token>}}
+\lstinputlisting[language=Java]{education.json}
+\underline{} \newline
+\textbf{\url{/api/skills/?access_token=<token>}}
+\lstinputlisting[language=Java]{skills.json}
+\underline{} \newline
+\textbf{\url{/api/roles/?access_token=<token>}}
+\lstinputlisting[language=Java]{roles.json}
+\underline{} \newline
+
+
+\section{Roles \& Permissions}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{RID_Pics/Roles}
+\caption{List of Roles of User\label{fig:User Roles}}
+\end{center}
+
+\begin{center}
+\includegraphics[scale=0.4]{RID_Pics/Add_Permission}
+\caption{Adding Permissions Option\label{fig:Add Permissions}}
+\end{center}
+\end{figure}
+\pagebreak
+\section{PHP Client Libraray}
+\hspace{6mm}  We developed a Client Library for PHP Applications. We used PHP-cURL to perform all the http calls and post requests to get protected data from API Server. And We developed it in a modular way with Object-Oriented approach. And all the function calls in the PHP library is self-explanatory.
+\subsection{Initializing the Client Library}
+\lstinputlisting[language=php]{init.php}
+\subsection{Get Authorization URL}
+\lstinputlisting[language=php]{getURL.php}
+\subsection{Get Access Token}
+\lstinputlisting[language=php]{getToken.php}
+\subsection{Initializing API with Access Token}
+\lstinputlisting[language=php]{initAPI.php}
+\subsection{Getting User Info from API}
+\lstinputlisting[language=php]{getInfo.php}
+
+	
+	
 \chapter{Network Single Sign-On}
 \section{Introduction}
 	
@@ -246,7 +348,13 @@ Implementing the Web based central identity, network based central identity, ach
 	\begin{itemize}
 	\item LDAP Server
 	\item phpLdapAdmin
+	\item LDAP Client
+	\item HAProxy
+	\item GlusterFS
+	\item XtreemFS
 	\end{itemize}
+	
+\pagebreak
 
 \section{LDAP Server}
 
@@ -264,8 +372,7 @@ Implementing the Web based central identity, network based central identity, ach
 	\begin{itemize}
 	\item sudo \textbf{dpkg-reconfigure slapd}
 	\end{itemize}
-	
-	\pagebreak
+
 		By following below steps we have to configure the LDAP
 	\begin{itemize}
 		\item Omit OpenLDAP server configuration? \textbf{No}
@@ -277,6 +384,9 @@ Implementing the Web based central identity, network based central identity, ach
 		\item Move old database? \textbf{Yes}
 		\item Allow LDAPv2 protocol? \textbf{No}
 	\end{itemize}
+	
+\pagebreak
+	
 \section{phpLDAPadmin}	
 	
 	It’s a web-based LDAP client. It provides easy, anywhere-accessible, multi-language administration for LDAP server. By this configuration and monitor of LDAP Server will be done in an easy way. \\
@@ -297,22 +407,33 @@ config.php file of phpLDAPadmin.
 
 \subsection{Web Interface of phpLDAPadmin:}
 	%\subsubsection{Authentication:}
+\begin{multicols}{2}
+\begin{flushleft}
 
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=8cm,height=6cm]{Screens/LdapServerLogin.png}
-		\caption{phpLDAP \label{fig: phpLDAP Image}}
+		\includegraphics[width=6cm,height=6cm]{Screens/LdapServerLogin.png}
+		\caption{phpLDAP \label{fig: phpLDAP }}
 		\end{center}
 		\end{figure}
 
-	%\subsubsection{Server’s sidebar with complete information:}
+\end{flushleft}
+\begin{flushright}
+
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=8cm,height=8cm]{Screens/serversidebar.png}
+		\includegraphics[width=6cm,height=6cm]{Screens/serversidebar.png}
 		\caption{Complete category of LdapServer \label{fig: Complete category of LdapServer}}
 		\end{center}
 		\end{figure}
 	
+
+\end{flushright}
+\end{multicols}
+
+
+	%\subsubsection{Server’s sidebar with complete information:}
+		
 	%\subsubsection{User Creation in LDAP server:}
 		\begin{figure}[H]
 		\begin{center}

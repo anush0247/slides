@@ -1,0 +1,23 @@
+[
+    {
+        "school": "ZPHS Sankhavaram", 
+        "period": "2004-2009", 
+        "degree": "SSC", 
+        "stream": "ALL", 
+        "grade": 91.0
+    }, 
+    {
+        "school": "RGUKT Nuzvid", 
+        "period": "2009-2011", 
+        "degree": "PUC", 
+        "stream": "M.Bi.P.C", 
+        "grade": 89.2
+    }, 
+    {
+        "school": "RGUKT Nuzvid", 
+        "period": "2011-2015", 
+        "degree": "B.Tech", 
+        "stream": "CSE", 
+        "grade": 85.0
+    }
+]
