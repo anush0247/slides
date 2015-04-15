@@ -284,7 +284,13 @@ This Virtual Machines are created from the resource pool after successfull insta
 	\end{center}
 \end{figure}
 \chapter{Conclusion \& Future Work}
-\underline{}
+\section{Conclusion} 
+We tried GlusterFS for replication among systems, but it’s not working if any one of the system fails. Then we found that XtreemFS works well in distributed system and provides fault tolerant solution. \newline
+\underline{} \newline
+We developed network based sign on using LDAP and web based single sign on along with REST API using Oauth 2.0 and Django. We tried to create private cloud using openstack but lot of errors came because of proxy based internet and low configured PCs.
+
+\section{Future Work}
+We would like to combine Network single sign-on with Web based single sign on along with XtreemFS and HAProxy. Creating virtual machines and Private cloud is not possible with the available systems. But if we could provide systems with enough configuration, sure we can create better sophisticated solution
 
 \chapter{References}
 
