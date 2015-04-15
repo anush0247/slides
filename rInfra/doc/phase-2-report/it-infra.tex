@@ -1,0 +1,229 @@
+\documentclass[12pt]{report}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in, a4paper]{geometry}
+
+ \ifx\pdftexversion\undefined
+ \usepackage[dvips]{graphicx}
+ \else
+ 
+ \usepackage[pdftex]{graphicx}
+ \DeclareGraphicsRule{*}{mps}{*}{}
+ \fi
+%\usepackage{tabularx,colortbl}
+\usepackage{url}
+\usepackage{chapterbib}
+\usepackage{hyperref}
+\usepackage{tabularx}
+%\usepackage{tikz}
+%\usepackage{pgfplots}
+%\usepgfplotslibrary{groupplots} 
+%\usepackage{pgf, pgfarrows, pgfnodes}
+\usepackage{lscape}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{float}
+\usepackage{paralist}
+%\usepackage[none]{hyphenat}
+\renewcommand{\bibname}{References}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+
+
+
+\begin{document}
+
+\begin{titlepage}
+ \begin{center}
+\LARGE
+\textbf{Cloud based IT Infra with Central Identity} \\
+%\vfill
+%\large
+%\textbf{\{ Project reboot \}}\\
+\vfill
+\textbf{Phase II -- Project Report }\\
+\vfill
+\Large
+\underline{\textbf{Project Guide }} \\ 
+\large
+\underline{} \\
+T. Chandra Shekar \\
+\small
+Dept. of CSE -- RGUKT Nuzvid \\
+\small
+\url{chandra.indra@gmail.com}
+\vfill
+
+\Large
+\textbf{\underline{ Project Team } } \\
+\underline{} \\
+\large
+\begin{tabular}{l  l}
+T. Aneesh Kumar & N090247  \\
+P. Nageswarao  & N091030  \\
+P. Anesh  & N090977  \\
+P. Jyothi Ram & N090990  \\
+K. Naresh Chowdary  & N090331  \\
+N. Venkata Sateesh  & N090935  \\
+M. Sanyasi Rao & N090891 
+\end{tabular}
+
+\vfill
+
+
+\includegraphics[width=3.5cm]{rgukt_logo.jpg} 
+\Large
+\underline{} \\
+\underline{} \\
+\normalsize
+\textbf{Dept. of Computer Science and Engg. } \\
+\textbf{R.G.U.K.T. - Nuzvid } \\
+\textbf{Krishna Dt. - Andrha Pradesh - 521202}
+
+
+\normalsize
+\vfill
+%\begin{multicols}{2}
+%\begin{flushleft}
+%\textbf{Start Date} : Sep 2014 \\
+%\end{flushleft}
+%
+%
+%\begin{flushright}
+%\textbf{End Date} : Jan 2015 \\
+%\end{flushright}
+%\end{multicols}
+
+\textbf{Sep 2014 -- Dec 2014 }
+
+\end{center}
+\end{titlepage}
+
+% \pagebreak \thispagestyle{empty} \textcolor{white}{text} \pagebreak
+ 
+\chapter*{Abstract}
+\setcounter{page}{1}
+\pagenumbering{roman}
+\normalsize
+\hspace{0.5cm} The main objective of ``Cloud based IT Infra with Central Identity'' Phase II is provide the implementation to our objectives. \newline
+
+Implementing the Web based central identity, network based central identity, achieve the combination and deploy all these in the private cloud \newline
+
+%\pagebreak \thispagestyle{empty} \textcolor{white}{text} \pagebreak
+
+\setcounter{page}{2}
+\pagenumbering{roman}
+\tableofcontents
+\listoffigures
+\listoftables
+\pagebreak \thispagestyle{empty} \pagebreak
+
+ 
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+
+\chapter{Introduction}
+
+\section{Introduction}
+	``Cloud Based IT Infra with Central Identity'' is a complete solution, based on private cloud to enhance and effiecient utilization the IT Infrastructure of an emerging Universities and Organizations with Central Identity for all its users to access its services.\newline
+
+	It is going to be developed in 3 phases 
+	\begin{itemize}
+		\item \textit{Private cloud} 
+		\item \textit{Deploying Network Services} 
+		\item \textit{Central Identity}
+	\end{itemize}
+	
+\subsection{Private Cloud}
+
+	Private Cloud establishment is targeted for hardware resource pooling, providing high computational and scalable virtual machines for deploying network based applications (smtp, proxy, ftp), web application and Network storage.
+	
+\subsection{Deploying Network Services}
+
+	Configuration of Uniform hardware experience over the complete university includes single sign on on every device, configuration of mail servers etc.
+	
+\subsection{Central Identity}
+
+	Essential part that combines normal network services(proxy, mail, etc.) and organizational web \& native applications. In addtion to that this central identity is available to thrid party developers as API with dynamic based role user authentication protocols.	
+	
+\chapter{Phase I Work}
+
+	As part of Phase I, we have done literature survey and anlyzed feasability of the several components
+	
+\section{Components}
+
+	\begin{itemize}
+		\item Central Identity
+		\begin{itemize}
+			\item Single Sign-On with REST API
+			\item Identity Management
+			\item Dynamic Role Based Access Control
+		\end{itemize}
+		\item Network Based Central Identity
+		\begin{itemize}
+			\item LDAP Servers
+			\item NFS Servers
+		\end{itemize}
+		\item Cloud Computing
+		\begin{itemize}
+			\item 	Cloud Characterstics
+			\item Service Models 
+			\item Deployment Models 
+		\end{itemize}		 
+		\item Private Clouds 
+		\begin{itemize}
+		 	\item Introduction 
+			\item Open Source Tools 
+		\end{itemize}			
+
+	\end{itemize}
+
+\chapter{Phase II Work}
+
+	As part of Phase II, we have tried to implement some of the above mention components 
+
+\section{Components}
+
+	\begin{itemize}
+		\item Web based Signle Sign On
+		\begin{itemize}
+			\item OAuth Provider 
+			\item University Users Profiles 
+			\item REST API 
+			\item Support of assigin roles to users with their permission set
+			\item Testing oauth client library in PHP using php-curl
+		\end{itemize}
+		\item Network Components
+		\begin{itemize}
+			\item LDAP Server
+			\item NFS Server
+			\item Haproxy
+			\item GlusterFS
+			\item XtreemFS
+			%\item DOS Attacks
+		\end{itemize}
+		\item Private Infrastructure Cloud
+		\begin{itemize}
+			\item Openstack Architecture
+			\item Installation
+			\item Virtual Machines
+		\end{itemize}		 			
+
+	\end{itemize}
+
+\chapter{Private Infrastructure Cloud}
+To support this central identity both the network and web network central identity we want to go for the private cloud deployment it includes creating the Private Infrastructure Cloud with openstack and creating Virtual Machines for instaling these services and assign them the IP address.
+
+\section{Openstack Architecture}
+
+
+\chapter{Conclusion \& Future Work}
+\underline{}
+
+\chapter{References}
+
+\end{document}
