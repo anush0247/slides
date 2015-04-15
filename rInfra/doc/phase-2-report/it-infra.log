@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  15 APR 2015 22:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  15 APR 2015 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,7 +448,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 80.
 
-<rgukt_logo.jpg, id=101, 236.885pt x 162.6075pt>
+<rgukt_logo.jpg, id=141, 236.885pt x 162.6075pt>
 File: rgukt_logo.jpg Graphic file (type jpg)
  <use rgukt_logo.jpg>
 Package pdftex.def Info: rgukt_logo.jpg used on input line 100.
@@ -467,23 +467,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
 [1
 
-] (./it-infra.toc)
+] (./it-infra.toc [2
+
+])
 \tf@toc=\write4
 \openout4 = `it-infra.toc'.
 
- [2
-
-] (./it-infra.lof)
+ [3] (./it-infra.lof)
 \tf@lof=\write5
 \openout5 = `it-infra.lof'.
 
- [3
+ [4
 
 ] (./it-infra.lot)
 \tf@lot=\write6
 \openout6 = `it-infra.lot'.
 
- [4
+ [5
 
 ]
 Chapter 1.
@@ -516,96 +516,217 @@ Chapter 3.
 
 ]
 Chapter 4.
-<./openstack_1.png, id=176, 606.265pt x 414.54875pt>
-File: ./openstack_1.png Graphic file (type png)
- <use ./openstack_1.png>
-Package pdftex.def Info: ./openstack_1.png used on input line 249.
-(pdftex.def)             Requested size: 312.9839pt x 227.61665pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--252
-
- []
-
-
-Overfull \hbox (8.68567pt too wide) in paragraph at lines 256--257
-\OT1/cmr/m/n/12 Installing open-stack in-cludes com-po-nent wise in-stal-la-tio
-n namely NTP, MySQL, Rabbitmq-
- []
-
 [4
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
-has been already used, duplicate ignored
+]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2013/08/26 1.5b listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 296.
+ (./conf.php
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1.
+)
+<Screens/LdapServerLogin.png, id=246, 441.65pt x 324.21124pt>
+File: Screens/LdapServerLogin.png Graphic file (type png)
+
+<use Screens/LdapServerLogin.png>
+Package pdftex.def Info: Screens/LdapServerLogin.png used on input line 303.
+(pdftex.def)             Requested size: 227.62413pt x 170.71805pt.
+ [5]
+<Screens/serversidebar.png, id=258, 345.29pt x 367.3725pt>
+File: Screens/serversidebar.png Graphic file (type png)
+
+<use Screens/serversidebar.png>
+Package pdftex.def Info: Screens/serversidebar.png used on input line 311.
+(pdftex.def)             Requested size: 227.62338pt x 227.62843pt.
+
+<Screens/UserCreation.png, id=259, 465.74pt x 721.69624pt>
+File: Screens/UserCreation.png Graphic file (type png)
+
+<use Screens/UserCreation.png>
+Package pdftex.def Info: Screens/UserCreation.png used on input line 319.
+(pdftex.def)             Requested size: 284.53448pt x 426.7882pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.257 \subsection
-                 {NTP} <./openstack_1.png>] [5]
-<./openstack_2.png, id=185, 1333.98375pt x 746.79pt>
-File: ./openstack_2.png Graphic file (type png)
- <use ./openstack_2.png>
-Package pdftex.def Info: ./openstack_2.png used on input line 276.
-(pdftex.def)             Requested size: 341.43353pt x 227.61678pt.
+l.323 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.2}) has been already used, duplicate ignored
 
-<./openstack_3.png, id=187, 1371.1225pt x 770.88pt>
-File: ./openstack_3.png Graphic file (type png)
- <use ./openstack_3.png>
-Package pdftex.def Info: ./openstack_3.png used on input line 282.
-(pdftex.def)             Requested size: 341.41988pt x 227.61935pt.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.323 
+       <./Screens/LdapServerLogin.png> <./Screens/serversidebar.png>]
+<Screens/admin_group.png, id=264, 497.86pt x 310.15875pt>
+File: Screens/admin_group.png Graphic file (type png)
 
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}
+<use Screens/admin_group.png>
+Package pdftex.def Info: Screens/admin_group.png used on input line 327.
+(pdftex.def)             Requested size: 227.62817pt x 170.7156pt.
+
+<Screens/AddUsertoGroup.png, id=266, 577.15625pt x 469.755pt>
+File: Screens/AddUsertoGroup.png Graphic file (type png)
+
+<use Screens/AddUsertoGroup.png>
+Package pdftex.def Info: Screens/AddUsertoGroup.png used on input line 335.
+(pdftex.def)             Requested size: 284.53514pt x 227.62303pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.339 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.339 
+       <./Screens/UserCreation.png> <./Screens/admin_group.png>]
+<Screens/Groupsinfo.png, id=273, 988.69376pt x 601.24625pt>
+File: Screens/Groupsinfo.png Graphic file (type png)
+
+<use Screens/Groupsinfo.png>
+Package pdftex.def Info: Screens/Groupsinfo.png used on input line 343.
+(pdftex.def)             Requested size: 483.6948pt x 284.53072pt.
+
+Overfull \hbox (30.7269pt too wide) in paragraph at lines 343--344
+ [] 
+ []
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.286 \chapter
+l.350 	\subsection
+                  {Installation and Configuration:}pdfTeX warning (ext4): desti
+nation with the same identifier (name{figure.4.6}) has been already used, dupli
+cate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.350 	\subsection
+                  {Installation and Configuration:} <./Screens/AddUsertoGroup.p
+ng> <./Screens/Groupsinfo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 374--379
+
+ []
+
+[9] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+(./nsswitch.conf) [10]
+Chapter 5.
+<./openstack_1.png, id=290, 606.265pt x 414.54875pt>
+File: ./openstack_1.png Graphic file (type png)
+ <use ./openstack_1.png>
+Package pdftex.def Info: ./openstack_1.png used on input line 429.
+(pdftex.def)             Requested size: 312.9839pt x 227.61665pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--432
+
+ []
+
+
+Overfull \hbox (8.68567pt too wide) in paragraph at lines 436--437
+\OT1/cmr/m/n/12 Installing open-stack in-cludes com-po-nent wise in-stal-la-tio
+n namely NTP, MySQL, Rabbitmq-
+ []
+
+[11
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.437 \subsection
+                 {NTP} <./openstack_1.png>] [12]
+<./openstack_2.png, id=300, 1333.98375pt x 746.79pt>
+File: ./openstack_2.png Graphic file (type png)
+ <use ./openstack_2.png>
+Package pdftex.def Info: ./openstack_2.png used on input line 456.
+(pdftex.def)             Requested size: 341.43353pt x 227.61678pt.
+
+<./openstack_3.png, id=301, 1371.1225pt x 770.88pt>
+File: ./openstack_3.png Graphic file (type png)
+ <use ./openstack_3.png>
+Package pdftex.def Info: ./openstack_3.png used on input line 462.
+(pdftex.def)             Requested size: 341.41988pt x 227.61935pt.
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.466 \chapter
               {Conclusion \& Future Work}pdfTeX warning (ext4): destination wit
-h the same identifier (name{figure.4.3}) has been already used, duplicate ignor
+h the same identifier (name{figure.5.3}) has been already used, duplicate ignor
 ed
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.286 \chapter
+l.466 \chapter
               {Conclusion \& Future Work} <./openstack_2.png> <./openstack_3.pn
 g>]
-Chapter 5.
+Chapter 6.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[7
+[14
 
 ]
-Chapter 6.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
-[8
+Chapter 7.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 477.
+[15
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 477.
  (./it-infra.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 477.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 477.
 Package rerunfilecheck Info: File `it-infra.out' has not changed.
-(rerunfilecheck)             Checksum: C639CB44A62494EF50A32551F6A21847;1431.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
+(rerunfilecheck)             Checksum: 2566ADC42EFB089BDDF55CF1130073CA;2138.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 477.
  ) 
 Here is how much of TeX's memory you used:
- 7365 strings out of 494985
- 108786 string characters out of 6180357
- 201235 words of memory out of 5000000
- 10453 multiletter control sequences out of 15000+600000
+ 9426 strings out of 494985
+ 144876 string characters out of 6180357
+ 486159 words of memory out of 5000000
+ 12454 multiletter control sequences out of 15000+600000
  11767 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 29i,7n,32p,321b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,7n,43p,378b,3050s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on it-infra.pdf (13 pages, 301570 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb>
+Output written on it-infra.pdf (21 pages, 474997 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 208 compressed objects within 3 object streams
- 44 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
