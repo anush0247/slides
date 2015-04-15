@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  15 APR 2015 19:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  15 APR 2015 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -307,23 +307,49 @@ Package: paralist 2013/06/09 v2.4 Extended list environments
 \plitemsep=\skip54
 \plparsep=\skip55
 \pl@lab=\toks21
-) (./it-infra.aux)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count119
+\lst@gtempboxa=\box58
+\lst@token=\toks22
+\lst@length=\count120
+\lst@currlwidth=\dimen133
+\lst@column=\count121
+\lst@pos=\count122
+\lst@lostspace=\dimen134
+\lst@width=\dimen135
+\lst@newlines=\count123
+\lst@lineno=\count124
+\lst@maxwidth=\dimen136
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count125
+\lst@skipnumbers=\count126
+\lst@framebox=\box59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(./it-infra.aux)
 \openout1 = `it-infra.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -361,17 +387,17 @@ LaTeX Font Info:    ... okay on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
-\scratchdimen=\dimen133
-\scratchbox=\box58
-\nofMPsegments=\count120
-\nofMParguments=\count121
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count122
-\MPscratchDim=\dimen134
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count127
+\scratchdimen=\dimen137
+\scratchbox=\box60
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen138
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -387,8 +413,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 37.
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring OFF on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -396,45 +422,46 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count125
+\c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
 
 (./it-infra.out) (./it-infra.out)
 \@outlinefile=\write3
 \openout3 = `it-infra.out'.
 
+\c@lstlisting=\count134
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 50.
+(Font)              <17.28> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 50.
+(Font)              <12> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 52.
+(Font)              <14.4> on input line 75.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <7> on input line 75.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 57.
+(Font)              <10.95> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 57.
+(Font)              <8> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 57.
+(Font)              <6> on input line 80.
 
-<rgukt_logo.jpg, id=53, 236.885pt x 162.6075pt>
+<rgukt_logo.jpg, id=93, 236.885pt x 162.6075pt>
 File: rgukt_logo.jpg Graphic file (type jpg)
  <use rgukt_logo.jpg>
-Package pdftex.def Info: rgukt_logo.jpg used on input line 77.
+Package pdftex.def Info: rgukt_logo.jpg used on input line 100.
 (pdftex.def)             Requested size: 99.58464pt x 68.35919pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./rgukt_logo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
@@ -461,22 +488,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 136.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 159.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 136.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 159.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.153 \chapter
+l.176 \chapter
               {Phase I Work} [1
 
 ]
@@ -489,51 +516,93 @@ Chapter 3.
 
 ]
 Chapter 4.
+<./openstack_1.png, id=166, 606.265pt x 414.54875pt>
+File: ./openstack_1.png Graphic file (type png)
+ <use ./openstack_1.png>
+Package pdftex.def Info: ./openstack_1.png used on input line 249.
+(pdftex.def)             Requested size: 312.9839pt x 227.61665pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--252
+
+ []
+
+
+Overfull \hbox (8.68567pt too wide) in paragraph at lines 256--257
+\OT1/cmr/m/n/12 Installing open-stack in-cludes com-po-nent wise in-stal-la-tio
+n namely NTP, MySQL, Rabbitmq-
+ []
+
 [4
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.257 \subsection
+                 {NTP} <./openstack_1.png>] [5]
+<./openstack_2.png, id=175, 1333.98375pt x 746.79pt>
+File: ./openstack_2.png Graphic file (type png)
+ <use ./openstack_2.png>
+Package pdftex.def Info: ./openstack_2.png used on input line 276.
+(pdftex.def)             Requested size: 341.43353pt x 227.61678pt.
+
+<./openstack_3.png, id=177, 1371.1225pt x 770.88pt>
+File: ./openstack_3.png Graphic file (type png)
+ <use ./openstack_3.png>
+Package pdftex.def Info: ./openstack_3.png used on input line 282.
+(pdftex.def)             Requested size: 341.41988pt x 227.61935pt.
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.286 \chapter
+              {Conclusion \& Future Work}pdfTeX warning (ext4): destination wit
+h the same identifier (name{figure.4.3}) has been already used, duplicate ignor
+ed
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.286 \chapter
+              {Conclusion \& Future Work} <./openstack_2.png> <./openstack_3.pn
+g>]
 Chapter 5.
-[5
+[7
 
 ]
 Chapter 6.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
-[6
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
+[8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
  (./it-infra.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
-
-
-Package rerunfilecheck Warning: File `it-infra.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `it-infra.out':
-(rerunfilecheck)             Before: 620ED241742AD6776D9E54BF3E85BA9C;699
-(rerunfilecheck)             After:  0168317FC43FC65A681EACA3635E42F2;768.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
+Package rerunfilecheck Info: File `it-infra.out' has not changed.
+(rerunfilecheck)             Checksum: 27C05DC46DC7ADC3F3D50BF85FA53B55;1316.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
  ) 
 Here is how much of TeX's memory you used:
- 6144 strings out of 494985
- 90627 string characters out of 6180357
- 179994 words of memory out of 5000000
- 9264 multiletter control sequences out of 15000+600000
+ 7361 strings out of 494985
+ 108738 string characters out of 6180357
+ 200235 words of memory out of 5000000
+ 10451 multiletter control sequences out of 15000+600000
  11767 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 29i,6n,28p,304b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,7n,32p,304b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on it-infra.pdf (11 pages, 95650 bytes).
+Output written on it-infra.pdf (13 pages, 300387 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

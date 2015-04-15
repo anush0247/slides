@@ -9,5 +9,14 @@
 \contentsline {section}{\numberline {3.1}Components}{3}{section.3.1}
 \contentsline {chapter}{\numberline {4}Private Infrastructure Cloud}{4}{chapter.4}
 \contentsline {section}{\numberline {4.1}Openstack Architecture}{4}{section.4.1}
-\contentsline {chapter}{\numberline {5}Conclusion \& Future Work}{5}{chapter.5}
-\contentsline {chapter}{\numberline {6}References}{6}{chapter.6}
+\contentsline {section}{\numberline {4.2}Installation}{5}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}NTP}{5}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}MySQL}{5}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Rabbitmq-server}{5}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Keystone}{5}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Glance}{5}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Nova}{5}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Neutron}{5}{subsection.4.2.7}
+\contentsline {section}{\numberline {4.3}Virtual Machines}{6}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusion \& Future Work}{7}{chapter.5}
+\contentsline {chapter}{\numberline {6}References}{8}{chapter.6}

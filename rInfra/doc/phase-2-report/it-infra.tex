@@ -27,10 +27,33 @@
 \usepackage{paralist}
 %\usepackage[none]{hyphenat}
 \renewcommand{\bibname}{References}
-
+\usepackage{listings}
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{4}
-
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
 
 
 
@@ -219,8 +242,47 @@ Implementing the Web based central identity, network based central identity, ach
 To support this central identity both the network and web network central identity we want to go for the private cloud deployment it includes creating the Private Infrastructure Cloud with openstack and creating Virtual Machines for instaling these services and assign them the IP address.
 
 \section{Openstack Architecture}
+Openstack is a cloud operating system that provides the 3 main services for the Infrastructure clouds namely Stoage, Compute, Networking and some other components are can be added later as addons
+\underline{} \newline
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=11cm,height=8cm]{./openstack_1.png}
+	\caption{ Openstack Architecture.\label{fig:Openstack Architecture }}
+	\end{center}
+\end{figure}
 
+\section{Installation}
 
+Installing openstack includes component wise installation namely NTP, MySQL, Rabbitmq-Server, Keystone, Nova, Cinder, Glance, Neutron
+\subsection{NTP}
+\# apt-get install ntp
+\subsection{MySQL}
+\# apt-get install mysql-server
+\subsection{Rabbitmq-server}
+\# apt-get install rabbitmq-server
+\subsection{Keystone}
+\# apt-get install keystone
+\subsection{Glance}
+\# apt-get install glance python-glanceclient
+\subsection{Nova}
+\# apt-get install nova-api nova-cert nova-conductor nova-consoleauth nova-novncproxy nova-scheduler python-novaclient
+\subsection{Neutron}
+\# apt-get install neutron-server neutron-plugin-ml2
+\pagebreak
+\section{Virtual Machines}
+This Virtual Machines are created from the resource pool after successfull installation openstack
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=12cm,height=8cm]{./openstack_2.png}
+	\caption{ Openstack Virtual Machines.\label{fig:Openstack Virtual Machines }}
+	\end{center}
+\end{figure}
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=12cm,height=8cm]{./openstack_3.png}
+	\caption{ Openstack Resource Pool.\label{fig:Openstack Resource Pool }}
+	\end{center}
+\end{figure}
 \chapter{Conclusion \& Future Work}
 \underline{}
 
