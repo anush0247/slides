@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  16 APR 2015 14:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  16 APR 2015 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,7 +1124,7 @@ Package pdftex.def Info: xtreem.png used on input line 331.
 File: OSD1.png Graphic file (type png)
  <use OSD1.png>
 Package pdftex.def Info: OSD1.png used on input line 342.
-(pdftex.def)             Requested size: 113.80031pt x 113.80899pt.
+(pdftex.def)             Requested size: 227.61156pt x 170.71954pt.
  [24
 
  <./OSD1.png>] (./phase-2.toc) [25
@@ -1197,7 +1197,7 @@ ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9
 .pfb>
-Output written on phase-2.pdf (29 pages, 353147 bytes).
+Output written on phase-2.pdf (29 pages, 353144 bytes).
 PDF statistics:
  1624 PDF objects out of 1728 (max. 8388607)
  1522 compressed objects within 16 object streams
