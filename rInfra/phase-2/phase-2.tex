@@ -12,7 +12,7 @@
 \title[Cloud based IT Infra with Central Identity]{Cloud based IT Infra with Central Identity}
 \subtitle{Phase II}
 
-\author{ \underline{Project Guide} \\ \hspace{2mm} \\ \small{ T. Chandra Shekar } \tiny \\ \underline{} \\ \scriptsize \textit{Lecturer -- Dept. of CSE} }
+\author{ \underline{Project Guide} \\ \hspace{2mm} \\ \small{ T. Chandra Shekhar } \tiny \\ \underline{} \\ \scriptsize \textit{Lecturer -- Dept. of CSE} }
 \institute{ \underline{Presenting by} \\ \hspace{2mm} \\ \textit {Team r3b00+ }  \\ \hspace{4mm} \\ Dept. of CSE, RGUKT -- Nuzvid}
 \usepackage{color}
  
@@ -123,6 +123,12 @@ M. Sanyasirao & N090891
 \end{frame}
 \section{Web Single Sign-On}
 
+\begin{frame}
+\begin{center}
+\textbf{Demo}
+\end{center}
+\end{frame}
+
 \subsection{OAuth Provider}
 \begin{frame}{How well we implemented OAuth Provider?}
 	\begin{itemize}
@@ -208,9 +214,16 @@ M. Sanyasirao & N090891
 	\lstinputlisting[language=PHP,caption=PHP Config file]{conf.php}
 \end{frame}
 \subsection{LDAP Client:}
-\begin{frame}{LDAP Client}
+\begin{frame}[allowframebreaks]{LDAP Client}
 	\begin{itemize}
 	\item 	LDAP-Clinet is a another droplet to act as the client machine.
+	\item sudo nano \textbf{/etc/nsswitch.conf}
+\end{itemize}
+		The three lines we are interested in are the "passwd", "group", and "shadow" definitions. 
+		Modify them to look like this:
+		\lstinputlisting[language=sh,caption=Config file]{nsswitch.conf}
+		\framebreak
+\begin{itemize}
 	\item PAM(Pluggable Authentication Modules), is a system that connects applications that can provide authentication to applications that require authentication.	\\
 	\item session required \textbf{pam\_mkhomedir.so skel=/etc/skel umask=0022x}
 	\item We have to add above piece of code to these files  \textbf{common-session}, \textbf{login}, \textbf{lightdm} in /etc/pam.d/ directory
@@ -342,11 +355,12 @@ M. Sanyasirao & N090891
 \end{frame}
 
 \section{Additional Work}
-\begin{frame}
+\begin{frame}{Additional Work}
 \begin{itemize}
-\item DOS Attacks on deployed Application
 \item Openstack Installation
+\item Building Private Cloud
 \item GlusterFS Replication
+\item DOS Attacks on deployed Application
 \end{itemize}
 \end{frame}
 

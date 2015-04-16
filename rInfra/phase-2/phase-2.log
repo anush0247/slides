@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  16 APR 2015 14:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  16 APR 2015 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1035,25 +1035,27 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 
 ] (./phase-2.toc) [6
 
+] [7
+
 ]
-<abstract_flow.png, id=451, 563.10374pt x 373.395pt>
+<abstract_flow.png, id=507, 563.10374pt x 373.395pt>
 File: abstract_flow.png Graphic file (type png)
  <use abstract_flow.png>
-Package pdftex.def Info: abstract_flow.png used on input line 141.
+Package pdftex.def Info: abstract_flow.png used on input line 147.
 (pdftex.def)             Requested size: 199.16858pt x 99.58162pt.
 
-[7
+[8
 
  <./abstract_flow.png>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 152.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 158.
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-(./contact_info.json) [8
+(./contact_info.json) [9
 
-] [9
+] [10
 
 ]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1070,85 +1072,88 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
 (Font)              for symbol `textless' on input line 1.
 
-) (./getURL.php) (./getToken.php) (./initAPI.php) (./getInfo.php) [10
+) (./getURL.php) (./getToken.php) (./initAPI.php) (./getInfo.php) [11
 
 ]
-(./phase-2.toc) [11
-
-] [12
+(./phase-2.toc) [12
 
 ] [13
 
-] (./conf.php) [14
+] [14
 
-] [15
+] (./conf.php) [15
 
 ]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
-) (./nfs.sh)
-[16
+)
+(./nsswitch.conf) [16
 
 ] [17
 
-] (./phase-2.toc) [18
+
+] (./nfs.sh) [18
 
 ] [19
 
-] (./haproxy.sh) [20
+] (./phase-2.toc) [20
+
+] [21
 
 ]
-<Layer7LoadBalancing.PNG, id=1119, 480.29437pt x 240.9pt>
+(./haproxy.sh) [22
+
+] <Layer7LoadBalancing.PNG, id=1235, 480.29437pt x 240.9pt>
 File: Layer7LoadBalancing.PNG Graphic file (type png)
 
 <use Layer7LoadBalancing.PNG>
-Package pdftex.def Info: Layer7LoadBalancing.PNG used on input line 277.
+Package pdftex.def Info: Layer7LoadBalancing.PNG used on input line 290.
 (pdftex.def)             Requested size: 227.62184pt x 113.81114pt.
- [21
+ [23
 
- <./Layer7LoadBalancing.PNG>] [22
+ <./Layer7LoadBalancing.PNG>] [24
 
 ]
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
 
-<xtreem.png, id=1212, 327.2225pt x 361.35pt>
+<xtreem.png, id=1331, 327.2225pt x 361.35pt>
 File: xtreem.png Graphic file (type png)
  <use xtreem.png>
-Package pdftex.def Info: xtreem.png used on input line 331.
+Package pdftex.def Info: xtreem.png used on input line 344.
 (pdftex.def)             Requested size: 113.8106pt x 113.80931pt.
- [23
+ [25
 
- <./xtreem.png>] <OSD1.png, id=1259, 715.67375pt x 396.48125pt>
+ <./xtreem.png>] <OSD1.png, id=1379, 715.67375pt x 396.48125pt>
 File: OSD1.png Graphic file (type png)
  <use OSD1.png>
-Package pdftex.def Info: OSD1.png used on input line 342.
+Package pdftex.def Info: OSD1.png used on input line 355.
 (pdftex.def)             Requested size: 227.61156pt x 170.71954pt.
- [24
+ [26
 
- <./OSD1.png>] (./phase-2.toc) [25
+ <./OSD1.png>] (./phase-2.toc) [27
 
-] [26
+] [28
 
 ]
-Overfull \hbox (5.65675pt too wide) in paragraph at lines 370--370
+Overfull \hbox (5.65675pt too wide) in paragraph at lines 384--384
 \OT1/cmtt/m/n/9 HowToCreateaRedundantStoragePoolUsingGlusterFSonUbuntuServers _
  
  []
 
 
-Overfull \hbox (55.18126pt too wide) in paragraph at lines 370--370
+Overfull \hbox (55.18126pt too wide) in paragraph at lines 384--384
 \OT1/cmtt/m/n/9 how-[]to-[]install-[]and-[]configure-[]a-[]basic-[]ldap-[]serve
 r-[]on-[]an-[]ubuntu-[]12-[]04-[]vps$[]  
  []
 
-[27
+[29
 
-] [28
+] [30
 
 
-] [29
+] [31
 
 ]
 \tf@nav=\write6
@@ -1160,13 +1165,13 @@ r-[]on-[]an-[]ubuntu-[]12-[]04-[]vps$[]
 \tf@snm=\write8
 \openout8 = `phase-2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 391.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 391.
  (./phase-2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 377.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 391.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 391.
 Package rerunfilecheck Info: File `phase-2.out' has not changed.
-(rerunfilecheck)             Checksum: 41AFF25EAD526B09373EBA977D2DC54F;1162.
+(rerunfilecheck)             Checksum: A1E403C168EE3F3FEE7F3148D539D2D2;1163.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1175,13 +1180,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 377.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 391.
  ) 
 Here is how much of TeX's memory you used:
- 19612 strings out of 494985
- 356632 string characters out of 6180357
- 754650 words of memory out of 5000000
- 22279 multiletter control sequences out of 15000+600000
+ 19629 strings out of 494985
+ 356800 string characters out of 6180357
+ 755062 words of memory out of 5000000
+ 22288 multiletter control sequences out of 15000+600000
  13949 words of font info for 53 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,20n,64p,396b,3055s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1197,10 +1202,10 @@ ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9
 .pfb>
-Output written on phase-2.pdf (29 pages, 353144 bytes).
+Output written on phase-2.pdf (31 pages, 359536 bytes).
 PDF statistics:
- 1624 PDF objects out of 1728 (max. 8388607)
- 1522 compressed objects within 16 object streams
- 79 named destinations out of 1000 (max. 500000)
+ 1750 PDF objects out of 2073 (max. 8388607)
+ 1644 compressed objects within 17 object streams
+ 83 named destinations out of 1000 (max. 500000)
  275 words of extra memory for PDF output out of 10000 (max. 10000000)
 
