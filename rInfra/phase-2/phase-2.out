@@ -1,0 +1,19 @@
+\BOOKMARK [2][]{Outline0.1}{Phase I Review}{}% 1
+\BOOKMARK [2][]{Outline0.2}{Web Single Sign-On}{}% 2
+\BOOKMARK [3][]{Outline0.2.1.7}{OAuth Provider}{Outline0.2}% 3
+\BOOKMARK [3][]{Outline0.2.2.8}{API Endpoints}{Outline0.2}% 4
+\BOOKMARK [3][]{Outline0.2.3.9}{Testing OAuth Provider}{Outline0.2}% 5
+\BOOKMARK [3][]{Outline0.2.4.10}{Testing OAuth Provider contd...}{Outline0.2}% 6
+\BOOKMARK [2][]{Outline0.3}{Network Single SignOn}{}% 7
+\BOOKMARK [3][]{Outline0.3.1.12}{Introduction}{Outline0.3}% 8
+\BOOKMARK [3][]{Outline0.3.2.13}{LDAP Server}{Outline0.3}% 9
+\BOOKMARK [3][]{Outline0.3.3.14}{phpLDAPadmin}{Outline0.3}% 10
+\BOOKMARK [3][]{Outline0.3.4.15}{LDAP Client:}{Outline0.3}% 11
+\BOOKMARK [3][]{Outline0.3.5.16}{NFS Server}{Outline0.3}% 12
+\BOOKMARK [3][]{Outline0.3.6.17}{NFS Client}{Outline0.3}% 13
+\BOOKMARK [2][]{Outline0.4}{Additional Network Components}{}% 14
+\BOOKMARK [3][]{Outline0.4.1.19}{Introduction}{Outline0.4}% 15
+\BOOKMARK [3][]{Outline0.4.2.20}{HAProxy}{Outline0.4}% 16
+\BOOKMARK [3][]{Outline0.4.3.22}{GlusterFS}{Outline0.4}% 17
+\BOOKMARK [3][]{Outline0.4.4.23}{XtreemFS}{Outline0.4}% 18
+\BOOKMARK [2][]{Outline0.5}{Additional Work}{}% 19

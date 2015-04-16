@@ -1,1 +1,20 @@
 \beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Phase I Review}{3}{0}{1}
+\beamer@sectionintoc {2}{Web Single Sign-On}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{OAuth Provider}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{API Endpoints}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Testing OAuth Provider}{9}{0}{2}
+\beamer@subsectionintoc {2}{4}{Testing OAuth Provider contd...}{10}{0}{2}
+\beamer@sectionintoc {3}{Network Single SignOn}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Introduction}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{LDAP Server}{13}{0}{3}
+\beamer@subsectionintoc {3}{3}{phpLDAPadmin}{14}{0}{3}
+\beamer@subsectionintoc {3}{4}{LDAP Client:}{15}{0}{3}
+\beamer@subsectionintoc {3}{5}{NFS Server}{16}{0}{3}
+\beamer@subsectionintoc {3}{6}{NFS Client}{17}{0}{3}
+\beamer@sectionintoc {4}{Additional Network Components}{18}{0}{4}
+\beamer@subsectionintoc {4}{1}{Introduction}{19}{0}{4}
+\beamer@subsectionintoc {4}{2}{HAProxy}{20}{0}{4}
+\beamer@subsectionintoc {4}{3}{GlusterFS}{22}{0}{4}
+\beamer@subsectionintoc {4}{4}{XtreemFS}{23}{0}{4}
+\beamer@sectionintoc {5}{Additional Work}{25}{0}{5}
