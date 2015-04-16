@@ -73,7 +73,7 @@
 \underline{\textbf{Project Guide }} \\ 
 \large
 \underline{} \\
-T. Chandra Shekar \\
+T. Chandra Shekhar \\
 \small
 Dept. of CSE -- RGUKT Nuzvid \\
 \small
@@ -131,9 +131,9 @@ M. Sanyasi Rao & N090891
 \setcounter{page}{1}
 \pagenumbering{roman}
 \normalsize
-\hspace{0.5cm} The main objective of ``Cloud based IT Infra with Central Identity'' Phase II is provide the implementation to our objectives. \newline
+\hspace{0.5cm} The main objective of ``Cloud based IT Infra with Central Identity'' Phase II is to provide the implementation to our objectives. \newline
 
-Implementing the Web based central identity, network based central identity, achieve the combination and deploy all these in the private cloud \newline
+We would like to combine Network single sign-on with Web based single sign on along with XtreemFS and HAProxy for fault tolerant load balancing environment\newline
 
 %\pagebreak \thispagestyle{empty} \textcolor{white}{text} \pagebreak
 
@@ -241,10 +241,10 @@ Implementing the Web based central identity, network based central identity, ach
 \chapter{Web based Single Sign-On}
 
 \section{OAuth Provider}
-\hspace{6mm} \linebreak Here in this section the overall workflow of Authentication in a Single Sign-On System is explained. In order to Authenticate users with the given credentials we must use a robust and stable protocol. And many Single Sign-On systems uses OAuth protocols for this purpose. Single Sign-On uses OAuth protocol for both Authentication \& Authorization.
+\hspace{6mm} \linebreak Here in this section the overall workflow of Authentication in a Single Sign-On System is explained. In order to Authenticate users with the given credentials we must use a robust and stable protocol. And many Single Sign-On systems uses OAuth protocols for this purpose. Single Sign-On uses OAuth protocol for both Authentication \& Authorization.$ ^{3}$
 \subsection{OAuth Protocol}
 OAuth is an authentication protocol that allows users to approve application to act on their behalf without sharing their password.
-The below figure explains the flow of Authentication in OAuth Protocol.
+The below figure explains the flow of Authentication in OAuth Protocol. $ ^{5}$
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.5]{abstract_flow}
@@ -277,7 +277,7 @@ Steps invloved in the above flow diagram
 \end{center}
 \end{figure}
 \section{REST API} 
-\hspace{6mm}REST stand for \textbf{RE}presentational \textbf{S}tate \textbf{T}ransfer. It's a collection of simple URIs, and HTTP calls like GET,PUT,POST,DELETE to those URIs to get some Protected data from a Resource Server. Once User provides a set of valid credentials to OAuth Provider it will generate an access token to that particular user, with that token user can fetch protected resources from the resource server by making basic HTTP calls through REST API. REST API provides users a flexibility to perform Basic CRUD(Create,Read,Update,Delete) on resource server.
+\hspace{6mm}REST stand for \textbf{RE}presentational \textbf{S}tate \textbf{T}ransfer. It's a collection of simple URIs, and HTTP calls like GET,PUT,POST,DELETE to those URIs to get some Protected data from a Resource Server. Once User provides a set of valid credentials to OAuth Provider it will generate an access token to that particular user, with that token user can fetch protected resources from the resource server by making basic HTTP calls through REST API. REST API provides users a flexibility to perform Basic CRUD(Create,Read,Update,Delete) on resource server.$ ^{4}$
 	\begin{figure}[H]
 	\begin{center}
 	\includegraphics[width=7cm,height=2cm]{CRUD}
@@ -360,8 +360,8 @@ Steps invloved in the above flow diagram
 
 	LDAP, or Lightweight Directory Access Protocol, is a protocol for managing related information from a centralized location through the use of a file and directory hierarchy. It functions in a similar way to a relational database in certain ways, and can be used to organize and store any kind of information. LDAP is commonly used for centralized authentication.
 
-\subsection{Installation and Configuration}
-	The OpenLDAP server is in Ubuntu's default repositories under the package "slapd". We have to install some additional utilities in order to use it in full pledged way.
+\subsection{Installation and Configuration $ ^{9}$}
+	The OpenLDAP server is in Ubuntu's default repositories under the package "slapd". We have to install some additional utilities in order to use it in full pledged way. 
 	
 	\begin{itemize}
 	\item sudo apt-get \textbf{update}
@@ -540,7 +540,7 @@ By following these below steps we need to configure the LDAP Client
 \pagebreak
 \section{HAProxy}
 HAProxy(High Availability Proxy) is an open source load balancer which can load balance any TCP service. It is particularly suited for HTTP load balancing as it supports session persistence and layer 7 processing. HAProxy can be configured as a front-end to load balance two VPS through private network connectivity.\\
-\subsection{Installing HAProxy}
+\subsection{Installing HAProxy $ ^{8}$}
 \# to install haproxy\\
 sudo apt-get install haproxy\\
 \# to get started by init script\\
@@ -566,7 +566,7 @@ Requests come to frontend PC will be send to any one of the backend PC's based o
 \section{GlusterFS}
 	GlusterFS is a unified, poly-protocol, scale-out file system serving many peta bytes of data. While many databases and other software allows you to spread data out in the context of a single application, other systems can operate on the file system level to ensure that data is copied to another location whenever it is written to disk. A clustered storage solution like GlusterFS provides this exact functionality.\\
 \\
-	We are writing by considering three systems. we are considering the two of our machines as cluster members and the third as a client. We will be configuring the computers we labeled as gluster0 and gluster1 as the cluster components. We will use gluster2 as the client.
+	We are writing by considering three systems. we are considering the two of our machines as cluster members and the third as a client. We will be configuring the computers we labeled as gluster0 and gluster1 as the cluster components. We will use gluster2 as the client. $ ^{8}$
 \subsection{Configure DNS solution}
 Go to \textbf{sudo nano /etc/hosts} and add below lines\\
 \#first\_ip gluster0.droplet.com gluster0\\
@@ -671,6 +671,14 @@ Openstack is a cloud operating system that provides the 3 main services for the 
 \section{Installation}
 
 Installing openstack includes component wise installation namely NTP, MySQL, Rabbitmq-Server, Keystone, Nova, Cinder, Glance, Neutron
+
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=14cm,height=5.5cm]{./openstack_4.png}
+	\caption{ Openstack Service Components. $^{12}$ \label{fig:Openstack Service Components }}
+	\end{center}
+\end{figure}
+
 \subsection{NTP}
 \# apt-get install ntp
 \subsection{MySQL}
@@ -710,5 +718,19 @@ We developed network based sign on using LDAP and web based single sign on along
 We would like to combine Network single sign-on with Web based single sign on along with XtreemFS and HAProxy. Creating virtual machines and Private cloud is not possible with the available systems. But if we could provide systems with enough configuration, sure we can create better sophisticated solution
 
 \chapter{References}
+\begin{enumerate}
+	\item Django Docs -- \url{https://docs.djangoproject.com/en/1.7/}
+	\item Django -- \url{https://djangoproject.com/}
+	\item Django OAuth Tool Kit -- \url{https://github.com/evonove/django-oauth-toolkit}
+	\item Django REST Framework -- \url{http://www.django-rest-framework.org/}
+	\item OAuth 2.0 -- \url{http://oauth.net/2/}
+	\item Semantic UI -- \url{http://beta.semantic-ui.com/}
+	\item GlusterFS -- \url{https://www.digitalocean.com/How To Create a Redundant Storage Pool Using GlusterFS on Ubuntu Servers _ DigitalOcean.htm}
+	\item HAProxy -- \url{www.digitalocean.com/How To Use HAProxy to Set Up HTTP Load Balancing on an Ubuntu VPS _ DigitalOcean.htm}
+	\item LDAP -- \url{https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-a-basic-ldap-server-on-an-ubuntu-12-04-vps}
+	\item NFS Server -- \url{http://www.server-world.info/en/note?os=Ubuntu_14.04&p=nfs}
+	\item NFS Client -- \url{http://www.server-world.info/en/note?os=Ubuntu_14.04&p=nfs&f=2}
+	\item Openstack -- \url{http://www.server-world.info/en/note?os=Ubuntu_14.04&p=openstack_icehouse}
+\end{enumerate}
 
 \end{document}
