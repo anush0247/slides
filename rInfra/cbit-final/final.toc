@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Objective}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Objective}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Motivation}{5}{0}{1}
+\beamer@sectionintoc {2}{Proposed System}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Users \& IT Services}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Cloud Infrastructures}{8}{0}{2}
