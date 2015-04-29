@@ -1,0 +1,108 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Private Cloud}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Deploying Network Services}{1}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Central Identity}{1}{subsection.1.1.3}
+\contentsline {chapter}{\numberline {2}Motivation \& Approach}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Existing System}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}Problems under consideration}{2}{section.2.2}
+\contentsline {section}{\numberline {2.3}Proposed System}{3}{section.2.3}
+\contentsline {section}{\numberline {2.4}Approach}{3}{section.2.4}
+\contentsline {chapter}{\numberline {3}System Design}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Users \& IT Services}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}Components Identified}{5}{section.3.2}
+\contentsline {section}{\numberline {3.3}Cloud Infrastructure Architecture}{5}{section.3.3}
+\contentsline {chapter}{\numberline {4}Central Identiy}{6}{chapter.4}
+\contentsline {section}{\numberline {4.1}Single Sign-On with REST API}{6}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Introduction}{6}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Why Single Sign-On?}{7}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Advantages}{7}{subsubsection.4.1.2.1}
+\contentsline {subsection}{\numberline {4.1.3}Single Sign-On Work Flow}{8}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}OAuth Protocol}{8}{subsubsection.4.1.3.1}
+\contentsline {section}{\numberline {4.2}Identity Management}{9}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Introduction}{9}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Authentication \& Authorization}{9}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Federated Identity Management}{9}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}User-Centric Identity Management}{10}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}Relating to Our University}{12}{subsubsection.4.2.2.3}
+\contentsline {section}{\numberline {4.3}Dynamic Role Based Access Control}{13}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Introduction}{13}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Basic Idea of RBAC}{14}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Structure Diagram of RBAC Model}{15}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Dynamic Role Based Access Control Model}{16}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Conclusion}{17}{section.4.4}
+\contentsline {chapter}{\numberline {5}Network Components}{18}{chapter.5}
+\contentsline {section}{\numberline {5.1}Network Components}{18}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Introduction}{18}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Basic Networking Components}{18}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Router}{18}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Switch}{18}{subsubsection.5.1.2.2}
+\contentsline {section}{\numberline {5.2}AAA Server}{19}{section.5.2}
+\contentsline {section}{\numberline {5.3}LDAP Server}{20}{section.5.3}
+\contentsline {section}{\numberline {5.4}NFS Server}{21}{section.5.4}
+\contentsline {chapter}{\numberline {6}Cloud Infrastructure}{22}{chapter.6}
+\contentsline {section}{\numberline {6.1}Cloud Computing}{22}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Introduction}{22}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Cloud Characterstics}{22}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Service Models}{23}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Deployment Models}{24}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Private Clouds}{25}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Introduction}{25}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Open Source Tools}{25}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Conclusion}{25}{section.6.3}
+\contentsline {chapter}{\numberline {7}Implentation and Specifications}{26}{chapter.7}
+\contentsline {section}{\numberline {7.1}Implentation}{26}{section.7.1}
+\contentsline {section}{\numberline {7.2}Specifications}{26}{section.7.2}
+\contentsline {section}{\numberline {7.3}Technologies and Tools}{26}{section.7.3}
+\contentsline {chapter}{\numberline {8}Web based Single Sign-On}{27}{chapter.8}
+\contentsline {section}{\numberline {8.1}OAuth Provider}{27}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}OAuth Protocol}{27}{subsection.8.1.1}
+\contentsline {section}{\numberline {8.2}University User Profiles}{28}{section.8.2}
+\contentsline {section}{\numberline {8.3}REST API}{29}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Technologies Used}{29}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}API Testing}{30}{subsection.8.3.2}
+\contentsline {section}{\numberline {8.4}Roles \& Permissions}{32}{section.8.4}
+\contentsline {section}{\numberline {8.5}PHP Client Libraray}{33}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Initializing the Client Library}{33}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Get Authorization URL}{33}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Get Access Token}{33}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.4}Initializing API with Access Token}{33}{subsection.8.5.4}
+\contentsline {subsection}{\numberline {8.5.5}Getting User Info from API}{33}{subsection.8.5.5}
+\contentsline {chapter}{\numberline {9}Network Single Sign-On}{34}{chapter.9}
+\contentsline {section}{\numberline {9.1}Introduction}{34}{section.9.1}
+\contentsline {section}{\numberline {9.2}LDAP Server}{35}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Installation and Configuration $ ^{9}$}{35}{subsection.9.2.1}
+\contentsline {section}{\numberline {9.3}phpLDAPadmin}{36}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Installation and Configuration}{36}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Web Interface of phpLDAPadmin:}{36}{subsection.9.3.2}
+\contentsline {section}{\numberline {9.4}LDAP Client:}{39}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Installation and Configuration:}{39}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Log In as an LDAP User:}{40}{subsection.9.4.2}
+\contentsline {section}{\numberline {9.5}HAProxy}{41}{section.9.5}
+\contentsline {subsection}{\numberline {9.5.1}Installing HAProxy $ ^{8}$}{41}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {9.5.2}Configuring HAProxy}{41}{subsection.9.5.2}
+\contentsline {section}{\numberline {9.6}GlusterFS}{42}{section.9.6}
+\contentsline {subsection}{\numberline {9.6.1}Configure DNS solution}{42}{subsection.9.6.1}
+\contentsline {subsection}{\numberline {9.6.2}Install server components}{42}{subsection.9.6.2}
+\contentsline {subsection}{\numberline {9.6.3}Create a storage volume}{42}{subsection.9.6.3}
+\contentsline {subsection}{\numberline {9.6.4}Install and configure client components}{42}{subsection.9.6.4}
+\contentsline {subsection}{\numberline {9.6.5}Restrict access to the volume}{43}{subsection.9.6.5}
+\contentsline {section}{\numberline {9.7}XtreemFS}{44}{section.9.7}
+\contentsline {subsection}{\numberline {9.7.1}Installation, Creating \& Mounting Filesystem}{44}{subsection.9.7.1}
+\contentsline {subsection}{\numberline {9.7.2}Distributed Step}{44}{subsection.9.7.2}
+\contentsline {chapter}{\numberline {10}Private Infrastructure Cloud}{46}{chapter.10}
+\contentsline {section}{\numberline {10.1}Openstack Architecture}{46}{section.10.1}
+\contentsline {section}{\numberline {10.2}Installation}{47}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}NTP}{47}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}MySQL}{47}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {10.2.3}Rabbitmq-server}{47}{subsection.10.2.3}
+\contentsline {subsection}{\numberline {10.2.4}Keystone}{47}{subsection.10.2.4}
+\contentsline {subsection}{\numberline {10.2.5}Glance}{47}{subsection.10.2.5}
+\contentsline {subsection}{\numberline {10.2.6}Nova}{47}{subsection.10.2.6}
+\contentsline {subsection}{\numberline {10.2.7}Neutron}{47}{subsection.10.2.7}
+\contentsline {section}{\numberline {10.3}Virtual Machines}{48}{section.10.3}
+\contentsline {chapter}{\numberline {11}Conclusion \& Future Work}{49}{chapter.11}
+\contentsline {section}{\numberline {11.1}Conclusion}{49}{section.11.1}
+\contentsline {section}{\numberline {11.2}Future Work}{49}{section.11.2}
+\contentsline {chapter}{\numberline {12}References}{50}{chapter.12}
+\contentsline {section}{\numberline {12.1}References}{50}{section.12.1}

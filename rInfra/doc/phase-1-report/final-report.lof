@@ -1,0 +1,48 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Simplified structure of the main users of IT services in a typical university. }}{4}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces IT Services and Users in Cloud Computing $ ^{[1]}$ }}{4}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Cloud Infrastructure Architecture }}{5}{figure.3.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Google Single Sign-On System$ ^{[19]}$}}{6}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces OAuth Protocol Work Flow Diagram}}{8}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces SAML based federated identity management with Shibboleth 2.0. $ ^{[3]}$ }}{10}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces OpenId as an example for user-centric identity management. $ ^{[3]}$}}{11}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Intra Campus}}{12}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Inter Campus}}{12}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Difference between NRBAC and RBAC. }}{13}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The Core Idea of RBAC. }}{14}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The Family of RBAC Model.$ ^{[5]}$ }}{14}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces RBAC3 Model. }}{15}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces RBAC with Dynamic constraints. }}{16}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Different Types of Association. }}{16}{figure.4.12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces LDAP Hierarchy}}{20}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Components in NFS Server}}{21}{figure.5.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Cloud Computing - Servcice Models }}{23}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Cloud Computing - Deployment Models }}{24}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Private Cloud - Open source tools }}{25}{figure.6.3}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces OAuth Protocol Work Flow Diagram}}{27}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces User Profile}}{28}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Edit User Profile}}{29}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces CRUD Operations}}{29}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces List of Roles of User}}{32}{figure.8.5}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Adding Permissions Option}}{32}{figure.8.6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces phpLDAP }}{36}{figure.9.1}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Complete category of LdapServer }}{36}{figure.9.2}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces User Creation }}{37}{figure.9.3}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Group Creation }}{37}{figure.9.4}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Adding User to Group }}{38}{figure.9.5}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Groups information }}{38}{figure.9.6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Openstack Architecture.}}{46}{figure.10.1}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Openstack Service Components. $^{12}$ }}{47}{figure.10.2}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Openstack Virtual Machines.}}{48}{figure.10.3}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Openstack Resource Pool.}}{48}{figure.10.4}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

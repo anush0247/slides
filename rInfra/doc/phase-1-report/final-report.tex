@@ -1,0 +1,1400 @@
+\documentclass[12pt]{report}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in, a4paper]{geometry}
+
+ \ifx\pdftexversion\undefined
+ \usepackage[dvips]{graphicx}
+ \else
+ 
+ \usepackage[pdftex]{graphicx}
+ \DeclareGraphicsRule{*}{mps}{*}{}
+ \fi
+%\usepackage{tabularx,colortbl}
+\newfont{\degfntbf}{eufb10 scaled\magstep3}
+\usepackage{url}
+\usepackage{chapterbib}
+\usepackage{hyperref}
+\usepackage{tabularx}
+%\usepackage{tikz}
+%\usepackage{pgfplots}
+%\usepgfplotslibrary{groupplots} 
+%\usepackage{pgf, pgfarrows, pgfnodes}
+\usepackage{lscape}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{float}
+\usepackage{paralist}
+%\usepackage[none]{hyphenat}
+\renewcommand{\bibname}{References}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\usepackage{listings}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+
+
+
+
+\begin{document}
+
+\begin{titlepage}
+ \begin{center}
+\LARGE
+\textbf{Cloud based IT Infra with Central Identity} \\
+%\vfill
+%\large
+%\textbf{\{ Project reboot \}}\\
+\vfill
+\small
+\textit{A project report \\ submitted in partial fulfillment of the \\ requirements for the degree of  }\\
+\vfill
+\large
+ {\LARGE{\degfntbf Bachelor of Technology} \par}
+%\degfntbf Bachelor of Technology \par \\
+\small
+\underline{}\\
+in \\
+\underline{}\\
+\large
+\textbf{\emph{Computer Science and Engineering}}
+\vfill
+\small
+by \\
+\underline{} \\
+\vfill
+\large
+\begin{tabular}{l  l}
+T. Aneesh Kumar & N090247  \\
+P. Nageswarao  & N091030  \\
+P. Anesh  & N090977  \\
+P. Jyothi Ram & N090990  \\
+K. Naresh Chowdary  & N090331  \\
+N. Venkata Sateesh  & N090935  \\
+M. Sanyasi Rao & N090891 
+\end{tabular}
+\vfill
+\small
+\textit{Under the Guidance of} \\
+\large
+\underline{} \\
+\textit{\textbf{Mr. T. Chandra Shekhar M.Tech (IIT KGP, AU)}} \\
+\underline{}\\
+\small
+\textit{Lecturer, Dept. of CSE -- RGUKT Nuzvid} \\
+\small
+\vfill
+
+
+\includegraphics[width=5cm]{rgukt_logo.jpg} 
+\Large
+\underline{} \\
+\underline{} \\
+\normalsize
+\textbf{Department of Computer Science and Engineering } \\
+\textbf{Rajiv Gandhi University of Knowledge Technologies - Nuzvid }  \\
+%\textbf{Dept. of Computer Science and Engg. } \\
+%\textbf{R.G.U.K.T. - Nuzvid } \\
+\textbf{Krishna Dt. - Andrha Pradesh - 521202}
+
+
+\normalsize
+\vfill
+%\begin{multicols}{2}
+%\begin{flushleft}
+%\textbf{Start Date} : Sep 2014 \\
+%\end{flushleft}
+%
+%
+%\begin{flushright}
+%\textbf{End Date} : Jan 2015 \\
+%\end{flushright}
+%\end{multicols}
+
+\textbf{Sep 2014 -- Apr 2015 }
+
+\end{center}
+\end{titlepage}
+
+% \pagebreak \thispagestyle{empty} \textcolor{white}{text} \pagebreak
+ 
+\chapter*{Abstract}
+\setcounter{page}{1}
+\pagenumbering{roman}
+\normalsize
+\hspace{0.5cm}	The main objective of ``Cloud based IT Infra with Central Identity" is to create a private cloud and availing access of all its services using central identity with single signon through dynamic role based management along with REST API to third party for application developers and users. \newline
+
+We would like to work on Network single sign-on using LDAP, NFS and Web based single sign on using Django and Oauth2. We will develop distributed systems with fault tolerant file replication and load balancing environment using GlusterFS, XtreemFS and HAProxy. \newline
+
+We will develop REST API for third party application developers. We will combine all these components and deploy in private cloud developed using Openstack. \newline
+
+%\hspace{0.5cm} The main objective of ``Cloud based IT Infra with Central Identity'' is to create a  private cloud and availing access of all its services using central identity with single sign on through dynamic role based management along with REST API to third party for application developers and users. \newline
+%
+%This can be developed by using open source tools like OpenStack, NFS, LDAP, Ubuntu and etc \newline
+%
+%Expecting to serve with virtual machines to the research, virtual labs rather than dedicated lab hardware.
+
+%\pagebreak \thispagestyle{empty} \textcolor{white}{text} \pagebreak
+
+\setcounter{page}{2}
+\pagenumbering{roman}
+%\addtotoc{Contents}
+\tableofcontents
+\listoffigures
+\listoftables
+\pagebreak \thispagestyle{empty} \pagebreak
+
+ 
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+
+\chapter{Introduction}
+
+\section{Introduction}
+	``Cloud Based IT Infra with Central Identity'' is a complete solution, based on private cloud to enhance and effiecient utilization the IT Infrastructure of an emerging Universities and Organizations with Central Identity for all its users to access its services.\newline
+
+	It is going to be developed in 3 phases 
+	\begin{itemize}
+		\item \textit{Private cloud} 
+		\item \textit{Deploying Network Services} 
+		\item \textit{Central Identity}
+	\end{itemize}
+	
+\subsection{Private Cloud}
+
+	Private Cloud establishment is targeted for hardware resource pooling, providing high computational and scalable virtual machines for deploying network based applications (smtp, proxy, ftp), web application and Network storage.
+	
+\subsection{Deploying Network Services}
+
+	Configuration of Uniform hardware experience over the complete university includes single sign on on every device, configuration of mail servers etc.
+	
+\subsection{Central Identity}
+
+	Essential part that combines normal network services(proxy, mail, etc.) and organizational web \& native applications. In addtion to that this central identity is available to thrid party developers as API with dynamic based role user authentication protocols.	
+	
+
+\chapter{Motivation \& Approach}
+
+\section{Existing System}
+
+%	We have been observing that components we are planed develop name private cloud and central identity are already exsisted but key difference here is we want to combine them and extend the central identity as Identity as a service to all emerging developers in that organization with some sort of API calls in  
+
+\begin{itemize}
+	\item The environment we observed is our university, it consists of 7000 students and more than 500+ faculty with 6 core Engg. departments apart from 2 years of PUC course.
+	\item Each Department is having strength of 700 students they arrenged these students into various various classes of 60 to 70 each, total 10 to 12 number. 
+	\item Each student is provided with one Laptop with 2G RAM, 1.5GHz Clock speed and 200 GB Harddisk Storage. 
+	\item All students are using these sytems for more than 8 hours in a day.
+	\item All these students has to provided with course content and course labs, they are maitaining dedicated labs with 50 - 60 machines.
+	
+\end{itemize}
+
+
+\section{Problems under consideration}
+
+	We have observed these problems over our University
+	
+	\begin{itemize}
+		\item Failed to maintain large user load web services  and network applications.
+		\item No Central Identity, Storage \& High capacity hardware resource pool.
+		%\item Redundent data in each prospect
+		\item Inadequate resource requirements for Research.
+		\item Dedicated computer course labs like Matlab, VLSI, etc. and these labs are useful only at lab hourse most of time they are idle.
+		\item Redundent data and failed to moniter the content over student laptops.
+	\end{itemize}
+
+\pagebreak
+\section{Proposed System}
+
+	To avoid above mentioned observations we are proposing one new system with 
+	\begin{itemize}
+		\item Cloud based hardware resources clustering.
+		\item Central Identity for Network Applicaitons with REST API.
+		\item Dynamic user role management.
+		\item Providing Virtual Labs (MatLab, etc.,).
+		\item High Configurational Virtual Machines for research.
+	\end{itemize}
+	
+\section{Approach}
+
+	We want to make use of entire departmental hardaware resources more on its students laptops capacity and create a common pool of resources hence easy to maintain and moniter.\\
+	
+	We want to provide signle sign on implentation in each class of 60-70 laptops. such that user can use his own unique username to access university resources and later he can use the same password for network based or web based applications such as updates, mails, examinations, results etc.\newline
+	
+	User data can be data is retrevied from the Storage server like nfs while loging in to his laptop in any class room and his laptop's computational and storage capacity is used by the private cloud extentions that it make his laptop as slave node when ever laptop is available.\newline 
+	
+	User can develop application and they can use Central Identity in their application with user control and access specifations for API calls.
+
+
+\chapter{System Design}
+	
+\section{Users \& IT Services}
+
+	We are grouping all IT Services that are required for University into one and identifing the user who will going to use them. All Users are catagorized into 4 groups $ ^{[1]}$
+	
+	\begin{itemize}
+	\item Studens
+	\item Developers
+	\item Staff, faculty
+	\item Researches
+	\end{itemize}
+	
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{./it.png}
+\caption{ Simplified structure of the main users of IT services in a typical university. \label{fig:Simplified structure of the main users of IT services in a typical university. }}
+\end{center}
+\end{figure}
+	
+	All University IT Services are deployed in a private cloud, constructed over exsiting infrastructure, that can be broadly viewed as  
+	
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{./it2.png}
+\caption{ IT Services and Users in Cloud Computing $ ^{[1]}$ \label{fig:IT Services and Users in Cloud Computing }}
+\end{center}
+\end{figure}	
+	
+	
+\section{Components Identified}
+
+In this project we are restricting ourselves to some componets of the above mentioned system, we are planing to develop them in upcoming semister. We have done literature survey about these componets
+
+\begin{itemize}
+	\item Central Identiy 
+	\begin{itemize}
+		\item Single Sign on
+		\item Identity Management
+		\item Dynamic Role Based Access Control
+		\item Hybrid version with REST API to third party 
+	\end{itemize}
+	\item Network Components
+	\begin{itemize}
+		\item AAA, LDAP, NFS
+	\end{itemize}
+	\item Cloud Infrastructure
+	\begin{itemize}
+		\item Cloud Computing, Private Clouds, Open Source tools 
+	\end{itemize}
+\end{itemize}
+
+\section{Cloud Infrastructure Architecture}
+
+\begin{figure}[H]
+\begin{center}
+ \includegraphics[height=9cm,width=14cm]{./all.png} \\ 
+\caption{Cloud Infrastructure Architecture \label{fig: Cloud Infrastructure Architecture }} 
+\end{center}
+\end{figure}
+
+\chapter{Central Identiy}
+
+\section{Single Sign-On with REST API}
+
+\subsection{Introduction}
+	Single sign on is generally a process that allows the user to access multiple 
+applications requiring authentication by passing his credentials only once. The 
+user first authenticates to some trusted authentication authority and then is 
+granted access to all the applications trusting that authority.\\
+\\
+	So one of the main advantages of SSO systems is the convenience for the user. 
+Another major advantage is security. There is only one place of authentication, 
+which receives users credentials.Also, the user authenticates only once, so there is minimum transfer of sensitive information over the network.\\
+\\
+There is always a central authority, which handles user authentication. It may 
+support various backend authentication mechanisms like Kerberos, LDAP, relational database, etc. The central authentication server may provide also a user interface needed to retrieve users credentials - usually a login form.\\
+\\
+\begin{figure}[H]
+\includegraphics[width=15cm,height=5.3cm]{SSO}
+\caption{Google Single Sign-On System$ ^{[19]}$\label{fig: Google Single Sign-On System}}
+\end{figure}
+\pagebreak
+
+\subsection{Why Single Sign-On?}
+\hspace{6mm}The proliferation of web applications on the Internet has led to a sharp increase in the number of accounts (and corresponding credentials) that a web user has to create and remember. Inconveniences stemming from having to keep track of the accounts, and the tendency of web sites to suffer from security breaches, in which user credentials are exposed, has resulted in a recent push to adopt single sign-on (SSO) systems more widely. As the name implies, these systems help reduce the large amount of account credentials a web user has to keep track of, by replacing these credentials with a single identity with which she can authenticate herself at many different web sites.\\
+\\
+\hspace{6mm}In a University scenario there exists so many applications for different purposes. And each application provides it's own sign up form for users and follow their own password policies. It would be very difficult for a user to sign up every time when a new application comes in. And storing the user information at each applications database is a waste of memory and that is a redundant process.
+	\\
+	\\
+\hspace{6mm}By implementing Single Sign-On in the above scenarios will results in a stable \& convinient web experience for the users. And this Single Sign-On has so many advantages.
+	\\
+	\subsubsection{Advantages}
+	\begin{itemize}
+	\item Reduces the number of passwords a user has to remember and change before they expire.
+	\item Reduces the risk of identity theft by limiting the number of password stored on or off campus.
+	\item Users can login once and switch applications without having to login again.
+	\item Allows for better audit controls and management of resource availability.
+	\item Most applications/services are easier to integrate, and often can be plugged in for other services on campus.
+	\item Saves time and effort of a Web Developer by providing a single button like "Login with Central Identity". No need of creating Sign Up \& Login pages for every application.
+	\item Reduces phising. If users are accustomed to seeing one and only one screen when entering their credentials it may be easier for them to identify phishing attacks.
+	\item Transfer of sensitive data(like User credentials) across network is minimized.
+	\end{itemize}
+\pagebreak
+\subsection{Single Sign-On Work Flow}
+Here in this section the overall workflow of Authentication in a Single Sign-On System is explained. In order to Authenticate users with the given credentials we must use a robust and stable protocol. And many Single Sign-On systems uses OAuth protocols for this purpose. Single Sign-On uses OAuth protocol for both Authentication \& Authorization.
+\subsubsection{OAuth Protocol}
+OAuth$ ^{[14]}$ is an authentication protocol that allows users to approve application to act on their behalf without sharing their password.
+The below figure explains the flow of Authentication in OAuth Protocol.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.5]{abstract_flow}
+\caption{OAuth Protocol Work Flow Diagram\label{fig:OAuth Protocol Work Flow Diagram}}
+\end{center}
+\end{figure}
+Steps invloved in the above flow diagram
+\begin{itemize}
+\item The application requests authorization to access service resources from the user
+\item If the user authorized the request, the application receives an authorization grant
+\item The application requests an access token from the authorization server (API) by presenting authentication of its own identity, and the authorization grant
+\item If the application identity is authenticated and the authorization grant is valid, the authorization server (API) issues an access token to the application. Authorization is complete.
+\item The application requests the resource from the resource server (API) and presents the access token for authentication
+\item If the access token is valid, the resource server (API) serves the resource to the application
+
+\end{itemize}
+\newpage
+\section{Identity Management}
+	\subsection{Introduction}
+		The increasing amount of applications (web, desktop, etc.,) is one of the most important reasons why users have to remember different passwords to authenticate themselves. To simplify the use of the web applications users tend to choose the same password for every application or save the different passwords e.g., directly in the web browser. While this SSO solution is convenient for accessing the applications it also holds some security risks. For example a possible attack is phishing attack.\newline
+	
+             Secure Single Sign-On mechanism for web applications that were introduced in the past years can be classified in federated and user-centric identity management. Latter ones are more convenient for users as they allow them to log in with a globally unique username (e.g., their e-mail or a URL) and extended privacy by letting the user choose which personal information to send to the web applications. In referred literature they describes a solution to extended SAML-based federations with features of user-centric authentication.
+   \subsection{Authentication \& Authorization}
+		Due to the number and autonomy of the institutes a variety of authentication and authorization technologies are used for the different institutions. A large number of institutes use directory services (LDAP) or Kerberos, some applications use relational databases for authentication. Several legacy applications even use authentication by source IP address, which needs to be migrated in the near future. On the other hand some institutes are starting to use modern authentication techniques e.g., X.509 certificate based.\newline
+   
+	Traditionally identity management was done at a central point to unify authentication and authorization in heterogeneous IT infrastructures. Currently beside custom identity management there are two solutions to allow decentralized authentication and authorization in web applications: federated identity management normally SAML-based) and user-centric identity management (like OpenID).
+	\subsubsection{Federated Identity Management}
+		Single Sign-On was introduced on a large scale with the Kerberos protocol. For Web-based Single Sign-On OASIS issued the Security Assertion Markup Language (SAML) Standard. SAML divides the authentication and authorization in two parties (similar to Kerberos): the Service Provider (SP), being the party that holds the resources the user wants to access, and the Identity Provider (IdP), that holds the identities of the users for example at a local institute (home organization). SPs and IdPs are joined in a federation. The federation is also called an Authentication and Authorization Infrastructure (AAI). \newline
+		
+		Within the federation all SPs and IdPs trust each other using X.509 certificates. These certificates and addresses to resolve the handlers of the SPs and IdPs are stored in a metadata file that is distributed to all participants and builds the federation. Identity Providers issue a digitally signed assertion (or token) authenticating the user. SPs use the certificates of the IdPs published in the federation to verify the digital signature and accept the authentication. Authorization is done using attributes that the IdPs sends along with the assertion. Examples for this are Shibboleth, Liberty, and ADFS. Below figure illustrates the access to a resource protected by a Shibboleth Service Provider.
+	\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=11cm,height=7cm]{./3-1.png}
+	\caption{ SAML based federated identity management with Shibboleth 2.0. $ ^{[3]}$ \label{fig:SAML based federated identity management with Shibboleth2.0. }}
+	\end{center}
+	\end{figure}
+	Users accessing the SP are redirected to a Discovery Service (DS or WAYF server). At the DS the user selects his home organization and is redirected to his IdP that redirects him back to the SP containing the requested resource after successful authentication. A reference to the assertion issued to the user by the IdP is held as a cookie in the web browser to enable Single Sign-On. As the user subsequently accesses SPs belonging to the same federation, the browser sends the cookie referencing the assertion to the IdP and the user is directly able to access the resource without logging in again.\newline
+	
+	\textbf{Advantages}
+	\begin{itemize}
+		\item Fine grained authorization and the wide-acceptance of SAML.
+		\item The SAML standard guarantees interoperability between different implementations
+		\item More Secure and prevalent
+	\end{itemize}
+	\textbf{Dis-Advantages}
+	\begin{itemize}
+	\item Complexity of the protocol and user while logging
+	\item Single Logout
+	\item Unable to manage private info
+	\end{itemize}
+
+	\subsubsection{User-Centric Identity Management}
+	The latest development in the evolution of identity management are user-centric approaches. They extends the users’ privacy as the user can decide which private information to send to the SP (Service Provider). The user presents his/her information as a card (called I-Card) to the SP. It is up to the user which card to show and what information should be on the card.\newline
+	
+	There is no need for a DS in this. Users can either select their I-Card to get access or log in using a globally unique identifier (e-mail or URL).  The responsible Identity Provider (IdP) can be resolved by the Service Provider (SP) using the domain of the e-mail address or the URL given by the user.
+	\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=11cm,height=8cm]{./3-2.jpg}
+	\caption{ OpenId as an example for user-centric identity management. $ ^{[3]}$\label{fig:OpenId as an example for user-centric identity management . }}
+	\end{center}
+	\end{figure}
+	Above shows an example for user-centric identity management using OpenID. Some other typical implementations are CardSpace, sxip, OAuth, Higgins. Most important extension is the ability to exchange attributes for authorization as shown for SAML.\newline
+	
+	\textbf{Advantages}
+	\begin{itemize}
+	\item Higher Usability (use of e-mail or URL)
+	\item Privacy (decide which information to send to the Service Provider)
+	\item Simplification of the protocol \& configuration
+	\end{itemize}
+	
+	\textbf{Dis-Advantages}
+	\begin{itemize}
+	\item Security risks (like Phishing, replay attacks or web application logic flaws e.g., XSS, CSRF)
+	\end{itemize}
+	Besides the disadvantages because of the evolving security fixes e.g., in OpenID, user-centric solutions suffer from the fact that there is no
+	single standard. Another fact that strengthens the role of OpenID is that major web companies like Google,Yahoo offer OpenID Providers for their accounts. This retention bares another disadvantage. The user has to bound to a specific Provider, if his Provider changes his terms or closes down his service, the services the user is registered for are lost.
+
+\subsubsection{Relating to Our University}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=12cm,height=9cm]{U1}
+\caption{Intra Campus\label{fig:Intra Campus}}
+\end{center}
+\end{figure}
+\vfill
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=12cm,height=9cm]{ex1}
+\caption{Inter Campus\label{fig:Inter Campus}}
+\end{center}
+\end{figure}
+
+
+
+\newpage
+\section{Dynamic Role Based Access Control}
+
+\subsection{Introduction}
+	\hspace{6mm}Role Based Access Control (RBAC), also known as Non discretionary Access Control, takes more of a real world approach to structuring access control. Access under RBAC is based on a user's job function within the organization to which the computer system belongs. Essentially, RBAC assigns permissions to particular roles in an organization. Users are then assigned to that particular role.$ ^{[4]}$\newline
+		
+With the rapid development of network and the coming of information age, access control is particularly important. RBAC is an access control which is popular. RBAC authorizes and controls the roles corresponding to the users to operate the object. It solves problems of least privilege, separation of duties and so on. RBAC has better security, better flexibility, and can be well applied to the workflow system.\newline
+
+In a role-based access control (RBAC) mechanism, these rights are defined based on the role that individuals are assigned to in an organization. It overcomes the problems in DAC (Discretionary Access Control) which is flexible but not secure and MAC (Mandatory Access Control) which is Secure but not flexible. We use roles because,\\
+
+	\begin{itemize}
+		\item Fewer relationships to manage so reduces complexity.
+		\item Roles add a useful level of abstraction as organizations operate based on roles.
+		\item A role is more stable than the collection of users and the collection of permissions.
+	\end{itemize}
+
+	\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=11cm]{./4-1.png}
+	\caption{ Difference between NRBAC and RBAC. \label{fig:Difference between NRBAC and RBAC. }}
+	\end{center}
+	\end{figure}
+\newpage
+	\subsection{Basic Idea of RBAC}
+		Access Control policy is embodied in various components of RBAC such as $ ^{[4]}$
+		\begin{itemize}
+		\item Role-Permission relationships
+		\item User-Role relationships
+		\item Role-Role relationships
+		\end{itemize}
+		
+		 These components collectively determine whether a particular user will be allowed to access a particular piece of data in the system. RBAC components may be configured directly by the system owner or indirectly by appropriate roles as delegated by the system owner. The policy enforced in a particular system is the net result of the precise configuration of various RBAC components as directed by the system owner. The ability to modify policy to meet the changing needs of an organization is an important benefit of RBAC.
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=9cm]{./4-2.png}
+		\caption{ The Core Idea of RBAC. \label{fig:The Core Idea of RBAC. }}
+		\end{center}
+		\end{figure}
+		RBAC model is defined in terms of three model components-Core RBAC, Hierarchical RBAC and Constraint RBAC. The core RBAC model includes five basic elements, i.e. U (users), R (roles), O (objects), OP (Operations) and P (permissions). The core idea of RBAC is that adds roles between users and permissions. It forms relationships among users, roles and permissions. Users get roles’ corresponding permissions by getting roles to operate on the objects.
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=9cm]{./4-3.png}
+		\caption{ The Family of RBAC Model.$ ^{[5]}$ \label{fig:The Family of RBAC Model. }}
+		\end{center}
+		\end{figure}
+	\newpage	
+	\subsection{Structure Diagram of  RBAC Model}
+		\hspace{6mm} The Structure diagram of role based access control model consists of hierarchies and constraints. Role hierarchical relationship expresses the inheritance in roles’ permissions, such as the role A inherits role B, and then B’s permissions also belong to A. A role may inherit from multiple roles or be inherited by multiple roles. The use of role hierarchical relationship not only makes the system closer to reality, but also makes it easier to add and remove roles, easier to manage. The different types of inheritance can be,\\
+		
+		\begin{compactitem}
+		\item User inheritance 
+			\begin{itemize}
+			\item means every user that is a member of r1 is also a member of r2
+			\end{itemize}
+			
+		\item Permission inheritance
+			\begin{itemize}
+			\item means every permission that is authorized for r2 is also authorized r1 
+			\end{itemize}					
+
+		\item Activation inheritance 
+			\begin{itemize}
+			\item means that activating r1 will also activate r2
+			\end{itemize}					
+
+		\end{compactitem}
+\hspace{4mm}\\
+		Constraint RBAC model in RBAC adds separation of duty relations. Separation of duty can be static or dynamic. There is no formal model specified for constraints. Administrator can improve his own constraints based on requirement. Some example for constraints can be, \newline
+		\begin{compactitem}
+		
+		
+		\item Mutual Exclusion 
+			\begin{itemize}
+			\item No user should have more than one role in a session
+			\end{itemize}
+		\item Pre-condition
+			\begin{itemize}
+			\item Must satisfy some condition to be member of some role
+			\end{itemize}					
+		\item Cardinality 
+		\begin{itemize}
+			\item How many permission are assigning for a role
+		\end{itemize}
+		
+		\end{compactitem}
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=9cm]{./4-4.png}
+		\caption{ RBAC3 Model. \label{fig:RBAC3 Model. }}
+		\end{center}
+		\end{figure}
+		\newpage
+		\subsection{Dynamic Role Based Access Control Model}
+		\hspace{6mm}Although RBAC has many advantages, it also has some disadvantages. it ignores the need to make dynamic constraints executed on sequential order. This problem can be solved by dynamic constraint module, so the permissions required by the sequential order can be executed by order, ensuring when the workflow occurs can operate his dynamic permission, preventing abuse of the user’s own permissions, making the system more security.\newline
+		
+		Dynamic RBAC overcomes the shortages of the traditional RBAC by adding with dynamic constraints and dynamic permissions, so that it makes the system easier to manage and more close to the real world. The App creator no need to go for administration, Himself, he can create roles of his own requirement. If a role is already exist, he can just add. Otherwise he can request for new roles. We can deal application depends on time.
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=9cm]{./4-5.png}
+		\caption{ RBAC with Dynamic constraints. \label{fig:RBAC with Dynamic constraints. }}
+		\end{center}
+		\end{figure}
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=9cm]{./4-6.png}
+		\caption{ Different Types of Association. \label{fig:Different Types of Association. }}
+		\end{center}
+		\end{figure}
+
+\section{Conclusion}
+Federated identity management is still state of the art for Web-based Single Sign-On in scientific communities. Integration of multiple federations is a difficult task especially if usability and privacy is considered and it is very important in distributed environment. \\
+\\
+Single sign on helps us to assign only single key for each user for all available applications hence no redundant information about the user identification information.\\
+\\
+Dynamic role based access control improves security and reduces complexity by users with assigned roles and permissions to access resources of the organization.\\
+\\
+REST API used to connect third party developers with the orgnaizational identitiy services to their application developers and users.\\
+\\
+Federated central Identity with single sign on through dynamic role based access control along with the REST API for third party application developers Implementation is our main aspect.
+
+\chapter{Network Components}
+\section{Network Components}
+	\subsection{Introduction}
+\hspace{6mm}Network devices are components used to connect computers or other electronic devices together so that they can share files or resources like printers or fax machines. Devices used to setup a Local Area Network (LAN) are the most common types of network devices used by the public. A LAN requires a hub, router, cabling or radio technology, network cards, and if online access is desired, a high-speed modem. \\
+\\
+To construct a Campus Area Network(CAN), building network existed in that network is an important and complex task. So in order to make that complex task easier and very robust in nature we have to use some of these components such as LDAP, AAA and NFS. In constructing a network with complex architecture and more people present is very difficult, unless efficient configuration of the network components present in that network will be there. In this section we will see why these components are so important and very efficient in designing such a complex task.
+   \subsection{Basic Networking Components}
+   \subsubsection{Router}
+A router is a device that forwards data packets along networks. A router is connected to at least two networks, commonly two LANs or WANs or a LAN and its ISP's network. Routers are located at gateways, the places where two or more networks connect. Router is a networking device, commonly specialized hardware, that forwards data packets between computer networks. This creates an overlay internetwork, as a router is connected to two or more data lines from different networks. 
+
+\subsubsection{Switch}
+A network switch is a computer networking device that connects devices together on a computer network, by using a form of packet switching to forward data to the destination device. A network switch is considered more advanced than a (repeater) hub because a switch will only forward a message to one or multiple devices that need to receive it, rather than broadcasting the same message out of each of its ports.
+
+%\begin{figure}[H]
+%\begin{center}
+%\includegraphics[scale=0.6]{./rs.png}
+%\end{center}
+%\caption{Router and Switch \label{fig:Router and Switch }}
+%\end{figure}
+
+\newpage
+\section{AAA Server}
+AAA is the acronym for \textbf{A}uthentication,\textbf{A}uthorization, and \textbf{A}ccounting. Authentication controls access by requiring valid user credentials, which are typically a username and password. Authentication asks the user who they are. Authorization controls access per user after users authenticate, asks the user what privileges they have, and controls the services and commands available to each authenticated user. Accounting tracks traffic that passes through the security appliance, enabling you to have a record of user activity. If you enable authentication for that traffic, you can account for traffic per user. 
+
+Without authentication of traffic, there's no account for traffic per IP address. Accounting information includes when sessions start and stop, username, the number of bytes that pass through the security appliance for the session, the service used, and the duration of each session.
+\\
+\\
+\textbf{Types of AAA Servers:} RADIUS Server, TACACS+ Server, Kerberos Server, LDAP Server Support and Local Database Support. Depending on the size of the network and available resources, AAA can be implemented on a device locally or can be managed from a central server running RADIUS or TACACS+ (Terminal Access Controller Access Control System Plus) protocols. The most functionally server type is the TACACS+ Server and it is chosen here for that purpose.
+\\
+\\
+The AAA server first checks to see if the user has been authenticated. If a valid authentication entry exists for the user, the session is allowed and no further intervention is required by the authentication proxy. If no entry exists, the authentication proxy responds to the connection request by prompting the user for a username and password. If the authentication fails, the AAA server reports the failure to the user and prompts the user for a configurable number of retries.
+\\
+\\
+TACAC+ is generally considered superior because of the following reasons:
+\begin{itemize}
+\item TACACS+ encrypts the entire TACACS+ packet, while RADIUS only encrypts the shared secret password portion.
+\item TACACS+ separates authentication and authorization, making possible distributed security services.
+\end{itemize}
+
+\begin{table}[H]
+\begin{tabular}{ | l	| l	 | l | }
+\hline
+  & \textbf{TACACS +} & \textbf{RADIUS} \\
+  \hline
+ Functionality		&  Separates AAA  	& Combines Authentication, Authorization \\
+ Transport protocol 	&    TCP 		&			UDP \\
+ CHAP 			& Bidirectional 		&	    Unidirectional \\
+ Protocol Support      &   Multi- Protocol        &         No ARA No NetBEUI support \\
+ Confidentiality      &  Entire Packet		&	Password- Encrypted Encrypted \\
+ Accounting 		& Limited 			& 	Extensive \\
+ \hline
+ \end{tabular}
+ \caption{Comparision of Features Between TACACS+ AND RADIUS\label{fig:Comparision of Features Between TACACS+ AND RADIUS}}
+ \end{table}
+\newpage
+\section{LDAP Server}
+\textbf{L}ightweight \textbf{D}irectory \textbf{A}ccess \textbf{P}rotocol is a protocol for accessing a directory. A directory contains objects related to users, groups, computers, printers and so on etc. Lightweight Access Protocol (LDAP) is a  directory service access protocol. It's having layered structure, access control mechanism, customized data storage format etc. Company structure information (although frankly you can extend it and store anything in there).
+
+Directory is an important part of Internet technology to support such needs. Directory exists in a multitude of applications ranging from operating systems, asset management systems, security systems, etc. All entries in the directory are organized by the hierarchical model, which is tree structure called Directory Information Tree(DIT). Entry held in DIT is named directory service entry witch is identified by unique Distinguished Name(DN).\\
+\\
+LDAP gives you query methods to add, update and remove objects within a directory (and a bunch more, but those are the central ones). Distinguished Name(DN) having three major operations
+\begin{itemize}
+\item Add
+\item Modify
+\item Delete
+\end{itemize}
+
+\textbf{LDAP v3} specifies three authentication types
+\begin{itemize}
+\item No Authentication
+\item Basic Authentication
+\item Simple Authentication and Security Layer (SASL)
+\end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.6]{ldap-tools}
+\end{center}
+\caption{LDAP Hierarchy\label{fig:LDAP Hierarchy}}
+\end{figure}
+
+\section{NFS Server}
+\hspace{6mm} NFS stands for \textbf{N}etwork \textbf{F}ile \textbf{S}ystem, a file system developed by Sun Microsystems, Inc. It is a client/server system that allows users to access files across a network and treat them as if they resided in a local file directory. For example, if you were using a computer linked to a second computer via NFS, you could access files on the second computer as if they resided in a directory on the first computer. This is accomplished through the processes of exporting (the process by which an NFS server provides remote clients with access to its files) and mounting (the process by which file systems are made available to the operating system and the user).\\
+\\
+The NFS protocol is designed to be independent of the computer, operating system, network architecture, and transport protocol. This means that systems using the NFS service may be manufactured by different vendors, use different operating systems, and be connected to networks with different architectures. These differences are transparent to the NFS application, and thus, the user.
+\\
+Using NFS, the user or a system administrator can mount all or a portion of a file system (which is a portion of the hierarchical tree in any file directory and subdirectory, including the one you find on your PC or Mac). The portion of your file system that is mounted (designated as accessible) can be accessed with whatever privileges go with your access to each file (read-only or read-write). The operation of NFS is defined in the form of three main components as it is having a crucial role in providing it’s functionalities.
+
+\begin{itemize}
+\item Remote Procedure Call
+\item External Data Representation	
+\item NFS Procedures and Operations
+\end{itemize}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.7]{nfscomponents}
+\end{center}
+\caption{Components in NFS Server\label{fig:Components in NFS Server}}
+\end{figure}
+
+\chapter{Cloud Infrastructure}
+
+\section{Cloud Computing}
+
+\subsection{Introduction}
+
+Cloud computing refers to both the applications delivered as services over the Internet and the hardware and system software in the data centers that provide those services. \\
+\\
+Definition -- \textit{``Cloud computing is a model for enabling convenient, on-
+demand network access to a shared pool of configurable
+computing resources (e.g., networks, servers, storage,
+applications, and services) that can be rapidly provisioned
+and released with minimal management effort or service
+provider interaction''} $^{[2]}$ \\
+\\
+This definition includes cloud architectures, security, and deployment strategies. 
+
+\subsection{Cloud Characterstics}
+Charactersitcs of Cloud Computing can be broudly defined as \\
+\\
+\textit{On-demand self-service:} A consumer with an instantaneous need at a particular timeslot can avail computing resources (such as CPU time, network storage, software use, and so forth) in an automatic (i.e. convenient, self-serve) fashion without resorting to human interactions with providers of these resources.\\
+\\
+\textit{Broad network access:} These computing resources are delivered over the network (e.g. Internet) and used by various client applications with heterogeneous platforms (such as mobile phones, laptops, and PDAs) situated at a consumer's site.\\
+\\
+\textit{Resource pooling:} When we combine available resource and we can experiance accessing one super computer kind of thing is the goal of this resource pooling\\
+\\
+\textit{Rapid elasticity:} For consumers, computing resources become immediate rather than persistent: there are no up-front commitment and contract as they can use them to scale up whenever they want, and release them once they finish to scale down. Moreover, resources provisioning appears to be infinite to them, the consumption can rapidly rise in order to meet peak requirement at any time.\\
+\\
+\textit{Measured Service:} Although computing resources are pooled and shared by multiple consumers (i.e. multi-tenancy), the cloud infrastructure is able to use appropriate mechanisms to measure the usage of these resources for each individual consumer through its metering capabilities.\\
+\\
+\textit{Virtualization:} Virtualization is key to use the one resource or group of resource to use up to multiple instances this can be done by directly or partially
+
+\subsection{Service Models}
+
+If we providing any thing as a service comes, that will comes into Cloud Computing. Various Service Delivery Models listed bellow.$ ^{[3]}$
+
+\begin{itemize}
+\item Software as a Service (SaaS) -- is where in many users can make use of the software hosted by the service provider and pay only for time its being used.
+\begin{itemize}
+	\item Salesforce, Zoho Office and Google Apps
+\end{itemize}
+\item Platform as a Service (PaaS) -- provides a high-level integrated environment to design, build, test, deploy and update online custom applications.
+\begin{itemize}
+	\item  Google’s App Engine , Microsoft Azure and SalesForce
+\end{itemize}
+\item Infrastructure as a Service (IaaS) -- refers to the services provided to the users to use processing power, storage, network and other computing resources, to run any software including operating systems and applications.
+\begin{itemize}
+	\item  AWS, Eucalyptus, Open Stack, GoGrid and Flexiscale
+\end{itemize}
+
+\item Data storage as a Service (DaaS) -- provides data store as a service for the storage requirements of the organizations and users on the basis of pay per use model in public cloud.
+\begin{itemize}
+	\item   Amazon S3, DropBox, SkyDrive, etc
+\end{itemize}
+
+\item Anything as a Service (XaaS) -- is broder way of say the services in cloud computing which includes anything that is offered as a service.
+
+\end{itemize}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=12cm,height=3cm]{./service.png}
+ \caption{Cloud Computing - Servcice Models \label{fig:Cloud Computing - Servcice Models} }
+\end{figure}
+
+\subsection{Deployment Models}
+
+More recently, four cloud deployment models have been defined in the Cloud community
+
+\begin{itemize}
+\item \textit{Public cloud} -- This is the dominant form of current Cloud computing deployment model. The public cloud is used by the general public cloud consumers and the cloud service provider has the full ownership of the public cloud with its own policy, value, and profit, costing, and charging model.
+\begin{itemize}
+	\item   Amazon EC2, S3, Google AppEngine, and Force.com
+\end{itemize}
+
+\item\textit{ Private cloud }-- The cloud infrastructure is operated solely within a single organization, and managed by the organization or a third party regardless whether it is located premise or off premise.
+\begin{itemize}
+	\item   Openstack, Cloudstack, OpenNebula, Nimbus etc.
+\end{itemize}
+\item \textit{Hybrid cloud }-- The cloud infrastructure is a combination of two or more clouds (private, community, or public) that remain unique entities but are bound together by standardized or proprietary technology that enables data and application portability.
+\begin{itemize}
+	\item   Openstack APIs, AWS APIs
+\end{itemize}
+\item \textit{Community cloud} -- Several organizations jointly construct and share the same cloud infrastructure as well as policies, requirements, values, and concerns. The cloud community forms into a degree of economic scalability and democratic equilibrium.
+\end{itemize}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=8cm,height=5cm]{./model.png}
+ \caption{Cloud Computing - Deployment Models \label{fig:model} }
+\end{figure}
+
+
+\newpage
+\section{Private Clouds}
+
+\subsection{Introduction}
+
+\textit{Definition} -- ``It is one of the cloud deployment model where the resources of small or medium organization are united and cattered to users of the that organization or outsourced through internet'' \\
+\\
+The motivation to setup a private cloud within an organization has several aspects. 
+\begin{itemize}
+\item To maximize and optimize the utilization of existing in-house resources.
+\item Security concerns including data privacy and trust also make Private Cloud an option for many firms.
+\item Organizations always require full control over mission-critical activities that reside behind their firewalls.
+\item Academics often build private cloud for research and teaching purposes.
+\end{itemize}
+
+\subsection{Open Source Tools}
+
+We can construct private cloud using some open source tools like Openstack, Cloudstack, OpenNebula. \\
+\\
+We can use this private cloud to deploy various services like Departmental Websites, Notice Boards, Events portal, High Computational Virtual Machines for Virtual Labs, High Performance Computing, Big data analytics.
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=8cm,height=5cm]{./cloud.jpg}
+ \caption{Private Cloud - Open source tools \label{fig:cloud} }
+\end{figure}
+
+\section{Conclusion}
+
+Hardware can be effinciently utilized by tronsforming them into cloud based infra. To maintain the institutional security we are going for privte clouds. We want to go with open source tools to maintain economically optimized.
+	
+\chapter{Implentation and Specifications}
+
+\section{Implentation}
+
+	For maintining above kind of envronment we have to setup one private cloud which will gives the highly scalable virtual machines to server the user need services on fly.\\
+	
+	We want to develop minal system with the above guidelines in a lab environment of 10 Master nodes and 5 client machines with uniform operating system and nfs data share. Later extended upto departmental level.
+	
+	
+\section{Specifications}
+
+	\begin{itemize}
+		\item 15 Laptops with below configuration ( 10 Master Nodes + 5 Slave Nodes )
+			\begin{itemize}
+				\item 4GB RAM, 500 GB Harddisk, Intel i3 processor 1.5GHz Clock
+			\end{itemize}
+		
+		\item Class C Network 
+			\begin{itemize}
+			 	\item Static IP for Master Nodes
+			 	\item DHCP / Static IP for Slave Nodes
+			\end{itemize}
+			
+		\item Uninterrupted power suply for Master Nodes.
+		
+	\end{itemize}
+	
+\section{Technologies and Tools}
+
+	\begin{itemize}
+		\item Opensource private cluod tools such as Openstack, Cloudstack, etc.
+		\item Ubuntu 14.04 Server LTS.
+		\item LDAP Active Directories, Kerbrose, Squid for Network proxy.
+		\item OAuth 2.0 with extended dynamic roles managment.
+		\item Django for Implementation of OAuth 2.0 as REST API.
+		\item Git for Version control. 
+		\item Python shpenix \& Latex for Documentation.
+%		\item MongoDB for NoSQL Database
+	\end{itemize}
+	
+%\section{Expcted Results}
+%
+%	We are expecting the below results after successfull implemenation of ``Cloud Based IT Infra with Central Identity'' in lab enviroment with above mentioned specifications
+%
+%	\begin{itemize}	
+%	\item Hardware resoucre clusters from Master Nodes
+%	 \begin{itemize}
+%	 	\item 40 GB RAM
+%		\item 5TB of Hard disk
+%		\item 15 GHz Clock Speed	
+%	 \end{itemize}
+%		
+%	\item Hardware resoucre clusters from Slave Node (available only at active period)
+%	 \begin{itemize}
+%	 	\item 20 GB RAM
+%		\item 2TB of Hard disk
+%		\item 7.5 GHz Clock Speed	
+%	 \end{itemize}
+%	 
+%	\item Well Documented Implementation of Central Identity for 
+%	 \begin{itemize}
+%	 	\item Single Sign on of Client Machines.
+%	 	\item Network applications proxy, mails.
+%	 	\item University Web Services and Departmental websites.
+%	 	\item Third party OAuth 2.0 Implemenation as API. 
+%	 \end{itemize}
+%	\item Dynamic user role management for both Web and Native applications as API.
+%	\item Central Cloud Storage Pool.
+%	\item High Computational Virtual Machines.
+%	\item Virtual Labs insted of Dedicated labs in Remote Desktop or in SSH protocol.
+%	\item Content or Data Monitering in a Organization.
+%	\item Get full recovery and achieve more than 99.99\% services up time.
+%	\item Extendable to several departments and Universities.
+%	
+%	\end{itemize}
+
+
+\chapter{Web based Single Sign-On}
+
+\section{OAuth Provider}
+\hspace{6mm} \linebreak Here in this section the overall workflow of Authentication in a Single Sign-On System is explained. In order to Authenticate users with the given credentials we must use a robust and stable protocol. And many Single Sign-On systems uses OAuth protocols for this purpose. Single Sign-On uses OAuth protocol for both Authentication \& Authorization.$ ^{3}$
+\subsection{OAuth Protocol}
+OAuth is an authentication protocol that allows users to approve application to act on their behalf without sharing their password.
+The below figure explains the flow of Authentication in OAuth Protocol. $ ^{5}$
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.5]{abstract_flow}
+\caption{OAuth Protocol Work Flow Diagram\label{fig:OAuth Protocol Work Flow Diagram}}
+\end{center}
+\end{figure}
+Steps invloved in the above flow diagram
+\begin{itemize}
+\item The application requests authorization to access service resources from the user
+\item If the user authorized the request, the application receives an authorization grant
+\item The application requests an access token from the authorization server (API) by presenting authentication of its own identity, and the authorization grant
+\item If the application identity is authenticated and the authorization grant is valid, the authorization server (API) issues an access token to the application. Authorization is complete.
+\item The application requests the resource from the resource server (API) and presents the access token for authentication
+\item If the access token is valid, the resource server (API) serves the resource to the application
+\end{itemize}
+%\subsection{How well we implemented this?}
+%\hspace{6mm} 
+%To implement OAuth provider we used python-django with oauth-tool-kit. When user requests the protected resource, oauth-tool-kit will generate client id and client secret. By using those user will get access token to access protected resource. 
+\section{University User Profiles}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{RID_Pics/Profile}
+\caption{User Profile\label{fig:User Profile Section}}
+\end{center}
+\end{figure}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{RID_Pics/Edit_Profile}
+\caption{Edit User Profile\label{fig:Edit User Profile}}
+\end{center}
+\end{figure}
+\section{REST API} 
+\hspace{6mm}REST stand for \textbf{RE}presentational \textbf{S}tate \textbf{T}ransfer. It's a collection of simple URIs, and HTTP calls like GET,PUT,POST,DELETE to those URIs to get some Protected data from a Resource Server. Once User provides a set of valid credentials to OAuth Provider it will generate an access token to that particular user, with that token user can fetch protected resources from the resource server by making basic HTTP calls through REST API. REST API provides users a flexibility to perform Basic CRUD(Create,Read,Update,Delete) on resource server.$ ^{4}$
+	\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=7cm,height=2cm]{CRUD}
+	\caption{CRUD Operations\label{fig:CRUD Operations}}
+	\end{center}
+	\end{figure}
+\subsection{Technologies Used}
+\begin{itemize}
+	\item django $ >= $ 1.6.0
+	\item SQLite3
+	\item django-rest-framework
+	\item oauth-tool-kit
+	\item semantic ui 2.0
+\end{itemize}
+\pagebreak
+\subsection{API Testing}
+\textbf{\url{/api/basic_info/?access_token=<token>}}
+\lstinputlisting[language=Java]{basic_info.json} 
+\underline{} \newline
+\textbf{\url{/api/contact_info/?access_token=<token>}}
+\lstinputlisting[language=Java]{contact_info.json}
+\underline{} \newline
+\textbf{\url{/api/education/?access_token=<token>}}
+\lstinputlisting[language=Java]{education.json}
+\underline{} \newline
+\textbf{\url{/api/skills/?access_token=<token>}}
+\lstinputlisting[language=Java]{skills.json}
+\underline{} \newline
+\textbf{\url{/api/roles/?access_token=<token>}}
+\lstinputlisting[language=Java]{roles.json}
+\underline{} \newline
+
+
+\section{Roles \& Permissions}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{RID_Pics/Roles}
+\caption{List of Roles of User\label{fig:User Roles}}
+\end{center}
+
+\begin{center}
+\includegraphics[scale=0.4]{RID_Pics/Add_Permission}
+\caption{Adding Permissions Option\label{fig:Add Permissions}}
+\end{center}
+\end{figure}
+\pagebreak
+\section{PHP Client Libraray}
+\hspace{6mm}  We developed a Client Library for PHP Applications. We used PHP-cURL to perform all the http calls and post requests to get protected data from API Server. And We developed it in a modular way with Object-Oriented approach. And all the function calls in the PHP library is self-explanatory.
+\subsection{Initializing the Client Library}
+\lstinputlisting[language=php]{init.php}
+\subsection{Get Authorization URL}
+\lstinputlisting[language=php]{getURL.php}
+\subsection{Get Access Token}
+\lstinputlisting[language=php]{getToken.php}
+\subsection{Initializing API with Access Token}
+\lstinputlisting[language=php]{initAPI.php}
+\subsection{Getting User Info from API}
+\lstinputlisting[language=php]{getInfo.php}
+
+	
+	
+\chapter{Network Single Sign-On}
+\section{Introduction}
+	
+	Single sign-on (SSO) is a session/user authentication process that permits a user to enter one name and password in order to access multiple applications. The process authenticates the user for all the applications they have been given rights to and eliminates further prompts when they switch applications during a particular session.\\
+	\underline{} \newline
+	\textbf{Components Used:} 
+	\begin{itemize}
+	\item LDAP Server
+	\item phpLdapAdmin
+	\item LDAP Client
+	\item HAProxy
+	\item GlusterFS
+	\item XtreemFS
+	\end{itemize}
+	
+\pagebreak
+
+\section{LDAP Server}
+
+	LDAP, or Lightweight Directory Access Protocol, is a protocol for managing related information from a centralized location through the use of a file and directory hierarchy. It functions in a similar way to a relational database in certain ways, and can be used to organize and store any kind of information. LDAP is commonly used for centralized authentication.
+
+\subsection{Installation and Configuration $ ^{9}$}
+	The OpenLDAP server is in Ubuntu's default repositories under the package "slapd". We have to install some additional utilities in order to use it in full pledged way. 
+	
+	\begin{itemize}
+	\item sudo apt-get \textbf{update}
+	\item sudo apt-get install \textbf{slapd ldap-utils}
+	\end{itemize}
+
+	After the installation is complete, we actually need to reconfigure the LDAP package by the following
+	\begin{itemize}
+	\item sudo \textbf{dpkg-reconfigure slapd}
+	\end{itemize}
+
+		By following below steps we have to configure the LDAP
+	\begin{itemize}
+		\item Omit OpenLDAP server configuration? \textbf{No}
+		\item DNS domain name? \textbf{reboot.org}
+		\item Organization name? \textbf{reboot}
+		\item Administrator password? \textbf{Password}
+		\item Database backend to use? \textbf{HDB}
+		\item Remove the database when slapd is purged? \textbf{No}
+		\item Move old database? \textbf{Yes}
+		\item Allow LDAPv2 protocol? \textbf{No}
+	\end{itemize}
+	
+\pagebreak
+	
+\section{phpLDAPadmin}	
+	
+	It’s a web-based LDAP client. It provides easy, anywhere-accessible, multi-language administration for LDAP server. By this configuration and monitor of LDAP Server will be done in an easy way. \\
+\underline{} \newline
+Its hierarchical tree-viewer and advanced search functionality make it intuitive to browse and administer your LDAP directory. Since it is a web application, this LDAP browser works on many platforms, making your LDAP server easily manageable from any location.
+\subsection{Installation and Configuration}
+	\begin{itemize}
+	\item sudo apt-get install \textbf{phpldapadmin}
+	\end{itemize}
+	
+	After the installation is complete configuration will be done by making following changes in the
+config.php file of phpLDAPadmin.
+	\begin{itemize}
+	\item sudo nano \textbf{/etc/phpldapadmin/config.php}
+	\end{itemize}
+
+	\lstinputlisting[language=PHP,caption=PHP Config file]{conf.php}
+
+\subsection{Web Interface of phpLDAPadmin:}
+	%\subsubsection{Authentication:}
+\begin{multicols}{2}
+\begin{flushleft}
+
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=6cm,height=6cm]{Screens/LdapServerLogin.png}
+		\caption{phpLDAP \label{fig: phpLDAP }}
+		\end{center}
+		\end{figure}
+
+\end{flushleft}
+\begin{flushright}
+
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=6cm,height=6cm]{Screens/serversidebar.png}
+		\caption{Complete category of LdapServer \label{fig: Complete category of LdapServer}}
+		\end{center}
+		\end{figure}
+	
+
+\end{flushright}
+\end{multicols}
+
+
+	%\subsubsection{Server’s sidebar with complete information:}
+		
+	%\subsubsection{User Creation in LDAP server:}
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=10cm,height=15cm]{Screens/UserCreation.png}
+		\caption{User Creation \label{fig: User Creation}}
+		\end{center}
+		\end{figure}
+
+	%\subsubsection{Creating Group:}	
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=8cm,height=6cm]{Screens/admin_group.png}
+		\caption{Group Creation \label{fig: Group Creation}}
+		\end{center}
+		\end{figure}		
+		
+	%\subsubsection{Adding user to Group:}
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=10cm,height=8cm]{Screens/AddUsertoGroup.png}
+		\caption{Adding User to Group \label{fig: Adding User to Group}}
+		\end{center}
+		\end{figure}
+		
+	%\subsubsection{Groups complete information:}
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=17cm,height=10cm]{Screens/Groupsinfo.png}
+		\caption{Groups information \label{fig:Groups information}}
+		\end{center}
+		\end{figure}
+		
+\section{LDAP Client:}		
+	LDAP, or Lightweight Directory Access Protocol, is one way of keeping authentication information in a single centralized location. We need another droplet to act as the client machine.
+	\subsection{Installation and Configuration:}
+		On the client machine, we need to install a few packages to make authentication function correctly with an LDAP server.	
+		\begin{itemize}
+		\item sudo apt-get install \textbf{libpam-ldap nscd}
+		\end{itemize}		 
+By following these below steps we need to configure the LDAP Client
+		\begin{itemize}
+		\item LDAP server Uniform Resource Identifier: \textbf{ldap://10.4.34.47/} from \textbf{``ldapi:///''}		
+		\end{itemize}
+
+		Distinguished name of the search base:
+		This should match our values in LDAP server's /etc/phpldapadmin/config.php file.
+		\begin{itemize}
+		\item We have to replace " 'server','base',array " within the file to \textbf{``dc=reboot,dc=org''}
+		\item LDAP version to use:\textbf{ 3}
+		\item Make local root Database admin: \textbf{Yes}
+		\item Does the LDAP database require login? \textbf{No}
+	 	\item LDAP account for root:
+		 	\begin{itemize}
+	 		\item This should also match with our values in your \textbf{/etc/phpldapadmin/config.php}
+			\item Search for: \textbf{`` ` login ' , ` bind\_id ' '' } within the file
+			\item Our example was \textbf{``cn=admin,dc=reboot,dc=org''}
+		 	\end{itemize}
+		\end{itemize}
+		LDAP root account password: \textbf{Our-LDAP-root-password}
+		\\
+		\linebreak
+		If made a mistake and need to change a value, we can go through the menu again by issuing this command:
+		\begin{itemize}
+		\item sudo \textbf{dpkg-reconfigure ldap-auth-config}
+		\end{itemize}
+		
+		To configure client we adjust a few files that they can look to our LDAP server for authentication information.
+		First, we have to edit the /etc/nsswitch.conf file. This will allow us to specify that the LDAP credentials should be modified when users issue authentication change commands
+		\begin{itemize}
+		\item sudo nano \textbf{/etc/nsswitch.conf}
+		\end{itemize}
+		\pagebreak
+		The three lines we are interested in are the "passwd", "group", and "shadow" definitions. 
+		Modify them to look like this:
+		\lstinputlisting[language=sh,caption=Config file]{nsswitch.conf}
+		
+		We have to add the values to our PAM configuration.
+		
+		PAM, or Pluggable Authentication Modules, is a system that connects applications that can provide authentication to applications that require authentication.
+		When we installed and configured our LDAP PAM module, most of the needed information was added to the configuration files and we need to edit below file.
+		\begin{itemize}
+		\item sudo nano \textbf{/etc/pam.d/common-session}
+		\item sudo nano \textbf{/etc/pam.d/login}
+		\item sudo nano \textbf{/etc/pam.d/lightdm}
+		\end{itemize}
+		
+	We have to add the below piece of code to each of the above PAM configuration files
+		\begin{itemize}
+		\item session required \textbf{pam\_mkhomedir.so skel=/etc/skel umask=0022x}
+		\end{itemize}
+		
+		The above will create a home directory on the client machine when an LDAP user logs in who does not have a home directory.
+		We have to restart a service for these changes to be implemented:
+		\begin{itemize}
+		\item sudo \textbf{/etc/init.d/nscd restart}		
+		\end{itemize}
+		
+		\subsection{Log In as an LDAP User:}
+		We have now configured our client machine enough to be able to log in as one of our LDAP users. This user does not have to exist on the client machine.
+		In order to connect to LDAP Client, we have to ssh into that particular machine.
+		\begin{itemize}
+		\item ssh \textbf{atangella@10.4.34.45}
+		\end{itemize}
+\pagebreak
+\section{HAProxy}
+HAProxy(High Availability Proxy) is an open source load balancer which can load balance any TCP service. It is particularly suited for HTTP load balancing as it supports session persistence and layer 7 processing. HAProxy can be configured as a front-end to load balance two VPS through private network connectivity.\\
+\subsection{Installing HAProxy $ ^{8}$}
+\# to install haproxy\\
+sudo apt-get install haproxy\\
+\# to get started by init script\\
+edit /etc/default/haproxy, set ENABLED option to 1\\
+\# using haproxy\\
+sudo /etc/init.d/haproxy {start|stop|reload|restart|status}\\
+\subsection{Configuring HAProxy}
+edit gedit /etc/haproxy/haproxy.cfg\\
+\\
+frontend sunny\\
+   bind 10.4.34.250:8080\\
+   default\_backend sunny-backend\\
+backend sunny-backend\\
+   balance roundrobin\\
+   mode tcp\\
+   server sunny 10.4.34.250:80 check\\
+   server ram 10.4.34.242:80 check\\
+   server knc 10.4.34.245:80 check\\
+\\
+Requests come to frontend PC will be send to any one of the backend PC's based on the algorithm. Here algorithm can be roundrobin, leastconn.\\
+
+\pagebreak
+\section{GlusterFS}
+	GlusterFS is a unified, poly-protocol, scale-out file system serving many peta bytes of data. While many databases and other software allows you to spread data out in the context of a single application, other systems can operate on the file system level to ensure that data is copied to another location whenever it is written to disk. A clustered storage solution like GlusterFS provides this exact functionality.\\
+\\
+	We are writing by considering three systems. we are considering the two of our machines as cluster members and the third as a client. We will be configuring the computers we labeled as gluster0 and gluster1 as the cluster components. We will use gluster2 as the client. $ ^{8}$
+\subsection{Configure DNS solution}
+Go to \textbf{sudo nano /etc/hosts} and add below lines\\
+\#first\_ip gluster0.droplet.com gluster0\\
+\#second\_ip gluster1.droplet.com gluster1\\
+\#third\_ip gluster2.droplet.com gluster2\\
+
+\subsection{Install server components}
+\# On our cluster member machines (gluster0 and gluster1), we can install the GlusterFS server package\\
+sudo apt-get install glusterfs-server\\
+\#On one of the hosts, we need to peer with the second host. \\ 
+sudo gluster peer probe gluster1.droplet.com\\
+\subsection{Create a storage volume}
+\#Creating and enabling replication property for volume1\\
+sudo gluster volume create volume1 replica 2 transport tcp gluster0.droplet.com:/gluster-storage gluster1.droplet.com:/gluster-storage force\\
+\#And we can activate the storage by command\\
+sudo gluster volume start volume1\\
+\subsection{Install and configure client components}
+\#On our client machine, we can install the GlusterFS client package\\
+sudo apt-get install glusterfs-client\\
+\#for mounting our remote storage volume on our client computer\\
+sudo mkdir /storage-pool\\
+sudo mount -t glusterfs gluster0.droplet.com:/volume1 /storage-pool\\
+\subsection{Restrict access to the volume}
+\#for restriction of storage volume for clients\\
+sudo gluster volume set volume1 auth.allow *\\
+\#for removing restrictions\\
+sudo gluster volume set volume1 auth.allow gluster\_client1\_ip,gluster\_client2\_ip\\
+\\
+At this point, you should have a redundant storage system that will allow us to write to two separate servers simultaneously. This can be useful for a great number of applications and can ensure that our data is available even when one server goes down. But GlusterFS is failing in distributed environment at some situations. For that we moved an efficient one XtreemFS, which works very well in distributed environment and tackles all errors.\\
+\pagebreak
+\section{XtreemFS}
+XtreemFS is a fault-tolerant distributed file system for all storage needs. It is simple to setup as it does not use any kernel modules. It's easy to integrate with clients for Linux and Windows. XtreemFS is also a parallel, object-based file system. You can stripe your files across many storage servers for high-performance parallel access. The stripe width can be configured per file.\\
+\\
+It can stripe files within your cluster and can replicate your data across clusters. This allows you to have high-performance access within your cluster and to share your data in your virtual organization.\\
+\\
+XtreemFS' replication is fault-tolerant. A broken hard drive or unhealthy storage server does not result in data loss or even degraded service quality. \\
+\\
+This matters if you have 10 or 1000s of machines, as your jobs finish without interruptions and you can delay repairs to whenever you have time.\\
+\subsection{Installation, Creating \& Mounting Filesystem}
+\begin{itemize}
+\item Added the XtreemFS repo to our system and then installed the packages xtreemfs-server and xtreemfs-client.
+\item Starting the Directory Service: \$sudo /etc/init.d/xtreemfs-dir start 
+\item Starting the Metadata Server: \$sudo /etc/init.d/xtreemfs-mrc start
+\item Starting OSD: \$sudo /etc/init.d/xtreemfs-osd start
+\item Loading the FUSE kernel module: \$sudo modprobe fuse
+\item We can check the registry by opening the DIR status page in our web browser at http://localhost:30638
+\item Creating a new volume with default settings : \$sudo mkfs.xtreemfs localhots/myVolume
+\item Creating mounting point : \$sudo mkdir ~/xtreemfs
+\item Mounting XtreemFS: \$sudo mount.xtreemfs localhost/myVolume ~/xtreemfs
+\item We can unmount using : \$sudo umount.xtreemfs ~/xtreemfs
+\end{itemize}
+\subsection{Distributed Step}
+We assume a setup with two machines:
+\begin{itemize}
+\item One system running the directory service (DIR), metadata server (MRC), storage server (OSD).
+\item Another system running the only storage server (OSD).
+\end{itemize}
+First, installed the binary packages using repositories made available by the XtreemFS team. Once the repository file is registered, we can install these packages:\\
+\\
+sudo apt-get install xtreemfs-client xtreemfs-server xtreemfs-tools\\
+\\
+Now suppose one server to host the DIR and MRC service is called osd1, and my OSDs will be running on osd1 and osd2. On osd2, we have to edit the following config files under /etc/xos/xtreemfs and \textbf{set dir\_service.host = kdc01}. For the mrc and osd config files, we have to set up \textbf{hostname = kdc01}
+\begin{itemize}
+\item mrcconfig.properties
+\item osdconfig.properties
+\end{itemize}
+On WKS01 where a second OSD will be running, edited the osd config file, point \textbf{dir\_service.host = kdc01} and \textbf{hostname = wks01}
+\begin{itemize}
+\item osdconfig.properties
+\end{itemize}
+Then we have to start the services. On KDC01, the following services are started:\\
+\\
+sudo /etc/init.d/xtreemfs-dir start\\
+sudo /etc/init.d/xtreemfs-mrc start\\
+sudo /etc/init.d/xtreemfs-osd start\\
+\\
+On WKS01, OSD service \\
+\\
+sudo /etc/init.d/xtreemfs-osd start\\
+\\
+Then we created the XtreemFS filesystem using following commands:\\
+\\
+sudo mkfs.xtreemfs kdc01/myVol \# on KDC01\\
+sudo mount.xtreemfs kdc01/myVol /data \# on KDC01 and WKS01\\
+\\
+By default, 1 replica will be stored on the entire XtreemFS volume. XtreemFS client is smart enough to contact the best OSD for the file resource. In case it’s desirable to maintain more than 1 replica of the same file, it can be done with the xtfsutil tool. For example, to configure XtreemFS to replicate a file to all available OSDs:\\
+
+
+\chapter{Private Infrastructure Cloud}
+To support this central identity both the network and web network central identity we want to go for the private cloud deployment it includes creating the Private Infrastructure Cloud with openstack and creating Virtual Machines for instaling these services and assign them the IP address.
+
+\section{Openstack Architecture}
+Openstack is a cloud operating system that provides the 3 main services for the Infrastructure clouds namely Stoage, Compute, Networking and some other components are can be added later as addons
+\underline{} \newline
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=11cm,height=8cm]{./openstack_1.png}
+	\caption{ Openstack Architecture.\label{fig:Openstack Architecture }}
+	\end{center}
+\end{figure}
+
+\section{Installation}
+
+Installing openstack includes component wise installation namely NTP, MySQL, Rabbitmq-Server, Keystone, Nova, Cinder, Glance, Neutron
+
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=14cm,height=5.5cm]{./openstack_4.png}
+	\caption{ Openstack Service Components. $^{12}$ \label{fig:Openstack Service Components }}
+	\end{center}
+\end{figure}
+
+\subsection{NTP}
+\# apt-get install ntp
+\subsection{MySQL}
+\# apt-get install mysql-server
+\subsection{Rabbitmq-server}
+\# apt-get install rabbitmq-server
+\subsection{Keystone}
+\# apt-get install keystone
+\subsection{Glance}
+\# apt-get install glance python-glanceclient
+\subsection{Nova}
+\# apt-get install nova-api nova-cert nova-conductor nova-consoleauth nova-novncproxy nova-scheduler python-novaclient
+\subsection{Neutron}
+\# apt-get install neutron-server neutron-plugin-ml2
+\pagebreak
+\section{Virtual Machines}
+This Virtual Machines are created from the resource pool after successfull installation openstack
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=12cm,height=8cm]{./openstack_2.png}
+	\caption{ Openstack Virtual Machines.\label{fig:Openstack Virtual Machines }}
+	\end{center}
+\end{figure}
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=12cm,height=8cm]{./openstack_3.png}
+	\caption{ Openstack Resource Pool.\label{fig:Openstack Resource Pool }}
+	\end{center}
+\end{figure}
+\chapter{Conclusion \& Future Work}
+\section{Conclusion} 
+
+\hspace{0.5cm} We worked on GlusterFS for replication of files among systems, but its not working if any one of the system fails. Then we found that XtreemFS works well in distributed system and provides fault tolerant solution. \newline
+
+We worked on network based sign on using LDAP,NFS and web based single sign on along with REST API using Oauth2 and Django. We tried to combine all these componets to deploy in private cloud. we worked on creating private cloud using openstack \newline
+
+\section{Future Work}
+\hspace{0.5cm} We would like to combine Network single sign-on with Web based single sign on along with XtreemFS and HAProxy for fault tolerant distributed environment. Creation of private cloud, virtual machines and deploying all components in private cloud avails us to use resources efficiently and all this work can be done on workstations.
+
+
+\chapter{References}
+
+\section{References}
+
+\begin{enumerate}
+\item Nabil Sultan, ``Cloud Computing for Education”, International journal information management, 30, pp 109-116, 2010.
+\item Tharam Dillon, Chen Wu and Elizabeth Chang, ``Cloud Computing: Issues and Challenges'',  24thIEEE International Conference on Advanced Information Networking and Applications, 2010 
+\item Sebastian Rieger, ``User-centric Identity Management in Heterogeneous Federations'', Fourth international conference on Internet and Web Applications and Services, 2009.
+\item Jun Zheng, Qikun Zhang ,Shangwen Zheng and Yuan Tan, ``Dynamic Role Based Access Control'',  JOURNAL OF SOFTWARE, VOL. 6, NO. 6, JUNE 2011.
+\item R. S. Sandhu, E. J. Coyne, H. L. Feinstein, and C. E.Youman, "Role-Based Access Control Models," [C] IEEE Computer, vol. 29, pp. 38-47, 1996.
+\item Ivan Novakov, ``Web Single Sign On Systems'', CESNET technical report number 21/2006
+\item C.S.Yang, C.Y.Liu, J.H.Chen, C.Y.Sung, ``Design and Implementations of Secure Web-based LDAP Management System''.
+\item Ning Li, Qing Wang, Zhongliang Deng, ``Authentication Framework of IIEDNS Based on LDAP and Kerberos'', Proceedings of IC-BNMT2010.
+\item Salah A.Jaro Alabady, ``Design implementation of Network Security Model Using Static VLAN and AAA Server
+\item Shengli Liu, Wenbing Wang, Yuefei Zhu, ``A New-Style Domain Integrated Management of Windows and UNIX'', The Ninth International Conference on Web-Age Information Management.
+\item Ubnutu OS, http://www.ubuntu.com/
+\item Openstack, https://openstack.org/
+\item Linux Bible, http://tuxnetworks.blogspot.com
+\item OAuth 2.0, http://oauth.net/
+\item Git, https://github.com
+\item Bootstrap, http://getbootstrap.com 
+\item Stack Overflow http://stackoverflow.com/
+\item Google, http://www.google.com/
+	\item Django Docs -- \url{https://docs.djangoproject.com/en/1.7/}
+	\item Django -- \url{https://djangoproject.com/}
+	\item Django OAuth Tool Kit -- \url{https://github.com/evonove/django-oauth-toolkit}
+	\item Django REST Framework -- \url{http://www.django-rest-framework.org/}
+	\item OAuth 2.0 -- \url{http://oauth.net/2/}
+	\item Semantic UI -- \url{http://beta.semantic-ui.com/}
+	\item GlusterFS -- \url{https://www.digitalocean.com/How To Create a Redundant Storage Pool Using GlusterFS on Ubuntu Servers _ DigitalOcean.htm}
+	\item HAProxy -- \url{www.digitalocean.com/How To Use HAProxy to Set Up HTTP Load Balancing on an Ubuntu VPS _ DigitalOcean.htm}
+	\item LDAP -- \url{https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-a-basic-ldap-server-on-an-ubuntu-12-04-vps}
+	\item NFS Server -- \url{http://www.server-world.info/en/note?os=Ubuntu_14.04&p=nfs}
+	\item NFS Client -- \url{http://www.server-world.info/en/note?os=Ubuntu_14.04&p=nfs&f=2}
+	\item Openstack -- \url{http://www.server-world.info/en/note?os=Ubuntu_14.04&p=openstack_icehouse}
+\end{enumerate}
+
+
+\end{document}

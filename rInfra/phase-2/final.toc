@@ -1,26 +1,26 @@
 \beamer@endinputifotherversion {3.24pt}
 \beamer@sectionintoc {1}{Objective}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Objective}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Motivation}{5}{0}{1}
-\beamer@sectionintoc {2}{Proposed System}{6}{0}{2}
-\beamer@subsectionintoc {2}{1}{Users \& IT Services}{7}{0}{2}
-\beamer@subsectionintoc {2}{2}{Cloud Infrastructures}{8}{0}{2}
-\beamer@sectionintoc {3}{Phase I Review}{9}{0}{3}
-\beamer@sectionintoc {4}{Web Single Sign-On}{12}{0}{4}
-\beamer@subsectionintoc {4}{1}{OAuth Provider}{14}{0}{4}
-\beamer@subsectionintoc {4}{2}{API Endpoints}{15}{0}{4}
-\beamer@subsectionintoc {4}{3}{Testing OAuth Provider}{16}{0}{4}
-\beamer@subsectionintoc {4}{4}{Testing OAuth Provider contd...}{17}{0}{4}
-\beamer@sectionintoc {5}{Network Single SignOn}{18}{0}{5}
-\beamer@subsectionintoc {5}{1}{Introduction}{19}{0}{5}
-\beamer@subsectionintoc {5}{2}{LDAP Server}{20}{0}{5}
-\beamer@subsectionintoc {5}{3}{phpLDAPadmin}{21}{0}{5}
-\beamer@subsectionintoc {5}{4}{LDAP Client:}{22}{0}{5}
-\beamer@subsectionintoc {5}{5}{NFS Server}{24}{0}{5}
-\beamer@subsectionintoc {5}{6}{NFS Client}{25}{0}{5}
-\beamer@sectionintoc {6}{Additional Network Components}{26}{0}{6}
-\beamer@subsectionintoc {6}{1}{Introduction}{27}{0}{6}
-\beamer@subsectionintoc {6}{2}{HAProxy}{28}{0}{6}
-\beamer@subsectionintoc {6}{3}{GlusterFS}{30}{0}{6}
-\beamer@subsectionintoc {6}{4}{XtreemFS}{31}{0}{6}
-\beamer@sectionintoc {7}{Additional Work}{33}{0}{7}
+\beamer@sectionintoc {2}{Motivation}{5}{0}{2}
+\beamer@sectionintoc {3}{Proposed System}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Users \& IT Services}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Cloud Infrastructures}{9}{0}{3}
+\beamer@sectionintoc {4}{Phase I Review}{10}{0}{4}
+\beamer@sectionintoc {5}{Web Single Sign-On}{14}{0}{5}
+\beamer@subsectionintoc {5}{1}{OAuth Provider}{16}{0}{5}
+\beamer@subsectionintoc {5}{2}{API Endpoints}{17}{0}{5}
+\beamer@subsectionintoc {5}{3}{Testing OAuth Provider}{18}{0}{5}
+\beamer@subsectionintoc {5}{4}{Testing OAuth Provider contd...}{19}{0}{5}
+\beamer@sectionintoc {6}{Network Single SignOn}{20}{0}{6}
+\beamer@subsectionintoc {6}{1}{Introduction}{21}{0}{6}
+\beamer@subsectionintoc {6}{2}{LDAP Server}{22}{0}{6}
+\beamer@subsectionintoc {6}{3}{phpLDAPadmin}{23}{0}{6}
+\beamer@subsectionintoc {6}{4}{LDAP Client:}{24}{0}{6}
+\beamer@subsectionintoc {6}{5}{NFS Server}{26}{0}{6}
+\beamer@subsectionintoc {6}{6}{NFS Client}{27}{0}{6}
+\beamer@sectionintoc {7}{Additional Network Components}{28}{0}{7}
+\beamer@subsectionintoc {7}{1}{Introduction}{29}{0}{7}
+\beamer@subsectionintoc {7}{2}{HAProxy}{30}{0}{7}
+\beamer@subsectionintoc {7}{3}{GlusterFS}{32}{0}{7}
+\beamer@subsectionintoc {7}{4}{XtreemFS}{33}{0}{7}
+\beamer@sectionintoc {8}{Additional Work}{35}{0}{8}

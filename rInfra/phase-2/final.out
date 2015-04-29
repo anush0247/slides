@@ -1,25 +1,25 @@
 \BOOKMARK [2][]{Outline0.1}{Objective}{}% 1
 \BOOKMARK [3][]{Outline0.1.1.4}{Objective}{Outline0.1}% 2
-\BOOKMARK [3][]{Outline0.1.2.5}{Motivation}{Outline0.1}% 3
-\BOOKMARK [2][]{Outline0.2}{Proposed System}{}% 4
-\BOOKMARK [3][]{Outline0.2.1.7}{Users \046 IT Services}{Outline0.2}% 5
-\BOOKMARK [3][]{Outline0.2.2.8}{Cloud Infrastructures}{Outline0.2}% 6
-\BOOKMARK [2][]{Outline0.3}{Phase I Review}{}% 7
-\BOOKMARK [2][]{Outline0.4}{Web Single Sign-On}{}% 8
-\BOOKMARK [3][]{Outline0.4.1.14}{OAuth Provider}{Outline0.4}% 9
-\BOOKMARK [3][]{Outline0.4.2.15}{API Endpoints}{Outline0.4}% 10
-\BOOKMARK [3][]{Outline0.4.3.16}{Testing OAuth Provider}{Outline0.4}% 11
-\BOOKMARK [3][]{Outline0.4.4.17}{Testing OAuth Provider contd...}{Outline0.4}% 12
-\BOOKMARK [2][]{Outline0.5}{Network Single SignOn}{}% 13
-\BOOKMARK [3][]{Outline0.5.1.19}{Introduction}{Outline0.5}% 14
-\BOOKMARK [3][]{Outline0.5.2.20}{LDAP Server}{Outline0.5}% 15
-\BOOKMARK [3][]{Outline0.5.3.21}{phpLDAPadmin}{Outline0.5}% 16
-\BOOKMARK [3][]{Outline0.5.4.22}{LDAP Client:}{Outline0.5}% 17
-\BOOKMARK [3][]{Outline0.5.5.24}{NFS Server}{Outline0.5}% 18
-\BOOKMARK [3][]{Outline0.5.6.25}{NFS Client}{Outline0.5}% 19
-\BOOKMARK [2][]{Outline0.6}{Additional Network Components}{}% 20
-\BOOKMARK [3][]{Outline0.6.1.27}{Introduction}{Outline0.6}% 21
-\BOOKMARK [3][]{Outline0.6.2.28}{HAProxy}{Outline0.6}% 22
-\BOOKMARK [3][]{Outline0.6.3.30}{GlusterFS}{Outline0.6}% 23
-\BOOKMARK [3][]{Outline0.6.4.31}{XtreemFS}{Outline0.6}% 24
-\BOOKMARK [2][]{Outline0.7}{Additional Work}{}% 25
+\BOOKMARK [2][]{Outline0.2}{Motivation}{}% 3
+\BOOKMARK [2][]{Outline0.3}{Proposed System}{}% 4
+\BOOKMARK [3][]{Outline0.3.1.8}{Users \046 IT Services}{Outline0.3}% 5
+\BOOKMARK [3][]{Outline0.3.2.9}{Cloud Infrastructures}{Outline0.3}% 6
+\BOOKMARK [2][]{Outline0.4}{Phase I Review}{}% 7
+\BOOKMARK [2][]{Outline0.5}{Web Single Sign-On}{}% 8
+\BOOKMARK [3][]{Outline0.5.1.16}{OAuth Provider}{Outline0.5}% 9
+\BOOKMARK [3][]{Outline0.5.2.17}{API Endpoints}{Outline0.5}% 10
+\BOOKMARK [3][]{Outline0.5.3.18}{Testing OAuth Provider}{Outline0.5}% 11
+\BOOKMARK [3][]{Outline0.5.4.19}{Testing OAuth Provider contd...}{Outline0.5}% 12
+\BOOKMARK [2][]{Outline0.6}{Network Single SignOn}{}% 13
+\BOOKMARK [3][]{Outline0.6.1.21}{Introduction}{Outline0.6}% 14
+\BOOKMARK [3][]{Outline0.6.2.22}{LDAP Server}{Outline0.6}% 15
+\BOOKMARK [3][]{Outline0.6.3.23}{phpLDAPadmin}{Outline0.6}% 16
+\BOOKMARK [3][]{Outline0.6.4.24}{LDAP Client:}{Outline0.6}% 17
+\BOOKMARK [3][]{Outline0.6.5.26}{NFS Server}{Outline0.6}% 18
+\BOOKMARK [3][]{Outline0.6.6.27}{NFS Client}{Outline0.6}% 19
+\BOOKMARK [2][]{Outline0.7}{Additional Network Components}{}% 20
+\BOOKMARK [3][]{Outline0.7.1.29}{Introduction}{Outline0.7}% 21
+\BOOKMARK [3][]{Outline0.7.2.30}{HAProxy}{Outline0.7}% 22
+\BOOKMARK [3][]{Outline0.7.3.32}{GlusterFS}{Outline0.7}% 23
+\BOOKMARK [3][]{Outline0.7.4.33}{XtreemFS}{Outline0.7}% 24
+\BOOKMARK [2][]{Outline0.8}{Additional Work}{}% 25
