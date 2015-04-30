@@ -42,7 +42,7 @@
 
 \AtBeginSection[]
 {
-	\begin{frame}
+	\begin{frame}[allowframebreaks]
 		\frametitle{Outline}
 		\tableofcontents[currentsection,hideothersubsections]
 	\end{frame}
@@ -453,6 +453,20 @@ All University IT Services are deployed in a private cloud, constructed over exs
 \end{itemize}
 \end{frame}
 
+\section{Conclusion} 
+\begin{frame}{Conclusion}
+We worked on GlusterFS for replication of files among systems, but its not working if any one of the system fails. Then we found that XtreemFS works well in distributed system and provides fault tolerant solution. \newline
+
+We worked on network based sign on using LDAP,NFS and web based single sign on along with REST API using Oauth2 and Django. We tried to combine all these componets to deploy in private cloud. we worked on creating private cloud using openstack \newline
+\end{frame}
+
+\section{Future Work}
+\begin{frame}{Future Work}
+
+We would like to combine Network single sign-on with Web based single sign on along with XtreemFS and HAProxy for fault tolerant distributed environment. Creation of private cloud, virtual machines and deploying all components in private cloud avails us to use resources efficiently and all this work can be done on workstations.
+\end{frame}
+
+\section{References}
 \begin{frame}[allowframebreaks]{References}
 \small
 \begin{itemize}

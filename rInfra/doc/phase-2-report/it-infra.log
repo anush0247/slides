@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  16 APR 2015 10:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  29 APR 2015 21:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,6 +215,9 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@cols=\count103
 \TX@ftn=\toks17
 )
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
@@ -336,21 +339,24 @@ Package: listings 2013/08/26 1.5b (Carsten Heinz)
 (./it-infra.aux)
 \openout1 = `it-infra.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 61.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -414,7 +420,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -424,44 +430,58 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
 
 (./it-infra.out) (./it-infra.out)
 \@outlinefile=\write3
 \openout3 = `it-infra.out'.
 
 \c@lstlisting=\count134
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 73.
+(Font)              <17.28> on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 73.
+(Font)              <12> on input line 74.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 75.
+(Font)              <14.4> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 75.
+(Font)              <7> on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 81.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 80.
+(Font)              <10.95> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 80.
+(Font)              <8> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 80.
+(Font)              <6> on input line 81.
 
 <rgukt_logo.jpg, id=246, 236.885pt x 162.6075pt>
 File: rgukt_logo.jpg Graphic file (type jpg)
  <use rgukt_logo.jpg>
-Package pdftex.def Info: rgukt_logo.jpg used on input line 100.
+Package pdftex.def Info: rgukt_logo.jpg used on input line 101.
 (pdftex.def)             Requested size: 99.58464pt x 68.35919pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./rgukt_logo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
@@ -482,22 +502,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 159.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 160.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 159.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 160.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 \chapter
+l.177 \chapter
               {Phase I Work} [1
 
 ]
@@ -511,14 +533,14 @@ Chapter 3.
 ]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
  
  []
 
-<abstract_flow.png, id=383, 563.10374pt x 373.395pt>
+<abstract_flow.png, id=382, 563.10374pt x 373.395pt>
 File: abstract_flow.png Graphic file (type png)
  <use abstract_flow.png>
-Package pdftex.def Info: abstract_flow.png used on input line 250.
+Package pdftex.def Info: abstract_flow.png used on input line 251.
 (pdftex.def)             Requested size: 281.55118pt x 186.69704pt.
 
 [4
@@ -528,101 +550,95 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.259 \item I
+l.260 \item I
              f the application identity is authenticated and the authorizati...
- <./abstract_flow.png>] <RID_Pics/Profile.png, id=389, 1236.62pt x 632.3625pt>
+ <./abstract_flow.png>] <RID_Pics/Profile.png, id=388, 1236.62pt x 632.3625pt>
 File: RID_Pics/Profile.png Graphic file (type png)
 
 <use RID_Pics/Profile.png>
-Package pdftex.def Info: RID_Pics/Profile.png used on input line 269.
+Package pdftex.def Info: RID_Pics/Profile.png used on input line 270.
 (pdftex.def)             Requested size: 494.63924pt x 252.94052pt.
 
-Overfull \hbox (41.67134pt too wide) in paragraph at lines 269--270
+Overfull \hbox (41.67134pt too wide) in paragraph at lines 270--271
  [] 
  []
 
-<RID_Pics/Edit_Profile.png, id=390, 1117.17375pt x 505.89pt>
+<RID_Pics/Edit_Profile.png, id=389, 1117.17375pt x 505.89pt>
 File: RID_Pics/Edit_Profile.png Graphic file (type png)
 
 <use RID_Pics/Edit_Profile.png>
-Package pdftex.def Info: RID_Pics/Edit_Profile.png used on input line 275.
+Package pdftex.def Info: RID_Pics/Edit_Profile.png used on input line 276.
 (pdftex.def)             Requested size: 446.86159pt x 202.3524pt.
  [5pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.279 \section
+l.280 \section
               {REST API} <./RID_Pics/Profile.png>]
-<CRUD.png, id=395, 595.22375pt x 159.59625pt>
+<CRUD.png, id=394, 595.22375pt x 159.59625pt>
 File: CRUD.png Graphic file (type png)
  <use CRUD.png>
-Package pdftex.def Info: CRUD.png used on input line 283.
+Package pdftex.def Info: CRUD.png used on input line 284.
 (pdftex.def)             Requested size: 199.16731pt x 56.90424pt.
-
-Overfull \hbox (7.4609pt too wide) in paragraph at lines 280--286
-\OT1/cmr/m/n/12 REST API pro-vides users a flex-i-bil-ity to per-form Ba-sic CR
-UD(Create,Read,Update,Delete)
- []
-
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}
-) has been already used, duplicate ignored
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.296 \subsection
+l.297 \subsection
                  {API Testing}pdfTeX warning (ext4): destination with the same 
 identifier (name{figure.4.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.296 \subsection
+l.297 \subsection
                  {API Testing} <./RID_Pics/Edit_Profile.png> <./CRUD.png>]
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 297.
+LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <12> not available
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 298.
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 298.
+nput line 299.
 
 (./basic_info.json
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 5.
 ) (./contact_info.json) (./education.json) (./skills.json
 [7]) (./roles.json)
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
-<RID_Pics/Roles.png, id=462, 1111.15125pt x 542.025pt>
+<RID_Pics/Roles.png, id=461, 1111.15125pt x 542.025pt>
 File: RID_Pics/Roles.png Graphic file (type png)
 
 <use RID_Pics/Roles.png>
-Package pdftex.def Info: RID_Pics/Roles.png used on input line 317.
+Package pdftex.def Info: RID_Pics/Roles.png used on input line 318.
 (pdftex.def)             Requested size: 444.45262pt x 216.80615pt.
 
-<RID_Pics/Add_Permission.png, id=463, 1108.14pt x 506.89375pt>
+<RID_Pics/Add_Permission.png, id=462, 1108.14pt x 506.89375pt>
 File: RID_Pics/Add_Permission.png Graphic file (type png)
 
 <use RID_Pics/Add_Permission.png>
-Package pdftex.def Info: RID_Pics/Add_Permission.png used on input line 322.
+Package pdftex.def Info: RID_Pics/Add_Permission.png used on input line 323.
 (pdftex.def)             Requested size: 443.24815pt x 202.7539pt.
  [8] [9pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.327 \section
+l.328 \section
               {PHP Client Libraray}pdfTeX warning (ext4): destination with the 
 same identifier (name{figure.4.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.327 \section
+l.328 \section
               {PHP Client Libraray} <./RID_Pics/Roles.png> <./RID_Pics/Add_Perm
 ission.png>] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
@@ -630,12 +646,12 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2013/08/26 1.5b listings language file
 ) (./init.php
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 1.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 1.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
 )
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 1.
 ) (./getURL.php)
 (./getToken.php) (./initAPI.php) (./getInfo.php) [10]
@@ -645,92 +661,88 @@ Chapter 5.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 363.
+(hyperref)                removing `math shift' on input line 364.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 363.
+(hyperref)                removing `superscript' on input line 364.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 363.
+(hyperref)                removing `math shift' on input line 364.
 
 [12]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
  (./conf.php)
 <Screens/LdapServerLogin.png, id=542, 441.65pt x 324.21124pt>
 File: Screens/LdapServerLogin.png Graphic file (type png)
 
 <use Screens/LdapServerLogin.png>
-Package pdftex.def Info: Screens/LdapServerLogin.png used on input line 415.
+Package pdftex.def Info: Screens/LdapServerLogin.png used on input line 416.
 (pdftex.def)             Requested size: 170.71304pt x 170.71805pt.
 
 <Screens/serversidebar.png, id=543, 345.29pt x 367.3725pt>
 File: Screens/serversidebar.png Graphic file (type png)
 
 <use Screens/serversidebar.png>
-Package pdftex.def Info: Screens/serversidebar.png used on input line 425.
+Package pdftex.def Info: Screens/serversidebar.png used on input line 426.
 (pdftex.def)             Requested size: 170.71622pt x 170.71992pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 426--426
-[]\OT1/cmr/m/n/12 Figure 5.2: []Complete cat-e-gory of
- []
 
 <Screens/UserCreation.png, id=544, 465.74pt x 721.69624pt>
 File: Screens/UserCreation.png Graphic file (type png)
 
 <use Screens/UserCreation.png>
-Package pdftex.def Info: Screens/UserCreation.png used on input line 440.
+Package pdftex.def Info: Screens/UserCreation.png used on input line 441.
 (pdftex.def)             Requested size: 284.53448pt x 426.7882pt.
  [13pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.444 
+l.445 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 5.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.444 
+l.445 
        <./Screens/LdapServerLogin.png> <./Screens/serversidebar.png>]
 <Screens/admin_group.png, id=555, 497.86pt x 310.15875pt>
 File: Screens/admin_group.png Graphic file (type png)
 
 <use Screens/admin_group.png>
-Package pdftex.def Info: Screens/admin_group.png used on input line 448.
+Package pdftex.def Info: Screens/admin_group.png used on input line 449.
 (pdftex.def)             Requested size: 227.62817pt x 170.7156pt.
 
 <Screens/AddUsertoGroup.png, id=557, 577.15625pt x 469.755pt>
 File: Screens/AddUsertoGroup.png Graphic file (type png)
 
 <use Screens/AddUsertoGroup.png>
-Package pdftex.def Info: Screens/AddUsertoGroup.png used on input line 456.
+Package pdftex.def Info: Screens/AddUsertoGroup.png used on input line 457.
 (pdftex.def)             Requested size: 284.53514pt x 227.62303pt.
  [14pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.460 
+l.461 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 5.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.460 
+l.461 
        <./Screens/UserCreation.png> <./Screens/admin_group.png>]
 <Screens/Groupsinfo.png, id=564, 988.69376pt x 601.24625pt>
 File: Screens/Groupsinfo.png Graphic file (type png)
 
 <use Screens/Groupsinfo.png>
-Package pdftex.def Info: Screens/Groupsinfo.png used on input line 464.
+Package pdftex.def Info: Screens/Groupsinfo.png used on input line 465.
 (pdftex.def)             Requested size: 483.6948pt x 284.53072pt.
 
-Overfull \hbox (30.7269pt too wide) in paragraph at lines 464--465
+Overfull \hbox (30.7269pt too wide) in paragraph at lines 465--466
  [] 
  []
 
@@ -739,17 +751,17 @@ Overfull \hbox (30.7269pt too wide) in paragraph at lines 464--465
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.471 	\subsection
+l.472 	\subsection
                   {Installation and Configuration:}pdfTeX warning (ext4): desti
 nation with the same identifier (name{figure.5.6}) has been already used, dupli
 cate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.471 	\subsection
+l.472 	\subsection
                   {Installation and Configuration:} <./Screens/AddUsertoGroup.p
 ng> <./Screens/Groupsinfo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 495--500
+Underfull \hbox (badness 10000) in paragraph at lines 496--501
 
  []
 
@@ -757,144 +769,155 @@ Underfull \hbox (badness 10000) in paragraph at lines 495--500
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (./nsswitch.conf) [17]
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 543.
+(hyperref)                removing `math shift' on input line 544.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 543.
+(hyperref)                removing `superscript' on input line 544.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 543.
+(hyperref)                removing `math shift' on input line 544.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 544--550
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--564
+Underfull \hbox (badness 10000) in paragraph at lines 545--551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--564
+Underfull \hbox (badness 10000) in paragraph at lines 552--565
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--564
+Underfull \hbox (badness 10000) in paragraph at lines 552--565
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--565
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 567--570
+Underfull \hbox (badness 10000) in paragraph at lines 568--571
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 571--575
+Underfull \hbox (badness 10000) in paragraph at lines 572--576
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--581
+Underfull \hbox (badness 10000) in paragraph at lines 578--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--586
+Overfull \hbox (2.09132pt too wide) in paragraph at lines 583--587
+\OT1/ptm/m/n/12 sudo glus-ter vol-ume cre-ate vol-ume1 replica 2 trans-port tcp
+ gluster0.droplet.com:/gluster-storage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--587
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--592
+Underfull \hbox (badness 10000) in paragraph at lines 588--593
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--600
+Underfull \hbox (badness 10000) in paragraph at lines 594--601
 
  []
 
 [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 601--608
+Underfull \hbox (badness 10000) in paragraph at lines 602--609
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--608
+Underfull \hbox (badness 10000) in paragraph at lines 602--609
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--608
+Underfull \hbox (badness 10000) in paragraph at lines 602--609
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--608
+Underfull \hbox (badness 10000) in paragraph at lines 602--609
 
  []
 
 
-Overfull \hbox (1.09544pt too wide) in paragraph at lines 616--617
-[]\OT1/cmr/m/n/12 Creating a new vol-ume with de-fault set-tings : $sudo mkfs.x
-treemfs lo-cal-hot-s/myVol-
+Overfull \hbox (58.03401pt too wide) in paragraph at lines 616--617
+[]\OT1/ptm/m/n/12 We can check the reg-istry by open-ing the DIR sta-tus page i
+n our web browser at http://localhost:30638 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--633
+Underfull \hbox (badness 10000) in paragraph at lines 628--634
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--633
+Underfull \hbox (badness 10000) in paragraph at lines 628--634
 
  []
 
 [21]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
+Overfull \hbox (9.99976pt too wide) in paragraph at lines 637--639
+\OT1/ptm/m/n/12 On WKS01 where a sec-ond OSD will be run-ning, edited the osd c
+on-fig file, point \OT1/ptm/b/n/12 dir[]service.host
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--656
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 641--657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--656
+Underfull \hbox (badness 10000) in paragraph at lines 641--657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--656
+Underfull \hbox (badness 10000) in paragraph at lines 641--657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--656
+Underfull \hbox (badness 10000) in paragraph at lines 641--657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--656
+Underfull \hbox (badness 10000) in paragraph at lines 641--657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--656
+Underfull \hbox (badness 10000) in paragraph at lines 641--657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--656
+Underfull \hbox (badness 10000) in paragraph at lines 641--657
 
  []
 
@@ -903,23 +926,17 @@ Chapter 6.
 <./openstack_1.png, id=602, 606.265pt x 414.54875pt>
 File: ./openstack_1.png Graphic file (type png)
  <use ./openstack_1.png>
-Package pdftex.def Info: ./openstack_1.png used on input line 666.
+Package pdftex.def Info: ./openstack_1.png used on input line 667.
 (pdftex.def)             Requested size: 312.9839pt x 227.61665pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 662--669
+Underfull \hbox (badness 10000) in paragraph at lines 663--670
 
- []
-
-
-Overfull \hbox (8.68567pt too wide) in paragraph at lines 673--674
-\OT1/cmr/m/n/12 Installing open-stack in-cludes com-po-nent wise in-stal-la-tio
-n namely NTP, MySQL, Rabbitmq-
  []
 
 <./openstack_4.png, id=603, 788.9475pt x 363.3575pt>
 File: ./openstack_4.png Graphic file (type png)
  <use ./openstack_4.png>
-Package pdftex.def Info: ./openstack_4.png used on input line 677.
+Package pdftex.def Info: ./openstack_4.png used on input line 678.
 (pdftex.def)             Requested size: 398.33708pt x 156.49016pt.
 
 [23
@@ -929,25 +946,25 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.680 \end{figure}
+l.681 \end{figure}
                    <./openstack_1.png>] [24pdfTeX warning (ext4): destination w
 ith the same identifier (name{figure.6.2}) has been already used, duplicate ign
 ored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.697 \section
+l.698 \section
               {Virtual Machines} <./openstack_4.png>]
 <./openstack_2.png, id=612, 1333.98375pt x 746.79pt>
 File: ./openstack_2.png Graphic file (type png)
  <use ./openstack_2.png>
-Package pdftex.def Info: ./openstack_2.png used on input line 701.
+Package pdftex.def Info: ./openstack_2.png used on input line 702.
 (pdftex.def)             Requested size: 341.43353pt x 227.61678pt.
 
 <./openstack_3.png, id=613, 1371.1225pt x 770.88pt>
 File: ./openstack_3.png Graphic file (type png)
  <use ./openstack_3.png>
-Package pdftex.def Info: ./openstack_3.png used on input line 707.
+Package pdftex.def Info: ./openstack_3.png used on input line 708.
 (pdftex.def)             Requested size: 341.41988pt x 227.61935pt.
 
 [25pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3
@@ -955,96 +972,96 @@ Package pdftex.def Info: ./openstack_3.png used on input line 707.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.711 \chapter
+l.712 \chapter
               {Conclusion \& Future Work}pdfTeX warning (ext4): destination wit
 h the same identifier (name{figure.6.4}) has been already used, duplicate ignor
 ed
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.711 \chapter
+l.712 \chapter
               {Conclusion \& Future Work} <./openstack_2.png> <./openstack_3.pn
 g>]
 Chapter 7.
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
 [26
 
 ]
 Chapter 8.
 
-Overfull \hbox (201.63014pt too wide) in paragraph at lines 728--729
-[]\OT1/cmr/m/n/12 GlusterFS -- []$\OT1/cmtt/m/n/12 https : / / www . digitaloce
-an . com / HowToCreateaRedundantStoragePoolUsingGlusterFSonUbuntuServers _
+Overfull \hbox (37.822pt too wide) in paragraph at lines 725--726
+[]\OT1/ptm/m/n/12 Django OAuth Tool Kit -- []$\OT1/pcr/m/n/12 https : / / githu
+b . com / evonove / django-[]oauth-[]toolkit$[] 
  []
 
 
-Overfull \hbox (92.58559pt too wide) in paragraph at lines 729--730
-[]\OT1/cmr/m/n/12 HAProxy -- []$\OT1/cmtt/m/n/12 www . digitalocean . com / How
-ToUseHAProxytoSetUpHTTPLoadBalancingonanUbuntuVPS _
+Overfull \hbox (290.83717pt too wide) in paragraph at lines 729--730
+[]\OT1/ptm/m/n/12 GlusterFS -- []$\OT1/pcr/m/n/12 https : / / www . digitalocea
+n . com / HowToCreateaRedundantStoragePoolUsingGlusterFSonUbuntuServers _
  []
 
 
-Overfull \hbox (368.29433pt too wide) in paragraph at lines 730--731
-[]\OT1/cmr/m/n/12 LDAP -- []$\OT1/cmtt/m/n/12 https : / / www . digitalocean . 
-com / community / tutorials / how-[]to-[]install-[]and-[]configure-[]a-[]basic-
-[]ldap-[]server-[]on-[]an-[]ubuntu-[]12-[]04-[]vps$[] 
+Overfull \hbox (165.76242pt too wide) in paragraph at lines 730--731
+[]\OT1/ptm/m/n/12 HAProxy -- []$\OT1/pcr/m/n/12 www . digitalocean . com / HowT
+oUseHAProxytoSetUpHTTPLoadBalancingonanUbuntuVPS _
  []
 
 
-Overfull \hbox (3.75359pt too wide) in paragraph at lines 731--732
-[]\OT1/cmr/m/n/12 NFS Server -- []$\OT1/cmtt/m/n/12 http : / / www . server-[]w
-orld . info / en / note ? os = Ubuntu _ 14 . 04 & p = nfs$[] 
+Overfull \hbox (488.8177pt too wide) in paragraph at lines 731--732
+[]\OT1/ptm/m/n/12 LDAP -- []$\OT1/pcr/m/n/12 https : / / www . digitalocean . c
+om / community / tutorials / how-[]to-[]install-[]and-[]configure-[]a-[]basic-[
+]ldap-[]server-[]on-[]an-[]ubuntu-[]12-[]04-[]vps$[] 
  []
 
 
-Overfull \hbox (8.94943pt too wide) in paragraph at lines 732--733
-[]\OT1/cmr/m/n/12 NFS Client -- []$\OT1/cmtt/m/n/12 http : / / www . server-[]w
-orld . info / en / note ? os = Ubuntu _ 14 . 04 & p = nfs &
+Overfull \hbox (2.89362pt too wide) in paragraph at lines 732--733
+[]\OT1/ptm/m/n/12 NFS Server -- []$\OT1/pcr/m/n/12 http : / / www . server-[]wo
+rld . info / en / note ? os = Ubuntu _ 14 .
  []
 
 
-Overfull \hbox (43.29799pt too wide) in paragraph at lines 733--734
-[]\OT1/cmr/m/n/12 Openstack -- []$\OT1/cmtt/m/n/12 http : / / www . server-[]wo
-rld . info / en / note ? os = Ubuntu _ 14 . 04 & p = openstack _
+Overfull \hbox (1.09328pt too wide) in paragraph at lines 733--734
+[]\OT1/ptm/m/n/12 NFS Client -- []$\OT1/pcr/m/n/12 http : / / www . server-[]wo
+rld . info / en / note ? os = Ubuntu _ 14 .
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 736.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 737.
 [27
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 736.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 737.
  (./it-infra.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 736.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 736.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 737.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 737.
 Package rerunfilecheck Info: File `it-infra.out' has not changed.
 (rerunfilecheck)             Checksum: 494B07090865365AEC32047C4892C188;4023.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 736.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 737.
  ) 
 Here is how much of TeX's memory you used:
- 9744 strings out of 494985
- 149445 string characters out of 6180357
- 661942 words of memory out of 5000000
- 12573 multiletter control sequences out of 15000+600000
- 11936 words of font info for 42 fonts, out of 8000000 for 9000
+ 9842 strings out of 494985
+ 150869 string characters out of 6180357
+ 662062 words of memory out of 5000000
+ 12647 multiletter control sequences out of 15000+600000
+ 29924 words of font info for 63 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  31i,8n,43p,613b,3012s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-tt12.pfb>
-Output written on it-infra.pdf (32 pages, 768786 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucr
+b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on it-infra.pdf (32 pages, 747794 bytes).
 PDF statistics:
- 746 PDF objects out of 1000 (max. 8388607)
- 674 compressed objects within 7 object streams
+ 748 PDF objects out of 1000 (max. 8388607)
+ 676 compressed objects within 7 object streams
  237 named destinations out of 1000 (max. 500000)
  566 words of extra memory for PDF output out of 10000 (max. 10000000)
 
