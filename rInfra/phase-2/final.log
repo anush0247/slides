@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  30 APR 2015 07:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  30 APR 2015 19:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -998,9 +998,8 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \includegraphics on input line 58.
 \c@lstlisting=\count177
  (./final.nav)
-Overfull \hbox (91.20189pt too wide) detected at line 58
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) detected at line 58
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 63.
@@ -1017,9 +1016,8 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 63.
 
 
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1035,186 +1033,146 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              for symbol `textbraceleft' on input line 89.
 
 
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [2
 
 ] (./final.toc)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
+Overfull \vbox (19.1312pt too high) detected at line 92
+ []
 
+
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [3
 
 ]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [4
 
+] (./final.toc)
+Overfull \vbox (7.1312pt too high) detected at line 103
+ []
 
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
 
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [5
 
-] (./final.toc)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+]
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [6
 
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
+] (./final.toc)
+Overfull \vbox (31.1312pt too high) detected at line 118
+ []
 
+
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [7
 
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[8
-
-] (./final.toc)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[9
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[10
-
-
-] <./it.png, id=812, 483.8075pt x 179.67125pt>
+] <./it.png, id=606, 483.8075pt x 179.67125pt>
 File: ./it.png Graphic file (type png)
  <use ./it.png>
 Package pdftex.def Info: ./it.png used on input line 133.
 (pdftex.def)             Requested size: 142.26378pt x 52.83257pt.
 
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
-[11
+[8
 
- <./it.png>] <./it2.png, id=872, 491.8375pt x 289.08pt>
+ <./it.png>] <./it2.png, id=662, 491.8375pt x 289.08pt>
 File: ./it2.png Graphic file (type png)
  <use ./it2.png>
 Package pdftex.def Info: ./it2.png used on input line 146.
 (pdftex.def)             Requested size: 199.16928pt x 117.06352pt.
 
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
+ []
 
+[9
+
+ <./it2.png>] (./final.toc)
+Overfull \vbox (7.1312pt too high) detected at line 149
+ []
+
+
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
+ []
+
+[10
+
+]
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
+ []
+
+[11
+
+]
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [12
 
- <./it2.png>] (./final.toc)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
 
+]
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [13
 
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
+] (./final.toc)
+Overfull \vbox (55.1312pt too high) detected at line 213
+ []
 
+
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [14
 
-
 ]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [15
 
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[16
-
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[17
-
-] (./final.toc)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[18
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[19
-
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[20
-
-] <abstract_flow.png, id=1407, 563.10374pt x 373.395pt>
+] <abstract_flow.png, id=1070, 563.10374pt x 373.395pt>
 File: abstract_flow.png Graphic file (type png)
 
 <use abstract_flow.png>
 Package pdftex.def Info: abstract_flow.png used on input line 236.
 (pdftex.def)             Requested size: 199.16858pt x 99.58162pt.
 
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
-[21
+[16
 
  <./abstract_flow.png>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
@@ -1224,20 +1182,18 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (./contact_info.json)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
-[22
+[17
 
 ]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
-[23
+[18
 
 ] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
@@ -1254,304 +1210,219 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              for symbol `textless' on input line 1.
 
 ) (./getURL.php) (./getToken.php) (./initAPI.php) (./getInfo.php)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
-[24
+[19
 
 ] (./final.toc)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \vbox (79.1312pt too high) detected at line 272
  []
 
-[25
+
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
+ []
+
+[20
 
 ]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
-[26
-
+[21
 
 ]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
-[27
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[28
+[22
 
 ] (./conf.php)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
-[29
+[23
 
 ] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (./nsswitch.conf)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
+ []
 
+[24
+
+]
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
+ []
+
+[25
+
+
+] (./nfs.sh)
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
+ []
+
+[26
+
+]
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
+ []
+
+[27
+
+]
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
+ []
+
+[28
+
+] (./final.toc)
+Overfull \vbox (43.1312pt too high) detected at line 354
+ []
+
+
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
+ []
+
+[29
+
+] (./haproxy.sh)
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [30
 
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
+] <Layer7LoadBalancing.PNG, id=1910, 480.29437pt x 240.9pt>
+File: Layer7LoadBalancing.PNG Graphic file (type png)
 
+<use Layer7LoadBalancing.PNG>
+Package pdftex.def Info: Layer7LoadBalancing.PNG used on input line 385.
+(pdftex.def)             Requested size: 227.62184pt x 113.81114pt.
+
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [31
 
-
-] (./nfs.sh)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+ <./Layer7LoadBalancing.PNG>]
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [32
 
 ]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+ <xtreem.png, id=2021, 327.2225pt x 361.35pt>
+File: xtreem.png Graphic file (type png)
+ <use xtreem.png>
+Package pdftex.def Info: xtreem.png used on input line 439.
+(pdftex.def)             Requested size: 113.8106pt x 113.80931pt.
 
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [33
 
-] (./final.toc)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
+ <./xtreem.png>] <OSD1.png, id=2076, 715.67375pt x 396.48125pt>
+File: OSD1.png Graphic file (type png)
 
+<use OSD1.png>
+Package pdftex.def Info: OSD1.png used on input line 450.
+(pdftex.def)             Requested size: 227.61156pt x 170.71954pt.
+
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [34
 
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
+ <./OSD1.png>] (./final.toc)
+Overfull \vbox (7.1312pt too high) detected at line 452
+ []
 
+
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [35
 
-
 ]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [36
 
-] (./haproxy.sh)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
+] (./final.toc)
+Overfull \vbox (7.1312pt too high) detected at line 462
+ []
 
+
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [37
 
-] <Layer7LoadBalancing.PNG, id=2409, 480.29437pt x 240.9pt>
-File: Layer7LoadBalancing.PNG Graphic file (type png)
-
-<use Layer7LoadBalancing.PNG>
-Package pdftex.def Info: Layer7LoadBalancing.PNG used on input line 379.
-(pdftex.def)             Requested size: 227.62184pt x 113.81114pt.
-
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+]
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
 [38
 
- <./Layer7LoadBalancing.PNG>]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[39
-
 ]
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
- <xtreem.png, id=2525, 327.2225pt x 361.35pt>
-File: xtreem.png Graphic file (type png)
- <use xtreem.png>
-Package pdftex.def Info: xtreem.png used on input line 433.
-(pdftex.def)             Requested size: 113.8106pt x 113.80931pt.
-
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[40
-
- <./xtreem.png>] <OSD1.png, id=2582, 715.67375pt x 396.48125pt>
-File: OSD1.png Graphic file (type png)
-
-<use OSD1.png>
-Package pdftex.def Info: OSD1.png used on input line 444.
-(pdftex.def)             Requested size: 227.61156pt x 170.71954pt.
-
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[41
-
- <./OSD1.png>] (./final.toc)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[42
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[43
-
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[44
-
-] (./final.toc)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[45
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[46
-
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[47
-
-] (./final.toc)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[48
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[49
-
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[50
-
-] (./final.toc)
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[51
-
-]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
- []
-
-[52
-
-
-]
-Overfull \hbox (5.65675pt too wide) in paragraph at lines 487--487
+Overfull \hbox (5.65675pt too wide) in paragraph at lines 491--491
 \OT1/cmtt/m/n/9 HowToCreateaRedundantStoragePoolUsingGlusterFSonUbuntuServers _
  
  []
 
 
-Overfull \hbox (55.18126pt too wide) in paragraph at lines 487--487
+Overfull \hbox (55.18126pt too wide) in paragraph at lines 491--491
 \OT1/cmtt/m/n/9 how-[]to-[]install-[]and-[]configure-[]a-[]basic-[]ldap-[]serve
 r-[]on-[]an-[]ubuntu-[]12-[]04-[]vps$[]  
  []
 
 
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
-[53
+[39
 
 ]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
-[54
+[40
 
 
 ]
-Overfull \hbox (91.20189pt too wide) has occurred while \output is active
-  [] [][] [] [][][] [] [][][][][] [][][][][][][][] [][][][][][][] [] [] [] []  
-
+Overfull \hbox (74.056pt too wide) has occurred while \output is active
+  [] [][] [] [][][] [] [][][][][] [][][][][][][][][] [][][][][][] [] []  
  []
 
-[55
+[41
 
 ]
 \tf@nav=\write6
@@ -1563,20 +1434,14 @@ Overfull \hbox (91.20189pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `final.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 495.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 495.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 499.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 499.
  (./final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 495.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 495.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 499.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 499.
+Package rerunfilecheck Info: File `final.out' has not changed.
+(rerunfilecheck)             Checksum: 373A6F033EEBB6DFCE28AFB6D08566B5;1523.
 
-
-Package rerunfilecheck Warning: File `final.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `final.out':
-(rerunfilecheck)             Before: CE83A29265F205DE75647BA6CA335FD3;1650
-(rerunfilecheck)             After:  14B7310907741D30FCDB63E9E28530F8;1652.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1584,86 +1449,32 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 495.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 499.
  ) 
 Here is how much of TeX's memory you used:
- 19818 strings out of 494985
- 359699 string characters out of 6180357
- 759891 words of memory out of 5000000
- 22388 multiletter control sequences out of 15000+600000
+ 19753 strings out of 494985
+ 359026 string characters out of 6180357
+ 759588 words of memory out of 5000000
+ 22374 multiletter control sequences out of 15000+600000
  13949 words of font info for 53 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,20n,62p,415b,3055s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline0.7.4.33} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.7.3.32} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.7.2.30} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.7.1.29} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.6.6.27} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.6.5.26} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.6.4.24} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.6.3.23} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.6.2.22} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.6.1.21} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.5.4.19} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.5.3.18} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.5.2.17} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.5.1.16} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.3.2.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.3.1.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.1.1.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.p
-fb>
-Output written on final.pdf (55 pages, 531505 bytes).
+ 49i,20n,64p,415b,3055s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9
+.pfb>
+Output written on final.pdf (41 pages, 485395 bytes).
 PDF statistics:
- 3577 PDF objects out of 3580 (max. 8388607)
- 3418 compressed objects within 35 object streams
- 159 named destinations out of 1000 (max. 500000)
- 357 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2618 PDF objects out of 2984 (max. 8388607)
+ 2485 compressed objects within 25 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 333 words of extra memory for PDF output out of 10000 (max. 10000000)
 

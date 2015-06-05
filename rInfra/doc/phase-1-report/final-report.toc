@@ -104,5 +104,3 @@
 \contentsline {chapter}{\numberline {11}Conclusion \& Future Work}{49}{chapter.11}
 \contentsline {section}{\numberline {11.1}Conclusion}{49}{section.11.1}
 \contentsline {section}{\numberline {11.2}Future Work}{49}{section.11.2}
-\contentsline {chapter}{\numberline {12}References}{50}{chapter.12}
-\contentsline {section}{\numberline {12.1}References}{50}{section.12.1}

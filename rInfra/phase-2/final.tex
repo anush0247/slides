@@ -11,7 +11,7 @@
 \title[Cloud based IT Infra with Central Identity]{Cloud based IT Infra with Central Identity}
 \subtitle{Final Presentation}
 
-\author{ \underline{Project Guide} \\ \hspace{2mm} \\ \small{ T. Chandra Shekar } \tiny \\ \underline{} \\ \scriptsize \textit{Lecturer -- Dept. of CSE} }
+\author{ \underline{Project Guide} \\ \hspace{2mm} \\ \small{ T. Chandra Sheker } \tiny \\ \underline{} \\ \scriptsize \textit{Asst. Professor -- Dept. of CSE} }
 \institute{ \underline{Presenting by} \\ \hspace{2mm} \\ \textit {Team r3b00+ }  \\ \hspace{4mm} \\ Dept. of CSE, RGUKT -- Nuzvid}
 \usepackage{color}
  
@@ -42,7 +42,7 @@
 
 \AtBeginSection[]
 {
-	\begin{frame}[allowframebreaks]
+	\begin{frame}
 		\frametitle{Outline}
 		\tableofcontents[currentsection,hideothersubsections]
 	\end{frame}
@@ -74,9 +74,9 @@
 We are from team \textit{r3b00+}  \{reboot\} \\ \hspace{4cm} \\
 \begin{tabular}{l  l }
 T. Aneesh Kumar & N090247   \\
-P. Nageswarao  & N091030  \\
+P. Nageswara Rao  & N091030  \\
 P. Anesh  & N090977 \\
-P. Jyothi Ram & N090990 \\
+P. Jyothiram & N090990 \\
 K. Naresh Chowdary  & N090331 \\
 N. Venkata Sateesh  & N090935 \\
 M. Sanyasi Rao & N090891  
@@ -121,7 +121,7 @@ Expecting to serve with virtual machines to the research, virtual labs rather th
 We are collaborating all IT Services that are required for University and identifing the users who is going to use them. All Users are catagorized into 4 groups $ ^{[1]}$
 	
 	\begin{itemize}
-	\item Studens, Developers, Staff, faculty \& Researches
+	\item Students, Developers, Staff, faculty \& Researches
 	\end{itemize}
 \begin{figure}[H]
 \begin{center}
@@ -146,9 +146,9 @@ All University IT Services are deployed in a private cloud, constructed over exs
 \end{frame}
 
 
-\section{Phase I Review}
+\section{Literature Review}
  
-\begin{frame}[allowframebreaks]{Phase I Review }
+\begin{frame}[allowframebreaks]{Literature Review }
 \begin{itemize}
 		\item Central Identity
 		\begin{itemize}
@@ -207,7 +207,7 @@ All University IT Services are deployed in a private cloud, constructed over exs
 			Central Identiy - Client Library & Mar - Apr 2015 \\
 			\hline 
 		\end{tabular}
-		
+		\caption{ Central Identity Modules \label{fig:Central Identity Modules}}
 	\end{table}
 \end{frame}
 \section{Web Single Sign-On}
@@ -269,9 +269,9 @@ All University IT Services are deployed in a private cloud, constructed over exs
 \textbf{Getting User Info from API}
 \lstinputlisting[language=php]{getInfo.php}
 \end{frame}
-\section{Network Single SignOn}
-\subsection{Introduction}
-\begin{frame}{Introduction}
+\section{Network Single Sign-On}
+\subsection{Network Single Sign-On}
+\begin{frame}{Network Single Sign-On}
 	Single sign-on (SSO) is a session/user authentication process that permits a user to enter one name and password in order to access multiple applications.\\
 	The process authenticates the user for all the applications they have been given rights to and eliminates further prompts when they switch applications during a particular session.\\
 	Components Used:
@@ -345,18 +345,24 @@ All University IT Services are deployed in a private cloud, constructed over exs
 
 \end{frame}
 
+\begin{frame}
+\begin{center}
+\textbf{Demo}
+\end{center}
+\end{frame}
+
 \section{Additional Network Components}
 
-\subsection{Introduction}
-\begin{frame}{Introduction}
-\begin{itemize}
- \item Maintaining fault-tolerant file systems in distributed  environment is always challenging
- \item We can achieve it through replication of data among systems
- \item But adding a load balancing on distributed systems improves response time
- \item GlusterFS provides clustered storage solution when all server systems available
- \item XtreemFS along with HAProxy helps us to achieve the goal
-\end{itemize}
-\end{frame}
+%\subsection{Introduction}
+%\begin{frame}{Introduction}
+%\begin{itemize}
+% \item Maintaining fault-tolerant file systems in distributed  environment is always challenging
+% \item We can achieve it through replication of data among systems
+% \item But adding a load balancing on distributed systems improves response time
+% \item GlusterFS provides clustered storage solution when all server systems available
+% \item XtreemFS along with HAProxy helps us to achieve the goal
+%\end{itemize}
+%\end{frame}
 
 \subsection{HAProxy}
 \begin{frame}{HAProxy}
@@ -453,20 +459,18 @@ All University IT Services are deployed in a private cloud, constructed over exs
 \end{itemize}
 \end{frame}
 
-\section{Conclusion} 
-\begin{frame}{Conclusion}
+\section{Conclusion \& Future Work} 
+\begin{frame}{Conclusion \& Future Work}
+\textbf{Conclusion} \\
+
 We worked on GlusterFS for replication of files among systems, but its not working if any one of the system fails. Then we found that XtreemFS works well in distributed system and provides fault tolerant solution. \newline
 
 We worked on network based sign on using LDAP,NFS and web based single sign on along with REST API using Oauth2 and Django. We tried to combine all these componets to deploy in private cloud. we worked on creating private cloud using openstack \newline
-\end{frame}
 
-\section{Future Work}
-\begin{frame}{Future Work}
-
+\textbf{Future Work } \\
 We would like to combine Network single sign-on with Web based single sign on along with XtreemFS and HAProxy for fault tolerant distributed environment. Creation of private cloud, virtual machines and deploying all components in private cloud avails us to use resources efficiently and all this work can be done on workstations.
 \end{frame}
 
-\section{References}
 \begin{frame}[allowframebreaks]{References}
 \small
 \begin{itemize}

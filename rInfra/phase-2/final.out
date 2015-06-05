@@ -1,28 +1,25 @@
 \BOOKMARK [2][]{Outline0.1}{Objective}{}% 1
-\BOOKMARK [3][]{Outline0.1.1.5}{Objective}{Outline0.1}% 2
+\BOOKMARK [3][]{Outline0.1.1.4}{Objective}{Outline0.1}% 2
 \BOOKMARK [2][]{Outline0.2}{Motivation}{}% 3
 \BOOKMARK [2][]{Outline0.3}{Proposed System}{}% 4
-\BOOKMARK [3][]{Outline0.3.1.11}{Users \046 IT Services}{Outline0.3}% 5
-\BOOKMARK [3][]{Outline0.3.2.12}{Cloud Infrastructures}{Outline0.3}% 6
-\BOOKMARK [2][]{Outline0.4}{Phase I Review}{}% 7
+\BOOKMARK [3][]{Outline0.3.1.8}{Users \046 IT Services}{Outline0.3}% 5
+\BOOKMARK [3][]{Outline0.3.2.9}{Cloud Infrastructures}{Outline0.3}% 6
+\BOOKMARK [2][]{Outline0.4}{Literature Review}{}% 7
 \BOOKMARK [2][]{Outline0.5}{Web Single Sign-On}{}% 8
-\BOOKMARK [3][]{Outline0.5.1.21}{OAuth Provider}{Outline0.5}% 9
-\BOOKMARK [3][]{Outline0.5.2.22}{API Endpoints}{Outline0.5}% 10
-\BOOKMARK [3][]{Outline0.5.3.23}{Testing OAuth Provider}{Outline0.5}% 11
-\BOOKMARK [3][]{Outline0.5.4.24}{Testing OAuth Provider contd...}{Outline0.5}% 12
-\BOOKMARK [2][]{Outline0.6}{Network Single SignOn}{}% 13
-\BOOKMARK [3][]{Outline0.6.1.27}{Introduction}{Outline0.6}% 14
-\BOOKMARK [3][]{Outline0.6.2.28}{LDAP Server}{Outline0.6}% 15
-\BOOKMARK [3][]{Outline0.6.3.29}{phpLDAPadmin}{Outline0.6}% 16
-\BOOKMARK [3][]{Outline0.6.4.30}{LDAP Client:}{Outline0.6}% 17
-\BOOKMARK [3][]{Outline0.6.5.32}{NFS Server}{Outline0.6}% 18
-\BOOKMARK [3][]{Outline0.6.6.33}{NFS Client}{Outline0.6}% 19
+\BOOKMARK [3][]{Outline0.5.1.16}{OAuth Provider}{Outline0.5}% 9
+\BOOKMARK [3][]{Outline0.5.2.17}{API Endpoints}{Outline0.5}% 10
+\BOOKMARK [3][]{Outline0.5.3.18}{Testing OAuth Provider}{Outline0.5}% 11
+\BOOKMARK [3][]{Outline0.5.4.19}{Testing OAuth Provider contd...}{Outline0.5}% 12
+\BOOKMARK [2][]{Outline0.6}{Network Single Sign-On}{}% 13
+\BOOKMARK [3][]{Outline0.6.1.21}{Network Single Sign-On}{Outline0.6}% 14
+\BOOKMARK [3][]{Outline0.6.2.22}{LDAP Server}{Outline0.6}% 15
+\BOOKMARK [3][]{Outline0.6.3.23}{phpLDAPadmin}{Outline0.6}% 16
+\BOOKMARK [3][]{Outline0.6.4.24}{LDAP Client:}{Outline0.6}% 17
+\BOOKMARK [3][]{Outline0.6.5.26}{NFS Server}{Outline0.6}% 18
+\BOOKMARK [3][]{Outline0.6.6.27}{NFS Client}{Outline0.6}% 19
 \BOOKMARK [2][]{Outline0.7}{Additional Network Components}{}% 20
-\BOOKMARK [3][]{Outline0.7.1.36}{Introduction}{Outline0.7}% 21
-\BOOKMARK [3][]{Outline0.7.2.37}{HAProxy}{Outline0.7}% 22
-\BOOKMARK [3][]{Outline0.7.3.39}{GlusterFS}{Outline0.7}% 23
-\BOOKMARK [3][]{Outline0.7.4.40}{XtreemFS}{Outline0.7}% 24
-\BOOKMARK [2][]{Outline0.8}{Additional Work}{}% 25
-\BOOKMARK [2][]{Outline0.9}{Conclusion}{}% 26
-\BOOKMARK [2][]{Outline0.10}{Future Work}{}% 27
-\BOOKMARK [2][]{Outline0.11}{References}{}% 28
+\BOOKMARK [3][]{Outline0.7.1.30}{HAProxy}{Outline0.7}% 21
+\BOOKMARK [3][]{Outline0.7.2.32}{GlusterFS}{Outline0.7}% 22
+\BOOKMARK [3][]{Outline0.7.3.33}{XtreemFS}{Outline0.7}% 23
+\BOOKMARK [2][]{Outline0.8}{Additional Work}{}% 24
+\BOOKMARK [2][]{Outline0.9}{Conclusion \046 Future Work}{}% 25
